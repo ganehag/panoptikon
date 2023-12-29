@@ -1,0 +1,29 @@
+---
+title: "Panoptikon"
+#  author: [Mikael Ganehag Brorsson]
+subject: "Rulebook"
+date: "Utgåva I"
+keywords: [Panoptikon, Role-Playing Game, Strategy, Corporate Adventures]
+subtitle: "Framtiden under observation"
+footer-left: "© 2024 Mikael Ganehag Brorsson"
+# mainfont: "Atkinson Hyperlegible"
+mainfont: "Atkinson Hyperlegible"
+# sansfont: "Special Elite"
+# sansfont: "Courier Prime"
+sansfont: "Atkinson Hyperlegible"
+# fontsize: 10pt
+titlepage: true
+titlepage-color: "fca034"
+titlepage-text-color: "333333"
+# titlepage-rule-color: "d53169"
+titlepage-rule-height: 0
+toc-own-page: true
+# titlepage-logo: "resources/corporation-logo.pdf"
+titlepage-background: "resources/book-cover-1.pdf"
+logo-width: 20mm
+geometry: "a4paper"
+# geometry: "a4paper, left=2cm, right=2cm, top=2.5cm, bottom=3cm"
+# geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
+book: true
+# multicol: 2
+---

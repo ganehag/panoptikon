@@ -1,0 +1,3 @@
+# Divisioner
+
+The corporation är ett enormt företag. Ni jobbar alla på samma division ...

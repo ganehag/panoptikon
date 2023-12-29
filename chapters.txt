@@ -1,0 +1,11 @@
+preface.md
+introduction.md
+core-system.md
+actions.md
+work.md
+stress.md
+recuperation.md
+advancement.md
+character.md
+skills.md
+divisions.md
