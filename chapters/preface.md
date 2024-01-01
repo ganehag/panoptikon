@@ -10,4 +10,3 @@ Tack för att du väljer att utforska och lära med "Panoptikon". Vi hoppas att 
 
 *-- Mikael Ganehag Brorsson, December 2023*
 
-\newpage

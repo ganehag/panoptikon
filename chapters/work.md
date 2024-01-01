@@ -8,14 +8,6 @@ Arbetsdagen för rollpersonerna i "Panoptikon" är strukturerad i fyra perioder,
 
 Varje syssla kräver att din rollperson använder sina färdigheter och resurser på ett effektivt sätt för att uppnå framsteg och bidra till företagets mål.
 
-## Klockor
-
-I "Panoptikon" används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt.
-
-- **Uppbyggnad:** När din rollperson arbetar på en uppgift, fylls klockans sektorer för att visa framsteg. Varje syssla eller projekt kan ha sin egen klocka, med antalet sektorer varierande beroende på uppgiftens omfattning och komplexitet.
-- **Användning:** Under varje arbetsperiod får rollpersonen chansen att bidra till en klocka genom att utföra relaterade aktiviteter. Ett lyckat handlingskast indikerar framsteg, och ett antal sektorer på klockan fylls i motsvarande rollpersonens framgångsgrad.
-- **Fullbordande:** När alla sektorer i en klocka är ifyllda, anses uppgiften eller projektet vara slutfört. Detta kan leda till nya utvecklingar i spelet, belöningar för rollpersonen, eller upplåsning av ytterligare berättelseelement.
-
 ## Sysslor
 
 Varje rollperson i "Panoptikon" kan engagera sig i olika sysslor, dock endast en åt gången. En rollperson kan ha upp till fem (5) pågående sysslor parallellt, såvida inga speciella förmågor eller regler tillåter annorlunda.
@@ -57,11 +49,13 @@ Om handlingskastet är framgångsrikt, det vill säga lika med eller lägre än 
 
 ## Fika
 
-TODO: be or not to be...
+Fika är en traditionell svensk paus som innefattar att ta en kort stund för avkoppling, ofta med kaffe och något litet att äta. I spelets kontext representerar Fika en stund för social samvaro och strategisk planering.
+
+Fika utgör den oundvikliga period kring bordet när du interagerar med de andra spelarna i samtal och beslutar om tillvägagångsätt.
 
 ## Samarbete
 
-Du kan välja att samarbeta med andra spelare för att effektivisera arbetet med en syssla. När du samarbetar, utför varje deltagande rollperson ett Handlingskast mot en lämplig grundegenskap. Om sysslan är kopplad till en progressklocka, slår varje framgångsrik deltagare en T6 för framsteg. Det högsta resultatet från dessa kast används för att bestämma hur mycket progressklockan fylls i.
+Du kan välja att samarbeta med andra spelare för att effektivisera arbetet med en syssla eller en handling. När du samarbetar, utför varje deltagande rollperson ett Handlingskast mot en lämplig grundegenskap. Om sysslan är kopplad till en progressklocka, slår varje framgångsrik deltagare en T6 för framsteg. Det högsta resultatet från dessa kast används för att bestämma hur mycket progressklockan fylls i.
 
 För sysslor som inte kräver en progressklocka, räcker det att minst en av deltagarna lyckas med sitt handlingskast för att sysslan ska anses genomförd. När du deltar i ett samarbete, har varken "Spektakulär framgång" eller "Katastrofalt misslyckande" någon inverkan. Det innebär att samarbete kan vara en strategisk fördel i kritiska situationer.
 
@@ -73,5 +67,10 @@ När din rollperson får en ny syssla, har du möjlighet att dra nytta av dina e
 
 Denna detaljerade förklaring av förarbetet kan resultera i att spelledaren reducerar mängden arbete eller antalet sektorer i progressklockan som behöver fyllas i för att slutföra sysslan. Exakta minskningen beror på din beskrivning och hur väl den passar in i spelets kontext, och är därmed upp till spelledarens bedömning.
 
-\newpage
+## Störelsemoment
+
+Spelledaren avgör om spelarnas diskussioner runt bordet passar inom ramen för spelets **fika**, **lunch** eller **möte**. Om spelardiskussioner blir långdragna eller om det uppstår meningsskiljaktigheter som fördröjer spelet, kan spelledaren besluta att nästa Handlingskast för alla inblandade spelare ska göras med **nackdel**.
+
+Som spelare är det viktigt att du agerar i enlighet med din rollpersons **svagheter**. Spelledaren kommer att beakta detta när hen bedömer effekten av din rollpersons handlingar och interaktioner med andra rollpersoner.
+
 

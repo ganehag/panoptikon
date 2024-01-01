@@ -13,9 +13,20 @@ I "Panoptikon" styrs rollpersonernas förmågor av sex grundläggande egenskaper
 
 Dessa egenskaper bildar grunden för rollpersonernas kapacitet och påverkar deras förmåga att lyckas med olika handlingar i spelet.
 
+## Utföra handlingar
+
+När du vill att din rollperson ska utföra en handling, följ dessa steg:
+
+1. **Deklarera handling:** Som spelare, börja med att tydligt förklara vad du vill att din rollperson ska göra. Ange vilken av de sex (6) grundegenskaperna (Styrka, Fysik, Smidighet, Intelligens, Psyke, Karisma) du anser är mest relevant för handlingen.
+2. **Spelledarens godkännande:** Spelledaren bedömer och beslutar om handlingen är möjlig och lämplig i den aktuella situationen. 
+3. **Tärningskast:** Som spelare, gör ett tärningskast för att avgöra utfallet av handlingen. Normalt använder du en T20.
+4. **Justerar utfallet:** Anpassa utfallet av tärningskastet baserat på eventuella effekter, såsom färdigheter, utrustning, eller situationsspecifika faktorer som påverkar handlingen.
+5. **Tillämpa bonusar:** Lägg till eventuella bonusar eller ytterligare kast som kan påverka handlingens resultat.
+6. **Utvärdering av utfallet:** Slutligen, tillsammans med spelledaren, utvärderar du resultatet av handlingen. Om du lyckas, beskriver spelledaren vad som händer. Vid misslyckande, diskuteras eventuella konsekvenser.
+
 ## Välja egenskap för handling
 
-När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex grundegenskaper som du anser bäst passar för situationen. Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.
+När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex (6) grundegenskaper som du anser bäst passar för situationen. Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.
 
 **Exempel:**  
 
@@ -70,7 +81,27 @@ Som spelare ges du vanligtvis bara en möjlighet att utföra en specifik handlin
 
 ## Pressa ett kast
 
+\index{Pressa ett kast}
+
 Vid misslyckande av ett handlingskast kan du välja att pressa ditt kast. Detta betyder att du slår om kastet men tar +1 stress som resultat. Du kan endast pressa ett kast en gång per handling. Ett lyckat kast kan inte pressas för ett bättre resultat.
+
+## Kast med fördel eller nackdel
+
+Vissa situationer kan kräva att du gör ett kast med antingen **fördel** eller **nackdel**. Dessa regler är till för att spegla de omständigheter som gynnar eller försvårar din rollpersons chanser att lyckas med en handling.
+
+När du gör ett kast med **fördel**, innebär detta att din rollperson har en ökad chans att lyckas tack vare gynnsamma omständigheter. För att utföra ett sådant kast:
+
+1. Slå den valda tärningen (vanligtvis en T20) två gånger.
+2. Ta det värde som ger bäst utfall av de två kasten som resultatet av ditt handlingskast.
+
+Ett kast med fördel kan till exempel tillämpas när din rollperson har tillgång till hjälpresurser, är särskilt väl förberedd, eller befinner sig i en situation där oddsen är till hens fördel.
+
+Omständigheter som är ofördelaktiga eller utmanande för din rollperson kan resultera i ett kast med **nackdel**. Detta innebär en ökad risk för misslyckande. När du gör ett kast med nackdel:
+
+1. Slå den valda tärningen två gånger.
+2. Använd det värde som ger sämst utfall av de två kasten som resultatet av ditt handlingskast.
+
+Kast med nackdel kan tillämpas i situationer där din rollperson är hindrad, under stress, eller när det finns andra faktorer som komplicerar handlingen.
 
 ## Motståndskast
 
@@ -94,9 +125,19 @@ Spelledaren kan när som helst under spelets gång be spelarna att göra ett mot
 
 Din förmåga att välja rätt egenskap i olika situationer kommer att påverka din rollpersons framgång i spelet. Kom ihåg att kreativitet och flexibilitet ofta belönas, men att det också finns situationer där vissa egenskaper är mer logiska eller effektiva än andra. Som spelare är du en aktiv deltagare i att forma din rollpersons utveckling.
 
+## Inspiration
+
+Om du som spelare agerar helt i linje med din karaktär eller har bidragit med en väldigt god idé, har kommit ihåg något väldigt viktigt eller liknande kan spelledaren välja att ge dig inspiration.
+
+Inspiration kan användas endast en gång innan den är förbrukad och en spelare kan endast hålla en inspiration i taget. Inspiration kan användas till följande;
+
+- Kast tärning på nytt utan att behöva pressa ett kast.
+- Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.
+- Göra ett (1) poäng framsteg i en (1) progressklocka utan att slå tärning för varken handling eller framstegspoäng.
+
 ## Spelledarkaraktärers handlingar
 
-Spelledarkaraktärers (NPC:ers) handlingar hanteras på ett förenklat sätt jämfört med rollpersonerna. Dessa karaktärer utför vanligtvis sina handlingar utan tärningskast, där utfallet – lyckat eller misslyckat – bestäms av spelledaren baserat på berättelsens flöde och behov. 
+Spelledarkaraktärers (SLK) handlingar hanteras på ett förenklat sätt jämfört med rollpersonerna. Dessa karaktärer utför vanligtvis sina handlingar utan tärningskast, där utfallet – lyckat eller misslyckat – bestäms av spelledaren baserat på berättelsens flöde och behov. 
 
 För att införa ett element av slump, kan spelledaren ibland välja att använda en T6 för spelledarkaraktärernas handlingar. Kastet görs i det dolda, och resultatet tolkas enligt följande tabell:
 
@@ -109,6 +150,4 @@ För att införa ett element av slump, kan spelledaren ibland välja att använd
 | 5  | Handlingen misslyckas och orsakar ett mindre problem. |
 | 6  | Handlingen misslyckas fatalt och resulterar i ett större problem. |
 
-
-\newpage
 

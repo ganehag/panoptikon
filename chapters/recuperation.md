@@ -60,13 +60,30 @@ Om tärningskastet resulterar i en tjugo (20), är det ett katastrofalt misslyck
 
 Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet. Om spelets händelser leder till att din rollperson förlorar intresset för en av sina hobbyer, ska denna hobby strykas från din rollpersons lista omedelbart. På samma sätt, om en händelse i spelet resulterar i att din rollperson får ett nytt intresse, får du välja en ny hobby för dem. Det är viktigt att din rollperson endast har tre hobbyer som mest om inget annat angets. Om en ny hobby tillkommer måste en gammal tas bort för att behålla balansen.
 
-## Tillståndsåterhämtning
-
-TODO: Hur återhämtar vi oss från tillstånd?
-
 ## Sömn
 
-TODO: Beskriv sömn mekaniken.
+Sömn är en kritisk fas för din rollpersons stresshantering och återhämtning från olika tillstånd. Under sömnfasen kan du som spelare välja mellan att minska stress eller att arbeta på att återhämta dig från ett tillstånd. Observera att återhämtning från ett tillstånd är endast möjlig om stressnivån är noll (0) i den relevanta grundegenskapen.
 
-\newpage
+Vanligtvis används en progressklocka med fyra sektorer för att spåra återhämtning från ett tillstånd.
+
+### Återhämtning från tillstånd
+
+- Slå en T6. Om du får en sexa (6), gör ett (1) framsteg i återhämtningen från ditt tillstånd i den aktuella grundegenskapen.
+- Observera att om din rollperson ådrar sig mer än en (1) poäng stress, återställs allt framsteg i återhämtningen från tillståndet. 
+- Du kan bara arbeta på att återhämta dig från ett tillstånd åt gången. Om du byter fokus till ett annat tillstånd, nollställs dina tidigare framsteg.
+
+### Återhämtning från stress
+
+- För att återhämta stress, gör ett Handlingskast baserat på din rollpersons Psyke (PSY).
+- Ett lyckat kast minskar en (1) poäng stress, som kan fördelas på valfri grundegenskap.
+- Vid ett misslyckat kast ökar stressen med en (1) poäng. Slå en T6 för att slumpmässigt bestämma vilken grundegenskap som påverkas, enligt tabellen nedan:
+
+| T6 | Grundegenskap      |
+|:--:|:------------------:|
+| 1  | Styrka (STY)       |
+| 2  | Fysik (FYS)        |
+| 3  | Smidighet (SMI)    |
+| 4  | Intelligens (INT)  |
+| 5  | Psyke (PSY)        |
+| 6  | Karisma (KAR)      |
 

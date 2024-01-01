@@ -151,5 +151,3 @@ Ni talar alla samma språk, vilket underlättar kommunikation och samarbete inom
 ...
 
 
-\newpage
-

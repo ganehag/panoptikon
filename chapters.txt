@@ -2,6 +2,7 @@ preface.md
 introduction.md
 core-system.md
 actions.md
+progress.md
 work.md
 stress.md
 recuperation.md
@@ -9,3 +10,4 @@ advancement.md
 character.md
 skills.md
 divisions.md
+index.md

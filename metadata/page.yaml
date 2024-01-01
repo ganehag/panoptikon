@@ -4,7 +4,7 @@ title: "Panoptikon"
 subject: "Rulebook"
 date: "Utgåva I"
 keywords: [Panoptikon, Role-Playing Game, Strategy, Corporate Adventures]
-subtitle: "Framtiden under observation"
+subtitle: "Amplexare Incognitum"
 footer-left: "© 2024 Mikael Ganehag Brorsson"
 # mainfont: "Atkinson Hyperlegible"
 mainfont: "Atkinson Hyperlegible"
@@ -17,6 +17,8 @@ titlepage-color: "fca034"
 titlepage-text-color: "333333"
 # titlepage-rule-color: "d53169"
 titlepage-rule-height: 0
+toc: true
+toc-depth: 2
 toc-own-page: true
 # titlepage-logo: "resources/corporation-logo.pdf"
 titlepage-background: "resources/book-cover-1.pdf"
@@ -26,4 +28,7 @@ geometry: "a4paper"
 # geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
 book: true
 # multicol: 2
+header-includes:
+  - \usepackage{imakeidx}
+  - \makeindex
 ---

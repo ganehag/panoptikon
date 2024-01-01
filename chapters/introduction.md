@@ -4,15 +4,15 @@
 
 *När jag reflekterar över vår resa tillsammans, är jag stolt över det vi har åstadkommit. Var och en av er har bidragit till vår framgång, och vår kollektiva insats har skapat något som är mycket mer än bara en affärsverksamhet. Vi är mer än siffror och kvartalsrapporter; vi är en familj, en gemenskap som strävar efter att göra skillnad.*
 
-*Vår vision har alltid varit att vara mer än bara ett företag. Vi har strävat efter att vara en kraft för förändring, att påverka samhället på ett positivt sätt. Det är därför vi investerar i hållbarhet och samhällsengagemang, och varför vi ständigt söker nya sätt att innovera och förbättra.*
+*Vår vision har alltid varit att vara mer än bara ett företag. Vi har strävat efter att vara en kraft för förändring, att påverka samhället, och varför vi ständigt söker nya sätt att innovera och förbättra.*
 
 *Men vår resa har bara börjat. Framtiden bär med sig nya utmaningar och möjligheter. Vi står inför en tid av förändring, både inom vår bransch och i världen. Vårt företag är redo att möta dessa förändringar, att anpassa sig och växa.*
 
-*Tillsammans har vi byggt en kultur av excellens, integritet och innovation. Denna kultur är kärnan i vår identitet, och den är vad som skiljer oss från mängden. Vi strävar efter att vara bäst, inte bara i det vi gör, men i hur vi gör det. Vår framgång är inte bara mätt i vinst, utan också i påverkan vi har på våra kunder, våra samhällen och varandra.*
+*Tillsammans har vi byggt en kultur av excellens, integritet och innovation. Denna kultur är kärnan i vår identitet, och den är vad som skiljer oss från mängden. Vi strävar efter att vara bäst, inte bara i det vi gör, men i hur vi gör det. Vår framgång är inte bara mätt i vinst, utan också i påverkan vi har på samhället och varandra.*
 
 *När vi ser framåt, låt oss fortsätta att vara drivna av vår gemensamma vision och våra värderingar. Låt oss omfamna förändring med öppna armar och fortsätta att vara nyfikna, att lära oss och att växa. Vår resa tillsammans är långt ifrån över, och jag är övertygad om att det bästa ännu inte är skrivet.*
 
-*Tack för allt ni gör, varje dag. Er dedikation och ert hårda arbete är det som gör vårt företag extraordinärt. Tillsammans kommer vi att fortsätta att skapa en framtid som är ljus för vårt företag, för våra kunder och för världen.*
+*Tack för allt ni gör, varje dag. Er dedikation och ert hårda arbete är det som gör vårt företag extraordinärt.*
 
 *Med värme och uppskattning,*
 
@@ -20,8 +20,6 @@
 
 *Isabella Leijonhufvud-Cederström*  
 *VD, Panoptikon*
-
-\newpage
 
 # Introduktion
 
@@ -35,13 +33,17 @@ Välkommen till Panoptikon. I denna handbok hittar du alla regler som behövs f�
 
 ## Vad är rollspel?
 
-I "Panoptikon", är målet att gemensamt hantera både förväntade och oväntade situationer i affärsvärlden. Spelet fokuserar på samarbete, där spelarna tillsammans arbetar för att lösa utmaningar och problem. Det är inte en tävling mot varandra, utan en kamp mot omvärlden, med målet att främja lärande och förståelse för alla. Genom att navigera i spelets komplexa scenarier, stärker ni era färdigheter i problemlösning och strategiskt tänkande, samtidigt som ni upplever spänningen i att lösa problem innan de uppstår i verkligheten.
+I "Panoptikon", är målet att gemensamt hantera både förväntade och oväntade situationer i det dagliga arbetet. Spelet fokuserar på samarbete, där spelarna tillsammans arbetar för att lösa utmaningar och problem. Det är inte en tävling mot varandra, utan en kamp mot omvärlden, med målet att främja lärande och förståelse för alla. Genom att navigera i spelets komplexa scenarier, stärker ni era färdigheter i problemlösning och strategiskt tänkande, samtidigt som ni upplever spänningen i att lösa problem innan de uppstår i verkligheten.
 
 ## Spelare
+
+\index{Spelare}
 
 Som spelare skapar och styr du en karaktär i spelets värld. Du beskriver dina karaktärers handlingar och reaktioner på de situationer som spelledaren presenterar. Användning av tärningar är ofta central för att bestämma utfallen av dina handlingar, speciellt i utmanande situationer. Genom att utveckla din karaktärs personlighet och bakgrund bidrar du aktivt till spelets berättelse. I samarbete med andra spelare utforskar du världen och tar dig an diverse utmaningar.
 
 ## Spelledare
+
+\index{Spelledare}
 
 Som spelledare leder och formar du spelets berättelse och värld. Du beskriver miljöer, skapar scenarion och agerar som alla icke-spelarkaraktärer. Din roll innebär att upprätthålla spelvärldens regler och logik, samt att avgöra konsekvenserna av spelarnas handlingar. Som domare över regler och tärningsslag krävs det att du är flexibel och kan improvisera. Ditt huvudmål är att skapa en engagerande och underhållande upplevelse för alla deltagare.
 
@@ -67,15 +69,6 @@ Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!
 1. Bestäm vem som ska vara SL.
 2. Övriga spelare skapar sina rollpersoner.
 
-| Förkortning | Betydelse    |
-|-------------|--------------|
-| STY         | Styrka       |
-| FYS         | Fysik        |
-| INT         | Intelligens  |
-| KAR         | Karisma      |
-| SMG         | Smidighet    |
-| UTH         | Uthållighet  |
-
 ### Förkortningar
 
 ...
@@ -83,7 +76,4 @@ Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!
 ### Tid
 
 ...
-
-
-\newpage
 

@@ -17,6 +17,8 @@ Efter att tillståndet är fastställt, återställs stressmätaren till noll (0
 
 ### Tillståndsnivåer
 
+> TODO: Ska mild eller påtaglig medföra "Kast med nackdel"?
+
 Varje tillstånd kan vara av två olika nivåer: Mild, eller Påtaglig.
 
 - **Mild:** Reducerar tillgängliga poäng för den berörda grundegenskapen med sex (6).
@@ -75,6 +77,4 @@ eller
 - **Terapi:** Alternativt kan rollpersonen skickas till en av företagets specialterapier. Denna åtgärd öppnar upp möjligheten för karaktären att återhämta sig och återvända till spelet när tiden är rätt.
 
 När någon av dessa situationer inträffar, har du som spelare möjlighet att skapa en ny rollperson. Denna nya karaktär introduceras i spelet på ett lämpligt och sammanhängande sätt, vilket ger en fräsch start.
-
-\newpage
 
