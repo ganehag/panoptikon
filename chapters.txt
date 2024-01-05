@@ -7,7 +7,7 @@ work.md
 stress.md
 recuperation.md
 advancement.md
+abilities.md
 character.md
-skills.md
 divisions.md
-index.md
+appendices.md

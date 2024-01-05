@@ -1,6 +1,6 @@
 # Din rollperson
 
-I "Panoptikon" erbjuds du en unik möjlighet att skapa en rollperson som bryter mot alla gränser. Du kan utforska olika identiteter, oavsett kön, bakgrund eller personlighetsdrag. Här finns inga begränsningar - din karaktär kan vara vem eller vad du önskar. Denna frihet låter dig utforska nya perspektiv och leva ut fantasier, vilket berikar din upplevelse och öppnar upp för en värld av möjligheter inom spelets universum.
+I "Panoptikon" har du friheten att skapa en rollperson som verkligen speglar din fantasi och kreativitet. Här finns inga traditionella gränser för vad din karaktär kan vara. Oavsett kön, bakgrund, eller personlighetstyp, kan din rollperson representera en mängd olika identiteter och egenskaper. Denna öppenhet uppmuntrar till utforskande av olika perspektiv och ger dig möjligheten att gestalta en karaktär som ligger utanför vanliga stereotyper eller begränsningar.
 
 Genom att gestalta en rollperson som är helt skild från dig själv, får du en chans att se världen ur ett helt nytt perspektiv.
 
@@ -53,7 +53,13 @@ Förhandlaren är en expert på diplomati och konfliktlösning. Denna arketype �
 
 ### Språk
 
-Ni talar alla samma språk, vilket underlättar kommunikation och samarbete inom organisationen. När du interagerar med andra karaktärer inom företaget, kan du förvänta dig att de förstår och talar detta språk. Men, var medveten om att när du hanterar förbindelser med externa organisationer, kan en förståelse för andra språk vara nödvändig. För att förstå andra språk krävs färdigheten **Främmande språk**.
+Inom "Panoptikon" råder en gemensam språklig grund som alla anställda delar i din del av världen, vilket underlättar intern kommunikation och samarbete. Denna standardiserade språkanvändning säkerställer att du och dina kollegor enkelt kan förstå och tala med varandra inom företaget.
+
+- **Intern kommunikation:** När du interagerar med karaktärer inom organisationen, kan du räkna med att de talar och förstår det gemensamma språket.
+- **Externa relationer:** Situationer där du kommunicerar med individer utanför "Panoptikon", till exempel i förhandlingar med externa organisationer eller klienter, kan kräva kunskaper i andra språk. Här är färdigheten **Främmande språk** nödvändig.
+- **Främmande språk:** Denna färdighet innebär att du kan läsa och tala andra språk flytande, vilket garanterar effektiv kommunikation med personer utanför företaget.
+
+Du kan alltid försöka kommunicera på andra språk genom att göra ett Handlingskast, men detta är osäkert och beror på tur och improvisation.
 
 ## Yrke
 
@@ -129,16 +135,6 @@ Ni talar alla samma språk, vilket underlättar kommunikation och samarbete inom
 ...
 
 
-## Färdigheter
-
-...
-
-
-## Svagheter
-
-1. Godtrogen
-2. Girig
-3. 
 
 
 ## Ägodelar

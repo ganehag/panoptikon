@@ -32,8 +32,8 @@ När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast 
 
 Om handlingskastet är framgångsrikt, det vill säga lika med eller lägre än rollpersonens värde i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
 
-| T6 | Framsteg på Progressklockan |
-|:-----------:|:---------------------------:|
+| T6 | Framsteg på Progressklockan                                             |
+|:-----------:|:---------------------------------------------------------------|
 |     1 - 2   | Fyller en (1) sektor        |
 |     3 - 4   | Fyller två (2) sektorer     |
 |     5 - 6   | Fyller tre (3) sektorer     |
@@ -55,11 +55,13 @@ Fika utgör den oundvikliga period kring bordet när du interagerar med de andra
 
 ## Samarbete
 
-Du kan välja att samarbeta med andra spelare för att effektivisera arbetet med en syssla eller en handling. När du samarbetar, utför varje deltagande rollperson ett Handlingskast mot en lämplig grundegenskap. Om sysslan är kopplad till en progressklocka, slår varje framgångsrik deltagare en T6 för framsteg. Det högsta resultatet från dessa kast används för att bestämma hur mycket progressklockan fylls i.
+När du väljer att samarbeta med andra spelare för att effektivisera arbetet med en syssla eller en handling, tillämpas följande process:
 
-För sysslor som inte kräver en progressklocka, räcker det att minst en av deltagarna lyckas med sitt handlingskast för att sysslan ska anses genomförd. När du deltar i ett samarbete, har varken "Spektakulär framgång" eller "Katastrofalt misslyckande" någon inverkan. Det innebär att samarbete kan vara en strategisk fördel i kritiska situationer.
-
-Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har fortfarande möjlighet att "Pressa ett kast" om du känner att det behövs, för att öka chanserna till framgång.
+1. **Initiera samarbetet:** Bestäm vem som leder samarbetet. Denna rollperson koordinerar insatsen och blir ansvarig för det slutgiltiga kastet för framsteg.
+2. **Utför handlingskast:** Varje deltagande rollperson utför ett Handlingskast mot en lämplig grundegenskap. Syftet är att fastställa om de individuellt bidrar till samarbetet.
+3. **Bestäm framsteg:** Om minst en av deltagarna lyckas med sitt handlingskast, slår rollpersonen som leder samarbetet en T6 för att bestämma hur mycket progressklockan fylls i. Endast ett T6-kast görs oavsett antalet deltagare som lyckas. För sysslor som inte kräver en progressklocka, räcker det att minst en av deltagarna lyckas med sitt handlingskast för att sysslan ska anses genomförd.
+4. **Ingen effekt av "Spektakulär framgång" eller "Katastrofalt misslyckande":** När du deltar i ett samarbete, påverkas inte resultatet av eventuella "Spektakulär framgång" eller "Katastrofalt misslyckande". Detta gör samarbete till en taktisk fördel i kritiska situationer.
+5. **Förbrukad möjlighet:** Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har dock fortfarande möjlighet att "Pressa ett kast" om du känner att det behövs.
 
 ## Syssloptimering
 
@@ -73,4 +75,9 @@ Spelledaren avgör om spelarnas diskussioner runt bordet passar inom ramen för 
 
 Som spelare är det viktigt att du agerar i enlighet med din rollpersons **svagheter**. Spelledaren kommer att beakta detta när hen bedömer effekten av din rollpersons handlingar och interaktioner med andra rollpersoner.
 
+## Arbete utanför arbetstid
+
+I "Panoptikon" råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.
+
+Spelledaren har dock möjligheten att göra undantag från denna regel och tillåta övertidsarbete. Beslutet att godkänna övertid kan tas när spelomständigheterna kräver det, eller när det tjänar spelets berättelse och rollpersonernas mål.
 

@@ -121,6 +121,10 @@ Motståndskast fungerar precis som handlinskast och slås även med en T20.
 
 Spelledaren kan när som helst under spelets gång be spelarna att göra ett motståndskast mot en specifik eller flera av sina grundegenskaper. Det är vanligtvis bäst om spelledaren inte avslöjar syftet med kastet för spelarna. Särskilt om kastet inte leder till framgång. Syftet är att förhindrar spelarna från att spekulera eller försöka 'speloptimera' baserat på vad de tror att kastet gäller, särskilt om de känner till att någon tidigare misslyckats med en liknande handling.
 
+### Spelledarpersoners motståndskast
+
+När din rollperson utför handlingar som syftar till att påverka Spelledarpersoner, krävs det att spelledaren gör ett motståndskast för att avgöra utfallet av din handling. Detta motståndskast baseras på samma grundegenskap som din rollperson använder för handlingen.
+
 ## Din roll i spelvärlden
 
 Din förmåga att välja rätt egenskap i olika situationer kommer att påverka din rollpersons framgång i spelet. Kom ihåg att kreativitet och flexibilitet ofta belönas, men att det också finns situationer där vissa egenskaper är mer logiska eller effektiva än andra. Som spelare är du en aktiv deltagare i att forma din rollpersons utveckling.

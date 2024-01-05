@@ -76,14 +76,8 @@ Vanligtvis används en progressklocka med fyra sektorer för att spåra återhä
 
 - För att återhämta stress, gör ett Handlingskast baserat på din rollpersons Psyke (PSY).
 - Ett lyckat kast minskar en (1) poäng stress, som kan fördelas på valfri grundegenskap.
-- Vid ett misslyckat kast ökar stressen med en (1) poäng. Slå en T6 för att slumpmässigt bestämma vilken grundegenskap som påverkas, enligt tabellen nedan:
 
-| T6 | Grundegenskap      |
-|:--:|:------------------:|
-| 1  | Styrka (STY)       |
-| 2  | Fysik (FYS)        |
-| 3  | Smidighet (SMI)    |
-| 4  | Intelligens (INT)  |
-| 5  | Psyke (PSY)        |
-| 6  | Karisma (KAR)      |
+### Ofullständig sömn
+
+Om din rollperson av någon anledning inte får en fullständig natts sömn, innebär detta en ökad stressbelastning. För varje fyra timmars period av utebliven sömn, tar din rollperson en (1) stresspoäng.
 

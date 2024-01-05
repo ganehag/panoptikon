@@ -1,4 +1,8 @@
 ---
+lang: "sv-SE"
+book: true
+classoption: oneside
+documentclass: book
 title: "Panoptikon"
 #  author: [Mikael Ganehag Brorsson]
 subject: "Rulebook"
@@ -6,10 +10,7 @@ date: "Utgåva I"
 keywords: [Panoptikon, Role-Playing Game, Strategy, Corporate Adventures]
 subtitle: "Amplexare Incognitum"
 footer-left: "© 2024 Mikael Ganehag Brorsson"
-# mainfont: "Atkinson Hyperlegible"
 mainfont: "Atkinson Hyperlegible"
-# sansfont: "Special Elite"
-# sansfont: "Courier Prime"
 sansfont: "Atkinson Hyperlegible"
 # fontsize: 10pt
 titlepage: true
@@ -26,9 +27,13 @@ logo-width: 20mm
 geometry: "a4paper"
 # geometry: "a4paper, left=2cm, right=2cm, top=2.5cm, bottom=3cm"
 # geometry: "left=2cm, right=2cm, top=2cm, bottom=2cm"
-book: true
-# multicol: 2
+multicol: true
 header-includes:
-  - \usepackage{imakeidx}
-  - \makeindex
+    - \newcommand{\hideFromPandoc}[1]{#1}
+    - \hideFromPandoc{
+        \let\Begin\begin
+        \let\End\end
+      }
+#   - \usepackage{imakeidx}
+#   - \makeindex
 ---

@@ -13,6 +13,9 @@ PDF_RESOURCES := $(SVG_SOURCES:%.svg=%.pdf)
 # Path to Eisvogel template, adjust as needed
 EISVOGEL_PATH = template/eisvogel.latex
 
+# Pandoc options
+PANDOC_OPTS = --pdf-engine=xelatex --template $(EISVOGEL_PATH) --metadata-file=$(METADATA) --top-level-division=chapter
+
 # Pandoc command
 # -V multicol=$(COLUMNS) --toc
 
@@ -21,9 +24,9 @@ all: $(OUTPUT)
 
 # Rule to build PDF
 $(OUTPUT): $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
-	pandoc $(CHAPTERS) --pdf-engine=xelatex --template $(EISVOGEL_PATH) --output content.tex --metadata-file=$(METADATA) -V lang=$(LANGUAGE) --top-level-division=chapter -V classoption=oneside
-	xelatex -jobname=manual content.tex
-	xelatex -jobname=manual content.tex
+	pandoc $(CHAPTERS) $(PANDOC_OPTS) --output manual.pdf
+	# xelatex -jobname=manual content.tex
+	# xelatex -jobname=manual content.tex
 
 content.md: $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
 	pandoc $(CHAPTERS) --pdf-engine=xelatex --template $(EISVOGEL_PATH) --output content.md --metadata-file=$(METADATA) -V lang=$(LANGUAGE) --top-level-division=chapter -V classoption=oneside

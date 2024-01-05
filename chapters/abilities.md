@@ -1,0 +1,311 @@
+# Förmågor
+
+I följande avsnitts beskrivs ett antal färdigheter, deras kostnad att anskaffa or eventuella förutsättningar för att kunna anskaffa.
+
+Förmågor ger din rollperson förbättrade förutsättningar att hantera situationer och utmaningar som hen ställs inför.
+
+## Krav och kostnad
+
+**Kravet** för en färdighet specificerar de förutsättningar eller tidigare erfarenheter som behövs för att din rollperson ska kunna förvärva denna färdighet. Viktigt att notera är att om en färdighet som är ett krav för en annan färdighet tas bort vid ett senare skede, påverkar det inte rollpersonens förmåga att behålla eller använda den redan förvärvade färdigheten.
+
+**Kostnaden** för en färdighet anges i antalet erfarenhetspoäng eller färdighetspoäng som krävs för att förvärva den. När du väljer att förvärva en färdighet, subtraheras motsvarande antal poäng från din rollpersons pool av erfarenhetspoäng. Kostnadens storlek reflekterar färdighetens värde och effekt i spelet, och du bör noggrant överväga vilka färdigheter som är mest fördelaktiga för din rollpersoner baserat på din spelstil.
+
+## Användning
+
+Förmågor i "Panoptikon" kan kategoriseras som antingen aktiva eller passiva. Passiva förmågor påverkar din rollperson kontinuerligt och automatiskt, utan att du behöver vidta några särskilda åtgärder. Dessa är integrerade i din rollpersons karaktär och agerar i bakgrunden.
+
+Aktiva förmågor, å andra sidan, kräver att du aktivt meddelar spelledaren när och hur du vill använda dem. De är ofta kraftfullare och har en direkt påverkan på spelets gång, men deras användning är vanligtvis begränsad till ett visst antal gånger per dag.
+
+Varje rollperson kan normalt ha upp till fem (5) olika förmågor samtidigt. Om du som spelare vill lägga till nya förmågor, kan det krävas att du avstår från andra, mindre prioriterade förmågor. I vissa fall kan det finnas möjligheter att ha fler än fem förmågor aktiva samtidigt, beroende på särskilda omständigheter eller bonusar som din rollperson kan ha erhållit under spelets gång. Det är viktigt att balansera och välja förmågorna noga för att skapa en mångsidig och effektiv rollperson.
+
+#### Arbetsnarkoman
+
+- **Krav:** -
+- **Kostnad:** 1
+
+När du aktiverar "Arbetsnarkoman", väljer din rollperson att avstå från sin vanliga hobby för dagen. Istället tillåts din rollperson att utföra två extra perioder av arbete under arbetsdagen.
+
+#### Byråkratiskt
+
+- **Krav:** -
+- **Kostnad:** X
+
+Din rollperson har utvecklat en mästerlig förståelse för regler, procedurer och det finstilta som styr företags eller organisationers arbetsflöden. Du är specialist på att påpeka allt som "tekniskt sett" är rätt. Den *bästa* formen av rätt. När du slår ett slag för att övertyga en annan individ i frågor som berör regler, procedurer och det finstilta gör du alla dina Handlingskast med en extra T6 för att tillfälligt höja din grundegenskap.
+
+#### Déjà vu
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har en märklig känsla av att ha upplevt vissa situationer förut. Detta ger dig möjlighet att en gång per dag göra om ett Handlingskast eller förvandla ett kast med **nackdel** till **fördel**, som om du hade förutsett utfallet.
+
+#### Efterkonstruktion
+
+- **Krav:** -
+- **Kostnad:** X
+
+Det är lätt att vara efterklok då denna förmåga ger din rollperson möjlighet att avslöja en händelse från det förflutna som påverkar den nuvarande situationen. Denna förmåga kan endast användas en gång per dag och kostar en (1) stress.
+
+#### Extremarbete
+- **Krav**: Arbetsnarkoman
+- **Kostnad**: X
+
+När "Extremarbete" aktiveras, avstår din rollperson från både hobby och sömn för en hel dygnscykel. Istället arbetar din rollperson nonstop, vilket innebär att du kan utföra upp till sex (6) extra arbetsperioder under den aktuella dagen. Ta ett T6 slag i stress.
+
+#### Empati
+
+- **Krav:** -
+- **Kostnad:** X
+
+En gång per dag kan du ge en annan spelare en extra T6 för att slå ett Psyke (PSY) slag.
+
+#### Fasta
+
+- **Krav:** -
+- **Kostnad:** X
+
+Vem behöver lunch när det finns en massa jobb att göra. Du behöver ingen lunch och kan istället utföra en extra **syssla**.
+
+#### Främmande språk
+
+- **Krav**: -
+- **Kostnad**: 1 per språk
+
+För varje poäng du investerar i denna färdighet, väljer du ett specifikt språk som din rollperson behärskar. Denna förmåga innebär att när din rollperson kommunicerar på något av de språk de behärskar, behöver de inte slå något handlingskast för att avgöra om kommunikationen är framgångsrik. 
+
+Om du väljer att avlägsna denna färdighet från din rollpersons förmågor, förlorar din rollperson också kunskapen i alla de språk som har förvärvats genom "Främmande språk".
+
+#### Genetisk modifiering
+
+- **Krav:** -
+- **Kostnad:** X
+
+Med denna unika kapacitet kan du, en gång per dag, välja att byta värdena mellan två av dina grundegenskaper. Vid dagens slut återställs grundegenskapernas ursprungliga värden.
+
+#### Gruppledare
+
+- **Krav:** Ledarskap
+- **Kostnad:** X
+
+När du som Gruppledare aktivt deltar i ett Samarbete, får varje deltagande rollperson som lyckas med sitt handlingskast även slår en T6. Bland alla T6-kast som utförs av gruppen, används det bästa resultatet för att fastställa det slutgiltiga utfallet av samarbetet.
+
+#### Hämndlysten
+
+- **Krav:** -
+- **Kostnad:** 3
+
+När din rollperson framgångsrikt genomför en handling för att ge igen mot någon som tidigare har skadat eller orsakat din rollperson någon form av skada, oavsett om det är fysiskt, emotionellt eller professionellt, fylls en sektor på erfarenhetsklockan.
+
+#### Högre makt
+
+- **Krav:** -
+- **Kostnad:** X
+
+I svåra situationer kan du söka vägledning från en högre makt - spelledaren. Genom att aktivera denna förmåga och ställa en fråga till spelledaren, kan du få värdefull information. Slå en T20, om värdet är ett (1) händer ingenting, annars tar du en (1) poäng stress.
+
+#### Instinkt
+
+- **Krav:** -
+- **Kostnad:** X
+
+När det kommer till att bestämma vem som ska agera först, är det oftast din rollperson som tar initiativet. Denna färdighet innebär att du i de flesta situationer, oavsett om det handlar om en plötslig konfrontation, snabbt beslutsfattande eller att vara först med att reagera på en oväntad händelse, alltid är steget före.
+
+#### Introjektion
+
+- **Krav:** Projektion
+- **Kostnad:** X
+
+Din rollperson får tillfälligt tillgång till en färdighet från en annan rollperson som annars inte är tillgänglig för dem. Du kan använda Introjektion ett antal gånger per dag motsvarande din rollpersons Psyke (PSY) dividerat med 3, avrundat nedåt.
+
+#### Katharsis
+
+- **Krav:** Ventilera
+- **Kostnad:** X
+
+Du tömmer din stressmätare helt, men istället för att sprida din stress jämnt, tar varje annan spelare endast en (1) stresspoäng. Om din stress är lägre än antalet spelare tar övriga spelare fortfarande en (1) stress. Om handlingen sker under arbete förlorar du två (2) perioder, om den sker under hobby får du inte utöva hobbyn den dagen.
+
+#### Kodknäckare
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har en naturlig fallenhet för att lösa koder och pussel. Din förmåga att snabbt hitta mönster och lösningar är en tillgång i många utmaningar. Vid Handlingskast som berör pussel eller koder slår du en extra T6 för att tillfällight höja din Intelligens (INT).
+
+#### Kognitiv dissonans
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du är skicklig på att hantera och balansera motsägelsefulla tankar och idéer. När du försöker övertala en Spelledarperson slår denna person sitt Motståndskast till **nackdel**.
+
+#### Kontaktnät
+
+- **Krav:** -
+- **Kostnad:** X
+
+Denna förmåga ger dig möjligheten att en gång per speltillfälle "kalla in en tjänst" från en Spelledarperson som du i stunden definierar tillsammans med spelledaren. Denna Spelledarperson kan vara vem som helst från en gammal kollega till en högt uppsatt exekutiv, en expert inom ett specifikt område eller kanske en person med unika resurser eller information. När du aktiverar denna förmåga, berättar du för spelledaren vem du kontaktar och varför, varefter spelledaren introducerar denna Spelledarperson och deras roll i världen.
+
+#### Kurragömma
+
+- **Krav:** -
+- **Kostnad:** X
+
+När din rollperson utför handlingar som kräver att hen gömmer sig, eller när det behövs utföra något i hemlighet, aktiverar du "Kurragömma". Vid dessa tillfällen slår du en T6 för att temporärt öka en valfri grundegenskap som är relevant för handlingen.
+
+#### Ledarskap
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du är en naturlig ledare och kan inspirera andra att utföra sitt bästa. En gång per dag kan du ge en annan rollperson förmågan att utföra ett Handlingskast med **fördel**.
+
+#### Maskinskrivare
+
+- **Krav:** -
+- **Kostnad:** X
+
+När din rollperson utför en handling som kräver skriftlig insats på maskin – oavsett om det är att skriva ett dokument, komponera ett e-mail, eller programmera – gör hen detta med en förbättrad precision och effektivitet. Som en "Maskinskrivare" utför du alla dina handlingskast som involverar maskinskrivning med **fördel**.
+
+#### Observatör
+
+- **Krav:** -
+- **Kostnad:** X
+
+Din förmåga att iaktta och notera detaljer utan att dra uppmärksamhet till dig själv gör dig till en mästare på att samla information. När du insamlar information i det fördålda gör du detta till fördel om den valda grundegenskapen är (9) eller mindre inklusive eventuella bonus.
+
+#### Projektledare
+
+- **Krav:** Ledarskap
+- **Kostnad:** X
+
+Som projektledare har du förmågan att effektivt hantera och koordinera komplexa uppgifter. När du väljer att aktivera denna förmåga under ett möte – tar varje deltagare två (2) stresspoäng. Emellertid, som kompensation för denna ökade belastning, kommer varje deltagare sedan att ha fördelen av att slå alla sina Handlingskast med **fördel** för resten av arbetsdagen.
+
+#### Projektion
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du kan tillfälligt överföra en av dina svagheter till en annan person, vilket påverkar deras nästa Handlingskast. När du använder Projektion, upplever målet din svaghet som om den vore deras egen. Notera att du fortfarande behåller svagheten själv; förmågan skapar endast en temporär kopia av svagheten hos målet. Du kan använda Projektion ett antal gånger per dag motsvarande din rollpersons Psyke (PSY) dividerat med 3, avrundat nedåt.
+
+#### Rokad
+
+- **Krav:** -
+- **Kostnad:** X
+
+Denna färdighet demonstrerar din rollpersons mästerliga fingerfärdighet och snabbhet. Din rollperson har en enastående skicklighet att snabbt och obemärkt byta plats på två objekt. Denna förmåga är perfekt för situationer där ett diskret byte av föremål kan vara avgörande, till exempel att byta ut ett dokument mot ett annat eller ersätta en viktiga förmål med en kopia.
+
+#### Scenmästare
+
+- **Krav:** -
+- **Kostnad:** X
+
+När din rollperson använder "Scenmästare" under en presentation eller ett framträdande, utförs alla relevanta handlingskast som involverar kommunikation, övertygande eller underhållning med **fördel**.
+
+#### Själens speglar
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har en unik förmåga att läsa av andra människor och förstå deras sanna intentioner. Genom att ta en (1) stresspoäng kan du omedelbart avgöra om någon talar sanning.
+
+#### Skamlös
+
+- **Krav:** -
+- **Kostnad:** X
+
+Pinsamheter och sociala missöden påverkar dig inte. Du behåller ditt lugn och fokus även i situationer som skulle vara genanta för andra, vilket gör dig immun mot de vanliga sociala konsekvenserna av misstag.
+
+#### Slagsmål
+
+- **Krav:** -
+- **Kostnad:** X
+
+När orden tar slut börjar nävarna tala. När du använder Styrka (STY) för att göra skada på en annan individ slå då en T6 för att tillfälligt öka grundegenskapen.
+
+#### Stresstålig
+
+- **Krav:** -
+- **Kostnad:** X
+
+Din förmåga att hantera stress är exceptionell. Du har en extra nivå i din stressmätare, vilket gör att du kan uthärda mer psykisk påfrestning än de flesta, vilket är en betydande fördel i högtryckssituationer.
+
+#### Talförd
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du är en mästare på att övertyga och påverka andra med dina ord. En gång per dag kan du ge dig själv en **fördel** när du försöker övertyga någon.
+
+#### Tekniskt fel
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har en talang för att "råka" orsaka tekniska problem. När du försöker sabotera elektronik, kan du slå en T6 för att tillfälligt öka en grundegenskap i ditt nästa Handlingskast.
+
+#### Tupplur
+
+- **Krav:** -
+- **Kostnad:** X
+
+När du använder "Tupplur", tar din rollperson en kort paus från dagens aktiviteter för att vila och samla krafter. Du slår en T6 för att se om tuppluren är särskilt återhämtande. Om du slår en etta (1) på tärningen, lyckas din rollperson med att fullt ut vila och reflektera under denna korta stund, vilket resulterar i att en sektor av stressklockan försvinner.
+
+#### Universalgeni
+
+- **Krav:** -
+- **Kostnad:** Progressiv (1, 2, 3, ...)
+
+För varje gång du investerar i "Universalgeni", ökar din rollpersons kapacitet att inneha och använda ytterligare en (1) färdighet. Det unika med denna förmåga är att den inte upptar någon plats i din färdighetslista. Kostnaden för att förvärva "Universalgeni" ökar progressivt för varje gång du väljer att utveckla den: första gången kostar 1 poäng, andra gången 2 poäng, tredje gången 3 poäng, och så vidare.
+
+#### Uppfinna
+
+- **Krav:** -
+- **Kostnad:** X
+
+När du som rollperson står inför en situation där du behöver konstruera något unikt eller improvisera en lösning genom att sätta samman olika delar, utförs ditt Handlingskast med **fördel**.
+
+#### Ventilera
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du tömmer hela din stressmätare genom att fördela alla dina stresspoäng till andra spelare. Denna överföring av stress behöver inte vara jämnt fördelad, men alla poäng måste överföras.
+
+#### Zenpalats
+
+- **Krav:** Zenträdgård
+- **Kostnad:** X
+
+Med färdigheten "Zenpalats" har din rollperson uppnått en exceptionell nivå av inre frid och mental styrka. Detta fridfulla sinne gör att du hanterar stress på ett unikt sätt. "Zenpalats" fungerar likadant som "Zenträdgård" men du har även en extra T6 för att i stunden förbättra din rollpersons Psyke (PSY)-värde.
+
+#### Zenträdgård
+
+- **Krav:** -
+- **Kostnad:** X
+
+När din rollperson står inför risken att fylla den sista sektorn på sin stressklocka, ger "Zenträdgård" dig en chans att undvika stressens kumulativa effekter. Vid detta kritiska ögonblick slår du en T20. Om resultatet är lika med eller lägre än din rollpersons Psyke (PSY)-värde, undviker du att ta den sista stressen och stressklockan förblir ofylld.
+
+#### Övertygelse
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har väldigt besluten i de ståndpunkter du har. När du slår ett Motståndslag för Psyke (PSY) eller Karisma (KAR) får du slå det med en extra T6 för att temporärt höja grundegenskapen.
+
+#### Övernaturlig intuition
+
+- **Krav:** -
+- **Kostnad:** X
+
+Du har utvecklat en sjätte sinne som varnar dig för faror och ovanliga situationer. Du litar på din intuition, vilket hjälper dig att undvika problem innan de inträffar. En gång per dag kan du **pressa ett kast** utan att ta stress, vilket reflekterar din förmåga att förlita dig på denna inre känsla i kritiska ögonblick.
+
+#### Ödets nyck
+
+- **Krav:** -
+- **Kostnad:** X
+
+Med denna förmåga kan du en gång per dag tvinga Spelledaren att slå om ett kast. Det spelar ingen roll om tärningskastet var gynnsamt eller ogynnsamt; du har kraften att ändra på det ögonblicket.
+
+Om Spelledaren har använt flera tärningar för ett kast, ger "Ödets nyck" dig ytterligare kontroll genom att låta dig välja exakt vilken tärning som ska kastas om.
+
+

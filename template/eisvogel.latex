@@ -1016,9 +1016,9 @@ $abstract$
 $endif$
 $endif$
 
-$if(multicol)$
-\begin{multicols*}{$multicol$}
-$endif$
+% $if(multicol)$
+% \begin{multicols*}{$multicol$}
+% $endif$
 
 $if(first-chapter)$
 \setcounter{chapter}{$first-chapter$}
@@ -1109,8 +1109,8 @@ $include-after$
 
 $endfor$
 
-$if(multicol)$
-\end{multicols*}
-$endif$
+% $if(multicol)$
+% \end{multicols*}
+% $endif$
 
 \end{document}

@@ -11,8 +11,8 @@ Följande händelser bidrar till att fylla erfarenhetsklockan med en (1) sektor:
 
 - **Katastrofalt misslyckande:** När ett Handlingskast resulterar i ett katastrofalt misslyckande. Detta reflekterar lärandet från misstag och svårigheter. *Genom våra misslyckanden lär vi oss och växer*.
 - **Återhämtning från tillstånd:** När din rollperson återhämtar sig från ett tillstånd. Denna erfarenhet representerar den personliga styrkan och motståndskraften. *Det som inte dödar oss, gör oss starkare*.
-- **Hantering av svagheter:** När din rollperson aktivt arbetar för att övervinna eller hantera en av sina svagheter. *Genom att möta våra utmaningar, finner vi våra styrkor*.
 - **Inspiration:** Om du har inspiration kan du välja att konvertera den till ett (1) framsteg på din Erfarenhetsklocka. *Genom inspirationens gnista tänds kunskapens eld.*
+- **Hantering av svagheter:** När din rollperson aktivt arbetar för att övervinna eller hantera en av sina svagheter. *Genom att möta våra utmaningar, finner vi våra styrkor*.
 
 ## Erfarenhetspoäng
 
@@ -21,5 +21,5 @@ Varje rollperson tjänar erfarenhetspoäng (EP) genom att spelaren agerar i linj
 Efter varje spelsession har du möjlighet att använda dina ackumulerade erfarenhetspoäng för att utveckla din rollperson. Du kan välja att:
 
 - **Förbättra grundegenskaper:** Varje erfarenhetspoäng kan användas för att höja en valfri grundegenskap med ett (1) poäng.
-- **Skaffa nya färdigheter:** Erfarenhetspoäng kan även användas för att ge din rollperson nya färdigheter eller förmågor. 
+- **Skaffa nya färdigheter:** Erfarenhetspoäng kan även användas för att ge din rollperson nya färdigheter. 
 

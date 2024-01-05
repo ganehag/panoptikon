@@ -8,5 +8,5 @@ Spelet är utformat för att uppmuntra samarbete, problemlösning och kreativt t
 
 Tack för att du väljer att utforska och lära med "Panoptikon". Vi hoppas att din tid här blir så berikande som möjligt.
 
-*-- Mikael Ganehag Brorsson, December 2023*
+*-- Mikael Ganehag Brorsson, December 2024*
 
