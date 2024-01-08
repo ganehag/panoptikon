@@ -6,12 +6,15 @@ I "Panoptikon" hanteras rollpersonernas förmåga att stå emot mentala och emot
 
 När stressmätaren når sin topp och det sjätte nivået fylls, uppnår rollpersonen en kritisk stresspunkt. Då krävs ett slag med en T6 för att bestämma vilket tillstånd rollpersonen hamnar i:
 
-1. **Utmattad** (STY)
-2. **Krasslig** (FYS)
-3. **Omtäcknad** (SMI)
-4. **Förvirrad** (INT)
-5. **Rädd** (PSY)
-6. **Uppgiven** (KAR)
+| T6             | Tillstånd                  | Grundegenskap                  |
+|:--------------:|----------------------------|--------------------------------|
+| 1  | Utmattad   | Styrka(STY) |
+| 2  | Krasslig   | Fysik (FYS) |
+| 3  | Omtäcknad  | Smidighet (SMI) |
+| 4  | Förvirrad  | Intelligent (INT) |
+| 5  | Rädd       | Psyke (PSY) |
+| 6  | Uppgiven   | Karisma (KAR)|
+
 
 Efter att tillståndet är fastställt, återställs stressmätaren till noll (0).
 

@@ -60,6 +60,10 @@ Om tärningskastet resulterar i en tjugo (20), är det ett katastrofalt misslyck
 
 Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet. Om spelets händelser leder till att din rollperson förlorar intresset för en av sina hobbyer, ska denna hobby strykas från din rollpersons lista omedelbart. På samma sätt, om en händelse i spelet resulterar i att din rollperson får ett nytt intresse, får du välja en ny hobby för dem. Det är viktigt att din rollperson endast har tre hobbyer som mest om inget annat angets. Om en ny hobby tillkommer måste en gammal tas bort för att behålla balansen.
 
+## Slumpens nycker
+
+> TODO: tabell med 20 olika totalt slumpartade händelser. En tredjedel ska vara negativa, eller svåra - kopplade till specifika grundegenskaper medans andra är lättare. Detta val är högre riskt än kända hobbyer medans vinsten kan vara större.
+
 ## Sömn
 
 Sömn är en kritisk fas för din rollpersons stresshantering och återhämtning från olika tillstånd. Under sömnfasen kan du som spelare välja mellan att minska stress eller att arbeta på att återhämta dig från ett tillstånd. Observera att återhämtning från ett tillstånd är endast möjlig om stressnivån är noll (0) i den relevanta grundegenskapen.

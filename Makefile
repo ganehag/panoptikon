@@ -29,7 +29,7 @@ $(OUTPUT): $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
 	# xelatex -jobname=manual content.tex
 
 content.md: $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
-	pandoc $(CHAPTERS) --pdf-engine=xelatex --template $(EISVOGEL_PATH) --output content.md --metadata-file=$(METADATA) -V lang=$(LANGUAGE) --top-level-division=chapter -V classoption=oneside
+	pandoc $(CHAPTERS) --output content.md --metadata-file=$(METADATA) --top-level-division=chapter
 
 resources/%.pdf: resources/%.svg
 	rsvg-convert -f pdf -o $@ $<

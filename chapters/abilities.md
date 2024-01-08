@@ -25,7 +25,7 @@ Varje rollperson kan normalt ha upp till fem (5) olika förmågor samtidigt. Om 
 
 När du aktiverar "Arbetsnarkoman", väljer din rollperson att avstå från sin vanliga hobby för dagen. Istället tillåts din rollperson att utföra två extra perioder av arbete under arbetsdagen.
 
-#### Byråkratiskt
+#### Byråkrati
 
 - **Krav:** -
 - **Kostnad:** X
@@ -71,9 +71,9 @@ Vem behöver lunch när det finns en massa jobb att göra. Du behöver ingen lun
 - **Krav**: -
 - **Kostnad**: 1 per språk
 
-För varje poäng du investerar i denna färdighet, väljer du ett specifikt språk som din rollperson behärskar. Denna förmåga innebär att när din rollperson kommunicerar på något av de språk de behärskar, behöver de inte slå något handlingskast för att avgöra om kommunikationen är framgångsrik. 
-
-Om du väljer att avlägsna denna färdighet från din rollpersons förmågor, förlorar din rollperson också kunskapen i alla de språk som har förvärvats genom "Främmande språk".
+- **Universalspråket**: Den första poängen du investerar i **Främmande språk** ger din rollperson kunskap i Universalspråket. Detta är ett allmänt erkänt språk som talas i flera olika länder, vilket underlättar kommunikationen i internationella och interkulturella sammanhang.
+- **Ytterligare språkbehärskning**: För varje ytterligare poäng du investerar, kan du välja ytterligare ett specifikt språk som din rollperson behärskar. Denna förmåga säkerställer smidig kommunikation på dessa språk, utan behovet av Handlingskast för att avgöra framgången av interaktionen.
+- **Förlust av färdigheten**: Om du beslutar att avlägsna **Främmande språk** från din rollpersons färdigheter, förlorar de även förmågan att kommunicera på Universalspråket och andra språk som förvärvats genom denna färdighet.
 
 #### Genetisk modifiering
 
@@ -165,6 +165,13 @@ Du är en naturlig ledare och kan inspirera andra att utföra sitt bästa. En g�
 - **Kostnad:** X
 
 När din rollperson utför en handling som kräver skriftlig insats på maskin – oavsett om det är att skriva ett dokument, komponera ett e-mail, eller programmera – gör hen detta med en förbättrad precision och effektivitet. Som en "Maskinskrivare" utför du alla dina handlingskast som involverar maskinskrivning med **fördel**.
+
+#### Metamorfos
+
+- **Krav:** -
+- **Kostnad:** X
+
+En gång per spelsession kan du välja att temporärt förändra din rollperson till en annan Arketyp från listan. När du använder denna förmåga, väljer du en annan arketyp och får tillgång till dess unika förmåga under sessionen. Din rollperson återgår till sin ursprungliga arketyp vid sessionens slut.
 
 #### Observatör
 

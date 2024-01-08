@@ -25,6 +25,8 @@
 
 Välkommen till Panoptikon. I denna handbok hittar du alla regler som behövs för att navigera i spelets värld. Regelverket kan initialt kännas omfattande, men ingen anledning till oro. Vi har designat boken för att guida dig genom spelets olika aspekter på ett tydligt och stegvis sätt. Tveka inte att använda boken som en resurs under spelets gång för att snabbt slå upp regler eller klargöra detaljer. Med tiden kommer du att finna att spelupplevelsen blir mer flytande och intuitiv. Lycka till i din resa genom företagets korridorer och möten.
 
+![](resources/welcome-building-2.png)
+
 ## Vad är Panoptikon?
 
 "Panoptikon" är en mystisk och multifacetterad organisation som du nu är en del av. Dess exakta verksamhet är inte tydligt definierad och omges av en aura av hemlighetsfullhet. Det är en plats där traditionella affärsstrategier blandas med okända mål och metoder. Som medlem i "Panoptikon", kommer du att utforska dess komplexa och ibland oförutsägbara värld, där dina handlingar och beslut bidrar till dess fortgående berättelse och utveckling.

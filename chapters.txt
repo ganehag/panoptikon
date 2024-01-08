@@ -10,4 +10,5 @@ advancement.md
 abilities.md
 character.md
 divisions.md
+acts.md
 appendices.md
