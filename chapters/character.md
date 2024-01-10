@@ -307,13 +307,47 @@ Som expert inom visuella medier, utbildad i konst och teknologi, skapar du stors
 
 ## Ålder
 
-Åldern på din rollperson spelar en viktig roll i att definiera deras livserfarenhet, mognad och fysiska förmågor. Välj din rollpersons ålder för att spegla deras bakgrund och livsstadium. Varje ålderskategori har sina egna unika egenskaper och färdigheter som reflekterar erfarenheterna och den fysiska kapaciteten associerad med den åldern. Detta påverkar inte bara din rollpersons grundläggande egenskaper, utan också deras perspektiv och hur de interagerar med världen i "Panoptikon".
+Ålder inte en avgörande faktor för en rollpersons kompetens eller förmåga, men den kan påverka hur de uppfattas i det omgivande samhället och på arbetsplatsen.
 
-| **T6**  | **Ålder**  | **Tränade färdigheter** | **Grundegenskaper**             | 
-|:-------:|------------|:------------:|------------------------------------------|
-| 1-3     | Ung        | -1                  | Smidighet (SMI) och Fysik (FYS) +1 |
-| 4-5     | Medelålders| --                  | --              |
-| 6       | Ålderstigen| +1                  | Styrka (STY) och Fysik (FYS) -1, Intelligens (INT) +1 |
+| **T6**  | **Ålder**  | **Erfarenheter och Uppfattning**                               |
+|:-------:|------------|----------------------------------------------------------------|
+| 1-3     | Ung        | Din rollperson är ny i arbetslivet, kanske i deras första riktiga jobb efter utbildningen. Detta kan leda till att andra antar att de är mindre erfarna, vilket kan vara både en utmaning och en möjlighet att överraska. |
+| 4-5     | Medelålders| Din rollperson har lämnat skolåren bakom sig och är nu väl etablerad i sin karriär. De har ackumulerat värdefull erfarenhet, vilket generellt ger dem en stabil plattform i arbetslivet och en balanserad syn på världen. |
+| 6       | Ålderstigen| Med mycket erfarenhet under bältet är din rollperson nära pensionen. De har sett det mesta och kan antingen uppfattas som vis och erfaren, eller som fast i gamla vanor och mindre benägen att anamma nya idéer. |
+
+## Könsidentitet
+
+Utforskandet och definitionen av din rollpersons könsidentitet är ett viktigt steg i att skapa en djup och mångsidig karaktär. Tabellen för könsidentitet tillhandahålls som en källa till inspiration och vägledning, men du är uppmuntrad att välja eller skapa en identitet som känns äkta och relevant för din rollperson. Närma dig detta ämne med respekt och eftertanke, och se till att varje rollpersons könsidentitet behandlas med värdighet i spelets berättelse.
+
+| **T20** | **Könsidentitet**            | **Beskrivning**                             |
+|:-------:|------------------------------|---------------------------------------------|
+| 1,2     | Ciskönad kvinna              | Du identifierar dig med det kön som tilldelades vid födseln som kvinna. |
+| 3,4     | Ciskönad man                 | Du identifierar dig med det kön som tilldelades vid födseln som man. |
+| 5,6     | Transkvinna                  | Du föddes med könet man men identifierar dig som kvinna. |
+| 7,8     | Transman                     | Du föddes med könet kvinna men identifierar dig som man. |
+| 9,10    | Icke-binär                   | Du identifierar dig inte strikt som man eller kvinna. |
+| 11,12   | Könfluid                     | Du upplever ditt kön som föränderligt över tid. |
+| 13,14   | Tredje könet                 | Du identifierar med det tredje könet. |
+| 15,16   | Agender                      | Du känner att du saknar koppling till traditionella könskoncept. |
+| 17,18   | Bigender                     | Du identifierar dig med två kön samtidigt. |
+| 19,20   | Genderqueer                  | Du bryter eller ifrågasätter traditionella könsnormer. |
+
+## Sexuell orientering
+
+Tabellen för sexuell orientering är framtagen för att inspirera och vägleda i skapandet av din rollpersons identitet, men du är fri att välja eller skapa en orientering som passar din karaktärs unika narrativ. Det är viktigt att närma sig detta ämne med öppenhet och respekt, och att alla rollpersoners sexuella orientering behandlas med värdighet inom berättelsen.
+
+| **T20** | **Sexuell orientering** | **Beskrivning**                          |
+|:-------:|-------------------------|------------------------------------------|
+| 1,2     | Heterosexuell           | Du är attraherad av personer av motsatt kön.   |
+| 3,4     | Homosexuell             | Du är attraherad av personer av samma kön.     |
+| 5,6     | Bisexuell               | Du är attraherad av personer av flera kön.     |
+| 7,8     | Pansexuell              | Du är attraherad av personer oavsett kön.      |
+| 9,10    | Asexuell                | Du upplever liten eller ingen sexuell attraktion. |
+| 11,12   | Demisexuell             | Du upplever sexuell attraktion efter emotionell bindning. |
+| 13,14   | Queer                   | Du använder en bredare term för sin orientering eller ifrågasätter traditionella kategorier. |
+| 15,16   | Gråsexuell              | Du är någonstans mellan asexuell och sexuell.  |
+| 17,18   | Polysexuell             | Du är attraherad av många, men inte alla kön.  |
+| 19,20   | Heteroflexibel          | Du är huvudsakligen heterosexuell men öppen för andra attraktioner. |
 
 ## Namn
 
@@ -333,7 +367,7 @@ En ägodel är mer än bara en personl tillhörighet; det är symbolen för din 
 - Ägodelar kan gå förlorade, stjälas eller förstöras under spelets gång.
 - Om en rollperson förlorar sin ägodel, kan spelaren vid lämpligt tillfälle i spelet försöka anskaffa en ny. Detta kan ske genom uppdrag, handel, utforskning eller andra spelscenarion.
 
-| **T20** | **Ägodel**             | **Förbättrad Effekt**                                     |
+| **T20** | **Ägodel**             | **Förbättrad effekt**                                     |
 |:-------:|------------------------|-----------------------------------------------------------|
 | 1       | Antikt fickur          | Med detta ur kan du återuppleva de senaste 30 sekunderna en gång per speltillfälle. Endast din rollperson är medveten om tidsförändringen. |
 | 2       | Anteckningsbok         | Ger dig möjlighet att fråga spelledaren om en detalj eller händelse som din rollperson bör komma ihåg, men som du som spelare har glömt, en gång per speltillfälle. |
@@ -366,38 +400,26 @@ Konceptet med bärförmåga hanterat med en flexibel och realistisk inställning
 - I dessa fall används Motståndslag mot Styrka (STY) för att avgöra om rollpersonen kan hantera den extra belastningen utan problem.
 - Din rollperson kan inte bära eller lyfta mer än upp till 10 kg för varje poäng i Styrka (STY).
 
-
 ### Kontinuerliga motståndslag
 
 - Om din rollpersoner behöver bära tunga föremål under längre perioder, kan flera kontinuerliga Motståndslag mot Styrka (STY) krävas för att upprätthålla förmågan att bära dessa vikter.
 - Misslyckade slag kan leda till skador eller till och med **stress**.
 
-
 ## Utseende
 
 Utseendet på din rollperson i "Panoptikon" är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.
 
-| **T20** | **Utseende**                                                       |
-|:-------:|--------------------------------------------------------------------|
-| 1       | Skarpa ögon                              |
-| 2       | Ett ärr över kinden                      |
-| 3       | Ovanligt långt hår                       |
-| 4       | Distinkt tatuering                       |
-| 5       | Imponerande höjd                         |
-| 6       | Strålande leende                         |
-| 7       | Mycket blek hy                           |
-| 8       | Intensiv blick                           |
-| 9       | Ovanliga ögonfärger                      |
-| 10      | Naturligt lockigt hår                    |
-| 11      | Vältrimmad skäggstubb                    |
-| 12      | Karakteristisk frisyr                    |
-| 13      | Atletisk byggnad                         |
-| 14      | Elegant klädstil                         |
-| 15      | Kraftiga händer                          |
-| 16      | Distinkt röst                            |
-| 17      | Framträdande tatuering i ansiktet        |
-| 18      | Ovanligt liten statur                    |
-| 19      | Framträdande ärr                         |
-| 20      | Särskilt anmärkningsvärda öron           |
+| **T20** | **Utseende**                    | **T20** | **Utseende**                    |
+|:-------:|---------------------------------|:-------:|---------------------------------|
+| 1       | Skarpa ögon                     | 11      | Vältrimmad skäggstubb           |
+| 2       | Ett ärr över kinden             | 12      | Karakteristisk frisyr           |
+| 3       | Ovanligt långt hår              | 13      | Atletisk byggnad                |
+| 4       | Distinkt tatuering              | 14      | Tunnhårig                       |
+| 5       | Imponerande höjd                | 15      | Kraftiga händer                 |
+| 6       | Strålande leende                | 16      | Distinkt röst                   |
+| 7       | Mycket blek hy                  | 17      | Vacker näsa                     |
+| 8       | Hårig                           | 18      | Ovanligt liten statur           |
+| 9       | Ovanlig ögonfärg                | 19      | Buskiga ögonbryn                |
+| 10      | Naturligt lockigt hår           | 20      | Särskilt anmärkningsvärda öron  |
 
 
