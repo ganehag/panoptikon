@@ -1,6 +1,6 @@
 # Progresshantering
 
-I "Panoptikon" används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt.
+I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt.
 
 ![](resources/clocks-1.pdf)
 

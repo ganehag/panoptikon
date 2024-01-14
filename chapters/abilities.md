@@ -12,7 +12,7 @@ Förmågor ger din rollperson förbättrade förutsättningar att hantera situat
 
 ## Användning
 
-Förmågor i "Panoptikon" kan kategoriseras som antingen aktiva eller passiva. Passiva förmågor påverkar din rollperson kontinuerligt och automatiskt, utan att du behöver vidta några särskilda åtgärder. Dessa är integrerade i din rollpersons karaktär och agerar i bakgrunden.
+Förmågor kan kategoriseras som antingen aktiva eller passiva. Passiva förmågor påverkar din rollperson kontinuerligt och automatiskt, utan att du behöver vidta några särskilda åtgärder. Dessa är integrerade i din rollpersons karaktär och agerar i bakgrunden.
 
 Aktiva förmågor, å andra sidan, kräver att du aktivt meddelar spelledaren när och hur du vill använda dem. De är ofta kraftfullare och har en direkt påverkan på spelets gång, men deras användning är vanligtvis begränsad till ett visst antal gånger per dag.
 
@@ -47,6 +47,7 @@ Du har en märklig känsla av att ha upplevt vissa situationer förut. Detta ger
 Det är lätt att vara efterklok då denna förmåga ger din rollperson möjlighet att avslöja en händelse från det förflutna som påverkar den nuvarande situationen. Denna förmåga kan endast användas en gång per dag och kostar en (1) stress.
 
 #### Extremarbete
+
 - **Krav**: Arbetsnarkoman
 - **Kostnad**: X
 
@@ -101,7 +102,7 @@ När din rollperson framgångsrikt genomför en handling för att ge igen mot n�
 - **Krav:** -
 - **Kostnad:** X
 
-I svåra situationer kan du söka vägledning från en högre makt - spelledaren. Genom att aktivera denna förmåga och ställa en fråga till spelledaren, kan du få värdefull information. Slå en T20, om värdet är ett (1) händer ingenting, annars tar du en (1) poäng stress.
+I svåra situationer kan du söka vägledning från en högre makt -- Spelledaren. Genom att aktivera denna förmåga och ställa en fråga till Spelledaren, kan du få värdefull information. Slå en T20, om värdet är ett (1) händer ingenting, annars tar du tre (3) poäng stress.
 
 #### Instinkt
 
@@ -311,8 +312,6 @@ Du har utvecklat en sjätte sinne som varnar dig för faror och ovanliga situati
 - **Krav:** -
 - **Kostnad:** X
 
-Med denna förmåga kan du en gång per dag tvinga Spelledaren att slå om ett kast. Det spelar ingen roll om tärningskastet var gynnsamt eller ogynnsamt; du har kraften att ändra på det ögonblicket.
-
-Om Spelledaren har använt flera tärningar för ett kast, ger "Ödets nyck" dig ytterligare kontroll genom att låta dig välja exakt vilken tärning som ska kastas om.
+Med denna förmåga kan du en gång per dag tvinga Spelledaren att slå om ett kast. Det spelar ingen roll om tärningskastet var gynnsamt eller ogynnsamt; du har kraften att ändra på det ögonblicket. Om Spelledaren har använt flera tärningar för ett kast, ger "Ödets nyck" dig ytterligare kontroll genom att låta dig välja exakt vilken tärning som ska kastas om.
 
 

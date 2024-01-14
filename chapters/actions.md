@@ -2,7 +2,7 @@
 
 ## Grundegenskaper
 
-I "Panoptikon" styrs rollpersonernas förmågor av sex grundläggande egenskaper. Dessa är:
+Din Rollpersons handlingsförmåga styrs av sex grundläggande egenskaper.
 
 - **Styrka (STY):** Styrka representerar rollpersonens fysiska kraft och förmåga att utföra uppgifter som kräver muskelkraft. Det inkluderar allt från att lyfta tunga föremål till att kämpa fysiskt. En hög Styrka är avgörande för karaktärer som förlitar sig på fysisk makt.
 - **Fysik (FYS):** Fysik indikerar rollpersonens uthållighet, hälsa och allmänna fysiska kondition. Det påverkar deras förmåga att uthärda påfrestningar, motstå sjukdomar och återhämta sig från skador. Karaktärer med hög Fysik kan hantera fysiska påfrestningar bättre än andra.

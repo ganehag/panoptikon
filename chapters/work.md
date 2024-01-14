@@ -1,6 +1,6 @@
 # Arbete
 
-Arbetsdagen för rollpersonerna i "Panoptikon" är strukturerad i fyra perioder, med två före lunch och två efter lunch. Under varje period kan din rollperson ägna sig åt en specifik **syssla** åt gången. En syssla kan innefatta ett brett spektrum av arbetsrelaterade aktiviteter, såsom:
+Arbetsdagen för rollpersonerna är strukturerad i fyra perioder, med två före lunch och två efter lunch. Under varje period kan din rollperson ägna sig åt en specifik **syssla** åt gången. En syssla kan innefatta ett brett spektrum av arbetsrelaterade aktiviteter, såsom:
 
 - **Möten:** Delta i möten med andra rollpersoner eller spelledarkaraktärer för diskussion och samarbete.
 - **Forskningsarbete:** Utforska och analysera information som är relevant för rollpersonens arbetsuppgifter.
@@ -10,11 +10,38 @@ Varje syssla kräver att din rollperson använder sina färdigheter och resurser
 
 ## Sysslor
 
-Varje rollperson i "Panoptikon" kan engagera sig i olika sysslor, dock endast en åt gången. En rollperson kan ha upp till fem (5) pågående sysslor parallellt, såvida inga speciella förmågor eller regler tillåter annorlunda.
+Varje rollperson kan engagera sig i olika sysslor, dock endast en åt gången. En rollperson kan ha upp till fem (5) pågående sysslor parallellt, såvida inga speciella förmågor eller regler tillåter annorlunda.
 
 ### Progressklockor och sysslor
 
 Inte alla sysslor kräver användning av en progressklocka. Vissa uppgifter kan vara mer direkt och enkla, medan andra är mer komplexa och kräver noggrann uppföljning. Det är spelledarens ansvar att avgöra vilka sysslor som kräver en progressklocka för att visualisera och spåra framsteg. Denna bedömning görs baserat på sysslans natur och hur den passar in i spelets övergripande berättelse.
+
+### Arbetsomfångsbedömning
+
+När en ny syssla blir din uppgift, inleds utvärderingen av dess omfattning med några viktiga frågor från Spelledaren. Dina svar på dessa frågor kommer att vara avgörande för att bestämma hur många T6 som behövs för att få en klar bild av utmaningens storlek.
+
+- Vi börjar alltid med en T6 för *Lagen om alltings jävlighet* -- en påminnelse om att oförutsedda omständigheter och svårigheter ofta lurar där vi minst anar dem.
+
+1. **Besitter du erforderliga kunskaper eller unika färdigheter för denna syssla?**
+   - Nej: Lägg till en T6.
+
+2. **Är uppgiften enkel och utan komplexa steg eller faser?**
+   - Nej: Lägg till en T6.
+
+3. **Är arbetsmiljön och omständigheterna gynnsamma (resurser, tid, stöd)?**
+   - Nej: Lägg till en T6.
+  
+4. **Har du tidigare lyckats väl i liknande uppgifter?**
+   - Ja: Du kan slå om en T6.
+
+5. **Är det en gruppuppgift eller kan du ta nytta av någon annans förmåga?**
+   - Ja: Du kan slå om en T6.
+  
+Efter att ha besvarat frågorna och ackumulerat dina tärningar, är det dags för själva kastet. Här slår du alla dina T6:or och utför eventuella omslag som dina svar har gjort möjliga. Slutsumman av alla tärningar bestämmer sedan hur många segment som finns på progressklockan eller flera länkade progressklockor.
+
+#### Oanad komplexitet
+
+Om en syssla redan från början ska vara särskilt utmanande, har Spelledaren rätt att lägga till en extra dimension av komplexitet. Detta görs genom att kasta en T20, vars resultat läggs till som ytterligare segment till sysslans progressklocka. För uppgifter som är exceptionellt svåra, får Spelledaren utföra detta T20-kast med **fördel**.
 
 ### Utförande av sysslor
 
@@ -30,7 +57,7 @@ När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast 
 
 ### Framsteg och progressklockor
 
-Om handlingskastet är framgångsrikt, det vill säga lika med eller lägre än rollpersonens värde i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
+Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än Tollpersonens värde i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
 
 | T6 | Framsteg på Progressklockan                                             |
 |:-----------:|:---------------------------------------------------------------|
@@ -63,6 +90,8 @@ När du väljer att samarbeta med andra spelare för att effektivisera arbetet m
 4. **Ingen effekt av "Spektakulär framgång" eller "Katastrofalt misslyckande":** När du deltar i ett samarbete, påverkas inte resultatet av eventuella "Spektakulär framgång" eller "Katastrofalt misslyckande". Detta gör samarbete till en taktisk fördel i kritiska situationer.
 5. **Förbrukad möjlighet:** Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har dock fortfarande möjlighet att "Pressa ett kast" om du känner att det behövs.
 
+Ett samarbete kan initieras vid vilken tidpunkt som helst under spelets gång. Oavsett om det sker vid starten av en syssla eller mitt i dess genomförande.
+
 ## Syssloptimering
 
 När din rollperson får en ny syssla, har du möjlighet att dra nytta av dina egna kunskaper om ämnet för att detaljerat beskriva hur din rollperson närmar sig och hanterar uppgiften. Genom att ge en noggrann och realistisk beskrivning av hur rollpersonen tacklar sysslan, kan du effektivisera arbetet som krävs för att slutföra uppgiften.
@@ -77,7 +106,7 @@ Som spelare är det viktigt att du agerar i enlighet med din rollpersons **svagh
 
 ## Arbete utanför arbetstid
 
-I "Panoptikon" råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.
+I spelvärlden råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.
 
 Spelledaren har dock möjligheten att göra undantag från denna regel och tillåta övertidsarbete. Beslutet att godkänna övertid kan tas när spelomständigheterna kräver det, eller när det tjänar spelets berättelse och rollpersonernas mål.
 

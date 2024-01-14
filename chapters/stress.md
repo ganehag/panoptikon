@@ -1,6 +1,6 @@
 # Stress och tillstånd
 
-I "Panoptikon" hanteras rollpersonernas förmåga att stå emot mentala och emotionella påfrestningar genom en stressmätare. Denna mätare fylls på när rollpersonerna utsätts för svårigheter, utmaningar eller misslyckanden i spelets värld. Varje rollperson har en individuell förmåga att hantera stress, och deras stressmätare består vanligtvis av sex (6) nivåer.
+Rollpersonernas förmåga att stå emot mentala och emotionella påfrestningar hanteras genom en stressmätare. Denna mätare fylls på när rollpersonerna utsätts för svårigheter, utmaningar eller misslyckanden i spelets värld. Varje rollperson har en individuell förmåga att hantera stress, och deras stressmätare består vanligtvis av sex (6) nivåer.
 
 ## Tillståndkast
 
@@ -24,6 +24,11 @@ Tillstånd som orsakas av hög stressnivå manifestera sig i två olika nivåer:
 
 - **Mild:** När din rollperson befinner sig i ett "Milt" tillstånd, påverkas en specifik grundegenskap. Alla kast som involverar denna grundegenskap måste utföras till **nackdel**. Detta innebär att du slår två tärningar och använder det sämsta resultatet av de två.
 - **Påtaglig:** Ett "Påtagligt" tillstånd är en allvarligare form av stresspåverkan. Här reduceras den berörda grundegenskapen direkt med sex (6) poäng. Detta representerar en betydande försämring av rollpersonens förmåga i situationer som kräver användning av den drabbade egenskapen.
+
+## Tillfälliga tillstånd
+
+... Tillstånd som endast varar ett par timmar och går över av sig själv. Som kan botas via förmågor eller via actioner. Ett temporärt tillstånd försvinner alltid efter en sömnperiod oavsett om perioden är helt lyckad eller inte.
+
 
 ## Utarbetad
 
@@ -63,7 +68,7 @@ Svaghetstabellen används för att slumpmässigt bestämma vilken typ av svaghet
 
 ## Oväntad avgång
 
-I "Panoptikon" är döden inte ett vanligt inslag i spelupplevelsen. Istället finns det alternativa sätt att hantera situationer där rollpersoner står inför allvarliga utmaningar eller utmattning. När din rollperson når en punkt där de verkar vara utarbetade och återhämtning inte är möjlig på kort sikt, finns det två vägar att välja:
+Döden inte ett vanligt inslag i spelupplevelsen. Istället finns det alternativa sätt att hantera situationer där rollpersoner står inför allvarliga utmaningar eller utmattning. När din rollperson når en punkt där de verkar vara utarbetade och återhämtning inte är möjlig på kort sikt, finns det två vägar att välja:
 
 - **Pension:** Du kan välja att låta din rollperson gå i pension, vilket innebär att de lämnar spelets aktiva handling. Denna pensionering behöver inte vara permanent, och karaktären kan komma tillbaka vid en senare tidpunkt under passande omständigheter.
 

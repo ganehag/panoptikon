@@ -1,6 +1,8 @@
 # Din rollperson
 
-I "Panoptikon" har du friheten att skapa en rollperson som verkligen speglar din fantasi och kreativitet. Här finns inga traditionella gränser för vad din karaktär kan vara. Oavsett kön, bakgrund, eller personlighetstyp, kan din rollperson representera en mängd olika identiteter och egenskaper. Denna öppenhet uppmuntrar till utforskande av olika perspektiv och ger dig möjligheten att gestalta en karaktär som ligger utanför vanliga stereotyper eller begränsningar.
+![](resources/character-hero-2.png)
+
+Du har friheten att skapa en rollperson som verkligen speglar din fantasi och kreativitet. Här finns inga traditionella gränser för vad din karaktär kan vara. Oavsett kön, bakgrund, eller personlighetstyp, kan din rollperson representera en mängd olika identiteter och egenskaper. Denna öppenhet uppmuntrar till utforskande av olika perspektiv och ger dig möjligheten att gestalta en karaktär som ligger utanför vanliga stereotyper eller begränsningar.
 
 Genom att gestalta en rollperson som är helt skild från dig själv, får du en chans att se världen ur ett helt nytt perspektiv.
 
@@ -9,17 +11,18 @@ Genom att gestalta en rollperson som är helt skild från dig själv, får du en
 
 ## Arketyper
 
-Varje Arketyp i "Panoptikon" erbjuder en unik uppsättning av grundfärdigheter, styrkor och förutsättningar som ger liv åt din rollperson. Utforska de olika arketyperna för att hitta den som bäst passar din spelstil och som bidrar till en berikande upplevelse. Du kan också låta tärningen bestämma genom att slå en T12 och följa tabellen nedan.
+Varje Arketyp i erbjuder en unik uppsättning av grundfärdigheter, styrkor och förutsättningar som ger liv åt din rollperson. Utforska de olika arketyperna för att hitta den som bäst passar din spelstil och som bidrar till en berikande upplevelse. Du kan också låta tärningen bestämma genom att slå en T12 och följa tabellen nedan.
 
 | **T12** | **Arketyp** | **T12** | **Arketyp** |
 |:----------------:|----------------------|:----------------:|----------------------|
 | 1       | Hjälten     | 7       | Skaparen    |
 | 2       | Oskulden    | 8       | Härskaren   |
 | 3       | Utforskaren | 9       | Magikern    |
-| 4       | Vise        | 10      | Hjälparen   |
-| 5       | Upproraren  | 11      | Förälskaren |
-| 6       | Narr        | 12      | Vårdaren    |
+| 4       | Mentorn     | 10      | Hjälparen   |
+| 5       | Rebell      | 11      | Förälskaren |
+| 6       | Narr        | 12      | Skurken     |
 
+\newpage
 
 ### Hjälten
 
@@ -28,7 +31,10 @@ Hjälten är en modig och målmedveten karaktär som aldrig ryggar för en utman
 - **Styrka (STY)**: +1
 - **Psyke (PSY)**: -2
 - **Altruism**: När en allierad rollperson misslyckas med ett Motståndskast och skulle få stress som ett resultat, kan Hjälten välja att ta på sig denna stress istället. Hjälten kan endast använda denna förmåga om det inte resulterar i att den egna stressmätare fylls helt.
+- **Episkt handslag**: När Hjälten väljer att visa sin respekt och erkännande gentemot en annan individ, vars Styrka (STY) är lika med eller större än Hjältens, kan de genomföra ett "Episkt handslag". Vid bådas nästa Handlingskast utförs dessa till **fördel**. Denna förmåga är kostnadsfri en gång per dag. Används den en andra gång samma dag, tar Hjälten två (2) **stress**.
 
+
+\newpage
 ### Oskulden
 
 Oskulden är en optimistisk och ärlig arketype som strävar efter att se det bästa i människor och situationer. De är ofta naiva men deras renhjärtade och uppriktiga natur vinner ofta andra människors förtroende och sympati.
@@ -37,6 +43,7 @@ Oskulden är en optimistisk och ärlig arketype som strävar efter att se det b�
 - **Intelligens (INT)**: -2
 - **Ständiga optimisten**: Oskuldens optimism kan en gång per dag minska stress hos sig och en medspelare. Slå en T20, om värdet är **mer** än din Intelligens (INT) minskar du en (1) stress.
 
+\newpage
 ### Utforskaren
 
 Utforskaren är en äventyrlig och självständig karaktär som alltid söker nya erfarenheter och kunskap. De är inte rädda för att bryta nya vägar och deras nyfikenhet och öppenhet för nya idéer gör dem till ovärderliga tillgångar i alla situationer där innovation och kreativitet är avgörande.
@@ -44,34 +51,42 @@ Utforskaren är en äventyrlig och självständig karaktär som alltid söker ny
 - **Smidighet (SMI)**: +1
 - **Intelligens (INT)**: -2
 - **Nyfiken**: När Utformskaren befinner sig i en ny eller okänd miljö, utförs alla Handlingskast relaterade till utforskning, undersökning eller lärande av denna miljö med **fördel**. Detta gäller inte situationer där Utforskaren redan är väl förtrogen med omgivningen.
+- **Tunna röda ledtråden**: Utforskaren har en naturlig fallenhet för att lösa gåtor och pussel. En gång per dag kan Utforskaren be spelledaren om en ledtråd eller vägledning i en utmanande situation, som ett pussel eller en komplex problemställning.
 
-### Vise
+\newpage
+### Mentorn
 
-Den Vise är en tänkare och mentor, känd för sin visdom och insikt. Denna arketyp har ofta rollen som strateg eller rådgivare. De är analytiska, kunskapstörstande och motiverade av en längtan att förstå världen och dela med sig av sin lärdom. De hjälper andra att se saker ur nya perspektiv och är ovärderliga i situationer som kräver eftertanke och planering.
+Mentorn är en tänkare, känd för sin visdom och insikt. Denna arketyp har ofta rollen som strateg eller rådgivare. De är analytiska, kunskapstörstande och motiverade av en längtan att förstå världen och dela med sig av sin lärdom. De hjälper andra att se saker ur nya perspektiv och är ovärderliga i situationer som kräver eftertanke och planering.
 
 - **Intelligens (INT)**: +3
 - **Fysik (FYS)**: -2
 - **Styrka (STY)**: -2
 - **Smidighet (SMI)**: -2
-- **Kunskapsöverföring**: En gång per dag kan den Vise dela med dig av sin visdom till en annan rollperson för att temporärt öka deras Intelligens (INT) under resten av dagen. Den vises Intelligens (INT) ersätter rollpersonens värde.
+- **Kunskapsöverföring**: En gång per dag kan Mentorn dela med dig av sin visdom till en annan rollperson för att temporärt öka deras Intelligens (INT) under resten av dagen. Mentorns Intelligens (INT) ersätter rollpersonens värde.
+- **Vägledning**: Mentorn kan välja att slå sitt nästa Handlingskast med **nackdel** för att istället ge en annan individ **fördel** i deras nästa Handlingskast. Varje gång denna vägledning leder till ett positivt utfall, belönas Mentorn med en sektor på sin erfarenhetsklocka.
 
-### Upproraren
+\newpage
+### Rebellen
 
-Upproraren utmanar status quo och är en mästare på att tänka utanför ramarna. De ifrågasätter etablerade normer och presenterar radikala nya idéer. De är orädda och innovativa, och deras förmåga att tänka annorlunda kan leda till banbrytande förändringar och lösningar på svåra problem.
+Rebellen utmanar status quo och är en mästare på att tänka utanför ramarna. De ifrågasätter etablerade normer och presenterar radikala nya idéer. De är orädda och innovativa, och deras förmåga att tänka annorlunda kan leda till banbrytande förändringar och lösningar på svåra problem.
 
 - **Karisma (KAR)**: +1
 - **Psyke (PSY)**: +1
 - **Fysik (FYS)**: -4
-- **Riskabel insikt**: Upproraren har möjligheten att slå alla Handlingskast som involverar tankeprocesser, planering eller kreativa lösningar med **fördel**. Men, för varje tärning som resulterar i ett misslyckande, tar Upproraren en (1) poäng i stress.
+- **Riskabel insikt**: Rebellen har möjligheten att slå alla Handlingskast som involverar tankeprocesser, planering eller kreativa lösningar med **fördel**. Men, för varje tärning som resulterar i ett misslyckande, tar Rebellen en (1) poäng i stress.
+- **Konsten att ifrågasätta**: Rebellen kan en gång per dag använda sin kritiska tankeförmåga för att effektivisera en syssla. När de genomför ett lyckat Handlingskast mot Intelligens (INT) för en ny syssla, minskar de antalet nödvändiga segment för att slutföra sysslan med hälften av ett T6-resultat (avrundat nedåt).
 
-### Narr
+\newpage
+### Narren
 
-Narrar är kända för sin humor och förmåga att se livets ljusa sida. I "Panoptikon" använder denna arketype sin kvickhet och charm för att lättare hantera stressiga situationer och hålla stämningen uppe. De är sociala och ofta hjärtat i varje team, vilket hjälper till att lätta på trycket i krävande arbetsmiljöer.
+Narren är känd för sin humor och förmåga att se livets ljusa sida. Denna arketype använder sin kvickhet och charm för att lättare hantera stressiga situationer och hålla stämningen uppe. De är sociala och ofta hjärtat i varje team, vilket hjälper till att lätta på trycket i krävande arbetsmiljöer.
 
 - **Psyke (PSY)**: +1
 - **Styrka (STY)**: -2
 - **Ba dum tss**: När denna förmåga aktiveras, berättar spelaren som styr Narren ett skämt. Om skämtet tas emot väl av gruppen (baserat på deras humör och reaktion), kan spelaren välja en rollperson, inklusive Narren själv, för att minska en (1) poäng **stress** som uppkommit under de senaste 5 minuterna. Misslyckas skämtet att landa väl, resulterar det i att Narren tar en (1) poäng **stress**.
+- **Pappaskämt**: Varje gång spelaren som styr Narren framför ett skämt i spelet, oavsett kontext, har de möjlighet att göra ett Handlingskast mot Karisma (KAR). Vid lyckat kast belönas Narren enligt följande: Vid första framgångsrika användningen under en spelsession, fyller Narren i en sektor på sin erfarenhetsklocka. Vid ytterligare framgångar med "Pappaskämt" under samma session, minskar Narren sin stress med ett (1) poäng istället. 
 
+\newpage
 ### Skaparen
 
 Skaparen är en kreativ kraft, driven av behovet att uttrycka sig och skapa något meningsfullt. Det är de som förnyar, uppfinner och skapar. Deras kreativitet är nyckeln till innovation och problemlösning, och de är ofta de som leder vägen i utvecklings- och designprojekt.
@@ -80,7 +95,9 @@ Skaparen är en kreativ kraft, driven av behovet att uttrycka sig och skapa någ
 - **Styrka (STY)**: -2
 - **Karisma (KAR)**: -2
 - **Skaparglädje**: När Skaparen arbetar med en syssla som kräver betydande insats, motsvarande tio (10) eller fler sektorer på en progressklocka, utför de alla relevanta Handlingskast med **fördel**. Men, när de närmar sig slutförandet av projektet, specifikt under arbetet med de sista tre (3) sektorerna, växer pressen och för varje arbetspass där Skaparen bidrar till sysslan utan att färdigställa den, ackumulerar de en (1) poäng **stress**.
+- **Kreativ inspiration**: Skaparen kan förstärka kreativiteten hos en grupp eller enskild individ genom ett Handlingskast mot Karisma (KAR). Om kastet är framgångsrikt, får alla berörda individer +1 till valfri grundegenskap vid sitt nästa Handlingskast för en syssla. För varje syssla som framgångsrikt avslutas med hjälp av denna ökade kreativitet, belönas Skaparen med en sektor på sin erfarenhetsklocka. Om det ursprungliga Handlingskastet mot Karisma (KAR) misslyckas, tar Skaparen en (1) poäng stress.
 
+\newpage
 ### Härskaren
 
 Härskaren är en ledare som utstrålar auktoritet och förtroende. Med en stark tro på sin förmåga att bringa ordning och effektivitet, styr de med en fast hand och har en naturlig benägenhet att ta kommandot i alla situationer. Makthavaren är inte bara stabil och målinriktad, utan strävar också efter att uppnå förträfflighet i allt de gör och förväntar sig att andra följer deras exempel och ledning.
@@ -88,7 +105,9 @@ Härskaren är en ledare som utstrålar auktoritet och förtroende. Med en stark
 - **Karisma (KAR)**: +2
 - **Intelligens (INT)**: -4
 - **Dominans**: När Härskaren interagerar med Spelledarkaraktärer vars Psyke (PSY) är lägre än åtta (8) plus Härskarens poäng i förmågan "Universalgeni", utförs alla Handlingskast som involverar påverkan, övertalning eller kommando med **fördel**. Framgångsrik användning av denna förmåga belönar Härskaren med en sektor på sin erfarenhetsklocka.
+- **Strategisk plan**: Härskaren har förmågan att noggrant utforma en detaljerad plan, bestående av en serie genomförbara steg. Spelaren presenterar planen, som en lista över specifika åtgärder och deras tänkta ordningsföljd. Alla individer som aktivt deltar i genomförandet av planen får utföra sina nästa relevanta Handlingskast med fördel, förutsatt att de följer planens steg och dessa steg lyckas. Om något steg i planen misslyckas, anses hela planen falla. Härskaren kan endast upprätthålla en aktiv plan åt gången.
 
+\newpage
 ### Magikern
 
 Magikern är en transformerande kraft, som använder sin kunskap för att skapa förändring. De är experter på att tänka på nya sätt och använda sin kreativa energi för att omsätta idéer till verklighet. De är lösningssökare som kan vända problem till möjligheter och har en nästan magisk förmåga att se möjligheter där andra ser hinder.
@@ -97,8 +116,10 @@ Magikern är en transformerande kraft, som använder sin kunskap för att skapa 
 - **Psyke (PSY)**: +1
 - **Karisma (KAR)**: -2
 - **Styrka (STY)**: -2
-- **Omvänd realitet**: Två gånger per dag kan Magikern välja att aktivera "Omvänd realitet" på ett Handlingskast utfört av sig själv eller en annan rollperson. När denna förmåga används, blir kastets framgångskriterier omvända – det vill säga, ett resultat som normalt skulle betraktas som ett misslyckande (en siffra högre än rollpersonens grundegenskap) blir istället ett framgångsrikt utfall.
+- **Omvänd realitet**: Två gånger per dag kan Magikern välja att aktivera "Omvänd realitet" på ett Handlingskast utfört av sig själv eller en annan rollperson. När denna förmåga används, blir kastets framgångskriterier omvända -- det vill säga, ett resultat som normalt skulle betraktas som ett misslyckande (en siffra högre än rollpersonens grundegenskap) blir istället ett framgångsrikt utfall.
+- **Subliminärt flöde**: En gång per dag kan Magikern ta två **stress** och aktivera "Subliminärt flöde" på sig själv eller en annan individ under en arbetsperiod. Vid framgångsrikta Handlingskast i sysslor som utförs av individen, fördubblas framstegen på den tillhörande progressklockan fram till dagens slut.
 
+\newpage
 ### Hjälparen
 
 Hjälparen är den stödjande och omtänksamma. De står ofta bakom sina kollegor, ger stöd och uppmuntran. De är empatiska och omtänksamma, och deras förmåga att förstå andra människors behov gör dem till ovärderliga medlemmar i alla team.
@@ -109,26 +130,41 @@ Hjälparen är den stödjande och omtänksamma. De står ofta bakom sina kollego
 - **Fysik (FYS)**: -2
 - **Smidighet (SMI)**: -1
 - **God natt**: Hjälparen kan en gång varje dag använda "God natt" för att garantera djup och störningsfri sömn för sig själv eller en annan rollperson. Målet får **fördel** på alla kast under nästa sömnfas och är immun mot störningar eller negativa effekter under natten. Alternativt kan Hjälparen tvinga en Spelledarkaraktär att göra ett Motståndsslag för Psyke (PSY) - 6. Vid misslyckande somnar Spelledarkaraktären djupt i upp till 30 minuter om de inte störs.
+- **Befriande ord**: Två gånger per dag kan Hjälparen neutralisera ett temporärt tillstånd hos en individ (Rollperson eller Spelledarkaraktär). Hjälparen måste utföra ett Handlingskast mot Intelligens (INT), men med **nackdel**. Vid framgång lyfts det temporära tillståndet omedelbart från den berörda individen.
 
+\newpage
 ### Förälskaren
 
-Förälskaren är driven av passion, känslor och relationer. I "Panoptikon" utmärker de sig genom sin förmåga att skapa starka band och inspirera andra. De är karismatiska och lockar till sig andra med sin energi och entusiasm, vilket gör dem till utmärkta nätverkare och kommunikatörer.
+Förälskaren är driven av passion, känslor och relationer. De utmärker sig genom sin förmåga att skapa starka band och inspirera andra. De är karismatiska och lockar till sig andra med sin energi och entusiasm, vilket gör dem till utmärkta nätverkare och kommunikatörer.
 
 - **Karisma (KAR)**: +3
 - **Intelligens (INT)**: -5
 - **Styrka (STY)**: -1
-- **Moralboost**: Din charm och karisma gör att du kan övertala och påverka andra effektivt.
+- **Empatisk läsning**: Förälskaren kan en gång per dag utan Handlingskast identifiera känslotillstånd hos en individ (Rollperson eller Spelledarkaraktär). Vid ytterligare användning, krävs ett Handlingskast mot Psyke (PSY), där Förälskaren har kast till **fördel**.
+- **Andas**: Med ett framgångsrikt Karisma (KAR) slag, kan Förälskaren genast lugna en upprörd person. Denna handling ger berörda Rollpersoner fördel i nästa Psyke (PSY) relaterat Handlingskast eller Motståndskast. Fördelen varar tills den används eller till nästa sömnperiod.
 
+\newpage
 ### Skurken
 
-Skurken i "Panoptikon" är en mästare på manipulation och maktspel. De är strategiska tänkare som ofta agerar bakom kulisserna för att främja sina egna syften. Skickliga i att utnyttja situationer och människor till sin fördel, utmärker de sig genom att alltid ligga ett steg före och ha en plan för allt. Deras styrka ligger i förmågan att se och utnyttja systemets och individernas svagheter.
+Skurken är en mästare på manipulation och maktspel. De är strategiska tänkare som ofta agerar bakom kulisserna för att främja sina egna syften. Skickliga i att utnyttja situationer och människor till sin fördel, utmärker de sig genom att alltid ligga ett steg före och ha en plan för allt. Deras styrka ligger i förmågan att se och utnyttja systemets och individernas svagheter.
 
 - **Intelligens (INT)**: +2
 - **Psyke (PSY)**: +1
 - **Karisma (KAR)**: -2
 - **Smidighet (SMI)**: -2
 - **Styrka (STY)**: -2
-- **Maktspel**: ...
+- **Bemästrad manipulation**: Varje gång Skurken utför ett Handlingskast med Karisma (KAR) för att psykiskt påverka en Rollperson eller Spelledarkaraktär, tillkommer en extra tärning (T6) som specifikt används för att temporärt öka Skurkens Karisma-värde för det kastet.
+- **Intimiderande närvaro**: Genom att ta två **stress** och sedan slå ett lyckat Handlingskast mot Intelligens (INT) eller Styrka (STR), kan Skurken framkalla det temporära tillståndet "Rädd" eller "Uppgiven" hos en individ.
+
+
+## Namn
+
+Namnet på din rollperson är mer än bara en etikett -- det är en del av deras identitet och berättar en historia om vem de är. I spelvärlden är ett namn en spegling av din rollpersons bakgrund, kulturella arv och deras individuella egenskaper. När du väljer ett namn till din rollperson, överväg hur det passar in i den värld de lever i och hur det kan påverka deras interaktioner med andra karaktärer.
+
+- **Personligt och unikt:** Välj ett namn som känns personligt och betydelsefullt för din rollperson. Det kan reflektera deras personlighet, ursprung eller till och med deras livshistoria.
+- **Kulturell kontext:** Tänk på den kulturella eller geografiska bakgrunden din rollperson kommer ifrån. Detta kan påverka typen av namn de skulle ha.
+- **Betydelse och symbolik:** Vissa namn bär med sig specifika betydelser eller associationer. Överväg om dessa element är relevanta för din rollpersons karaktär och berättelse.
+- **Uttal och skrivning:** Tänk på hur namnet uttalas och skrivs. Ett lättuttalat och minnesvärt namn kan underlätta för andra spelare och spelledaren.
 
 ### Namnförslag
 
@@ -158,40 +194,11 @@ Efternamnen är designade för att komplettera förnamnen och lägga till ytterl
 | 4   | Gryningsson  | 9   | Nattbacka    | 14  | Stjärnfall   | 19  | Vinterstorm  |
 | 5   | Havsdal      | 10  | Silversköld  | 15  | Stormvind    | 20  | Åskvigg      |
 
-
-## Språk
-
-Effektiv kommunikation är central för samarbetet och de dagliga operationerna inom "Panoptikon". Språket som talas i varje region av spelets värld underlättar intern kommunikation och samverkan.
-
-### Lokalt
-
-Det lokala språket varierar beroende på spelets geografiska placering. I varje region av "Panoptikons" värld har rollpersonerna kunskap i regionens dominerande språk som en grundläggande del av deras kommunikationsförmåga.
-
-### Externt
-
-Kommunikation med personer utanför din region kräver ofta kunskap i andra språk. Här blir färdigheten **Främmande språk** avgörande för framgångsrik interaktion. Genom att investera poäng i denna färdighet kan din rollperson lära sig ytterligare språk, vilket breddar dess förmåga att kommunicera effektivt i en internationell miljö.
-
-Du kan alltid försöka kommunicera på andra språk genom att göra ett Handlingskast, men detta är osäkert och beror på tur och improvisation.
-
-### Språktabell
-
-Denna tabell representerar en lista över språk i "Panoptikon". Var och en med en unik kulturell och språklig blandning som speglar världens mångfald.
-
-| **Språk**  | **Beskrivning**                                                               |
-|------------|-------------------------------------------------------------------------------|
-| Solantica  | En blandning av romanska språk med latinska toner.                           |
-| Nordhymia  | Inspirerad av nordiska språk, med inslag från finska och isländska.          |
-| Estoria    | En fusion av östeuropeiska språk, med influenser från baltiska språk.        |
-| Meridiane  | En kombination av afrikanska språk, blandat med arabiska och swahili.        |
-| Paciforia  | En blandning av språk från Stillahavsregionen, inklusive maori och filippinska. |
-| Aurorasia  | En sammanslagning av asiatiska språk, med en touch av sydostasiatiska språk. |
-
-
 ## Utbildning
 
-Nästa steg är att ge din rollperson en utbildning. Alla är ni anställda på Panoptikon, men ni har alla olika historier som har format era kunskaper, färdigheter och erfarenheter. Din utbildning är en grundläggande del av din karaktärs bakgrund och spelar en avgörande roll i vilka färdigheter du börjar med. Den påverkar inte bara din karaktärs expertisområden, utan också hur de ser på världen och löser de utmaningar de ställs inför.
+Nästa steg är att ge din rollperson en utbildning. Alla är ni anställda på samma bolag, men ni har alla olika historier som har format era kunskaper, färdigheter och erfarenheter. Din utbildning är en grundläggande del av din karaktärs bakgrund och spelar en avgörande roll i vilka färdigheter du börjar med. Den påverkar inte bara din karaktärs expertisområden, utan också hur de ser på världen och löser de utmaningar de ställs inför.
 
-Varje utbildning representerar en unik inriktning och karriärväg, och ger en inblick i den typ av arbete och ansvar din rollperson skulle ha haft innan de blev en del av "Panoptikon". Välj en utbildning som inte bara etablerar din rollpersons färdigheter, utan också berikar deras personliga berättelse.
+Varje utbildning representerar en unik inriktning och karriärväg, och ger en inblick i den typ av arbete och ansvar din rollperson skulle ha haft innan de blev en del av organisationen. Välj en utbildning som inte bara etablerar din rollpersons färdigheter, utan också berikar deras personliga berättelse.
 
 | **T12**    | **Utbildning**         | **T12**    | **Utbildning**         |
 |:----------:|------------------------|:----------:|------------------------|
@@ -295,7 +302,7 @@ Utforskandet och definitionen av din rollpersons könsidentitet är ett viktigt 
 | 5,6     | Transkvinna                  | Du föddes med könet man men identifierar dig som kvinna. |
 | 7,8     | Transman                     | Du föddes med könet kvinna men identifierar dig som man. |
 | 9,10    | Icke-binär                   | Du identifierar dig inte strikt som man eller kvinna. |
-| 11,12   | Könfluid                     | Du upplever ditt kön som föränderligt över tid. |
+| 11,12   | Könsskiftande                | Du upplever ditt kön som föränderligt över tid. |
 | 13,14   | Tredje könet                 | Du identifierar med det tredje könet. |
 | 15,16   | Agender                      | Du känner att du saknar koppling till traditionella könskoncept. |
 | 17,18   | Bigender                     | Du identifierar dig med två kön samtidigt. |
@@ -318,18 +325,9 @@ Tabellen för sexuell orientering är framtagen för att inspirera och vägleda 
 | 17,18   | Polysexuell             | Du är attraherad av många, men inte alla kön.  |
 | 19,20   | Heteroflexibel          | Du är huvudsakligen heterosexuell men öppen för andra attraktioner. |
 
-## Namn
-
-Namnet på din rollperson är mer än bara en etikett -- det är en del av deras identitet och berättar en historia om vem de är. I "Panoptikon" är ett namn en spegling av din rollpersons bakgrund, kulturella arv och deras individuella egenskaper. När du väljer ett namn till din rollperson, överväg hur det passar in i den värld de lever i och hur det kan påverka deras interaktioner med andra karaktärer.
-
-- **Personligt och unikt:** Välj ett namn som känns personligt och betydelsefullt för din rollperson. Det kan reflektera deras personlighet, ursprung eller till och med deras livshistoria.
-- **Kulturell kontext:** Tänk på den kulturella eller geografiska bakgrunden din rollperson kommer ifrån. Detta kan påverka typen av namn de skulle ha.
-- **Betydelse och symbolik:** Vissa namn bär med sig specifika betydelser eller associationer. Överväg om dessa element är relevanta för din rollpersons karaktär och berättelse.
-- **Uttal och skrivning:** Tänk på hur namnet uttalas och skrivs. Ett lättuttalat och minnesvärt namn kan underlätta för andra spelare och spelledaren.
-
 ## Ägodelar
 
-En ägodel är mer än bara en personl tillhörighet; det är symbolen för din rollpersons unika historia, färdigheter och till och med deras öde. Varje spelare får välja en ägodel som tillför en distinkt fördel eller förmåga till deras rollperson. Dessa objekt är inte bara praktiska verktyg, utan de kan också bära emotionellt värde eller en speciell betydelse för rollpersonen.
+En ägodel är mer än bara en personlig tillhörighet; det är symbolen för din rollpersons unika historia, färdigheter och till och med deras öde. Varje spelare får välja en ägodel som tillför en distinkt fördel eller förmåga till deras rollperson. Dessa objekt är inte bara praktiska verktyg, utan de kan också bära emotionellt värde eller en speciell betydelse för rollpersonen.
 
 - Varje spelare kan endast ha en (1) **ägodel** åt gången.
 - Välj en ägodel från listan som kompletterar din rollpersons karaktär eller som du finner intressant för din spelstil.
@@ -376,7 +374,7 @@ Konceptet med bärförmåga hanterat med en flexibel och realistisk inställning
 
 ## Utseende
 
-Utseendet på din rollperson i "Panoptikon" är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.
+Utseendet på din rollperson är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.
 
 | **T20** | **Utseende**                    | **T20** | **Utseende**                    |
 |:-------:|---------------------------------|:-------:|---------------------------------|
@@ -391,4 +389,30 @@ Utseendet på din rollperson i "Panoptikon" är mer än bara ett yttre attribut;
 | 9       | Ovanlig ögonfärg                | 19      | Buskiga ögonbryn                |
 | 10      | Naturligt lockigt hår           | 20      | Särskilt anmärkningsvärda öron  |
 
+## Språk
+
+Effektiv kommunikation är central för samarbetet och de dagliga operationerna inom spelvärlden. Språket som talas i varje region av spelets värld underlättar intern kommunikation och samverkan.
+
+### Lokalt
+
+Det lokala språket varierar beroende på spelets geografiska placering. I varje region av "Panoptikons" värld har rollpersonerna kunskap i regionens dominerande språk som en grundläggande del av deras kommunikationsförmåga.
+
+### Externt
+
+Kommunikation med personer utanför din region kräver ofta kunskap i andra språk. Här blir färdigheten **Främmande språk** avgörande för framgångsrik interaktion. Genom att investera poäng i denna färdighet kan din rollperson lära sig ytterligare språk, vilket breddar dess förmåga att kommunicera effektivt i en internationell miljö.
+
+Du kan alltid försöka kommunicera på andra språk genom att göra ett Handlingskast, men detta är osäkert och beror på tur och improvisation.
+
+### Språktabell
+
+Denna tabell representerar en lista över språk i "Panoptikon". Var och en med en unik kulturell och språklig blandning som speglar världens mångfald.
+
+| **Språk**  | **Beskrivning**                                                               |
+|------------|-------------------------------------------------------------------------------|
+| Solantica  | En blandning av romanska språk med latinska toner.                            |
+| Nordhymia  | Inspirerad av nordiska språk, med inslag från finska och isländska.           |
+| Estoria    | En fusion av östeuropeiska språk, med influenser från baltiska språk.         |
+| Meridiane  | En kombination av afrikanska språk, blandat med arabiska och swahili.         |
+| Paciforia  | En blandning av språk från Stillahavsregionen, inklusive maori och filippinska. |
+| Aurorasia  | En sammanslagning av asiatiska språk, med en touch av sydostasiatiska språk.  |
 

@@ -1,6 +1,6 @@
 # Erfarenhet och utveckling
 
-Varje rollperson i "Panoptikon" ackumulerar erfarenhet genom en erfarenhetsklocka. Denna klocka består av sex (6) sektorer och reflekterar rollpersonens lärande och utveckling.
+Varje rollperson ackumulerar erfarenhet genom en erfarenhetsklocka. Denna klocka består av sex (6) sektorer och reflekterar rollpersonens lärande och utveckling.
 
 - När erfarenhetsklockan är helt fylld, erhåller rollpersonen ett (1) erfarenhetspoäng.
 - Efter att ett poäng erhållits, återställs klockan för fortsatt ackumulering av erfarenhet.

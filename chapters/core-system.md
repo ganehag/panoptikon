@@ -10,7 +10,7 @@
 
 \index{Arbetsdag}
 
-I "Panoptikon" är arbetsdagen en central del av spelet, och den består av tre huvudsegment: arbete, återhämtning, och sömn. Dessa segment speglar en typisk dag i rollpersonernas liv och ger struktur åt spelarnas handlingar.
+Arbetsdagen är den central kärnan i spelet och består av tre huvudsegment: arbete, återhämtning, och sömn. Dessa segment speglar en typisk dag i rollpersonernas liv och ger struktur åt spelarnas handlingar.
 
 **Arbete**: Under arbetsfasen fokuserar spelarna på de uppgifter och utmaningar som deras rollpersoner står inför. Dessa aktiviteter kan vara långsiktiga och sträcka sig över flera arbetsdagar. Genom tärningskast avgörs framstegen i dessa uppgifter, vilket skapar möjligheter för spänning och utveckling.
 
@@ -40,7 +40,7 @@ I förståelsen av rollspelsvärlden är tärningsslag en central del. Förestä
 
 \index{Bedömningsbeslut}
 
-När du spelar "Panoptikon" kommer du att fatta flera viktiga beslut. Alla bidrar, men antingen spelarna eller spelledaren har slutgiltigt bestämmande över olika aspekter:
+När du spelar kommer du att fatta flera viktiga beslut. Alla bidrar, men antingen spelarna eller spelledaren har slutgiltigt bestämmande över olika aspekter:
 
 - Spelarna bestämmer vilka handlingar som är rimliga lösningar på ett problem.
 - Spelarna identifierar och beslutar vilka moment i spelets berättelse som bidrar till deras karaktärers utveckling.
