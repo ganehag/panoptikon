@@ -1,6 +1,6 @@
 # Akter
 
-En akt en samling dokument som utgör ett "äventy". En akt deklarerar vanligtvis;
+En akt en samling dokument som utgör ett "äventyr". En akt deklarerar vanligtvis;
 
 1. **Uppdragsbeskrivning:** En detaljerad översikt av äventyret eller uppdraget, inklusive mål och syfte.
 2. **Bakgrundsinformation:** Historisk eller kontextuell information som är relevant för ärendet, såsom händelser, platser, eller viktiga figurer.

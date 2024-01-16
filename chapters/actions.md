@@ -107,7 +107,7 @@ Kast med nackdel kan tillämpas i situationer där din rollperson är hindrad, u
 
 Under spelets gång kommer det att uppstå situationer där din rollperson utsätts för yttre påverkan eller utmaningar som kräver ett aktivt motstånd. Dessa situationer hanteras genom motståndskast, där du som spelare slår tärningar för att avgöra hur din rollperson klarar sig. Typen av egenskap som används beror på situationens natur.
 
-Motståndskast fungerar precis som handlinskast och slås även med en T20.
+Motståndskast fungerar precis som Handlingskast och slås även med en T20.
 
 ### Exempel på motståndssituationer
 
@@ -137,7 +137,7 @@ Inspiration kan användas endast en gång innan den är förbrukad och en spelar
 
 - Kast tärning på nytt utan att behöva pressa ett kast.
 - Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.
-- Göra ett (1) poäng framsteg i en (1) progressklocka utan att slå tärning för varken handling eller framstegspoäng.
+- Göra ett (1) poäng framsteg i en (1) Progressklocka utan att slå tärning för varken handling eller framstegspoäng.
 
 ## Spelledarkaraktärers handlingar
 
