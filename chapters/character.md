@@ -349,7 +349,7 @@ Konceptet med bärförmåga hanterat med en flexibel och realistisk inställning
 ### Kontinuerlig belastning
 
 - Om din rollpersoner behöver bära tunga föremål under längre perioder, kan flera kontinuerliga Motståndslag mot Styrka (STY) krävas för att upprätthålla förmågan att bära dessa vikter.
-- Misslyckade slag kan leda till **stress** eller till och med **tillfälliga tillstånd**.
+- Misslyckade slag kan leda till **stress** eller **tillfälliga tillstånd**.
 
 ## Utseende
 

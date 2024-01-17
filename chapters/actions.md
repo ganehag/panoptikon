@@ -2,7 +2,9 @@
 
 ## Grundegenskaper
 
-Din Rollpersons handlingsförmåga styrs av sex grundläggande egenskaper.
+Din Rollpersons förmåga att agera och påverka världen runtomkring styrs av sex grundläggande egenskaper. Dessa egenskaper varierar på en skala från 2 till 18, där ett högre värde indikerar en starkare eller mer utvecklad egenskap. Ett lägre värde representerar en svagare eller mindre framträdande egenskap.
+
+**Startvärden**: För att fastställa varje av de sex grundläggande egenskaperna hos din Rollperson, börja med att slå fyra sexsidiga tärningar (4T6). Ta sedan bort både den högsta och den lägsta tärningen från varje kast. Summan av de återstående två tärningarna ger ett värde mellan 2 och 12. Placera detta värde på en valfri grundegenskap. Upprepa processen tills alla grundegenskaper har tilldelats värden. Efter att alla grundegenskaper har fått sina startvärden, får du fördela ytterligare 6 extra poäng över valfria grundegenskaper hur du önskar. Observera att du aldrig kan ha ett värde högre än 18 på någon grundegenskap.
 
 - **Styrka (STY):** Styrka representerar rollpersonens fysiska kraft och förmåga att utföra uppgifter som kräver muskelkraft. Det inkluderar allt från att lyfta tunga föremål till att kämpa fysiskt. En hög Styrka är avgörande för karaktärer som förlitar sig på fysisk makt.
 - **Fysik (FYS):** Fysik indikerar rollpersonens uthållighet, hälsa och allmänna fysiska kondition. Det påverkar deras förmåga att uthärda påfrestningar, motstå sjukdomar och återhämta sig från skador. Karaktärer med hög Fysik kan hantera fysiska påfrestningar bättre än andra.

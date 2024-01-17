@@ -41,7 +41,7 @@ Efter att ha besvarat frågorna och ackumulerat dina tärningar, är det dags f�
 
 #### Oanad komplexitet
 
-Om en syssla redan från början ska vara särskilt utmanande, har Spelledaren rätt att lägga till en extra dimension av komplexitet. Detta görs genom att kasta en T20, vars resultat läggs till som ytterligare segment till sysslans progressklocka. För uppgifter som är exceptionellt svåra, får Spelledaren utföra detta T20-kast med **fördel**.
+Om en syssla redan från början ska vara särskilt utmanande, har Spelledaren rätt att lägga till en extra dimension av komplexitet. Detta görs genom att slå 1T20, vars resultat läggs till som ytterligare segment till sysslans progressklocka. För uppgifter som är exceptionellt svåra, får Spelledaren utföra detta T20-kast med **fördel**.
 
 ### Utförande av sysslor
 

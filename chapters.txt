@@ -9,6 +9,6 @@ recuperation.md
 advancement.md
 abilities.md
 character.md
-divisions.md
+world.md
 acts.md
 appendices.md
