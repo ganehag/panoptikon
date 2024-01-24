@@ -1,3 +1,8 @@
+<figure align="center">
+  <img src="resources/banner-logo.svg" alt="Panoptikon logo" width="20rem">
+  <figcaption>Omne Universum Texentes</figcaption>
+</figure>
+
 # Panoptikon - A Tabletop Role-Playing Game
 
 ## Introduction
