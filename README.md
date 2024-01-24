@@ -1,5 +1,5 @@
 <figure align="center">
-  <img src="resources/banner-logo.svg" alt="Panoptikon logo" width="20rem">
+  <img src="resources/banner-logo.svg" alt="Panoptikon logo" width="25%">
   <figcaption>Omne Universum Texentes</figcaption>
 </figure>
 
