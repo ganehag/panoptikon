@@ -1,4 +1,4 @@
-# Akter
+# Formulera en akt
 
 En akt en samling dokument som utgör ett "äventyr". En akt deklarerar vanligtvis;
 
@@ -12,4 +12,6 @@ En akt en samling dokument som utgör ett "äventyr". En akt deklarerar vanligtv
 8. **Juridiska Dokument:** Lagtexter, regler, kontrakt eller andra juridiska dokument som kan vara relevanta för ärendet.
 9. **Säkerhetsprotokoll:** Information om säkerhetsåtgärder, kodningar eller skyddsåtgärder som kan vara relevant för uppdraget.
 10. **Personliga Anteckningar:** Anteckningar eller dagboksutdrag från personer som är involverade i ärendet.
+
+
 

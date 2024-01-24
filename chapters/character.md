@@ -1,6 +1,9 @@
-# Din rollperson
 
 ![](resources/character-hero-2.png)
+
+\newpage
+
+# Din rollperson
 
 Du har friheten att skapa en rollperson som verkligen speglar din fantasi och kreativitet. Här finns inga traditionella gränser för vad din karaktär kan vara. Oavsett kön, bakgrund, eller personlighetstyp, kan din rollperson representera en mängd olika identiteter och egenskaper. Denna öppenhet uppmuntrar till utforskande av olika perspektiv och ger dig möjligheten att gestalta en karaktär som ligger utanför vanliga stereotyper eller begränsningar.
 
@@ -386,12 +389,12 @@ Du kan alltid försöka kommunicera på andra språk genom att göra ett Handlin
 
 Denna tabell representerar en lista över språk i "Panoptikon". Var och en med en unik kulturell och språklig blandning som speglar världens mångfald.
 
-| **Språk**  | **Beskrivning**                                                               |
-|------------|-------------------------------------------------------------------------------|
-| Solantica  | En blandning av romanska språk med latinska toner.                            |
-| Nordhymia  | Inspirerad av nordiska språk, med inslag från finska och isländska.           |
-| Estoria    | En fusion av östeuropeiska språk, med influenser från baltiska språk.         |
-| Meridiane  | En kombination av afrikanska språk, blandat med arabiska och swahili.         |
-| Paciforia  | En blandning av språk från Stillahavsregionen, inklusive maori och filippinska. |
-| Aurorasia  | En sammanslagning av asiatiska språk, med en touch av sydostasiatiska språk.  |
+| **Språk**   | **Beskrivning**                                                                 |
+|-------------|---------------------------------------------------------------------------------|
+| Solantica   | En fusion av de latinska och romanska språken, präglad av poetisk skönhet.      |
+| Nordhymia   | Ett robust språk med rötter i vikingarnas kultur, spridit över norra klotet.     |
+| Dravidiska  | Djupa rötter i sydligaste delen av världen, fylld av mystik och magiska konster. |
+| Meridiane   | En mosaik av afrikanska, arabiska och swahili-influenser, rik på handel och vishet. |
+| Paciforia   | Språket av hav och öar, en harmoni av maori, filippinska och andra öspråk.       |
+| Aurorasia   | En symfoni av språk från Fjärran Östern, känd för sin sofistikering och visdom. |
 

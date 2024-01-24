@@ -1,34 +1,29 @@
 # Världen
 
-Stig in i en värld som i första anblicken påminner om vår egen. Denna värld, ett kalejdoskop av språk, folkslag och kulturer, är också en plats där maktbalansen är bräcklig -- en värld där de starka oupphörligen utnyttjar de svaga och där företagens handlingar ofta kritiserats för att vara lika destruktiva som de är fördelaktiga.
+Stig in i en värld som vid första ögonkastet kan verka bekant. Ett kalejdoskop av språk, folkslag och kulturer som trots bättre vetande, ständigt strävar efter dominans. Det är en plats där maktbalansen är skör -- en värld där de starka oupphörligen utnyttjar de svaga, och där företagens agerande ofta kritiseras för att vara mer destruktivt än fördelaktigt.
 
-I denna komplexa och ibland paradoxala verklighet står Panoptikon-koncernen som en monolit -- inte bara ett företag, utan ett imperium. Detta bolag, vars inflytande sträcker sig över kontinenter, är en omnipresent aktör i varje politisk intrig, oavsett om dessa handlingar når mediernas ljus eller ej. Bolaget har under decennier transcenderat sin roll som en vanlig aktör på den globala scenen; de har blivit mer än en schackpjäs -- de är nu själva schackbrädet. Ett bräde på vilket världens maktspel nu utspelar sig.
+I denna komplexa och ibland paradoxala verklighet står Panoptikon-koncernen som en monolit -- inte bara ett företag, utan ett imperium. Detta bolag, vars inflytande sträcker sig över kontinenter, är ständigt närvarande i varje politisk intrig,  drivet av sina egna dolda agenda. Under de sista decennierna har Panoptikon vuxit ur sin roll som en vanlig aktör på den globala scenen; de har blivit mer än en pjäs -- de är nu själva brädet. Ett bräde på vilket världens maktspel nu utspelar sig.
 
-Ditt beslut att ansluta dig till Panoptikon kan ha grundat sig på flera anledningar. Kanske lockades du av den överdådiga ersättning som utlovas till och med de nyaste rekryterna. Eller kanske var det möjligheten att bli en del av något storslaget och överväldigande. Här, där ambition och makt blandas med hemligheter och intriger, formas en verklighet där allt tänkbart är möjligt och ingenting är så som det först tycks vara.
+Ditt beslut att ansluta dig till Panoptikon kan ha grundat sig på flera anledningar. Kanske lockades du av den generösa ersättning som utlovas till och med de nyaste rekryterna. Eller kanske var det möjligheten att ta del av något storslaget och överväldigande. Här, där ambition och makt blandas med hemligheter och intriger, formas en verklighet där allt tänkbart är möjligt och ingenting är som det först tycks vara.
 
-Dina exakta motiv förblir dock svepta i ett töcken av tvivel och osäkerhet. En känsla som delas av dina kollegor och när ni söker efter svaren, finner ni bara fler frågor. Är det kanske ödet som har fört er samman? Och om så är fallet, till vilket syfte? Du står nu inför den obehagliga och överväldigande möjligheten att dina handlingar, dina beslut från denna stund framöver, kan ha en direkt påverkan på framtiden för tusentals, ja, miljontals människor. Kanske till och med hela planetens öde.
+Dina exakta motiv förblir otydliga, även för dig själv. En känsla som delas av dina kollegor och när ni söker efter svar leder det bara fler frågor. Du står inför den obehagliga och överväldigande möjligheten att dina handlingar, dina beslut från denna stund framöver, avsiktligt eller inte, kan ha en direkt påverkan på framtiden för tusentals, ja, miljontals människor. Kanske till och med hela planeten.
 
-Frågan ekar i ditt sinnen om du är redo att axla en sådan monumental börda. Är du starka nog? Är ni starka -- tillsammans?
+Är det kanske ödet som har fört er samman? Och om så är fallet, till vilket syfte? 
 
-## Världshistoria
+Denna fråga ekar långt inne i ett skuggat medvetande.
 
-I Panoptikons värld har de små skillnaderna i historien vävt ett helt annat mönster än det vi är vana vid. 
+Har du det som krävs? Har ni det -- tillsammans?
 
-Det faktum att atombomben uppfanns av Storbritannien år 1917, ledde inte bara till en omfattande militär och politisk förändring, utan också till en djupgående omformning av den globala dynamiken. Med vetskapen om den destruktiva kraften hos kärnvapen, svarade världens nationer genom att snabbt bygga upp sina egna arsenaler, vilket skapade en spänd och instabil balans där hotet om ömsesidig förintelse blev en ständig realitet. Denna kapprustning, driven av rädsla och maktkamp, hängde som ett mörkt moln över världen i decennier.
+### Språkens utveckling
 
-Under kapprustningen fortsatte teknologiska framsteg i en markant takt. Maskiner och teknologi som folk endast hade fantiserat om i sciens-fiction historier blev plötsligt verklighet. Panoptikon, alltid i förgrunden av denna utveckling, växte sig starkare och mer inflytelserik med varje decennium som gick.
+Språkhistoriker är eniga om att något ytterst märkligt ägde rum för cirka 900 till 1000 år sedan. I en värld som tidigare var präglad av tusentals språk inträffade en oväntad konsolideringsprocess. Språk började långsamt dö ut och smälta samman med andra, vilket ledde till att en rad nya språkliga hybridformer uppstod. Detta fenomen kulminerade i bildandet av sex större språk, vilka sedan 1600-talet har varit de dominerande kommunikationsformerna.
 
-Lyckligtvis etablerades Förenta Nationerna 1936 med det uttalade syftet att övervaka och främja nedrustningen av kärnvapen. Att världens ledare kunde sammanstråla och enas om ett sådant historiskt beslut väckte hopp och lättnad hos människor världen över. Detta steg mot fred och samarbete kom dock oväntat, särskilt efter år av ökad spänning och konflikt, vilket ledde till att många undrade över de bakomliggande orsakerna till denna plötsliga förändring.
-
-Trots att Förenta Nationernas etablering och satsningen på kärnvapennedrustning bidrog till en period av relativa fred och stabilitet, föddes nya globala utmaningar och konflikter. Miljöförstöring, växande ekonomiska klyftor, påtryckningar från globaliseringen och den konstanta kampen om begränsade naturresurser blev framträdande frågor i den värld som gradvis tog form. Dessa nya utmaningar visade att även i en värld utan hot om kärnvapenkrig, finns det fortfarande många problem som behöver lösas.
-
-> TODO: Utveckla mer om vilka stora länder som existerar och varför språk är som det är.
-
-## Tid och plats
-
-När spelet tar har vi landat i 1960-talet. Det är en värld av färg, plast och överflöd -- i alla fall för de med pengar.
-
-> TODO: Mer text.
+- **Solantica** är ett språk av ljus och passion, en förtrollande fusion av de latinska och romanska språken, som har växt fram ur historiens djup. Denna soliga tungomål återspeglar en rik kultur, fylld av färgglada traditioner och en livfull historia. Solanticaner är kända för sin expressiva kommunikation, där varje ord och varje fras är en dans av ljud och betydelse. I Solanticas röst hörs ekon av antika riken och förlorade civilisationer, en värld där poesi och sång är lika viktiga som rikedom och makt. Dess skriftspråk är lika vackert som dess talade ord, med eleganta bokstäver som flödar över sidorna som floder av bläck.
+- **Nordhymia** är ett språk fött ur vikingarnas djärva själ och det sträva norra landskapet. Det började som vikingarnas tungomål, grovt och rått, men förvandlades genom åren till ett språk som nu binder samman en bred kultur. Nordhymia är känd för sin styrka och sitt enkla, men djupgående uttryck. Dess ord är som huggna ur sten, och dess rytm liknar trummornas i forna strider. Det är ett språk för hjältar och skalder, där varje fras kan vara en hyllning till gudar och hjältedåd.
+- **Dravidiska**: är språket som ekar från de uråldriga och mystiska landskapen i sydligaste delen av vår värld. Det är ett språk med djupa rötter, vars ljud och struktur skiljer sig markant från de nordliga tungomålen. Dravidiska är känt för sin melodiska ton och komplexa grammatik, vilket återspeglar en kultur som är lika rik på tradition som den är på innovation.
+- **Meridiane**: är språket av sand och stjärnor, en fascinerande mosaik av afrikanska, arabiska och swahili-influenser. Det uppstod i korsvägen av handelsvägar och kulturmöten, och har utvecklats till ett rikt och mångfacetterat kommunikationsverktyg. Med sitt melodiska flöde och sin rytmiska tonalitet, är Meridiane lika varierande och färgstark som de marknader och karavaner där det oftast hörs.
+- **Aurorasia**: är en symfoni av språk från Fjärran Östern, en fascinerande blandning av asiatiska och sydostasiatiska dialekter. Detta språk är lika mångsidigt och komplex som de många kulturerna och nationerna det förenar. Aurorasia har utvecklats genom århundraden av handel, krig, och kulturell utbyte, vilket har skapat ett unikt och mångfacetterat kommunikationssätt. Det är ett språk som flyter lika elegant som penseldrag på ett sidenark, och dess skriftsystem är lika konstnärligt som det är funktionellt. Varje tecken och varje tonfall berättar en historia om dess folk och deras arv.
+- **Oceanique** är en sång av vind och vågor, en fascinerande blandning av språk från Stillahavsregionen, där toner från maori, filippinska och andra öspråk smälter samman. Detta språk är en levande hyllning till havets folk, vars historia sträcker sig över oräkneliga öar och vidsträckta havsområden. Med dess melodiska rytm och flytande toner är Oceanique en glädje för örat och en bro mellan de många kulturerna i denna rika och dynamiska region.
 
 ## Panoptikons ursprung
 

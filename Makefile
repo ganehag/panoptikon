@@ -2,8 +2,14 @@
 
 # Variables
 CHAPTERS := $(addprefix chapters/,$(shell cat chapters.txt))
+ACTS := $(addprefix adventures/,$(shell cat acts.txt))
+
 METADATA := metadata/page.yaml
+ACTS_METADATA := metadata/acts_page.yaml
+
 OUTPUT := manual.pdf
+ACTS_OUTPUT := acts.pdf
+
 LANGUAGE := sv-SE
 COLUMNS := 1
 RESOURCEDIR := resources
@@ -14,7 +20,8 @@ PDF_RESOURCES := $(SVG_SOURCES:%.svg=%.pdf)
 EISVOGEL_PATH = template/eisvogel.latex
 
 # Pandoc options
-PANDOC_OPTS = --pdf-engine=xelatex --template $(EISVOGEL_PATH) --metadata-file=$(METADATA) --top-level-division=chapter
+PANDOC_OPTS = --toc --pdf-engine=xelatex --template $(EISVOGEL_PATH) --top-level-division=chapter
+# --lua-filter=filters/short-captions.lua
 
 # Pandoc command
 # -V multicol=$(COLUMNS) --toc
@@ -24,12 +31,15 @@ all: $(OUTPUT)
 
 # Rule to build PDF
 $(OUTPUT): $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
-	pandoc $(CHAPTERS) $(PANDOC_OPTS) --output manual.pdf
+	pandoc $(CHAPTERS) $(PANDOC_OPTS) --metadata-file=$(METADATA) --output $@
 	# xelatex -jobname=manual content.tex
 	# xelatex -jobname=manual content.tex
 
 content.md: $(CHAPTERS) $(METADATA) $(PDF_RESOURCES)
-	pandoc $(CHAPTERS) --output content.md --metadata-file=$(METADATA) --top-level-division=chapter
+	pandoc $(CHAPTERS) --metadata-file=$(METADATA) --top-level-division=chapter --output $@
+
+$(ACTS_OUTPUT): $(ACTS) $(ACTS_METADATA) $(PDF_RESOURCES)
+	pandoc $(ACTS) $(PANDOC_OPTS) --metadata-file=$(ACTS_METADATA) --output $@
 
 resources/%.pdf: resources/%.svg
 	rsvg-convert -f pdf -o $@ $<

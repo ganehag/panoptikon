@@ -1,14 +1,14 @@
 ---
 lang: "sv-SE"
 book: true
-# classoption: oneside
+classoption: oneside
 documentclass: book
 title: "Panoptikon"
 #  author: [Mikael Ganehag Brorsson]
-subject: "Rulebook"
+subject: "Aktsamling"
 date: "Utgåva I"
 keywords: [Panoptikon, Role-Playing Game, Strategy, Corporate Adventures]
-subtitle: "Omne Universum Texentes"
+subtitle: "Aktsamling"
 footer-left: "© 2024 Mikael Ganehag Brorsson"
 mainfont: "Atkinson Hyperlegible"
 sansfont: "Atkinson Hyperlegible"
@@ -22,7 +22,7 @@ toc: true
 toc-depth: 2
 toc-own-page: true
 # titlepage-logo: "resources/corporation-logo.pdf"
-titlepage-background: "resources/book-cover-1.pdf"
+# titlepage-background: "resources/book-cover-1.pdf"
 logo-width: 20mm
 geometry: "a4paper"
 # geometry: "a4paper, left=2cm, right=2cm, top=2.5cm, bottom=3cm"
