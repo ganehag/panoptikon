@@ -8,10 +8,6 @@ Välkommen till Panoptikon. I denna handbok hittar du alla regler som behövs f�
 
 Panoptikon är en mystisk och multifacetterad organisation som du nu är en del av. Dess exakta verksamhet är inte tydligt definierad och omges av en aura av hemlighetsfullhet. Det är en plats där traditionella affärsstrategier blandas med okända mål och metoder. Som anställd kommer du att utforska dess komplexa och ibland oförutsägbara värld, där dina handlingar och beslut bidrar till dess fortgående berättelse och utveckling.
 
-```admonish info title="Terminologi"
-Termen panoptikon utformad av den brittiske filosofen Jeremy Bentham i slutet av 1700-talet som en typ av fängelsebyggnad. Konstruktionen består av ett övervakningstorn omgivet av en rund byggnad indelad i tårtbitsliknande celler utan dörrar. Övervakaren kan när som helst observera vilken fånge som helst, medan den enskilde fången inte kan avgöra om den blir övervakad eller inte. Detta skapar enligt Bentham en "känsla av ett osynligt allvetande". Denna arkitektur och filosofi syftar till att få de kriminella att byta handlingsmönster till ett socialt acceptabelt, behandla snarare än bestraffa de intagna​​.
-```
-
 ## Vad är rollspel?
 
 I detta spel är målet att gemensamt hantera både förväntade och oväntade situationer i det dagliga arbetet. Spelet fokuserar på samarbete, där spelarna tillsammans arbetar för att lösa utmaningar och problem. Det är inte en tävling mot varandra, utan en kamp mot omvärlden, med målet att främja lärande och förståelse för alla. Genom att navigera i spelets komplexa scenarier, stärker ni era färdigheter i problemlösning och strategiskt tänkande, samtidigt som ni upplever spänningen i att lösa problem innan de uppstår i verkligheten.
