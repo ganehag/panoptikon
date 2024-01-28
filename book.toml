@@ -21,3 +21,7 @@ assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
 [output.html]
 additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "./mdbook-admonish.css"]
+
+[output.html.fold]
+enable = true
+level = 1
