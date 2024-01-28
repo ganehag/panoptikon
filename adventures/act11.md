@@ -1,5 +1,65 @@
 # Akt 11
 
+## Vilka ingår i styrelsen
+
+1. **Amara Okoye** - Kvinna från Nigeria. Amara är en framstående affärskvinna inom energibranschen.
+2. **Liu Wei** - Kvinna från Kina. Liu är en veteran inom finansvärlden.
+3. **Ana Maria Rivera** - Kvinna från Colombia. Ana Maria har en stark bakgrund inom internationell handel.
+4. **Evelyn O'Sullivan** - Kvinna från Irland. Evelyn är en innovativ ledare inom farmaceutiska industri.
+5. **Rajesh Patel** - Man från Indien. Rajesh är en framstående entreprenör och pionjär inom mjukvaruutveckling.
+6. **Jordan Taylor** - Man från Australien. Jordan är en erfaren ledare med ursprung från telekommunikationssektorn.
+
+## Varför ville någon mörda Alexandros Mavridis?
+
+Mavridis hade på senare år börjat utveckla en agg mot Panoptikon. Han började se organisationens påverkan på världen som mer till nackdel än till fördel. Detta ledde honom till att vilja splitta Panoptikon i separate organisationer som inte längre kontrolleras av föråldrade koncept.
+
+## Var individen som hittades på Aurora, Alexandro Mavridis?
+
+Personen som identifierades som Mavridis är en okänd individ. Identitetshandlingar samt det faktum att individen bar på Mavridis passerkort som her honom tillgång till ALLT fick folk att tro att det var Mavridis. Individen är en dubbelgångare utsänd av Mavridis för att insamla hemligstämplade dokument från arkiven på Aurora.
+
+## Varför skickade Alexandros en dubbelgångare?
+
+Efter fått enormt motstånd för sina nya idéer från övriga delar av styrelsen ville Mavridis vara säker på sin aktsamhet och skickade därför en semi-tänkande klon av sig själv. Mordet innebar att han inte längre kunde lita på Styrelsen.
+
+## Bär Ägarna skuld i Mavridis död?
+
+Nej. De är ansvariga på annat vis än att de enkelt hade kunnat förhindra allt om de "orkat" bry sig. Det är som om de inte tänker som vanliga människor. De hade inte brytt som om Panoptikon hade gått under. Deras planer är mer högre nivå än så.
+
+## Vem mördade klonen av Alexandro Mavridis?
+
+Ana Maria Rivera, via händerna på en okänd lejd mördare.
+
+## Varför gjorde inte Alexandros Mavridis sig till känna? 
+
+Om det blev känt att han fortfarande levde hade han blivit ett mål igen.
+
+## Vad blev Mavridis nya mål?
+
+Inspirerad av en kvinna vid namn Siriporn Chareon, som på egen hand startade upproret som störtade diktaturen i Thailand 1954, beslutade Mavridis att samla ihop och läcka bevis för att därmed får världen att slita Panoptikon i stycken. En utmaning med tanke på hur mycket media som kontrolleras av Panoptikon. Men fortfarande det enda han kände att han kunde åstadkomma.
+
+## Så det var Mavridis som läckte informationen i slutet av Akt 2
+
+Ja. Journalisten och Mavridis har ingen koppling. Men de hade samma mål.
+
+## Vad gjorde Mavridis ombord på Orientexpressen?
+
+Han försökte få kontakt med spelarna för att avbryta operationen. Men Mavridis som endast hade utfört kontaktet utan att känna till rollpersonernas utseende blev tvungen att leta efter dem ombord.
+
+## Varför hade rollpersonerna minnesförlust i början av spelet?
+
+Rollpersonerna hade tagit ett sakta verkande drog som aktiverades precis när de skrev under sitt anställningskontrakt. Detta skedde genom att de drack vatten ur var sitt glas, där vattnet innehöll en nästan ospårbar och i sig ofarlig kemisk reagent.
+
+## Vem skadade Mavridis ombord på Orientexpressen?
+
+Evelyn O'Sullivan. Personligen. Mavridis visste inte hur hon såg ut då Styrelsen av säkerhetsanledningar inte vet hur de andra ser ut. O'Sullivan ville förgifta Mavridis via mat och få det hela att se naturlig ut. Men när det inte fungerade tog hon till direktare metoder och stack Mavridis med en förgiftad kniv.
+
+## Jobbar rollpersonerna för Mavridis?
+
+Ja. De är anställda av Mavridis för att utföra ett arbete. De har alla sin egna orsak till att göra så. Men de vet inte vad som är målet med arbetet. Annat än att de ska läcka information.
+
+## Om rollpersonerna skulle utföra läckan, varför gav sig Mavridis in på egen hand?
+
+För att hoppas på att 
 
 
 Denna styrelse är dock bara toppen av ett isberg. Ovanför dem finns en annan, okänd makt – "Ägarna". Deras existens är inte ens känd av styrelsemedlemmarna själva, och det är osäkert om den avlidne ordföranden var medveten om dem. Ägarna skiljer sig från de tusentals aktieägarna som enligt papper är delägare i Panoptikon, men i realiteten har minimalt inflytande.
@@ -10,16 +70,6 @@ Under äventyrets gång blir det alltmer uppenbart att spelarnas uppdrag är att
 
 De får oväntad hjälp av en gåtfull säkerhetsvakt vid namn Cassian Vinter. Cassian, som identifierar sig som icke-binär, är en mystisk figur med egna motiv. Hen visar sig vara utsänd av Ägarna för att utreda den pågående konfliken inom styrelsen. Cassian ser potential i spelarnas nyfikenhet och handlingskraft och beslutar sig för att "använda" dem för sina egna syften.
 
-
-## Vilken sensation (Akt 2)
-
-Spelarna för i uppgift att producera en reklamkampanj? Samtidigt bemöts en av spelarna av en journalist som ber dem om att läcka företagshemligheter.
-
-Detta äventyr leder spelarna till att besöka Nöteborg. Som ligger precis i utkanten av Nya Vasa i Ingermanland. En plats som Peter den Halte försökte ta kontroll över i början av 1700-talen. Men som misslyckas och som medförde att Sverige tog sig allt längre in i Tsarryssland och okuperade allt fram till Uralbergen i öster och nästan hela vägen fram till Moskva i söder. Därav anledningen att dessa områden har namn som *Karlsland*, *Österland* samt *Komiland*. Trots den svenska revolutionen 1792 som följd av Jacob Johan Anckarströms mord på Gustav III, lyckades Sverige behålla dessa områden och detta sägs idag vara orsaken till de många konflikter som råder i den Östslaviska regionen fram till denna dag.
-
-## 2. Ordet på orientexpressen
-
-## 3. Staden utan lag
 
 ## 4. ...
 

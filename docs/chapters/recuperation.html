@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Återhämtning - Panoptikon</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././theme/catppuccin.css">
+        <link rel="stylesheet" href=".././theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="../chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="../chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="../chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="../chapters/actions.html"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="../chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="../chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="../chapters/stress.html"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="../chapters/recuperation.html" class="active"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="../chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="../chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item expanded "><a href="../chapters/abilities-unique.html"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="../chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item expanded "><a href="../chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item expanded "><a href="../chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item expanded "><a href="../chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item expanded "><a href="../chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item expanded "><a href="../chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item expanded "><a href="../chapters/character-belonging.html"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="../chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Återhämtning"><a class="header" href="#Återhämtning">Återhämtning</a></h1>
+<p>Återhämtning är en kritisk del av den dagliga rutinen i &quot;Panoptikon&quot;. Efter en dag fylld med arbetsutmaningar behöver din rollperson tid för aktiviteter som är roliga, berikande eller avkopplande. Varje rollperson har ett utbud av hobbyer som de ägnar sig åt. Dessa hobbyer spelar en central roll i deras återhämtning och bidrar till att ge din rollperson djup och realism.</p>
+<p>Under spelets gång kan din rollpersons intressen förändras. Hobbyer som en gång var en integrerad del av deras identitet kan förlora sin glans, medan nya intressen kan uppkomma och ge möjlighet till nya erfarenheter och utveckling.</p>
+<h2 id="hobby"><a class="header" href="#hobby">Hobby</a></h2>
+<p>För att ge din rollpersoner ett rikt och balanserat liv, börja med att välja två hobbier som hen redan ägnar sig åt. Använd sedan en T20 för att slumpmässigt lägga till en tredje hobby. Skulle tärningsslaget visa en hobby som din rollperson redan har, fortsätt att slå tills en ny och unik hobby uppenbarar sig.</p>
+<p>En rollperson kan endast ha tre (3) olika hobbyer samtidigt om inget annat anges.</p>
+<div id="admonition-todo" class="admonition admonish-note">
+<div class="admonition-title">
+<p>TODO</p>
+<p><a class="admonition-anchor-link" href="#admonition-todo"></a></p>
+</div>
+<div>
+<p>Ska det vara någon form av bonus vid slag för hobby? En spelare med säg 5 i Intelligens (INT), som använder denna grundegenskap för <strong>Matlagning</strong> har endas 1/4 chans att lyckas med sitt Handlingskast. Detta gör att spelarna från början innan de tränat upp sina grundegenskaper har väldigt svårt att lyckas.</p>
+</div>
+</div>
+<h3 id="hobbytabell"><a class="header" href="#hobbytabell">Hobbytabell</a></h3>
+<p><strong>Grundegenskap</strong>: Denna kolumn visar vilka grundegenskaper som är relevanta för varje hobby. När din rollperson utför en hobbyaktivitet, väljer du en av dessa angivna egenskaper för att göra ditt tärningskast. Valet av grundegenskap reflekterar hur din rollperson närmar sig och utövar hobbyn.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Hobby</th><th style="text-align: left">Beskrivning</th><th style="text-align: left">Grundegenskap</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Matlagning</strong></td><td style="text-align: left">Du älskar att experimentera i köket, skapa läckra rätter och bakverk.</td><td style="text-align: left">Intelligens (INT) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Trädgårdsarbete</strong></td><td style="text-align: left">Du finner lugn i att odla och sköta om växter, njuter av naturens skönhet.</td><td style="text-align: left">Styrka (STY) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Yoga</strong></td><td style="text-align: left">Du söker inre frid och fysisk smidighet genom yoga och meditation.</td><td style="text-align: left">Smidighet (SMI) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Teater</strong></td><td style="text-align: left">Du tar centrum på scenen utan manus, leder och svarar på scener med ren intuition och kvickhet.</td><td style="text-align: left">Psyke (PSY) / Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Vandring</strong></td><td style="text-align: left">Du uppskattar äventyr i det fria, upptäcker nya platser till fots.</td><td style="text-align: left">Fysik (FYS) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Musik</strong></td><td style="text-align: left">Du finner glädje och utmaning i att spela musik och behärska nya instrument.</td><td style="text-align: left">Karisma (KAR) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left"><strong>Dans</strong></td><td style="text-align: left">Du uttrycker dig själv genom dans, rytm och rörelse är ditt språk.</td><td style="text-align: left">Smidighet (SMI) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">8</td><td style="text-align: left"><strong>Skrivande</strong></td><td style="text-align: left">Du spinner samman ord till fascinerande berättelser och känslomässig poesi.</td><td style="text-align: left">Psyke (PSY) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">9</td><td style="text-align: left"><strong>Simning</strong></td><td style="text-align: left">Du trivs bäst i vatten, simmar för att koppla av och hålla dig i form.</td><td style="text-align: left">Fysik (FYS) / Styrka (STY)</td></tr>
+<tr><td style="text-align: center">10</td><td style="text-align: left"><strong>Vinprovning</strong></td><td style="text-align: left">Du har en uppskattning för fina viner, utforskar och njuter av varje smaknyans.</td><td style="text-align: left">Karisma (KAR) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">11</td><td style="text-align: left"><strong>Fribrottning</strong></td><td style="text-align: left">Du kombinerar din fysiska styrka med en imponerande närvaro i ringen.</td><td style="text-align: left">Styrka (STY) / Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">12</td><td style="text-align: left"><strong>Cirkuskonster</strong></td><td style="text-align: left">Du trollbinder publiken med dina akrobatiska färdigheter och charm, från jonglering till trapetskonster.</td><td style="text-align: left">Karisma (KAR) / Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">13</td><td style="text-align: left"><strong>Pyssel</strong></td><td style="text-align: left">Du finner nöje i komplexa mönster och att skapa detaljerade figurer.</td><td style="text-align: left">Smidighet (SMI) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">14</td><td style="text-align: left"><strong>Arkeolog</strong></td><td style="text-align: left">Du älskar fältarbete, att avkoda det förflutna och förena äventyr med historia</td><td style="text-align: left">Styrka (STY) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">15</td><td style="text-align: left"><strong>Bergsklättring</strong></td><td style="text-align: left">Du har ett driv att bemästra branta klippor och komplexa rutter.</td><td style="text-align: left">Styrka (STY) / Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">16</td><td style="text-align: left"><strong>Schackspel</strong></td><td style="text-align: left">Du njuter av det strategiska spelet, alltid redo för en intellektuell duell på schackbrädet.</td><td style="text-align: left">Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">17</td><td style="text-align: left"><strong>Fågelskådning</strong></td><td style="text-align: left">Du utforskar och uppskattar naturens mångfald, en passionerad fågelskådare.</td><td style="text-align: left">Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">18</td><td style="text-align: left"><strong>Gör-det-själv</strong></td><td style="text-align: left">Du älskar att skapa och reparera saker själv, alltid med ett nytt projekt på gång.</td><td style="text-align: left">Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">19</td><td style="text-align: left"><strong>Scoutledare</strong></td><td style="text-align: left">Du inspirerar och vägleder du unga människor genom äventyr och lärande i naturen.</td><td style="text-align: left">Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">20</td><td style="text-align: left"><strong>Löpning</strong></td><td style="text-align: left">Du utmanar dig själv med långa löpturer, där din fysiska uthållighet och mentala tålamod sätts på prov i varje lopp.</td><td style="text-align: left">Fysik (FYS)</td></tr>
+</tbody></table>
+</div>
+<h2 id="utförande"><a class="header" href="#utförande">Utförande</a></h2>
+<p>När din rollperson engagerar sig i en hobby, utförs detta genom ett T20 handlingskast, likt andra handlingskast i spelet. För att hobbyaktiviteten ska anses lyckad, ska resultatet av tärningskastet vara lika med eller lägre än rollpersonens värde i den relevanta grundegenskapen. Ett högre värde indikerar att aktiviteten misslyckats. Notera att det inte är möjligt att 'pressa ett kast' i samband med hobbyer.</p>
+<ul>
+<li>Om aktiviteten lyckas, kasta 1T6 för att avgöra hur många stresspoäng din rollperson återhämtar.</li>
+<li>Vid misslyckande, kasta 1T6, och ta hälften av värdet (avrundat uppåt) i ökad stress.</li>
+</ul>
+<p>Beskriv gärna hur din rollperson utför sin hobby och vad som ledde till att aktiviteten blev lyckad eller misslyckad.</p>
+<h3 id="spektakulär-framgång"><a class="header" href="#spektakulär-framgång">Spektakulär framgång</a></h3>
+<p>Ett kast på exakt ett (1) med T20 innebär en spektakulär framgång. I detta fall, kasta 2T6 och använd det högsta av de två resultaten för att bestämma stressåterhämtningen.</p>
+<h3 id="katastrofalt-misslyckande"><a class="header" href="#katastrofalt-misslyckande">Katastrofalt misslyckande</a></h3>
+<p>Om tärningskastet resulterar i en tjugo (20), är det ett katastrofalt misslyckande. Denna händelse slår hårt mot din rollpersons moral. Kasta då 2T6 och använd det lägsta av de två resultaten som ökad stress.</p>
+<h2 id="byte-av-hobby"><a class="header" href="#byte-av-hobby">Byte av hobby</a></h2>
+<p>Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet. Om spelets händelser leder till att din rollperson förlorar intresset för en av sina hobbyer, ska denna hobby strykas från din rollpersons lista omedelbart. På samma sätt, om en händelse i spelet resulterar i att din rollperson får ett nytt intresse, får du välja en ny hobby för dem. Det är viktigt att din rollperson endast har tre hobbyer som mest om inget annat angets. Om en ny hobby tillkommer måste en gammal tas bort för att behålla balansen.</p>
+<h2 id="slumpens-nycker"><a class="header" href="#slumpens-nycker">Slumpens nycker</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Hobby</th><th style="text-align: left">Beskrivning</th><th style="text-align: left">Grundegenskap</th><th>Effekt</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Oväntat besök</strong></td><td style="text-align: left">En gammal vän hör plötsligt av sig och bjuder ut dig på middag.</td><td style="text-align: left">Karisma (KAR)</td><td><strong>Framgång:</strong> -1 <strong>stress</strong>, <strong>Motgång:</strong> +1 <strong>stress</strong></td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Nattfotografering</strong></td><td style="text-align: left">En affish inspirerar dig till att utforska stjärnhimmeln.</td><td style="text-align: left">Intelligens (INT)</td><td>...</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Extremsport</strong></td><td style="text-align: left">Du är osäker på det gick till men plötsligt står du där.</td><td style="text-align: left">Smidighet (SMI)</td><td>...</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Frivilligarbete</strong></td><td style="text-align: left">Du spenderar kvällen för att hjälpa till på en lokal välgörenhetsorganisation.</td><td style="text-align: left">Styrka (STY)</td><td>...</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Kvällsmuseum</strong></td><td style="text-align: left">Ett museum i trakten fångar ditt intresse.</td><td style="text-align: left">Intelligens (INT)</td><td>...</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Gatufestival</strong></td><td style="text-align: left">En gatufestival äger rum i närheten och du känner dig manad att gå.</td><td style="text-align: left">Psyke (PSY)</td><td>...</td></tr>
+</tbody></table>
+</div><div id="admonition-todo-1" class="admonition admonish-note">
+<div class="admonition-title">
+<p>TODO</p>
+<p><a class="admonition-anchor-link" href="#admonition-todo-1"></a></p>
+</div>
+<div>
+<p>Tabell med 20 olika totalt slumpartade händelser. En tredjedel ska vara negativa, eller svåra - kopplade till specifika grundegenskaper medans andra är lättare. Detta val är högre riskt än kända hobbyer medans vinsten kan vara större.</p>
+</div>
+</div>
+<h2 id="sömn"><a class="header" href="#sömn">Sömn</a></h2>
+<p>Sömn är en kritisk fas för din rollpersons stresshantering och återhämtning från olika tillstånd. Under sömnfasen kan du som spelare välja mellan att minska stress eller att arbeta på att återhämta dig från ett tillstånd. Observera att återhämtning från ett tillstånd är endast möjlig om stressnivån är noll (0) i den relevanta grundegenskapen.</p>
+<p>Vanligtvis används en progressklocka med fyra sektorer för att spåra återhämtning från ett tillstånd.</p>
+<h3 id="Återhämtning-från-tillstånd"><a class="header" href="#Återhämtning-från-tillstånd">Återhämtning från tillstånd</a></h3>
+<ul>
+<li>Slå en T6. Om du får en sexa (6), gör ett (+1) framsteg i återhämtningen från ditt tillstånd i den aktuella grundegenskapen.</li>
+<li>Observera att om din rollperson ådrar sig mer än en (1) poäng stress, återställs allt framsteg i återhämtningen från tillståndet. </li>
+<li>Du kan bara arbeta på att återhämta dig från ett tillstånd åt gången. Om du byter fokus till ett annat tillstånd, nollställs dina tidigare framsteg.</li>
+</ul>
+<h3 id="Återhämtning-från-stress"><a class="header" href="#Återhämtning-från-stress">Återhämtning från stress</a></h3>
+<ul>
+<li>För att återhämta stress, gör ett Handlingskast baserat på din rollpersons Psyke (PSY).</li>
+<li>Ett lyckat kast minskar en (1) poäng stress, som kan fördelas på valfri grundegenskap.</li>
+</ul>
+<h3 id="ofullständig-sömn"><a class="header" href="#ofullständig-sömn">Ofullständig sömn</a></h3>
+<p>Om din rollperson av någon anledning inte får en fullständig natts sömn, innebär detta en ökad stressbelastning. För varje fyra timmars period av utebliven sömn, tar din rollperson +1 <strong>stress</strong>.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../chapters/stress.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../chapters/advancement.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../chapters/stress.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../chapters/advancement.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

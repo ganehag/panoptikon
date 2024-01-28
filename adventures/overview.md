@@ -74,7 +74,7 @@ Genom att följa ledtrådar, konfrontera utmaningar och navigera komplexa relati
 
 Som spelledare recommenderas det starkt att du läser igenom hela Aktsamlingen innan du sätter dig ner med spelgruppen. På så vis har du en klarare bild över den röda tråd som det är tänkt att spelarna ska följa.
 
-**Första akten:** Det hela börjar en klar oktobermorgon, efter en serie av intensiva snöstormar som har svept genom regionen. Spelarna befinner sig i på det enorma Aurora-komplexet, en avdelning av Panoptikon koncernen, beläget 66°59,991'N 19°10,562'E, väst om Gällivare. Detta isolerade komplex, omgivet av den otämjda och ödsliga nordiska vildmarken, är nu den nya hemvisten för våra rollpersoner.
+**Första akten:** Det hela börjar en klar oktobermorgon, efter en serie av intensiva snöstormar som har svept genom regionen. Spelarna befinner sig i på det enorma Aurora-komplexet, en avdelning av Panoptikon koncernen, beläget 66°59,991'N 19°10,562'E, västsydväst om Gällivare. Detta isolerade komplex, omgivet av den otämjda och ödsliga nordiska vildmarken, är nu den nya hemvisten för våra rollpersoner.
 
 Rollpersonerna, nyss anlända till komplexet, står på tröskeln till en ny era i sina liv. De har undertecknat anställningsavtal som binder dem till Panoptikon för de kommande tio åren. Denna åtagande är inte bara ett kontrakt av bläck och papper, utan också en pakt som kommer att ta dem på en oanad resa.
 

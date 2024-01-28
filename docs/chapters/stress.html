@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Stress och tillstånd - Panoptikon</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././theme/catppuccin.css">
+        <link rel="stylesheet" href=".././theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="../chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="../chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="../chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="../chapters/actions.html"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="../chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="../chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="../chapters/stress.html" class="active"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="../chapters/recuperation.html"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="../chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="../chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item expanded "><a href="../chapters/abilities-unique.html"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="../chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item expanded "><a href="../chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item expanded "><a href="../chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item expanded "><a href="../chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item expanded "><a href="../chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item expanded "><a href="../chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item expanded "><a href="../chapters/character-belonging.html"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="../chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="stress-och-tillstånd"><a class="header" href="#stress-och-tillstånd">Stress och tillstånd</a></h1>
+<p>Rollpersonernas förmåga att stå emot mentala och emotionella påfrestningar hanteras genom en stressmätare. Denna mätare fylls på när rollpersonerna utsätts för svårigheter, utmaningar eller misslyckanden i spelets värld. Varje rollperson har en individuell förmåga att hantera stress, och deras stressmätare består vanligtvis av sex (6) nivåer.</p>
+<h2 id="tillståndkast"><a class="header" href="#tillståndkast">Tillståndkast</a></h2>
+<p>När stressmätaren når sin topp och det sjätte nivået fylls, uppnår rollpersonen en kritisk stresspunkt. Då krävs ett slag med en T6 för att bestämma vilket tillstånd rollpersonen hamnar i:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T6</th><th>Tillstånd</th><th>Grundegenskap</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Utmattad</td><td>Styrka(STY)</td></tr>
+<tr><td style="text-align: center">2</td><td>Krasslig</td><td>Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">3</td><td>Omtäcknad</td><td>Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">4</td><td>Förvirrad</td><td>Intelligent (INT)</td></tr>
+<tr><td style="text-align: center">5</td><td>Rädd</td><td>Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">6</td><td>Uppgiven</td><td>Karisma (KAR)</td></tr>
+</tbody></table>
+</div>
+<p>Efter att tillståndet är fastställt, återställs stressmätaren till noll (0).</p>
+<h3 id="tillståndsnivåer"><a class="header" href="#tillståndsnivåer">Tillståndsnivåer</a></h3>
+<p>Tillstånd som orsakas av hög stressnivå manifestera sig i två olika nivåer: Mild och Påtaglig. Varje nivå har en unik påverkan på din rollperson:</p>
+<ul>
+<li><strong>Mild:</strong> När din rollperson befinner sig i ett &quot;Milt&quot; tillstånd, påverkas en specifik grundegenskap. Alla kast som involverar denna grundegenskap måste utföras till <strong>nackdel</strong>. Detta innebär att du slår två tärningar och använder det sämsta resultatet av de två.</li>
+<li><strong>Påtaglig:</strong> Ett &quot;Påtagligt&quot; tillstånd är en allvarligare form av stresspåverkan. Här reduceras den berörda grundegenskapen direkt med sex (6) poäng. Detta representerar en betydande försämring av rollpersonens förmåga i situationer som kräver användning av den drabbade egenskapen.</li>
+</ul>
+<h2 id="tillfälliga-tillstånd"><a class="header" href="#tillfälliga-tillstånd">Tillfälliga tillstånd</a></h2>
+<p>Din Rollpersoner kan även drabbas av tillfälliga tillstånd som påverkar dem på samma vis som långlivade tillstånd. Dessa tillstånd är kortvariga effekter som varar i några timmar och tenderar att försvinna av sig själva. Tillfälliga tillstånd kan utlösas av specifika händelser eller situationer och representerar korta perioder av emotionell eller fysisk påverkan. De kan vara allt från en tillfällig förlust av koncentration till en kort stund av ångest eller fysisk obehag.</p>
+<ul>
+<li><strong>Hantering och botemedel</strong>: Tillfälliga tillstånd kan ofta hanteras eller botas genom spelarens agerande, såsom att använda specifika förmågor, genomföra vissa handlingar eller få hjälp från andra karaktärer. Till exempel kan en Rollperson som är temporärt rädd bli lugnad genom en annan Rollpersons karismatiska påverkan, eller en Rollperson som är temporärt förvirrad kan få hjälp att återfå sitt fokus genom en stunds vila.</li>
+<li><strong>Automatisk återhämtning</strong>: Ett centralt drag hos dessa tillstånd är deras flyktighet. Oavsett om de behandlas eller inte, försvinner ett temporärt tillstånd alltid efter en sömnperiod. Det är värt att notera att denna återhämtning sker även om sömnperioden inte är helt ostörd eller fullständig, vilket understryker det tillfälliga och övergående naturen hos dessa tillstånd.</li>
+</ul>
+<p>Tillfälliga tillstånd har endast <strong>Mild</strong> nivå.</p>
+<h2 id="utarbetad"><a class="header" href="#utarbetad">Utarbetad</a></h2>
+<p>Rollpersoners förmåga att hantera stress är begränsad. När en rollperson vid ett tillståndskast får en ytterligare påverkan på en redan <strong>Påtagligt</strong> belastad grundegenskap, blir de överbelastade och måste omedelbart avbryta sitt arbete. Rollpersonen är då begränsad till endast att delta i spelets &quot;Återhämtning&quot; och &quot;Sömn&quot;-faser under en period. Under denna tid är rollpersonen praktiskt taget ur spel tills de återhämtat sig till den grad att endast ett (1) tillstånd återstår. Spelaren kan fortfarande interagera med de andra spelarna, men rollpersonens aktiva deltagande i spelet är starkt begränsat.</p>
+<p>När din rollperson når en punkt av total utarbetning, är det dags för dig att konfrontera de djupare konsekvenserna av denna överbelastning. Detta görs genom att slå på Svaghetstabellen för att upptäcka vilken bestående svaghet som rollpersonen utvecklar på grund av den ihållande stressen och påfrestningen.</p>
+<h2 id="svaghetstabellen"><a class="header" href="#svaghetstabellen">Svaghetstabellen</a></h2>
+<p>Svaghetstabellen används för att slumpmässigt bestämma vilken typ av svaghet rollpersonen har utvecklat. Varje svaghet har en direkt effekt på rollpersonens grundegenskaper och därmed på deras förmåga att utföra olika handlingar i spelet. För att slå på tabellen använder spelaren en T20.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Svaghet</th><th>Effekt</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Insomnia</strong></td><td>Svårigheter med sömn leder till minskad mental klarhet och fokus. Under sömnfasen måste alla tärningskast ske med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Kleptoman</strong></td><td>En oemotståndlig drift att stjäla småsaker, vilket kan skapa komplicerade situationer. Du måste ta tillfället i akt när du ser något du kan &quot;låna&quot;, även om det kan leda till problem.</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Våghals</strong></td><td>En stark benägenhet att ta risker utan att tänka på konsekvenserna. Du måste välja den mest riskfyllda vägen i situationer.</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Våldsam</strong></td><td>En tendens till att reagera med aggression och våld. När en situation kan lösas med Styrka (STY), är detta ditt enda val.</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Lättjefull</strong></td><td>En brist på motivation och initiativförmåga. Vilket reducerar effektiviteten hos din rollperson till endast två arbetsperioder per dag.</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Hypokondriker</strong></td><td>Ständig oro för hälsa och sjukdomar. Psykologisk stress påverkar din rollpersons Psyke (PSY), vilket gör alla psykebaserade kast måste utföras med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left"><strong>Paranoid</strong></td><td>En överdriven misstänksamhet gentemot andra. Du arbetar ensam och förlitar dig inte på andra. Detta förhindrar deltagande i grupparbeten och ingen får bistå dig i dina uppgifter eller Handlingar.</td></tr>
+<tr><td style="text-align: center">8</td><td style="text-align: left"><strong>Melankolisk</strong></td><td>En djupgående sorgsenhet som påverkar din rollpersons förmåga att engagera sig i aktiviteter. Innan varje hobbyaktivitet, måste du slå en T6; med ett resultat under fyra (4), är din rollperson för nedstämd för att delta.</td></tr>
+<tr><td style="text-align: center">9</td><td style="text-align: left"><strong>Impulsiv</strong></td><td>Svårigheter att kontrollera impulsiva tankar och handlingar. Den första idén som du kommer på måste genomföras utan möjlighet till eftertanke eller förändring.</td></tr>
+<tr><td style="text-align: center">10</td><td style="text-align: left"><strong>Social fobi</strong></td><td>En intensiv rädsla för sociala situationer. Detta förhindrar deltagande i gruppaktiviteter, speciellt när det kommer till hobbyer.</td></tr>
+<tr><td style="text-align: center">11</td><td style="text-align: left"><strong>Osäker</strong></td><td>Markant brist på självförtroende och självbild. Denna osäkerhet förhindrar att du utför soloaktiviteter i hobbyer.</td></tr>
+<tr><td style="text-align: center">12</td><td style="text-align: left"><strong>Glömsk</strong></td><td>Problem med korttidsminnet och svårigheter med att komma ihåg detaljer. Din Intelligens (INT) drabbas negativt med en minskning på -3.</td></tr>
+<tr><td style="text-align: center">13</td><td style="text-align: left"><strong>Kortfattad</strong></td><td>Svårighet att kommunicera och uttrycka sig klart. Alla slag som kräver Karisma (KAR) görs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">14</td><td style="text-align: left"><strong>Känslig</strong></td><td>En stark reaktion på emotionella händelser och stimuli. Varje misslyckat försök att utföra en Handling leder till en (1) extra stress.</td></tr>
+<tr><td style="text-align: center">15</td><td style="text-align: left"><strong>Förvirrad</strong></td><td>Problem med att tänka klart och fatta välgrundade beslut. Alla Intelligens (INT)-baserade kast utförs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">16</td><td style="text-align: left"><strong>Rädd</strong></td><td>En ökad benägenhet att känna rädsla och ångest. När någon i din närhet misslyckas med en Handling, påverkas du negativt och tar en extra stresspoäng.</td></tr>
+<tr><td style="text-align: center">17</td><td style="text-align: left"><strong>Desorienterad</strong></td><td>Svårigheter med att hålla fokus och orientera sig. Navigeringsförsök kräver ett Handlingsslag mot Intelligens (INT) för att säkerställa att du tar rätt väg och inte går vilse.</td></tr>
+<tr><td style="text-align: center">18</td><td style="text-align: left"><strong>Svag</strong></td><td>Fysisk svaghet och begränsad uthållighet. Alla Styrka (STY)-baserade kast utförs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">19</td><td style="text-align: left"><strong>Stel</strong></td><td>Begränsad rörlighet och smidighet. Alla Smidighet (SMI)-baserade kast görs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">20</td><td style="text-align: left"><strong>Sjuklig</strong></td><td>Du lider av konstanta hälsoproblem. Alla Fysik (FYS)-baserade kast görs med <strong>nackdel</strong>.</td></tr>
+</tbody></table>
+</div>
+<h2 id="oväntad-avgång"><a class="header" href="#oväntad-avgång">Oväntad avgång</a></h2>
+<p>Döden inte ett vanligt inslag i spelupplevelsen. Istället finns det alternativa sätt att hantera situationer där rollpersoner står inför allvarliga utmaningar eller utmattning. När din rollperson når en punkt där de verkar vara utarbetade och återhämtning inte är möjlig på kort sikt, finns det två vägar att välja:</p>
+<ul>
+<li><strong>Pension:</strong> Du kan välja att låta din rollperson gå i pension, vilket innebär att de lämnar spelets aktiva handling. Denna pensionering behöver inte vara permanent, och karaktären kan komma tillbaka vid en senare tidpunkt under passande omständigheter.</li>
+</ul>
+<p>eller</p>
+<ul>
+<li><strong>Terapi:</strong> Alternativt kan rollpersonen skickas till en av företagets specialterapier. Denna åtgärd öppnar upp möjligheten för karaktären att återhämta sig och återvända till spelet när tiden är rätt.</li>
+</ul>
+<p>När någon av dessa situationer inträffar, har du som spelare möjlighet att skapa en ny rollperson. Denna nya karaktär introduceras i spelet på ett lämpligt och sammanhängande sätt, vilket ger en fräsch start.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../chapters/work.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../chapters/recuperation.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../chapters/work.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../chapters/recuperation.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

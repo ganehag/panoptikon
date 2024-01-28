@@ -1,0 +1,1605 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Panoptikon</title>
+        <meta name="robots" content="noindex">
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="./theme/catppuccin.css">
+        <link rel="stylesheet" href="./theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href="./mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="chapters/actions.html"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="chapters/stress.html"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="chapters/recuperation.html"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item expanded "><a href="chapters/abilities-unique.html"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item expanded "><a href="chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item expanded "><a href="chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item expanded "><a href="chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item expanded "><a href="chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item expanded "><a href="chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item expanded "><a href="chapters/character-belonging.html"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="förord"><a class="header" href="#förord">Förord</a></h1>
+<p>Välkommen till en fascinerande värld av affärer, strategi och personlig utveckling genom &quot;Panoptikon&quot;. Detta spel är designat för att ge dig en unik inblick i företagsvärldens dynamik. Här får du möjlighet att ta del av de många olika roller och utmaningar som finns inom ett bolag, och samtidigt utveckla en djupare förståelse för dina kollegors arbete och perspektiv.</p>
+<p>Vår ambition är att skapa en miljö som inte bara är underhållande, utan också lärorik. Genom att spela &quot;Panoptikon&quot; kommer du att få insikter i affärsstrategier, teamarbete, beslutsfattande och mycket mer. Det är en upplevelse som är både intellektuellt stimulerande och praktiskt tillämpbar i verkliga affärssammanhang.</p>
+<p>Spelet är utformat för att uppmuntra samarbete, problemlösning och kreativt tänkande. Varje spelsession blir en resa genom de komplexa aspekterna av företagsledning och beslutsfattande. Det är vår förhoppning att denna resa inte bara ger dig en djupare förståelse för företagsvärlden, utan också ger dig värdefulla verktyg för personlig och professionell utveckling.</p>
+<p>Tack för att du väljer att utforska och lära med &quot;Panoptikon&quot;. Vi hoppas att din tid här blir så berikande som möjligt.</p>
+<p><em>-- Mikael Ganehag Brorsson, December 2024</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="brev-från-vd"><a class="header" href="#brev-från-vd">Brev från VD</a></h1>
+<p><em>Kära anställda,</em></p>
+<p><em>När jag reflekterar över vår resa tillsammans, är jag stolt över det vi har åstadkommit. Var och en av er har bidragit till vår framgång, och vår kollektiva insats har skapat något som är mycket mer än bara en affärsverksamhet. Vi är mer än siffror och kvartalsrapporter; vi är en familj, en gemenskap som strävar efter att göra skillnad.</em></p>
+<p><em>Vår vision har alltid varit att vara mer än bara ett företag. Vi har strävat efter att vara en kraft för förändring, att påverka samhället, och varför vi ständigt söker nya sätt att innovera och förbättra.</em></p>
+<p><em>Men vår resa har bara börjat. Framtiden bär med sig nya utmaningar och möjligheter. Vi står inför en tid av förändring, både inom vår bransch och i världen. Vårt företag är redo att möta dessa förändringar, att anpassa sig och växa.</em></p>
+<p><em>Tillsammans har vi byggt en kultur av excellens, integritet och innovation. Denna kultur är kärnan i vår identitet, och den är vad som skiljer oss från mängden. Vi strävar efter att vara bäst, inte bara i det vi gör, men i hur vi gör det. Vår framgång är inte bara mätt i vinst, utan också i påverkan vi har på samhället och varandra.</em></p>
+<p><em>När vi ser framåt, låt oss fortsätta att vara drivna av vår gemensamma vision och våra värderingar. Låt oss omfamna förändring med öppna armar och fortsätta att vara nyfikna, att lära oss och att växa. Vår resa tillsammans är långt ifrån över, och jag är övertygad om att det bästa ännu inte är skrivet.</em></p>
+<p><em>Tack för allt ni gör, varje dag. Er dedikation och ert hårda arbete är det som gör vårt företag extraordinärt.</em></p>
+<p><em>Med värme och uppskattning,</em></p>
+<p><img src="chapters/../resources/isabella-leijonhufvud-cederstrom.png" alt="Signatur" /></p>
+<p><em>Isabella Leijonhufvud-Cederström</em><br />
+<em>VD, Panoptikon</em></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="introduktion"><a class="header" href="#introduktion">Introduktion</a></h1>
+<p>Välkommen till Panoptikon. I denna handbok hittar du alla regler som behövs för att navigera i spelets värld. Regelverket kan initialt kännas omfattande, men ingen anledning till oro. Vi har designat boken för att guida dig genom spelets olika aspekter på ett tydligt och stegvis sätt. Tveka inte att använda boken som en resurs under spelets gång för att snabbt slå upp regler eller klargöra detaljer. Med tiden kommer du att finna att spelupplevelsen blir mer flytande och intuitiv. Lycka till i din resa genom företagets korridorer och möten.</p>
+<p><img src="chapters/../resources/welcome-building-2.png" alt="Building" /></p>
+<h2 id="vad-är-panoptikon"><a class="header" href="#vad-är-panoptikon">Vad är Panoptikon?</a></h2>
+<p>Panoptikon är en mystisk och multifacetterad organisation som du nu är en del av. Dess exakta verksamhet är inte tydligt definierad och omges av en aura av hemlighetsfullhet. Det är en plats där traditionella affärsstrategier blandas med okända mål och metoder. Som anställd kommer du att utforska dess komplexa och ibland oförutsägbara värld, där dina handlingar och beslut bidrar till dess fortgående berättelse och utveckling.</p>
+<div id="admonition-terminologi" class="admonition admonish-info">
+<div class="admonition-title">
+<p>Terminologi</p>
+<p><a class="admonition-anchor-link" href="chapters/introduction.html#admonition-terminologi"></a></p>
+</div>
+<div>
+<p>Termen panoptikon utformad av den brittiske filosofen Jeremy Bentham i slutet av 1700-talet som en typ av fängelsebyggnad. Konstruktionen består av ett övervakningstorn omgivet av en rund byggnad indelad i tårtbitsliknande celler utan dörrar. Övervakaren kan när som helst observera vilken fånge som helst, medan den enskilde fången inte kan avgöra om den blir övervakad eller inte. Detta skapar enligt Bentham en &quot;känsla av ett osynligt allvetande&quot;. Denna arkitektur och filosofi syftar till att få de kriminella att byta handlingsmönster till ett socialt acceptabelt, behandla snarare än bestraffa de intagna​​.</p>
+</div>
+</div>
+<h2 id="vad-är-rollspel"><a class="header" href="#vad-är-rollspel">Vad är rollspel?</a></h2>
+<p>I detta spel är målet att gemensamt hantera både förväntade och oväntade situationer i det dagliga arbetet. Spelet fokuserar på samarbete, där spelarna tillsammans arbetar för att lösa utmaningar och problem. Det är inte en tävling mot varandra, utan en kamp mot omvärlden, med målet att främja lärande och förståelse för alla. Genom att navigera i spelets komplexa scenarier, stärker ni era färdigheter i problemlösning och strategiskt tänkande, samtidigt som ni upplever spänningen i att lösa problem innan de uppstår i verkligheten.</p>
+<h2 id="spelare"><a class="header" href="#spelare">Spelare</a></h2>
+<p>Som spelare skapar och styr du en karaktär i spelets värld. Du beskriver dina karaktärers handlingar och reaktioner på de situationer som spelledaren presenterar. Användning av tärningar är ofta central för att bestämma utfallen av dina handlingar, speciellt i utmanande situationer. Genom att utveckla din karaktärs personlighet och bakgrund bidrar du aktivt till spelets berättelse. I samarbete med andra spelare utforskar du världen och tar dig an diverse utmaningar.</p>
+<h2 id="spelledare"><a class="header" href="#spelledare">Spelledare</a></h2>
+<p>Som spelledare leder och formar du spelets berättelse och värld. Du beskriver miljöer, skapar scenarion och agerar som alla icke-spelarkaraktärer. Din roll innebär att upprätthålla spelvärldens regler och logik, samt att avgöra konsekvenserna av spelarnas handlingar. Som domare över regler och tärningsslag krävs det att du är flexibel och kan improvisera. Ditt huvudmål är att skapa en engagerande och underhållande upplevelse för alla deltagare.</p>
+<h2 id="spela-en-session"><a class="header" href="#spela-en-session">Spela en session</a></h2>
+<p>I spelsession försöker spelet efterlikna en TV-serieepisod eller miniserie, med händelser som utspelar sig över en eller flera dagar. En session varar normalt mellan två till sex timmar. Under sessionen står du och dina medspelare inför ett huvudproblem som kräver omedelbar uppmärksamhet, samt sekundära mål och situationer.</p>
+<p>Inte allt kan hanteras på en gång, och med tärningarnas slump, din egen skicklighet och karaktärens förmågor, arbetar ni för att uppnå era mål. Resultaten av era handlingar får konsekvenser, och även om ni pausar för vila, måste målen uppnås för att undvika reprimander.</p>
+<h2 id="respektera-gränser"><a class="header" href="#respektera-gränser">Respektera gränser</a></h2>
+<p>I rollspel är det viktigt att respektera varandras gränser för att skapa en trygg och inkluderande upplevelse. Här är några tips:</p>
+<ol>
+<li><strong>Kommunikation är nyckeln</strong>: Före spelet, diskutera vad som är okej och inte okej för varje spelare. Detta kan inkludera teman som våld, språkbruk eller personliga gränser.</li>
+<li><strong>Aktiv lyssnande</strong>: Var uppmärksam på dina medspelares reaktioner. Om någon verkar obekväm, pausa och diskutera hur ni kan fortsätta på ett sätt som alla är bekväma med.</li>
+<li><strong>Flexibilitet i berättandet</strong>: Var redo att ändra spelriktning om det blir nödvändigt för att respektera spelares gränser.</li>
+<li><strong>Efter-spelet feedback</strong>: Efter spelet, ha en öppen diskussion där spelare kan uttrycka sina tankar och känslor om spelupplevelsen.</li>
+</ol>
+<p>Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!</p>
+<h2 id="komma-igång"><a class="header" href="#komma-igång">Komma igång</a></h2>
+<ol>
+<li>Bestäm vem som ska vara SL.</li>
+<li>Övriga spelare skapar sina rollpersoner.</li>
+</ol>
+<h3 id="förkortningar"><a class="header" href="#förkortningar">Förkortningar</a></h3>
+<p>...</p>
+<h3 id="tid"><a class="header" href="#tid">Tid</a></h3>
+<p>...</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="grundsystem"><a class="header" href="#grundsystem">Grundsystem</a></h1>
+<h2 id="spelstruktur"><a class="header" href="#spelstruktur">Spelstruktur</a></h2>
+<p>Panoptikon är utformat som ett dynamiskt och öppet spel där rollpersonerna interagerar med varandra och miljön på ett flytande sätt. De kan prata, utforska olika platser, utföra handlingar och använda tärningskast för att lösa situationer och framsteg. Spelets natur är flexibel, och spelarna uppmuntras att samarbeta och använda sin kreativitet för att navigera i spelets värld och ta beslut som formar deras gemensamma berättelse.</p>
+<p><img src="chapters/../resources/atrium-1.png" alt="Atrium" /></p>
+<h3 id="arbetsdagen"><a class="header" href="#arbetsdagen">Arbetsdagen</a></h3>
+<p>Arbetsdagen är den central kärnan i spelet och består av tre huvudsegment: arbete, återhämtning, och sömn. Dessa segment speglar en typisk dag i rollpersonernas liv och ger struktur åt spelarnas handlingar.</p>
+<p><strong>Arbete</strong>: Under arbetsfasen fokuserar spelarna på de uppgifter och utmaningar som deras rollpersoner står inför. Dessa aktiviteter kan vara långsiktiga och sträcka sig över flera arbetsdagar. Genom tärningskast avgörs framstegen i dessa uppgifter, vilket skapar möjligheter för spänning och utveckling.</p>
+<p><strong>Återhämtning</strong>: Efter arbetsdagen kommer en återhämtningstid där rollpersonerna får chansen att minska sin stress och återhämta energi. Under denna period kan spelarna välja aktiviteter som bidrar till deras karaktärers välbefinnande, men de kan också välja att arbeta övertid om situationen kräver det. Återhämtning är avgörande för att bibehålla en god mental hälsa och undvika stressrelaterade problem. Spelarna slår tärningar för att bestämma utfallet av sina återhämtningsaktiviteter. Ett misslyckat återhämtningsförsök kan leda till ökad stress. För den som föredrar att lämna saker åt slumpen, finns det möjlighet att använda &quot;Slumpens nycker/Världens nycker&quot;-tabellen, som innebär större risker men också potentiellt större belöningar.</p>
+<p><strong>Sömn</strong>: Sömnfasen är avgörande för rollpersonernas välbefinnande. Otillräcklig sömn resulterar automatiskt i ökad stress och minskad effektivitet nästa dag. Det är viktigt att spelarna hanterar sina karaktärers sömnbehov för att upprätthålla deras hälsa och förmåga att prestera.</p>
+<p>Genom att balansera dessa tre segment – arbete, återhämtning, och sömn – skapar spelarna en rytm i spelet som efterliknar verkliga livets utmaningar och möjligheter.</p>
+<h2 id="helgdagar"><a class="header" href="#helgdagar">Helgdagar</a></h2>
+<p>I grundversionen av &quot;Panoptikon&quot; existerar inte helgdagar för att förenkla spelupplevelsen. Detta innebär en kontinuerlig cykel av arbete, återhämtning och sömn. Men, för spelgrupper som önskar mer realism eller variation, kan helgdagar införas som en valfri mekanik.</p>
+<p><strong>Exempel på Helgdagsmekanik</strong>: Spelledaren kan bestämma att en viss dag är en helgdag, vilket ger rollpersonerna en paus från arbete. Under en helgdag kan spelarna fokusera på personlig utveckling, sociala aktiviteter, eller andra sidouppdrag som inte är relaterade till deras vanliga arbetsuppgifter. Helgdagar kan också användas för speciella händelser eller festligheter som kan leda till unika upplevelser eller karaktärsutveckling.</p>
+<h2 id="slå-tärning"><a class="header" href="#slå-tärning">Slå tärning</a></h2>
+<p>I förståelsen av rollspelsvärlden är tärningsslag en central del. Föreställ dig en vanlig sexsidig tärning, känd som T6, som ger ett tal mellan 1 och 6. Det är den mest bekanta tärningen, ofta använd i allt från brädspel till rollspel. Åttasidiga tärningen, T8, lägger till mer variation med sina fler sidor. När dessa tärningar används i kombination eller enskilt, skapas en rikedom av möjligheter och utfall som definierar spännande ögonblick i spelet. Varje tärningskast bidrar till en unik vändning i äventyret.</p>
+<p><strong>Flera tärningar:</strong> I spelet innebär att slå t.ex. 2T8 att du kastar två åttasidiga tärningar. Efter kastet summerar du talen som visas på tärningarnas översidor för att få fram totalresultatet. Detta förfarande används ofta för att avgöra utfall av handlingar eller händelser i spelet.</p>
+<h2 id="bedömningsbeslut"><a class="header" href="#bedömningsbeslut">Bedömningsbeslut</a></h2>
+<p>När du spelar kommer du att fatta flera viktiga beslut. Alla bidrar, men antingen spelarna eller spelledaren har slutgiltigt bestämmande över olika aspekter:</p>
+<ul>
+<li>Spelarna bestämmer vilka handlingar som är rimliga lösningar på ett problem.</li>
+<li>Spelarna identifierar och beslutar vilka moment i spelets berättelse som bidrar till deras karaktärers utveckling.</li>
+<li>Spelledaren avgör hur riskabelt och effektivt en given handling är i en viss situation.</li>
+<li>Spelledaren bestämmer vilka konsekvenser som återspeglar farorna och utmaningar i en given situation.</li>
+<li>Spelledaren avgör när en tärningskast krävs och vilken typ.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="handlingar"><a class="header" href="#handlingar">Handlingar</a></h1>
+<h2 id="grundegenskaper"><a class="header" href="#grundegenskaper">Grundegenskaper</a></h2>
+<p>Din Rollpersons förmåga att agera och påverka världen runtomkring styrs av sex grundläggande egenskaper. Dessa egenskaper varierar på en skala från 2 till 18, där ett högre värde indikerar en starkare eller mer utvecklad egenskap. Ett lägre värde representerar en svagare eller mindre framträdande egenskap.</p>
+<p><strong>Startvärden</strong>: För att fastställa varje av de sex grundläggande egenskaperna hos din Rollperson, börja med att slå fyra sexsidiga tärningar (4T6). Ta sedan bort både den högsta och den lägsta tärningen från varje kast. Summan av de återstående två tärningarna ger ett värde mellan 2 och 12. Placera detta värde på en valfri grundegenskap. Upprepa processen tills alla grundegenskaper har tilldelats värden. Efter att alla grundegenskaper har fått sina startvärden, får du fördela ytterligare 6 extra poäng över valfria grundegenskaper hur du önskar. Observera att du aldrig kan ha ett värde högre än 18 på någon grundegenskap.</p>
+<ul>
+<li><strong>Styrka (STY):</strong> Styrka representerar rollpersonens fysiska kraft och förmåga att utföra uppgifter som kräver muskelkraft. Det inkluderar allt från att lyfta tunga föremål till att kämpa fysiskt. En hög Styrka är avgörande för karaktärer som förlitar sig på fysisk makt.</li>
+<li><strong>Fysik (FYS):</strong> Fysik indikerar rollpersonens uthållighet, hälsa och allmänna fysiska kondition. Det påverkar deras förmåga att uthärda påfrestningar, motstå sjukdomar och återhämta sig från skador. Karaktärer med hög Fysik kan hantera fysiska påfrestningar bättre än andra.</li>
+<li><strong>Smidighet (SMI):</strong> Smidighet handlar om rollpersonens handlag, reaktionstid och balans. Det är avgörande för aktiviteter som kräver finmotorik, snabba reflexer och förmågan att röra sig tyst eller undvika upptäckt. Höga värden i Smidighet gynnar karaktärer som behöver vara kvicka och lätta.</li>
+<li><strong>Intelligens (INT):</strong> Intelligens avspeglar rollpersonens kognitiva förmågor, problemlösningsfärdigheter och allmänna kunskaper. Det är viktigt för uppgifter som kräver logiskt tänkande, lärande och förståelse av komplex information. Karaktärer med hög Intelligens är ofta bra på att analysera situationer och komma på kreativa lösningar.</li>
+<li><strong>Psyke (PSY):</strong> Psyke representerar rollpersonens mentala styrka, viljestyrka och emotionella stabilitet. Det är viktigt för att hantera stress, motstå psykisk manipulation och behålla lugnet i utmanande situationer. En stark Psyke hjälper karaktärer att stå emot mentala påfrestningar och förbli fokuserade.</li>
+<li><strong>Karisma (KAR):</strong>: Karisma är ett mått på rollpersonens charm, övertalningsförmåga och ledarskapsegenskaper. Det påverkar hur de interagerar med andra karaktärer och deras förmåga att påverka, övertyga eller manipulera. Karaktärer med hög Karisma är ofta skickliga på social interaktion och att skapa allianser.</li>
+</ul>
+<p>Dessa egenskaper bildar grunden för rollpersonernas kapacitet och påverkar deras förmåga att lyckas med olika handlingar i spelet.</p>
+<h2 id="utföra-handlingar"><a class="header" href="#utföra-handlingar">Utföra handlingar</a></h2>
+<p>När du vill att din rollperson ska utföra en handling, följ dessa steg:</p>
+<ol>
+<li><strong>Deklarera handling:</strong> Som spelare, börja med att tydligt förklara vad du vill att din rollperson ska göra. Ange vilken av de sex (6) grundegenskaperna (Styrka, Fysik, Smidighet, Intelligens, Psyke, Karisma) du anser är mest relevant för handlingen.</li>
+<li><strong>Spelledarens godkännande:</strong> Spelledaren bedömer och beslutar om handlingen är möjlig och lämplig i den aktuella situationen. </li>
+<li><strong>Tärningskast:</strong> Som spelare, gör ett tärningskast för att avgöra utfallet av handlingen. Normalt använder du en T20.</li>
+<li><strong>Justerar utfallet:</strong> Anpassa utfallet av tärningskastet baserat på eventuella effekter, såsom färdigheter, utrustning, eller situationsspecifika faktorer som påverkar handlingen.</li>
+<li><strong>Tillämpa bonusar:</strong> Lägg till eventuella bonusar eller ytterligare kast som kan påverka handlingens resultat.</li>
+<li><strong>Utvärdering av utfallet:</strong> Slutligen, tillsammans med spelledaren, utvärderar du resultatet av handlingen. Om du lyckas, beskriver spelledaren vad som händer. Vid misslyckande, diskuteras eventuella konsekvenser.</li>
+</ol>
+<h2 id="välja-egenskap-för-handling"><a class="header" href="#välja-egenskap-för-handling">Välja egenskap för handling</a></h2>
+<p>När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex (6) grundegenskaper som du anser bäst passar för situationen. Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.</p>
+<div id="admonition-exempel" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="chapters/actions.html#admonition-exempel"></a></p>
+</div>
+<div>
+<ul>
+<li><strong>Övertalning:</strong> Om du vill övertyga en karaktär, kan du välja att använda Karisma (KAR) för att framhäva din rollpersons charm och övertalningsförmåga. Alternativt, om din rollperson är särskilt stark (STY), kan du försöka använda denna styrka för att skapa en mer imponerande och skrämmande närvaro.</li>
+<li><strong>Skriva ett viktigt brev:</strong> Om din rollperson behöver skriva ett viktigt brev, kan det vara lämpligt att använda Intelligens (INT) för att konstruera ett välformulerat och effektivt budskap. Att använda Karisma (KAR) för denna uppgift kan vara mindre effektivt, eftersom karisma oftast utövar större inflytande i personliga interaktioner snarare än i skriftlig kommunikation.</li>
+<li><strong>Hissen är trasig:</strong> Om din rollperson står inför en trasig hiss och behöver ta sig upp till våning 15, finns det flera sätt att närma sig problemet. Du kan välja att använda Fysik (FYS) för att springa upp för trapporna. Detta skulle vara ett bra val om din rollperson har god kondition och uthållighet. Alternativt, om du vill undvika fysisk ansträngning, kan du använda Karisma (KAR) för att övertyga någon annan att hjälpa till, eller för att förklara och hantera situationen på ett effektivt sätt om du till exempel behöver förklara för en chef varför du är sen till ett möte.</li>
+</ul>
+</div>
+</div>
+<h2 id="handlingskast"><a class="header" href="#handlingskast">Handlingskast</a></h2>
+<p>När din rollperson står inför en kritisk eller potentiellt riskfylld handling, är det dags att genomföra ett handlingskast. Denna typ av kast används för att avgöra utfallet av viktiga handlingar där utfallet inte är givet. Exempel på sådana situationer kan vara att försöka låsa upp en krånglig dörr, undvika upptäckt, eller att utföra en komplicerad uppgift under tidspress. För enklare handlingar, som att plocka upp något eller packa en väska, krävs inga handlingskast.</p>
+<p>Alla handlingskast görs med en T20 (tjugo-sidig tärning).</p>
+<h3 id="spelledarens-bedömning"><a class="header" href="#spelledarens-bedömning">Spelledarens bedömning</a></h3>
+<p>Det är spelledarens ansvar att avgöra när ett handlingskast är nödvändigt. Detta baseras på handlingens komplexitet och potentiella risker.</p>
+<h3 id="bestämma-utfallet"><a class="header" href="#bestämma-utfallet">Bestämma utfallet</a></h3>
+<p>För att avgöra om ett handlingskast är lyckat, jämförs tärningens värde med den relevanta grundegenskapen för handlingen. Om värdet är lika med eller lägre än grundegenskapen, är handlingen framgångsrik. </p>
+<h3 id="konsekvenser-av-misslyckande"><a class="header" href="#konsekvenser-av-misslyckande">Konsekvenser av misslyckande</a></h3>
+<p>Misslyckade kast innebär konsekvenser. Dessa konsekvenser varierar beroende på hur dåligt det gick. Ju högre över grundegenskapens värde tärningen visar, desto värre blir misslyckandet.</p>
+<div id="admonition-exempel-1" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="chapters/actions.html#admonition-exempel-1"></a></p>
+</div>
+<div>
+<p>Tänk dig att din rollperson försöker smyga genom en hall med flera öppna dörrar. Spelaren behöver då göra ett handlingskast mot förslagsvis rollpersonens Smidighet (SMI), som i detta fall är tio (10). </p>
+<ul>
+<li>Om spelaren slår en sjua (7), lyckas rollpersonen smidigt ta sig igenom hallen utan att upptäckas.</li>
+<li>Om spelaren däremot slår arton (18), misslyckas rollpersonen grovt. Detta kan innebära att rollpersonen snubblar och gör oväsen, vilket drar till sig oönskad uppmärksamhet. Ett sådant misslyckande är allvarligare än om spelaren hade slagit en elva (11), vilket också hade varit ett misslyckande, men med mindre dramatiska konsekvenser.</li>
+</ul>
+</div>
+</div>
+<h3 id="spektakulär-framgång"><a class="header" href="#spektakulär-framgång">Spektakulär framgång</a></h3>
+<p>När du slår en etta (1) på tärningen, har du uppnått en spektakulär framgång. Din rollpersons handling överträffar inte bara förväntningarna utan ger också oväntade och positiva resultat. Några exempel på vad detta kan innebära:</p>
+<ul>
+<li>Din rollperson upptäcker något extra utöver det de sökte.</li>
+<li>Deras insatser gör ett starkt intryck på alla i närheten.</li>
+<li>Uppgiften utförs inte bara framgångsrikt utan även på rekordtid.</li>
+</ul>
+<h3 id="katastrofalt-misslyckande"><a class="header" href="#katastrofalt-misslyckande">Katastrofalt misslyckande</a></h3>
+<p>Om tärningskastet resulterar i tjugo (20) på en T20, innebär det ett katastrofalt misslyckande. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att <em>pressa ett kast</em>. Några möjliga konsekvenser av ett sådant misslyckande är:</p>
+<ul>
+<li>Din rollperson orsakar skada på sig själv, andra, eller ett viktigt föremål.</li>
+<li>De skapar ett oerhört oväsen som kan dra till sig oönskad uppmärksamhet.</li>
+<li>Handlingen misslyckas så grundligt att det skapar ett hinder som förhindrar andra från att försöka utföra samma uppgift för en tid.</li>
+</ul>
+<h3 id="endast-ett-försök"><a class="header" href="#endast-ett-försök">Endast ett försök</a></h3>
+<p>Som spelare ges du vanligtvis bara en möjlighet att utföra en specifik handling. Efter att tärningarna har rullats för en viss handling, är det inte tillåtet att göra ett nytt tärningsslag för att försöka nå samma mål igen. Istället krävs det att situationen förändras, att du använder en annan strategi eller att en annan rollperson gör ett försök, innan handlingen kan utföras på nytt. Det finns dock en undantagssituation där du kan få en andra chans genom att 'pressa ett kast'.</p>
+<h2 id="pressa-ett-kast"><a class="header" href="#pressa-ett-kast">Pressa ett kast</a></h2>
+<p>Vid misslyckande av ett handlingskast kan du välja att pressa ditt kast. Detta betyder att du slår om kastet men tar +1 <strong>stress</strong> som resultat. Du kan endast pressa ett kast en gång per handling. Ett lyckat kast kan inte pressas för ett bättre resultat.</p>
+<h2 id="fördelskast"><a class="header" href="#fördelskast">Fördelskast</a></h2>
+<p>När du gör ett kast med <strong>fördel</strong>, innebär detta att din rollperson har en ökad chans att lyckas tack vare gynnsamma omständigheter. För att utföra ett sådant kast:</p>
+<ol>
+<li>Slå den valda tärningen (vanligtvis 1T20) två gånger.</li>
+<li>Ta det värde som ger bäst utfall av de två kasten som resultatet av ditt handlingskast.</li>
+</ol>
+<p>Ett kast med fördel kan till exempel tillämpas när din rollperson har tillgång till hjälpresurser, är särskilt väl förberedd, eller befinner sig i en situation där oddsen är till hens fördel.</p>
+<h2 id="nackdelskast"><a class="header" href="#nackdelskast">Nackdelskast</a></h2>
+<p>Omständigheter som är ofördelaktiga eller utmanande för din rollperson kan resultera i ett kast med <strong>nackdel</strong>. Detta innebär en ökad risk för misslyckande. När du gör ett kast med nackdel:</p>
+<ol>
+<li>Slå den valda tärningen (vanligtvis 1T20) två gånger.</li>
+<li>Använd det värde som ger sämst utfall av de två kasten som resultatet av ditt handlingskast.</li>
+</ol>
+<p>Kast med nackdel kan tillämpas i situationer där din rollperson är hindrad, under stress, eller när det finns andra faktorer som komplicerar handlingen.</p>
+<h2 id="motståndskast"><a class="header" href="#motståndskast">Motståndskast</a></h2>
+<p>Under spelets gång kommer det att uppstå situationer där din rollperson utsätts för yttre påverkan eller utmaningar som kräver ett aktivt motstånd. Dessa situationer hanteras genom motståndskast, där du som spelare slår tärningar för att avgöra hur din rollperson klarar sig. Typen av egenskap som används beror på situationens natur.</p>
+<p>Motståndskast fungerar precis som Handlingskast och slås även med en T20.</p>
+<div id="admonition-exempel-på-motståndssituationer" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel på motståndssituationer</p>
+<p><a class="admonition-anchor-link" href="chapters/actions.html#admonition-exempel-på-motståndssituationer"></a></p>
+</div>
+<div>
+<ul>
+<li><strong>Upptäcka dold ting:</strong> Om det finns något dolt eller oklart i rollpersonens omgivning, kan spelledaren be dig göra ett Intelligens (INT) slag för att se om din rollperson upptäcker eller förstår detta.</li>
+<li><strong>Fysisk påverkan:</strong> Om din rollperson utsätts för fysisk stress, som att springa en lång sträcka, hålla balansen på en smal kant, eller uthärda extrema väderförhållanden, kan ett motståndskast med Fysik (FYS) krävas.</li>
+<li><strong>Mentalt motstånd:</strong> I situationer där rollpersonen står inför psykisk press, som manipulation, hot, eller skrämmande omständigheter, kan ett slag med Psyke (PSY) vara nödvändigt. Detta avgör rollpersonens förmåga att bibehålla sitt lugn och sitt förnuft under press.</li>
+<li><strong>Sociala utmaningar:</strong> När rollpersonen hamnar i sociala situationer där de behöver stå emot övertalning, lögner, eller charm, kan ett motståndskast med Karisma (KAR) behövas för att avgöra hur väl de kan hålla sig opåverkade och behålla sin egen övertygelse.</li>
+</ul>
+</div>
+</div>
+<p>Spelledaren kan när som helst under spelets gång be spelarna att göra ett motståndskast mot en specifik eller flera av sina grundegenskaper. Det är vanligtvis bäst om spelledaren inte avslöjar syftet med kastet för spelarna. Särskilt om kastet inte leder till framgång. Syftet är att förhindrar spelarna från att spekulera eller försöka 'speloptimera' baserat på vad de tror att kastet gäller, särskilt om de känner till att någon tidigare misslyckats med en liknande handling.</p>
+<h3 id="spelledarpersoners-motståndskast"><a class="header" href="#spelledarpersoners-motståndskast">Spelledarpersoners motståndskast</a></h3>
+<p>När din rollperson utför handlingar som syftar till att påverka Spelledarpersoner, krävs det att spelledaren gör ett motståndskast för att avgöra utfallet av din handling. Detta motståndskast baseras på samma grundegenskap som din rollperson använder för handlingen.</p>
+<h2 id="din-roll-i-spelvärlden"><a class="header" href="#din-roll-i-spelvärlden">Din roll i spelvärlden</a></h2>
+<p>Din förmåga att välja rätt egenskap i olika situationer kommer att påverka din rollpersons framgång i spelet. Kom ihåg att kreativitet och flexibilitet ofta belönas, men att det också finns situationer där vissa egenskaper är mer logiska eller effektiva än andra. Som spelare är du en aktiv deltagare i att forma din rollpersons utveckling.</p>
+<h2 id="inspiration"><a class="header" href="#inspiration">Inspiration</a></h2>
+<p>Om du som spelare agerar helt i linje med din karaktär eller har bidragit med en väldigt god idé, har kommit ihåg något väldigt viktigt eller liknande kan spelledaren välja att ge dig inspiration.</p>
+<p>Inspiration kan användas endast en gång innan den är förbrukad och en spelare kan endast hålla en inspiration i taget. Inspiration kan användas till följande;</p>
+<ul>
+<li>Kast tärning på nytt utan att behöva pressa ett kast.</li>
+<li>Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.</li>
+<li>Göra ett (1) poäng framsteg i en (1) Progressklocka utan att slå tärning för varken handling eller framstegspoäng.</li>
+</ul>
+<h2 id="spelledarkaraktärers-handlingar"><a class="header" href="#spelledarkaraktärers-handlingar">Spelledarkaraktärers handlingar</a></h2>
+<p>Spelledarkaraktärers (SLK) handlingar hanteras på ett förenklat sätt jämfört med rollpersonerna. Dessa karaktärer utför vanligtvis sina handlingar utan tärningskast, där utfallet – lyckat eller misslyckat – bestäms av spelledaren baserat på berättelsens flöde och behov. </p>
+<p>För att införa ett element av slump, kan spelledaren ibland välja att använda en T6 för spelledarkaraktärernas handlingar. Kastet görs i det dolda, och resultatet tolkas enligt följande tabell:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T6</th><th style="text-align: left">Resultat</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left">Karaktären utför handlingen framgångsrikt utan komplikationer.</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">Handlingen lyckas, men ett mindre hinder eller problem uppstår.</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">Handlingen utförs med nöd och näppe, vilket leder till ett större problem.</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">Handlingen misslyckas, men utan ytterligare konsekvenser.</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">Handlingen misslyckas och orsakar ett mindre problem.</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left">Handlingen misslyckas fatalt och resulterar i ett större problem.</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="progresshantering"><a class="header" href="#progresshantering">Progresshantering</a></h1>
+<p>I spelet används en speciell mekanik, kallad &quot;klockor&quot;, för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer. För större projekt, där mer arbete krävs, kan flera klockor kopplas samman för att bilda en sekvens.</p>
+<p><img src="chapters/../resources/clocks-1.png" alt="Clocks1" /></p>
+<ul>
+<li><strong>Uppbyggnad:</strong> När din rollperson arbetar på en uppgift, fylls klockans sektorer för att visa framsteg. Varje syssla eller projekt kan ha sin egen klocka, med antalet sektorer varierande beroende på uppgiftens omfattning och komplexitet.</li>
+<li><strong>Användning:</strong> Under varje arbetsperiod får rollpersonen chansen att bidra till en klocka genom att utföra relaterade aktiviteter. Ett lyckat handlingskast indikerar framsteg, och ett antal sektorer på klockan fylls i motsvarande rollpersonens framgångsgrad.</li>
+<li><strong>Fullbordande:</strong> När alla sektorer i en klocka är ifyllda, anses uppgiften eller projektet vara slutfört. Detta kan leda till nya utvecklingar i spelet, belöningar för rollpersonen, eller upplåsning av ytterligare berättelseelement.</li>
+</ul>
+<p>För mer omfattande projekt kan flera klockor kopplas samman. Varje enskild klocka representerar en del av projektet, och tillsammans bildar de en större helhet.</p>
+<p><img src="chapters/../resources/clocks-2.png" alt="Clocks2" /></p>
+<h2 id="projektklockor"><a class="header" href="#projektklockor">Projektklockor</a></h2>
+<p>Projektklockor används för att spåra framsteg i större och mer komplexa projekt. Dessa projekt kan omfatta flera steg eller faser, var och en representerad av en egen sysselklocka. Projektklockor består ofta av flera länkade klockor som tillsammans bildar en helhet, där varje enskild klocka representerar en distinkt del av det större arbetet.</p>
+<h2 id="sysselklockor"><a class="header" href="#sysselklockor">Sysselklockor</a></h2>
+<p>Sysselklockor används för att spåra framsteg i mer rutinmässiga och vardagliga uppgifter. Dessa klockor består vanligtvis av upp emot åtta (8) sektorer och representerar arbete som kan slutföras inom en rimlig tid. Till skillnad från de mer omfattande projektklockorna, representerar en sysselklocka oftast en isolerad uppgift eller aktivitet.</p>
+<h2 id="felstegsklockor"><a class="header" href="#felstegsklockor">Felstegsklockor</a></h2>
+<p>Felstegsklockor är ett verktyg för att hålla koll på misstag eller problem som uppstår under rollpersonernas utförande av uppgifter. Dessa klockor kan användas för att spåra antalet fel under kritiska moment, som en presentation, eller för att mäta hur länge det dröjer innan en motpart avslöjar rollpersonernas lögn. En fullbordad felstegsklocka kan indikera ett totalt misslyckande eller en betydande omvälvning i situationen.</p>
+<h2 id="dualitetsklockor"><a class="header" href="#dualitetsklockor">Dualitetsklockor</a></h2>
+<p>Dualitetsklockor är en unik typ av klocka som visualiserar både framsteg och tillbakagång inom samma kontext. Liksom traditionella klockor fylls de på när framsteg görs i en syssla eller projekt. Det som skiljer Dualitetsklockor från andra är deras förmåga att även visa tillbakagång. När din rollperson stöter på motgångar, felsteg eller misslyckanden minskar framstegen i en dualitetsklocka.</p>
+<h2 id="alternativa-visualiseringar-av-klockor"><a class="header" href="#alternativa-visualiseringar-av-klockor">Alternativa visualiseringar av klockor</a></h2>
+<p>Det är viktigt att varje spelare och spelledaren håller noggrann koll på sina klockor. Det finns flera sätt att visualisera dessa klockor, vilket ger flexibilitet i hur de kan hanteras och upplevas.</p>
+<p>Handritade klockor är en pålitlig och den rekommenderade metoden för att spåra framsteg. De ger en tydlig och direkt visuell representation och tillåter omedelbar anpassning och uppdatering vid förändringar.</p>
+<h3 id="tärningar-som-klockor"><a class="header" href="#tärningar-som-klockor">Tärningar som klockor</a></h3>
+<p>För de som föredrar en alternativ metod, kan klassiska rollspelstärningar som T4, T6, T8, T12 och T20 användas för att representera framsteg på klockorna. Varje tärning representerar en annan storlek av klocka, baserat på antalet sektorer.</p>
+<ul>
+<li><strong>Tärningar för Dualitetsklockor:</strong> Användning av tärningar kan vara speciellt fördelaktigt för Dualitetsklockor. De möjliggör snabb och synlig justering av framsteg och tillbakagång.</li>
+<li><strong>Observera Risker:</strong> En nackdel med att använda tärningar är att de kan förflytta sig om spelbordet stöts till eller om de råkar komma i vägen. Det är därför viktigt att säkra så att klockornas status inte oavsiktligt förändras.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="arbete"><a class="header" href="#arbete">Arbete</a></h1>
+<p>Arbetsdagen för rollpersonerna är strukturerad i fyra perioder, med två före lunch och två efter lunch. Under varje period kan din rollperson ägna sig åt en specifik <strong>syssla</strong> åt gången. En syssla kan innefatta ett brett spektrum av arbetsrelaterade aktiviteter, såsom:</p>
+<ul>
+<li><strong>Möten:</strong> Delta i möten med andra rollpersoner eller spelledarkaraktärer för diskussion och samarbete.</li>
+<li><strong>Forskningsarbete:</strong> Utforska och analysera information som är relevant för rollpersonens arbetsuppgifter.</li>
+<li><strong>Projektarbete:</strong> Jobba på specifika projekt eller uppgifter som är centrala för rollpersonens yrkesroll.</li>
+</ul>
+<p>Varje syssla kräver att din rollperson använder sina färdigheter och resurser på ett effektivt sätt för att uppnå framsteg och bidra till företagets mål.</p>
+<h2 id="sysslor"><a class="header" href="#sysslor">Sysslor</a></h2>
+<p>Varje rollperson kan engagera sig i olika sysslor, dock endast en åt gången. En rollperson kan ha upp till fem (5) pågående sysslor parallellt, såvida inga speciella förmågor eller regler tillåter annorlunda.</p>
+<h3 id="progressklockor-och-sysslor"><a class="header" href="#progressklockor-och-sysslor">Progressklockor och sysslor</a></h3>
+<p>Inte alla sysslor kräver användning av en progressklocka. Vissa uppgifter kan vara mer direkt och enkla, medan andra är mer komplexa och kräver noggrann uppföljning. Det är spelledarens ansvar att avgöra vilka sysslor som kräver en progressklocka för att visualisera och spåra framsteg. Denna bedömning görs baserat på sysslans natur och hur den passar in i spelets övergripande berättelse.</p>
+<h3 id="arbetsomfångsbedömning"><a class="header" href="#arbetsomfångsbedömning">Arbetsomfångsbedömning</a></h3>
+<p>När en ny syssla blir din uppgift, inleds utvärderingen av dess omfattning med några viktiga frågor från Spelledaren. Dina svar på dessa frågor kommer att vara avgörande för att bestämma hur många T6 som behövs för att få en klar bild av utmaningens storlek.</p>
+<ul>
+<li>Vi börjar alltid med 1T6 för <em>Lagen om alltings jävlighet</em> -- en påminnelse om att oförutsedda omständigheter och svårigheter ofta lurar där vi minst anar dem.</li>
+</ul>
+<ol>
+<li>
+<p><strong>Besitter du erforderliga kunskaper eller unika färdigheter för denna syssla?</strong></p>
+<ul>
+<li>Nej: Lägg till 1T6.</li>
+</ul>
+</li>
+<li>
+<p><strong>Är uppgiften enkel och utan komplexa steg eller faser?</strong></p>
+<ul>
+<li>Nej: Lägg till 1T6.</li>
+</ul>
+</li>
+<li>
+<p><strong>Är arbetsmiljön och omständigheterna gynnsamma (resurser, tid, stöd)?</strong></p>
+<ul>
+<li>Nej: Lägg till 1T6.</li>
+</ul>
+</li>
+<li>
+<p><strong>Har du tidigare lyckats väl i liknande uppgifter?</strong></p>
+<ul>
+<li>Ja: Du kan slå om 1T6.</li>
+</ul>
+</li>
+<li>
+<p><strong>Är det en gruppuppgift eller kan du ta nytta av någon annans förmåga?</strong></p>
+<ul>
+<li>Ja: Du kan slå om 1T6.</li>
+</ul>
+</li>
+</ol>
+<p>Efter att ha besvarat frågorna och ackumulerat dina tärningar, är det dags för själva kastet. Här slår du alla dina T6:or och utför eventuella omslag som dina svar har gjort möjliga. Slutsumman av alla tärningar bestämmer sedan hur många segment som finns på progressklockan eller flera länkade progressklockor. Omslag kan ske ett efter det andra.</p>
+<h4 id="oanad-komplexitet"><a class="header" href="#oanad-komplexitet">Oanad komplexitet</a></h4>
+<p>Om en syssla redan från början ska vara särskilt utmanande, har Spelledaren rätt att lägga till en extra dimension av komplexitet. Detta görs genom att slå 1T20, vars resultat läggs till som ytterligare segment till sysslans progressklocka. För uppgifter som är exceptionellt svåra, får Spelledaren utföra detta T20-kast med <strong>fördel</strong>.</p>
+<h3 id="utförande-av-sysslor"><a class="header" href="#utförande-av-sysslor">Utförande av sysslor</a></h3>
+<p>När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast med en T20. Detta kast jämförs mot en relevant grundegenskap som korresponderar med sysslan. Det är spelarens och spelledarens gemensamma beslut att avgöra vilken grundegenskap som är lämplig för den specifika sysslan. </p>
+<div id="admonition-exempel" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="chapters/work.html#admonition-exempel"></a></p>
+</div>
+<div>
+<p><em>Spelledare</em>: Gör ett nytt kast för att se hur väl du kommunicerar huvudpunkterna.</p>
+<p><em>Spelare</em>: (Kastar tärningen) Åh nej, 16. Tappar jag tråden?</p>
+<p><em>Spelledare</em>: Du blir osäker då de för dig okända blickarna runt bordet verkar borra sig in i din själ. Gör ett Psyke (PSY) kast.</p>
+<p><em>Spelare</em>: (Kastar tärningen) 4?</p>
+<p><em>Spelledare</em>: Ditt Psykevärde är 3 eftersom du redan har Mild belastning. Du misslyckas, och tar en T6 i stress på valfri grundegenskap.</p>
+<p><em>Spelare</em>: (Kastar tärningen) Aaaa nej, 4. Jag tar det på... Styrka (STY).</p>
+<p><em>Spelledare</em>: Presentationen är inte över, slå ett Handlingskast igen.</p>
+</div>
+</div>
+<h3 id="framsteg-och-progressklockor"><a class="header" href="#framsteg-och-progressklockor">Framsteg och progressklockor</a></h3>
+<p>Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än Tollpersonens värde i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T6</th><th style="text-align: left">Framsteg på Progressklockan</th></tr></thead><tbody>
+<tr><td style="text-align: center">1 - 2</td><td style="text-align: left">Fyller en (1) sektor</td></tr>
+<tr><td style="text-align: center">3 - 4</td><td style="text-align: left">Fyller två (2) sektorer</td></tr>
+<tr><td style="text-align: center">5 - 6</td><td style="text-align: left">Fyller tre (3) sektorer</td></tr>
+</tbody></table>
+</div><div id="admonition-exempel-1" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="chapters/work.html#admonition-exempel-1"></a></p>
+</div>
+<div>
+<p><em>Spelare</em>: Jag vill jobba på min presentation och använder min Intelligens (INT) som är 15.</p>
+<p><em>Spelledare</em>: Bra, gör ett handlingskast.</p>
+<p><em>Spelare</em>: Jag fick en 14... så jag lyckas?</p>
+<p><em>Spelledare</em>: Ja, du lyckas. Kasta nu en T6 för att se hur mycket framsteg du gör på din progressklocka.</p>
+<p><em>Spelare</em>: (Kastar en T6) Jag fick en 4!</p>
+<p><em>Spelledare</em>: Perfekt, det betyder att du fyller i två sektorer på din progressklocka. Din presentation börjar ta form!</p>
+<p><em>Spelare</em>: Bra, jag vill fortsätta arbeta på detta under nästa period för att försöka slutföra det.</p>
+<p><em>Spelledare</em>: Låter bra, kom ihåg att du kan välja att använda olika grundegenskaper om du vill närma dig uppgiften på ett annat sätt.</p>
+</div>
+</div>
+<h2 id="fika"><a class="header" href="#fika">Fika</a></h2>
+<p>Fika är en traditionell svensk paus som innefattar att ta en kort stund för avkoppling, ofta med kaffe och något litet att äta. I spelets kontext representerar Fika en stund för social samvaro och strategisk planering.</p>
+<p>Fika utgör den oundvikliga period kring bordet när du interagerar med de andra spelarna i samtal och beslutar om tillvägagångsätt.</p>
+<h2 id="samarbete"><a class="header" href="#samarbete">Samarbete</a></h2>
+<p>När du väljer att samarbeta med andra spelare för att effektivisera arbetet med en syssla eller en handling, tillämpas följande process:</p>
+<ol>
+<li><strong>Initiera samarbetet:</strong> Bestäm vem som leder samarbetet. Denna rollperson koordinerar insatsen och blir ansvarig för det slutgiltiga kastet för framsteg.</li>
+<li><strong>Utför handlingskast:</strong> Varje deltagande rollperson utför ett Handlingskast mot en lämplig grundegenskap. Syftet är att fastställa om de individuellt bidrar till samarbetet.</li>
+<li><strong>Bestäm framsteg:</strong> Om minst en av deltagarna lyckas med sitt handlingskast, slår rollpersonen som leder samarbetet en T6 för att bestämma hur mycket progressklockan fylls i. Endast ett T6-kast görs oavsett antalet deltagare som lyckas. För sysslor som inte kräver en progressklocka, räcker det att minst en av deltagarna lyckas med sitt handlingskast för att sysslan ska anses genomförd.</li>
+<li><strong>Ingen effekt av &quot;Spektakulär framgång&quot; eller &quot;Katastrofalt misslyckande&quot;:</strong> När du deltar i ett samarbete, påverkas inte resultatet av eventuella &quot;Spektakulär framgång&quot; eller &quot;Katastrofalt misslyckande&quot;. Detta gör samarbete till en taktisk fördel i kritiska situationer.</li>
+<li><strong>Förbrukad möjlighet:</strong> Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har dock fortfarande möjlighet att &quot;Pressa ett kast&quot; om du känner att det behövs.</li>
+</ol>
+<p>Ett samarbete kan initieras vid vilken tidpunkt som helst under spelets gång. Oavsett om det sker vid starten av en syssla eller mitt i dess genomförande.</p>
+<h2 id="syssloptimering"><a class="header" href="#syssloptimering">Syssloptimering</a></h2>
+<p>När din rollperson får en ny syssla, har du möjlighet att dra nytta av dina egna kunskaper om ämnet för att detaljerat beskriva hur din rollperson närmar sig och hanterar uppgiften. Genom att ge en noggrann och realistisk beskrivning av hur rollpersonen tacklar sysslan, kan du effektivisera arbetet som krävs för att slutföra uppgiften.</p>
+<p>Denna detaljerade förklaring av förarbetet kan resultera i att spelledaren reducerar mängden arbete eller antalet sektorer i progressklockan som behöver fyllas i för att slutföra sysslan. Exakta minskningen beror på din beskrivning och hur väl den passar in i spelets kontext, och är därmed upp till spelledarens bedömning.</p>
+<h2 id="störelsemoment"><a class="header" href="#störelsemoment">Störelsemoment</a></h2>
+<p>Spelledaren avgör om spelarnas diskussioner runt bordet passar inom ramen för spelets <strong>fika</strong>, <strong>lunch</strong> eller <strong>möte</strong>. Om spelardiskussioner blir långdragna eller om det uppstår meningsskiljaktigheter som fördröjer spelet, kan spelledaren besluta att nästa Handlingskast för alla inblandade spelare ska göras med <strong>nackdel</strong>.</p>
+<p>Som spelare är det viktigt att du agerar i enlighet med din rollpersons <strong>svagheter</strong>. Spelledaren kommer att beakta detta när hen bedömer effekten av din rollpersons handlingar och interaktioner med andra rollpersoner.</p>
+<h2 id="arbete-utanför-arbetstid"><a class="header" href="#arbete-utanför-arbetstid">Arbete utanför arbetstid</a></h2>
+<p>I spelvärlden råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.</p>
+<p>Spelledaren har dock möjligheten att göra undantag från denna regel och tillåta övertidsarbete. Beslutet att godkänna övertid kan tas när spelomständigheterna kräver det, eller när det tjänar spelets berättelse och rollpersonernas mål.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="stress-och-tillstånd"><a class="header" href="#stress-och-tillstånd">Stress och tillstånd</a></h1>
+<p>Rollpersonernas förmåga att stå emot mentala och emotionella påfrestningar hanteras genom en stressmätare. Denna mätare fylls på när rollpersonerna utsätts för svårigheter, utmaningar eller misslyckanden i spelets värld. Varje rollperson har en individuell förmåga att hantera stress, och deras stressmätare består vanligtvis av sex (6) nivåer.</p>
+<h2 id="tillståndkast"><a class="header" href="#tillståndkast">Tillståndkast</a></h2>
+<p>När stressmätaren når sin topp och det sjätte nivået fylls, uppnår rollpersonen en kritisk stresspunkt. Då krävs ett slag med en T6 för att bestämma vilket tillstånd rollpersonen hamnar i:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T6</th><th>Tillstånd</th><th>Grundegenskap</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Utmattad</td><td>Styrka(STY)</td></tr>
+<tr><td style="text-align: center">2</td><td>Krasslig</td><td>Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">3</td><td>Omtäcknad</td><td>Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">4</td><td>Förvirrad</td><td>Intelligent (INT)</td></tr>
+<tr><td style="text-align: center">5</td><td>Rädd</td><td>Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">6</td><td>Uppgiven</td><td>Karisma (KAR)</td></tr>
+</tbody></table>
+</div>
+<p>Efter att tillståndet är fastställt, återställs stressmätaren till noll (0).</p>
+<h3 id="tillståndsnivåer"><a class="header" href="#tillståndsnivåer">Tillståndsnivåer</a></h3>
+<p>Tillstånd som orsakas av hög stressnivå manifestera sig i två olika nivåer: Mild och Påtaglig. Varje nivå har en unik påverkan på din rollperson:</p>
+<ul>
+<li><strong>Mild:</strong> När din rollperson befinner sig i ett &quot;Milt&quot; tillstånd, påverkas en specifik grundegenskap. Alla kast som involverar denna grundegenskap måste utföras till <strong>nackdel</strong>. Detta innebär att du slår två tärningar och använder det sämsta resultatet av de två.</li>
+<li><strong>Påtaglig:</strong> Ett &quot;Påtagligt&quot; tillstånd är en allvarligare form av stresspåverkan. Här reduceras den berörda grundegenskapen direkt med sex (6) poäng. Detta representerar en betydande försämring av rollpersonens förmåga i situationer som kräver användning av den drabbade egenskapen.</li>
+</ul>
+<h2 id="tillfälliga-tillstånd"><a class="header" href="#tillfälliga-tillstånd">Tillfälliga tillstånd</a></h2>
+<p>Din Rollpersoner kan även drabbas av tillfälliga tillstånd som påverkar dem på samma vis som långlivade tillstånd. Dessa tillstånd är kortvariga effekter som varar i några timmar och tenderar att försvinna av sig själva. Tillfälliga tillstånd kan utlösas av specifika händelser eller situationer och representerar korta perioder av emotionell eller fysisk påverkan. De kan vara allt från en tillfällig förlust av koncentration till en kort stund av ångest eller fysisk obehag.</p>
+<ul>
+<li><strong>Hantering och botemedel</strong>: Tillfälliga tillstånd kan ofta hanteras eller botas genom spelarens agerande, såsom att använda specifika förmågor, genomföra vissa handlingar eller få hjälp från andra karaktärer. Till exempel kan en Rollperson som är temporärt rädd bli lugnad genom en annan Rollpersons karismatiska påverkan, eller en Rollperson som är temporärt förvirrad kan få hjälp att återfå sitt fokus genom en stunds vila.</li>
+<li><strong>Automatisk återhämtning</strong>: Ett centralt drag hos dessa tillstånd är deras flyktighet. Oavsett om de behandlas eller inte, försvinner ett temporärt tillstånd alltid efter en sömnperiod. Det är värt att notera att denna återhämtning sker även om sömnperioden inte är helt ostörd eller fullständig, vilket understryker det tillfälliga och övergående naturen hos dessa tillstånd.</li>
+</ul>
+<p>Tillfälliga tillstånd har endast <strong>Mild</strong> nivå.</p>
+<h2 id="utarbetad"><a class="header" href="#utarbetad">Utarbetad</a></h2>
+<p>Rollpersoners förmåga att hantera stress är begränsad. När en rollperson vid ett tillståndskast får en ytterligare påverkan på en redan <strong>Påtagligt</strong> belastad grundegenskap, blir de överbelastade och måste omedelbart avbryta sitt arbete. Rollpersonen är då begränsad till endast att delta i spelets &quot;Återhämtning&quot; och &quot;Sömn&quot;-faser under en period. Under denna tid är rollpersonen praktiskt taget ur spel tills de återhämtat sig till den grad att endast ett (1) tillstånd återstår. Spelaren kan fortfarande interagera med de andra spelarna, men rollpersonens aktiva deltagande i spelet är starkt begränsat.</p>
+<p>När din rollperson når en punkt av total utarbetning, är det dags för dig att konfrontera de djupare konsekvenserna av denna överbelastning. Detta görs genom att slå på Svaghetstabellen för att upptäcka vilken bestående svaghet som rollpersonen utvecklar på grund av den ihållande stressen och påfrestningen.</p>
+<h2 id="svaghetstabellen"><a class="header" href="#svaghetstabellen">Svaghetstabellen</a></h2>
+<p>Svaghetstabellen används för att slumpmässigt bestämma vilken typ av svaghet rollpersonen har utvecklat. Varje svaghet har en direkt effekt på rollpersonens grundegenskaper och därmed på deras förmåga att utföra olika handlingar i spelet. För att slå på tabellen använder spelaren en T20.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Svaghet</th><th>Effekt</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Insomnia</strong></td><td>Svårigheter med sömn leder till minskad mental klarhet och fokus. Under sömnfasen måste alla tärningskast ske med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Kleptoman</strong></td><td>En oemotståndlig drift att stjäla småsaker, vilket kan skapa komplicerade situationer. Du måste ta tillfället i akt när du ser något du kan &quot;låna&quot;, även om det kan leda till problem.</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Våghals</strong></td><td>En stark benägenhet att ta risker utan att tänka på konsekvenserna. Du måste välja den mest riskfyllda vägen i situationer.</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Våldsam</strong></td><td>En tendens till att reagera med aggression och våld. När en situation kan lösas med Styrka (STY), är detta ditt enda val.</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Lättjefull</strong></td><td>En brist på motivation och initiativförmåga. Vilket reducerar effektiviteten hos din rollperson till endast två arbetsperioder per dag.</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Hypokondriker</strong></td><td>Ständig oro för hälsa och sjukdomar. Psykologisk stress påverkar din rollpersons Psyke (PSY), vilket gör alla psykebaserade kast måste utföras med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left"><strong>Paranoid</strong></td><td>En överdriven misstänksamhet gentemot andra. Du arbetar ensam och förlitar dig inte på andra. Detta förhindrar deltagande i grupparbeten och ingen får bistå dig i dina uppgifter eller Handlingar.</td></tr>
+<tr><td style="text-align: center">8</td><td style="text-align: left"><strong>Melankolisk</strong></td><td>En djupgående sorgsenhet som påverkar din rollpersons förmåga att engagera sig i aktiviteter. Innan varje hobbyaktivitet, måste du slå en T6; med ett resultat under fyra (4), är din rollperson för nedstämd för att delta.</td></tr>
+<tr><td style="text-align: center">9</td><td style="text-align: left"><strong>Impulsiv</strong></td><td>Svårigheter att kontrollera impulsiva tankar och handlingar. Den första idén som du kommer på måste genomföras utan möjlighet till eftertanke eller förändring.</td></tr>
+<tr><td style="text-align: center">10</td><td style="text-align: left"><strong>Social fobi</strong></td><td>En intensiv rädsla för sociala situationer. Detta förhindrar deltagande i gruppaktiviteter, speciellt när det kommer till hobbyer.</td></tr>
+<tr><td style="text-align: center">11</td><td style="text-align: left"><strong>Osäker</strong></td><td>Markant brist på självförtroende och självbild. Denna osäkerhet förhindrar att du utför soloaktiviteter i hobbyer.</td></tr>
+<tr><td style="text-align: center">12</td><td style="text-align: left"><strong>Glömsk</strong></td><td>Problem med korttidsminnet och svårigheter med att komma ihåg detaljer. Din Intelligens (INT) drabbas negativt med en minskning på -3.</td></tr>
+<tr><td style="text-align: center">13</td><td style="text-align: left"><strong>Kortfattad</strong></td><td>Svårighet att kommunicera och uttrycka sig klart. Alla slag som kräver Karisma (KAR) görs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">14</td><td style="text-align: left"><strong>Känslig</strong></td><td>En stark reaktion på emotionella händelser och stimuli. Varje misslyckat försök att utföra en Handling leder till en (1) extra stress.</td></tr>
+<tr><td style="text-align: center">15</td><td style="text-align: left"><strong>Förvirrad</strong></td><td>Problem med att tänka klart och fatta välgrundade beslut. Alla Intelligens (INT)-baserade kast utförs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">16</td><td style="text-align: left"><strong>Rädd</strong></td><td>En ökad benägenhet att känna rädsla och ångest. När någon i din närhet misslyckas med en Handling, påverkas du negativt och tar en extra stresspoäng.</td></tr>
+<tr><td style="text-align: center">17</td><td style="text-align: left"><strong>Desorienterad</strong></td><td>Svårigheter med att hålla fokus och orientera sig. Navigeringsförsök kräver ett Handlingsslag mot Intelligens (INT) för att säkerställa att du tar rätt väg och inte går vilse.</td></tr>
+<tr><td style="text-align: center">18</td><td style="text-align: left"><strong>Svag</strong></td><td>Fysisk svaghet och begränsad uthållighet. Alla Styrka (STY)-baserade kast utförs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">19</td><td style="text-align: left"><strong>Stel</strong></td><td>Begränsad rörlighet och smidighet. Alla Smidighet (SMI)-baserade kast görs med <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">20</td><td style="text-align: left"><strong>Sjuklig</strong></td><td>Du lider av konstanta hälsoproblem. Alla Fysik (FYS)-baserade kast görs med <strong>nackdel</strong>.</td></tr>
+</tbody></table>
+</div>
+<h2 id="oväntad-avgång"><a class="header" href="#oväntad-avgång">Oväntad avgång</a></h2>
+<p>Döden inte ett vanligt inslag i spelupplevelsen. Istället finns det alternativa sätt att hantera situationer där rollpersoner står inför allvarliga utmaningar eller utmattning. När din rollperson når en punkt där de verkar vara utarbetade och återhämtning inte är möjlig på kort sikt, finns det två vägar att välja:</p>
+<ul>
+<li><strong>Pension:</strong> Du kan välja att låta din rollperson gå i pension, vilket innebär att de lämnar spelets aktiva handling. Denna pensionering behöver inte vara permanent, och karaktären kan komma tillbaka vid en senare tidpunkt under passande omständigheter.</li>
+</ul>
+<p>eller</p>
+<ul>
+<li><strong>Terapi:</strong> Alternativt kan rollpersonen skickas till en av företagets specialterapier. Denna åtgärd öppnar upp möjligheten för karaktären att återhämta sig och återvända till spelet när tiden är rätt.</li>
+</ul>
+<p>När någon av dessa situationer inträffar, har du som spelare möjlighet att skapa en ny rollperson. Denna nya karaktär introduceras i spelet på ett lämpligt och sammanhängande sätt, vilket ger en fräsch start.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Återhämtning"><a class="header" href="#Återhämtning">Återhämtning</a></h1>
+<p>Återhämtning är en kritisk del av den dagliga rutinen i &quot;Panoptikon&quot;. Efter en dag fylld med arbetsutmaningar behöver din rollperson tid för aktiviteter som är roliga, berikande eller avkopplande. Varje rollperson har ett utbud av hobbyer som de ägnar sig åt. Dessa hobbyer spelar en central roll i deras återhämtning och bidrar till att ge din rollperson djup och realism.</p>
+<p>Under spelets gång kan din rollpersons intressen förändras. Hobbyer som en gång var en integrerad del av deras identitet kan förlora sin glans, medan nya intressen kan uppkomma och ge möjlighet till nya erfarenheter och utveckling.</p>
+<h2 id="hobby"><a class="header" href="#hobby">Hobby</a></h2>
+<p>För att ge din rollpersoner ett rikt och balanserat liv, börja med att välja två hobbier som hen redan ägnar sig åt. Använd sedan en T20 för att slumpmässigt lägga till en tredje hobby. Skulle tärningsslaget visa en hobby som din rollperson redan har, fortsätt att slå tills en ny och unik hobby uppenbarar sig.</p>
+<p>En rollperson kan endast ha tre (3) olika hobbyer samtidigt om inget annat anges.</p>
+<div id="admonition-todo" class="admonition admonish-note">
+<div class="admonition-title">
+<p>TODO</p>
+<p><a class="admonition-anchor-link" href="chapters/recuperation.html#admonition-todo"></a></p>
+</div>
+<div>
+<p>Ska det vara någon form av bonus vid slag för hobby? En spelare med säg 5 i Intelligens (INT), som använder denna grundegenskap för <strong>Matlagning</strong> har endas 1/4 chans att lyckas med sitt Handlingskast. Detta gör att spelarna från början innan de tränat upp sina grundegenskaper har väldigt svårt att lyckas.</p>
+</div>
+</div>
+<h3 id="hobbytabell"><a class="header" href="#hobbytabell">Hobbytabell</a></h3>
+<p><strong>Grundegenskap</strong>: Denna kolumn visar vilka grundegenskaper som är relevanta för varje hobby. När din rollperson utför en hobbyaktivitet, väljer du en av dessa angivna egenskaper för att göra ditt tärningskast. Valet av grundegenskap reflekterar hur din rollperson närmar sig och utövar hobbyn.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Hobby</th><th style="text-align: left">Beskrivning</th><th style="text-align: left">Grundegenskap</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Matlagning</strong></td><td style="text-align: left">Du älskar att experimentera i köket, skapa läckra rätter och bakverk.</td><td style="text-align: left">Intelligens (INT) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Trädgårdsarbete</strong></td><td style="text-align: left">Du finner lugn i att odla och sköta om växter, njuter av naturens skönhet.</td><td style="text-align: left">Styrka (STY) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Yoga</strong></td><td style="text-align: left">Du söker inre frid och fysisk smidighet genom yoga och meditation.</td><td style="text-align: left">Smidighet (SMI) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Teater</strong></td><td style="text-align: left">Du tar centrum på scenen utan manus, leder och svarar på scener med ren intuition och kvickhet.</td><td style="text-align: left">Psyke (PSY) / Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Vandring</strong></td><td style="text-align: left">Du uppskattar äventyr i det fria, upptäcker nya platser till fots.</td><td style="text-align: left">Fysik (FYS) / Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Musik</strong></td><td style="text-align: left">Du finner glädje och utmaning i att spela musik och behärska nya instrument.</td><td style="text-align: left">Karisma (KAR) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">7</td><td style="text-align: left"><strong>Dans</strong></td><td style="text-align: left">Du uttrycker dig själv genom dans, rytm och rörelse är ditt språk.</td><td style="text-align: left">Smidighet (SMI) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">8</td><td style="text-align: left"><strong>Skrivande</strong></td><td style="text-align: left">Du spinner samman ord till fascinerande berättelser och känslomässig poesi.</td><td style="text-align: left">Psyke (PSY) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">9</td><td style="text-align: left"><strong>Simning</strong></td><td style="text-align: left">Du trivs bäst i vatten, simmar för att koppla av och hålla dig i form.</td><td style="text-align: left">Fysik (FYS) / Styrka (STY)</td></tr>
+<tr><td style="text-align: center">10</td><td style="text-align: left"><strong>Vinprovning</strong></td><td style="text-align: left">Du har en uppskattning för fina viner, utforskar och njuter av varje smaknyans.</td><td style="text-align: left">Karisma (KAR) / Fysik (FYS)</td></tr>
+<tr><td style="text-align: center">11</td><td style="text-align: left"><strong>Fribrottning</strong></td><td style="text-align: left">Du kombinerar din fysiska styrka med en imponerande närvaro i ringen.</td><td style="text-align: left">Styrka (STY) / Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">12</td><td style="text-align: left"><strong>Cirkuskonster</strong></td><td style="text-align: left">Du trollbinder publiken med dina akrobatiska färdigheter och charm, från jonglering till trapetskonster.</td><td style="text-align: left">Karisma (KAR) / Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">13</td><td style="text-align: left"><strong>Pyssel</strong></td><td style="text-align: left">Du finner nöje i komplexa mönster och att skapa detaljerade figurer.</td><td style="text-align: left">Smidighet (SMI) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">14</td><td style="text-align: left"><strong>Arkeolog</strong></td><td style="text-align: left">Du älskar fältarbete, att avkoda det förflutna och förena äventyr med historia</td><td style="text-align: left">Styrka (STY) / Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">15</td><td style="text-align: left"><strong>Bergsklättring</strong></td><td style="text-align: left">Du har ett driv att bemästra branta klippor och komplexa rutter.</td><td style="text-align: left">Styrka (STY) / Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">16</td><td style="text-align: left"><strong>Schackspel</strong></td><td style="text-align: left">Du njuter av det strategiska spelet, alltid redo för en intellektuell duell på schackbrädet.</td><td style="text-align: left">Intelligens (INT)</td></tr>
+<tr><td style="text-align: center">17</td><td style="text-align: left"><strong>Fågelskådning</strong></td><td style="text-align: left">Du utforskar och uppskattar naturens mångfald, en passionerad fågelskådare.</td><td style="text-align: left">Psyke (PSY)</td></tr>
+<tr><td style="text-align: center">18</td><td style="text-align: left"><strong>Gör-det-själv</strong></td><td style="text-align: left">Du älskar att skapa och reparera saker själv, alltid med ett nytt projekt på gång.</td><td style="text-align: left">Smidighet (SMI)</td></tr>
+<tr><td style="text-align: center">19</td><td style="text-align: left"><strong>Scoutledare</strong></td><td style="text-align: left">Du inspirerar och vägleder du unga människor genom äventyr och lärande i naturen.</td><td style="text-align: left">Karisma (KAR)</td></tr>
+<tr><td style="text-align: center">20</td><td style="text-align: left"><strong>Löpning</strong></td><td style="text-align: left">Du utmanar dig själv med långa löpturer, där din fysiska uthållighet och mentala tålamod sätts på prov i varje lopp.</td><td style="text-align: left">Fysik (FYS)</td></tr>
+</tbody></table>
+</div>
+<h2 id="utförande"><a class="header" href="#utförande">Utförande</a></h2>
+<p>När din rollperson engagerar sig i en hobby, utförs detta genom ett T20 handlingskast, likt andra handlingskast i spelet. För att hobbyaktiviteten ska anses lyckad, ska resultatet av tärningskastet vara lika med eller lägre än rollpersonens värde i den relevanta grundegenskapen. Ett högre värde indikerar att aktiviteten misslyckats. Notera att det inte är möjligt att 'pressa ett kast' i samband med hobbyer.</p>
+<ul>
+<li>Om aktiviteten lyckas, kasta 1T6 för att avgöra hur många stresspoäng din rollperson återhämtar.</li>
+<li>Vid misslyckande, kasta 1T6, och ta hälften av värdet (avrundat uppåt) i ökad stress.</li>
+</ul>
+<p>Beskriv gärna hur din rollperson utför sin hobby och vad som ledde till att aktiviteten blev lyckad eller misslyckad.</p>
+<h3 id="spektakulär-framgång-1"><a class="header" href="#spektakulär-framgång-1">Spektakulär framgång</a></h3>
+<p>Ett kast på exakt ett (1) med T20 innebär en spektakulär framgång. I detta fall, kasta 2T6 och använd det högsta av de två resultaten för att bestämma stressåterhämtningen.</p>
+<h3 id="katastrofalt-misslyckande-1"><a class="header" href="#katastrofalt-misslyckande-1">Katastrofalt misslyckande</a></h3>
+<p>Om tärningskastet resulterar i en tjugo (20), är det ett katastrofalt misslyckande. Denna händelse slår hårt mot din rollpersons moral. Kasta då 2T6 och använd det lägsta av de två resultaten som ökad stress.</p>
+<h2 id="byte-av-hobby"><a class="header" href="#byte-av-hobby">Byte av hobby</a></h2>
+<p>Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet. Om spelets händelser leder till att din rollperson förlorar intresset för en av sina hobbyer, ska denna hobby strykas från din rollpersons lista omedelbart. På samma sätt, om en händelse i spelet resulterar i att din rollperson får ett nytt intresse, får du välja en ny hobby för dem. Det är viktigt att din rollperson endast har tre hobbyer som mest om inget annat angets. Om en ny hobby tillkommer måste en gammal tas bort för att behålla balansen.</p>
+<h2 id="slumpens-nycker"><a class="header" href="#slumpens-nycker">Slumpens nycker</a></h2>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T20</th><th style="text-align: left">Hobby</th><th style="text-align: left">Beskrivning</th><th style="text-align: left">Grundegenskap</th><th>Effekt</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left"><strong>Oväntat besök</strong></td><td style="text-align: left">En gammal vän hör plötsligt av sig och bjuder ut dig på middag.</td><td style="text-align: left">Karisma (KAR)</td><td><strong>Framgång:</strong> -1 <strong>stress</strong>, <strong>Motgång:</strong> +1 <strong>stress</strong></td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left"><strong>Nattfotografering</strong></td><td style="text-align: left">En affish inspirerar dig till att utforska stjärnhimmeln.</td><td style="text-align: left">Intelligens (INT)</td><td>...</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left"><strong>Extremsport</strong></td><td style="text-align: left">Du är osäker på det gick till men plötsligt står du där.</td><td style="text-align: left">Smidighet (SMI)</td><td>...</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left"><strong>Frivilligarbete</strong></td><td style="text-align: left">Du spenderar kvällen för att hjälpa till på en lokal välgörenhetsorganisation.</td><td style="text-align: left">Styrka (STY)</td><td>...</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left"><strong>Kvällsmuseum</strong></td><td style="text-align: left">Ett museum i trakten fångar ditt intresse.</td><td style="text-align: left">Intelligens (INT)</td><td>...</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left"><strong>Gatufestival</strong></td><td style="text-align: left">En gatufestival äger rum i närheten och du känner dig manad att gå.</td><td style="text-align: left">Psyke (PSY)</td><td>...</td></tr>
+</tbody></table>
+</div><div id="admonition-todo-1" class="admonition admonish-note">
+<div class="admonition-title">
+<p>TODO</p>
+<p><a class="admonition-anchor-link" href="chapters/recuperation.html#admonition-todo-1"></a></p>
+</div>
+<div>
+<p>Tabell med 20 olika totalt slumpartade händelser. En tredjedel ska vara negativa, eller svåra - kopplade till specifika grundegenskaper medans andra är lättare. Detta val är högre riskt än kända hobbyer medans vinsten kan vara större.</p>
+</div>
+</div>
+<h2 id="sömn"><a class="header" href="#sömn">Sömn</a></h2>
+<p>Sömn är en kritisk fas för din rollpersons stresshantering och återhämtning från olika tillstånd. Under sömnfasen kan du som spelare välja mellan att minska stress eller att arbeta på att återhämta dig från ett tillstånd. Observera att återhämtning från ett tillstånd är endast möjlig om stressnivån är noll (0) i den relevanta grundegenskapen.</p>
+<p>Vanligtvis används en progressklocka med fyra sektorer för att spåra återhämtning från ett tillstånd.</p>
+<h3 id="Återhämtning-från-tillstånd"><a class="header" href="#Återhämtning-från-tillstånd">Återhämtning från tillstånd</a></h3>
+<ul>
+<li>Slå en T6. Om du får en sexa (6), gör ett (+1) framsteg i återhämtningen från ditt tillstånd i den aktuella grundegenskapen.</li>
+<li>Observera att om din rollperson ådrar sig mer än en (1) poäng stress, återställs allt framsteg i återhämtningen från tillståndet. </li>
+<li>Du kan bara arbeta på att återhämta dig från ett tillstånd åt gången. Om du byter fokus till ett annat tillstånd, nollställs dina tidigare framsteg.</li>
+</ul>
+<h3 id="Återhämtning-från-stress"><a class="header" href="#Återhämtning-från-stress">Återhämtning från stress</a></h3>
+<ul>
+<li>För att återhämta stress, gör ett Handlingskast baserat på din rollpersons Psyke (PSY).</li>
+<li>Ett lyckat kast minskar en (1) poäng stress, som kan fördelas på valfri grundegenskap.</li>
+</ul>
+<h3 id="ofullständig-sömn"><a class="header" href="#ofullständig-sömn">Ofullständig sömn</a></h3>
+<p>Om din rollperson av någon anledning inte får en fullständig natts sömn, innebär detta en ökad stressbelastning. För varje fyra timmars period av utebliven sömn, tar din rollperson +1 <strong>stress</strong>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="erfarenhet-och-utveckling"><a class="header" href="#erfarenhet-och-utveckling">Erfarenhet och utveckling</a></h1>
+<p>Varje Rollperson ackumulerar erfarenhet genom en erfarenhetsklocka. Denna klocka består av sex (6) sektorer och reflekterar Rollpersonens lärande och utveckling.</p>
+<ul>
+<li>När erfarenhetsklockan är helt fylld, erhåller Rollpersonen ett (1) erfarenhetspoäng.</li>
+<li>Efter att ett poäng erhållits, återställs klockan för fortsatt ackumulering av erfarenhet.</li>
+</ul>
+<h2 id="händelser-som-bidrar-till-erfarenhet"><a class="header" href="#händelser-som-bidrar-till-erfarenhet">Händelser som bidrar till erfarenhet</a></h2>
+<p>Det primära sättet för Rollpersoner att samla erfarenhet är genom att framgångsrikt utföra sysslor. När en Rollperson slutför en fullständig progressklocka med åtta (8) sektorer, belönas de med en sektor på sin erfarenhetsklocka. Endast klockor som består av exakt åtta segment bidrar till erfarenhetsklockan. Sysslor som består av flera progressklockor kan därför ge flera segment på erfarenhetsklockan.</p>
+<p>Andra händelser som också bidrar till att fylla Rollpersonens erfarenhetsklocka med en (1) sektor inkluderar:</p>
+<ul>
+<li><strong>Katastrofalt misslyckande:</strong> När ett Handlingskast resulterar i ett katastrofalt misslyckande. Detta reflekterar lärandet från misstag och svårigheter. <em>Genom våra misslyckanden lär vi oss och växer</em>.</li>
+<li><strong>Återhämtning från tillstånd:</strong> När din Rollperson återhämtar sig från ett tillstånd. Denna erfarenhet representerar den personliga styrkan och motståndskraften. <em>Det som inte dödar oss, gör oss starkare</em>.</li>
+<li><strong>Inspiration:</strong> Om du har inspiration kan du välja att konvertera den till ett (1) framsteg på din Erfarenhetsklocka. <em>Genom inspirationens gnista tänds kunskapens eld.</em></li>
+</ul>
+<h2 id="erfarenhetspoäng"><a class="header" href="#erfarenhetspoäng">Erfarenhetspoäng</a></h2>
+<p>Varje rollperson tjänar Erfarenhetspoäng (EP) genom att spelaren agerar i linje med Rollpersonens unika personlighet och mål. Det är ditt ansvar som spelare att föra koll på de Erfarenhetspoäng du tjänar.</p>
+<p>Efter varje spelsession har du möjlighet att använda dina ackumulerade erfarenhetspoäng för att utveckla din Rollperson. Du kan välja att:</p>
+<ul>
+<li><strong>Förbättra grundegenskaper:</strong> Varje erfarenhetspoäng kan användas för att höja en valfri grundegenskap med ett (1) poäng.</li>
+<li><strong>Skaffa nya färdigheter:</strong> Erfarenhetspoäng kan även användas för att ge din Rollperson nya färdigheter. </li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="förmågor"><a class="header" href="#förmågor">Förmågor</a></h1>
+<p>I följande avsnitts beskrivs ett antal färdigheter, deras kostnad att anskaffa or eventuella förutsättningar för att kunna anskaffa.</p>
+<p>Förmågor ger din rollperson förbättrade förutsättningar att hantera situationer och utmaningar som hen ställs inför.</p>
+<h2 id="krav-och-kostnad"><a class="header" href="#krav-och-kostnad">Krav och kostnad</a></h2>
+<p><strong>Kravet</strong> för en färdighet specificerar de förutsättningar eller tidigare erfarenheter som behövs för att din rollperson ska kunna förvärva denna färdighet. Viktigt att notera är att om en färdighet som är ett krav för en annan färdighet tas bort vid ett senare skede, påverkar det inte rollpersonens förmåga att behålla eller använda den redan förvärvade färdigheten.</p>
+<p><strong>Kostnaden</strong> för en färdighet anges i antalet erfarenhetspoäng eller färdighetspoäng som krävs för att förvärva den. När du väljer att förvärva en färdighet, subtraheras motsvarande antal poäng från din rollpersons pool av erfarenhetspoäng. Kostnadens storlek reflekterar färdighetens värde och effekt i spelet, och du bör noggrant överväga vilka färdigheter som är mest fördelaktiga för din rollpersoner baserat på din spelstil.</p>
+<h2 id="användning"><a class="header" href="#användning">Användning</a></h2>
+<p>Förmågor kan kategoriseras som antingen aktiva eller passiva. Passiva förmågor påverkar din rollperson kontinuerligt och automatiskt, utan att du behöver vidta några särskilda åtgärder. Dessa är integrerade i din rollpersons karaktär och agerar i bakgrunden.</p>
+<p>Aktiva förmågor, å andra sidan, kräver att du aktivt meddelar spelledaren när och hur du vill använda dem. De är ofta kraftfullare och har en direkt påverkan på spelets gång, men deras användning är vanligtvis begränsad till ett visst antal gånger per dag.</p>
+<p>Varje rollperson kan normalt ha upp till fem (5) olika förmågor samtidigt. Om du som spelare vill lägga till nya förmågor, kan det krävas att du avstår från andra, mindre prioriterade förmågor. I vissa fall kan det finnas möjligheter att ha fler än fem förmågor aktiva samtidigt, beroende på särskilda omständigheter eller bonusar som din rollperson kan ha erhållit under spelets gång. Det är viktigt att balansera och välja förmågorna noga för att skapa en mångsidig och effektiv rollperson.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="erfarenhetsförmågor"><a class="header" href="#erfarenhetsförmågor">Erfarenhetsförmågor</a></h1>
+<p>Erfarenhetsförmågor representerar den djupare förståelsen och färdigheterna som rollpersonerna förvärvar under sin tid i spelet. Dessa förmågor reflekterar inte bara tekniska kunskaper utan också personlig utveckling och insikter i karaktärens psyke och förhållningssätt. Genom att använda och förbättra dessa förmågor kan rollpersonerna öka sina chanser att lyckas i olika situationer och påverka spelets gång på ett meningsfullt sätt.</p>
+<h2 id="affärsmästare"><a class="header" href="#affärsmästare">Affärsmästare</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> 1</li>
+</ul>
+<p>När din rollperson deltar i samtal som berör pengar och ekonomi, likaså ekonomiska begrepp om du yttra &quot;I denna ekonomin?&quot;, får du fördel för nästa Handlingskast som berör Karisma (KAR).</p>
+<h2 id="antagonist"><a class="header" href="#antagonist">Antagonist</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>En gång per spelsession kan du introducera en utmanande hinder för en annan rollperson eller spelledarkaraktär. Detta kan innebära att komplicera ett pussel, göra ett Handlingskast betydligt svårare, eller andra liknande svårigheter. Det är upp till spelledaren att besluta om en lämplig komplikation. Om rollpersonen lyckas trots motgången får de fylla en sektor på sin erfarenhetsklocka.</p>
+<h2 id="arbetsnarkoman"><a class="header" href="#arbetsnarkoman">Arbetsnarkoman</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> 1</li>
+</ul>
+<p>När du aktiverar &quot;Arbetsnarkoman&quot;, väljer din rollperson att avstå från sin vanliga hobby för dagen. Istället tillåts din rollperson att utföra två extra perioder av arbete under arbetsdagen.</p>
+<h2 id="byråkrati"><a class="header" href="#byråkrati">Byråkrati</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Din rollperson har utvecklat en mästerlig förståelse för regler, procedurer och det finstilta som styr företags eller organisationers arbetsflöden. Du är specialist på att påpeka allt som &quot;tekniskt sett&quot; är rätt. Den <em>bästa</em> formen av rätt. När du slår ett slag för att övertyga en annan individ i frågor som berör regler, procedurer och det finstilta gör du alla dina Handlingskast med en extra T6 för att tillfälligt höja din grundegenskap.</p>
+<h2 id="déjà-vu"><a class="header" href="#déjà-vu">Déjà vu</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har en märklig känsla av att ha upplevt vissa situationer förut. Detta ger dig möjlighet att en gång per dag göra om ett Handlingskast eller förvandla ett kast med <strong>nackdel</strong> till <strong>fördel</strong>, som om du hade förutsett utfallet.</p>
+<h2 id="efterkonstruktion"><a class="header" href="#efterkonstruktion">Efterkonstruktion</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Det är lätt att vara efterklok då denna förmåga ger din rollperson möjlighet att avslöja en händelse från det förflutna som påverkar den nuvarande situationen. Denna förmåga kan endast användas en gång per dag och kostar en (1) stress.</p>
+<h2 id="extremarbete"><a class="header" href="#extremarbete">Extremarbete</a></h2>
+<ul>
+<li><strong>Krav</strong>: Arbetsnarkoman</li>
+<li><strong>Kostnad</strong>: X</li>
+</ul>
+<p>När &quot;Extremarbete&quot; aktiveras, avstår din rollperson från både hobby och sömn för en hel dygnscykel. Istället arbetar din rollperson nonstop, vilket innebär att du kan utföra upp till sex (6) extra arbetsperioder under den aktuella dagen. Ta 1T6 i stress.</p>
+<h2 id="empati"><a class="header" href="#empati">Empati</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>En gång per dag kan du ge en annan spelare en extra T6 för att slå ett Psyke (PSY) slag.</p>
+<h2 id="fasta"><a class="header" href="#fasta">Fasta</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Vem behöver lunch när det finns en massa jobb att göra. Du behöver ingen lunch och kan istället utföra en extra <strong>syssla</strong>.</p>
+<h2 id="främmande-språk"><a class="header" href="#främmande-språk">Främmande språk</a></h2>
+<ul>
+<li>
+<p><strong>Krav</strong>: -</p>
+</li>
+<li>
+<p><strong>Kostnad</strong>: 1 per språk</p>
+</li>
+<li>
+<p><strong>Universalspråket</strong>: Den första poängen du investerar i <strong>Främmande språk</strong> ger din rollperson kunskap i Universalspråket. Detta är ett allmänt erkänt språk som talas i flera olika länder, vilket underlättar kommunikationen i internationella och interkulturella sammanhang.</p>
+</li>
+<li>
+<p><strong>Ytterligare språkbehärskning</strong>: För varje ytterligare poäng du investerar, kan du välja ytterligare ett specifikt språk som din rollperson behärskar. Denna förmåga säkerställer smidig kommunikation på dessa språk, utan behovet av Handlingskast för att avgöra framgången av interaktionen.</p>
+</li>
+<li>
+<p><strong>Förlust av färdigheten</strong>: Om du beslutar att avlägsna <strong>Främmande språk</strong> från din rollpersons färdigheter, förlorar de även förmågan att kommunicera på Universalspråket och andra språk som förvärvats genom denna färdighet.</p>
+</li>
+</ul>
+<h2 id="genetisk-modifiering"><a class="header" href="#genetisk-modifiering">Genetisk modifiering</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Med denna unika kapacitet kan du, en gång per dag, välja att byta värdena mellan två av dina grundegenskaper. Vid dagens slut återställs grundegenskapernas ursprungliga värden.</p>
+<h2 id="gruppledare"><a class="header" href="#gruppledare">Gruppledare</a></h2>
+<ul>
+<li><strong>Krav:</strong> Ledarskap</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När du som Gruppledare aktivt deltar i ett Samarbete, får varje deltagande rollperson som lyckas med sitt handlingskast även slår 1T6. Bland alla T6-kast som utförs av gruppen, används det bästa resultatet för att fastställa det slutgiltiga utfallet av samarbetet.</p>
+<h2 id="hämndlysten"><a class="header" href="#hämndlysten">Hämndlysten</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> 3</li>
+</ul>
+<p>När din rollperson framgångsrikt genomför en handling för att ge igen mot någon som tidigare har skadat eller orsakat din rollperson någon form av skada, oavsett om det är fysiskt, emotionellt eller professionellt, fylls en sektor på erfarenhetsklockan.</p>
+<h2 id="högre-makt"><a class="header" href="#högre-makt">Högre makt</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>I svåra situationer kan du söka vägledning från en högre makt -- Spelledaren. Genom att aktivera denna förmåga och ställa en fråga till Spelledaren, kan du få värdefull information. Slå 1T20, om värdet är ett (1) händer ingenting, annars tar du tre (3) poäng stress.</p>
+<h2 id="instinkt"><a class="header" href="#instinkt">Instinkt</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När det kommer till att bestämma vem som ska agera först, är det oftast din rollperson som tar initiativet. Denna färdighet innebär att du i de flesta situationer, oavsett om det handlar om en plötslig konfrontation, snabbt beslutsfattande eller att vara först med att reagera på en oväntad händelse, alltid är steget före.</p>
+<h2 id="introjektion"><a class="header" href="#introjektion">Introjektion</a></h2>
+<ul>
+<li><strong>Krav:</strong> Projektion</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Din rollperson får tillfälligt tillgång till en färdighet från en annan rollperson som annars inte är tillgänglig för dem. Du kan använda Introjektion ett antal gånger per dag motsvarande din rollpersons Psyke (PSY) dividerat med 3, avrundat nedåt.</p>
+<h2 id="katharsis"><a class="header" href="#katharsis">Katharsis</a></h2>
+<ul>
+<li><strong>Krav:</strong> Ventilera</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du tömmer din stressmätare helt, men istället för att sprida din stress jämnt, tar varje annan spelare endast en (1) stresspoäng. Om din stress är lägre än antalet spelare tar övriga spelare fortfarande en (1) stress. Om handlingen sker under arbete förlorar du två (2) perioder, om den sker under hobby får du inte utöva hobbyn den dagen.</p>
+<h2 id="kodknäckare"><a class="header" href="#kodknäckare">Kodknäckare</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har en naturlig fallenhet för att lösa koder och pussel. Din förmåga att snabbt hitta mönster och lösningar är en tillgång i många utmaningar. Vid Handlingskast som berör pussel eller koder slår du en extra T6 för att tillfällight höja din Intelligens (INT).</p>
+<h2 id="kognitiv-dissonans"><a class="header" href="#kognitiv-dissonans">Kognitiv dissonans</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du är skicklig på att hantera och balansera motsägelsefulla tankar och idéer. När du försöker övertala en Spelledarperson slår denna person sitt Motståndskast till <strong>nackdel</strong>.</p>
+<h2 id="kontaktnät"><a class="header" href="#kontaktnät">Kontaktnät</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Denna förmåga ger dig möjligheten att en gång per speltillfälle &quot;kalla in en tjänst&quot; från en Spelledarperson som du i stunden definierar tillsammans med spelledaren. Denna Spelledarperson kan vara vem som helst från en gammal kollega till en högt uppsatt exekutiv, en expert inom ett specifikt område eller kanske en person med unika resurser eller information. När du aktiverar denna förmåga, berättar du för spelledaren vem du kontaktar och varför, varefter spelledaren introducerar denna Spelledarperson och deras roll i världen.</p>
+<h2 id="kurragömma"><a class="header" href="#kurragömma">Kurragömma</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När din rollperson utför handlingar som kräver att hen gömmer sig, eller när det behövs utföra något i hemlighet, aktiverar du &quot;Kurragömma&quot;. Vid dessa tillfällen slår du 1T6 för att temporärt öka en valfri grundegenskap som är relevant för handlingen.</p>
+<h2 id="ledarskap"><a class="header" href="#ledarskap">Ledarskap</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du är en naturlig ledare och kan inspirera andra att utföra sitt bästa. En gång per dag kan du ge en annan rollperson förmågan att utföra ett Handlingskast med <strong>fördel</strong>.</p>
+<h2 id="maskinskrivare"><a class="header" href="#maskinskrivare">Maskinskrivare</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När din rollperson utför en handling som kräver skriftlig insats på maskin – oavsett om det är att skriva ett dokument, komponera ett e-mail, eller programmera – gör hen detta med en förbättrad precision och effektivitet. Som en &quot;Maskinskrivare&quot; utför du alla dina handlingskast som involverar maskinskrivning med <strong>fördel</strong>.</p>
+<h2 id="metamorfos"><a class="header" href="#metamorfos">Metamorfos</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>En gång per spelsession kan du välja att temporärt förändra din rollperson till en annan Arketyp från listan. När du använder denna förmåga, väljer du en annan arketyp och får tillgång till dess unika förmåga under sessionen. Din rollperson återgår till sin ursprungliga arketyp vid sessionens slut.</p>
+<h2 id="observatör"><a class="header" href="#observatör">Observatör</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Din förmåga att iaktta och notera detaljer utan att dra uppmärksamhet till dig själv gör dig till en mästare på att samla information. När du insamlar information i det fördålda gör du detta till fördel om den valda grundegenskapen är (9) eller mindre inklusive eventuella bonus.</p>
+<h2 id="projektledare"><a class="header" href="#projektledare">Projektledare</a></h2>
+<ul>
+<li><strong>Krav:</strong> Ledarskap</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Som projektledare har du förmågan att effektivt hantera och koordinera komplexa uppgifter. När du väljer att aktivera denna förmåga under ett möte – tar varje deltagare två (2) stresspoäng. Emellertid, som kompensation för denna ökade belastning, kommer varje deltagare sedan att ha fördelen av att slå alla sina Handlingskast med <strong>fördel</strong> för resten av arbetsdagen.</p>
+<h2 id="projektion"><a class="header" href="#projektion">Projektion</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du kan tillfälligt överföra en av dina svagheter till en annan person, vilket påverkar deras nästa Handlingskast. När du använder Projektion, upplever målet din svaghet som om den vore deras egen. Notera att du fortfarande behåller svagheten själv; förmågan skapar endast en temporär kopia av svagheten hos målet. Du kan använda Projektion ett antal gånger per dag motsvarande din rollpersons Psyke (PSY) dividerat med 3, avrundat nedåt.</p>
+<h2 id="protagonist"><a class="header" href="#protagonist">Protagonist</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Denna förmåga ger dig möjlighet att en gång per dag förvandla ett misslyckat Handlingskast till en framgång.</p>
+<h2 id="rokad"><a class="header" href="#rokad">Rokad</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Denna färdighet demonstrerar din rollpersons mästerliga fingerfärdighet och snabbhet. Din rollperson har en enastående skicklighet att snabbt och obemärkt byta plats på två objekt. Denna förmåga är perfekt för situationer där ett diskret byte av föremål kan vara avgörande, till exempel att byta ut ett dokument mot ett annat eller ersätta en viktiga förmål med en kopia. Inget Handlingskast krävs vid användning av denna förmåga.</p>
+<h2 id="scenmästare"><a class="header" href="#scenmästare">Scenmästare</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När din rollperson använder &quot;Scenmästare&quot; under en presentation eller ett framträdande, utförs alla relevanta handlingskast som involverar kommunikation, övertygande eller underhållning med <strong>fördel</strong>.</p>
+<h2 id="själens-speglar"><a class="header" href="#själens-speglar">Själens speglar</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har en unik förmåga att läsa av andra människor och förstå deras sanna intentioner. Genom att ta en (1) stresspoäng kan du omedelbart avgöra om någon talar sanning.</p>
+<h2 id="skamlös"><a class="header" href="#skamlös">Skamlös</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Pinsamheter och sociala missöden påverkar dig inte. Du behåller ditt lugn och fokus även i situationer som skulle vara genanta för andra, vilket gör dig immun mot de vanliga sociala konsekvenserna av misstag.</p>
+<h2 id="slagsmål"><a class="header" href="#slagsmål">Slagsmål</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När orden tar slut börjar nävarna tala. När du använder Styrka (STY) för att göra skada på en annan individ slå då 1T6 för att tillfälligt öka grundegenskapen.</p>
+<h2 id="stresstålig"><a class="header" href="#stresstålig">Stresstålig</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Din förmåga att hantera stress är exceptionell. Du har en extra nivå i din stressmätare, vilket gör att du kan uthärda mer psykisk påfrestning än de flesta, vilket är en betydande fördel i högtryckssituationer.</p>
+<h2 id="talförd"><a class="header" href="#talförd">Talförd</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du är en mästare på att övertyga och påverka andra med dina ord. En gång per dag kan du ge dig själv en <strong>fördel</strong> när du försöker övertyga någon.</p>
+<h2 id="tekniskt-fel"><a class="header" href="#tekniskt-fel">Tekniskt fel</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har en talang för att &quot;råka&quot; orsaka tekniska problem. När du försöker sabotera elektronik, kan du slå 1T6 för att tillfälligt öka en grundegenskap i ditt Handlingskast.</p>
+<h2 id="tupplur"><a class="header" href="#tupplur">Tupplur</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När du använder &quot;Tupplur&quot;, tar din rollperson en kort paus från dagens aktiviteter för att vila och samla krafter. Du slår 1T6 för att se om tuppluren är särskilt återhämtande. Om du slår en etta (1) på tärningen, lyckas din rollperson med att fullt ut vila och reflektera under denna korta stund, vilket resulterar i att en sektor av stressklockan försvinner.</p>
+<h2 id="universalgeni"><a class="header" href="#universalgeni">Universalgeni</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> Progressiv (1, 2, 3, ...)</li>
+</ul>
+<p>För varje gång du investerar i &quot;Universalgeni&quot;, ökar din rollpersons kapacitet att inneha och använda ytterligare en (1) färdighet. Det unika med denna förmåga är att den inte upptar någon plats i din färdighetslista. Kostnaden för att förvärva &quot;Universalgeni&quot; ökar progressivt för varje gång du väljer att utveckla den: första gången kostar 1 poäng, andra gången 2 poäng, tredje gången 3 poäng, och så vidare.</p>
+<h2 id="uppfinna"><a class="header" href="#uppfinna">Uppfinna</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När du som rollperson står inför en situation där du behöver konstruera något unikt eller improvisera en lösning genom att sätta samman olika delar, utförs ditt Handlingskast med <strong>fördel</strong>.</p>
+<h2 id="ventilera"><a class="header" href="#ventilera">Ventilera</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du tömmer hela din stressmätare genom att fördela alla dina stresspoäng till andra spelare. Denna överföring av stress behöver inte vara jämnt fördelad, men alla poäng måste överföras.</p>
+<h2 id="zenpalats"><a class="header" href="#zenpalats">Zenpalats</a></h2>
+<ul>
+<li><strong>Krav:</strong> Zenträdgård</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Med färdigheten &quot;Zenpalats&quot; har din rollperson uppnått en exceptionell nivå av inre frid och mental styrka. Detta fridfulla sinne gör att du hanterar stress på ett unikt sätt. &quot;Zenpalats&quot; fungerar likadant som &quot;Zenträdgård&quot; men du har även en extra T6 för att i stunden förbättra din rollpersons Psyke (PSY)-värde.</p>
+<h2 id="zenträdgård"><a class="header" href="#zenträdgård">Zenträdgård</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>När din rollperson står inför risken att fylla den sista sektorn på sin stressklocka, ger &quot;Zenträdgård&quot; dig en chans att undvika stressens kumulativa effekter. Vid detta kritiska ögonblick slår du 1T20. Om resultatet är lika med eller lägre än din rollpersons Psyke (PSY)-värde, undviker du att ta den sista stressen och stressklockan förblir ofylld.</p>
+<h2 id="Övertygelse"><a class="header" href="#Övertygelse">Övertygelse</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har väldigt besluten i de ståndpunkter du har. När du slår ett Motståndslag för Psyke (PSY) eller Karisma (KAR) får du slå det med en extra T6 för att temporärt höja grundegenskapen.</p>
+<h2 id="Övernaturlig-intuition"><a class="header" href="#Övernaturlig-intuition">Övernaturlig intuition</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Du har utvecklat en sjätte sinne som varnar dig för faror och ovanliga situationer. Du litar på din intuition, vilket hjälper dig att undvika problem innan de inträffar. En gång per dag kan du <strong>pressa ett kast</strong> utan att ta stress, vilket reflekterar din förmåga att förlita dig på denna inre känsla i kritiska ögonblick.</p>
+<h2 id="Ödets-nyck"><a class="header" href="#Ödets-nyck">Ödets nyck</a></h2>
+<ul>
+<li><strong>Krav:</strong> -</li>
+<li><strong>Kostnad:</strong> X</li>
+</ul>
+<p>Med denna förmåga kan du en gång per dag tvinga Spelledaren att slå om ett kast. Det spelar ingen roll om tärningskastet var gynnsamt eller ogynnsamt; du har kraften att ändra på det ögonblicket. Om Spelledaren har använt flera tärningar för ett kast, ger &quot;Ödets nyck&quot; dig ytterligare kontroll genom att låta dig välja exakt vilken tärning som ska kastas om.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="unika-förmågor"><a class="header" href="#unika-förmågor">Unika förmågor</a></h1>
+<p>Varje rollperson är begåvad med en unik uppsättning förmågor, intrikat kopplade till deras specifika <a href="chapters/character-archetypes.html">Arketyp</a>. Dessa förmågor ger varje rollperson en särskild fördel, som skapar möjligheter för framgångar i situationer där andra kanske aldrig hade kunnat triumfera.</p>
+<h2 id="altruism"><a class="header" href="#altruism">Altruism</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälten</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När en allierad rollperson misslyckas med ett Motståndskast och skulle få <strong>stress</strong> som ett resultat, kan Hjälten välja att ta på sig denna <strong>stress</strong> istället. Hjälten kan endast använda denna förmåga om det inte resulterar i att den egna stressmätare fylls helt.</p>
+<h2 id="andas"><a class="header" href="#andas">Andas</a></h2>
+<ul>
+<li><strong>Krav:</strong> Förälskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Med ett framgångsrikt Karisma (KAR) slag, kan Förälskaren genast lugna en upprörd person. Denna handling ger berörda Rollpersoner fördel i nästa Psyke (PSY) relaterat Handlingskast eller Motståndskast. Fördelen varar tills den används eller till nästa sömnperiod.</p>
+<h2 id="ba-dum-tss"><a class="header" href="#ba-dum-tss">Ba dum tss</a></h2>
+<ul>
+<li><strong>Krav:</strong> Narren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När denna förmåga aktiveras, berättar spelaren som styr Narren ett skämt. Om skämtet tas emot väl av gruppen (baserat på deras humör och reaktion), kan spelaren välja en rollperson, inklusive Narren själv, för att minska en (1) poäng <strong>stress</strong> som uppkommit under de senaste 5 minuterna. Misslyckas skämtet att landa väl, resulterar det i att Narren tar en (1) poäng <strong>stress</strong>.</p>
+<h2 id="befriande-ord"><a class="header" href="#befriande-ord">Befriande ord</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Två gånger per dag kan Hjälparen neutralisera ett temporärt tillstånd hos en individ (Rollperson eller Spelledarkaraktär). Hjälparen måste utföra ett Handlingskast mot Intelligens (INT), men med <strong>nackdel</strong>. Vid framgång lyfts det temporära tillståndet omedelbart från den berörda individen.</p>
+<h2 id="bemästrad-manipulation"><a class="header" href="#bemästrad-manipulation">Bemästrad manipulation</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skurken</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Varje gång Skurken utför ett Handlingskast med Karisma (KAR) för att psykiskt påverka en Rollperson eller Spelledarkaraktär, tillkommer en extra tärning (T6) som specifikt används för att temporärt öka Skurkens Karisma-värde för det kastet.</p>
+<h2 id="empatisk-läsning"><a class="header" href="#empatisk-läsning">Empatisk läsning</a></h2>
+<ul>
+<li><strong>Krav:</strong> Förälskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Förälskaren kan en gång per dag utan Handlingskast identifiera känslotillstånd hos en individ (Rollperson eller Spelledarkaraktär). Vid ytterligare användning, krävs ett Handlingskast mot Psyke (PSY), där Förälskaren har kast till <strong>fördel</strong>.</p>
+<h2 id="episkt-handslag"><a class="header" href="#episkt-handslag">Episkt handslag</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälten</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Hjälten väljer att visa sin respekt och erkännande gentemot en annan individ, vars Styrka (STY) är lika med eller större än Hjältens, kan de genomföra ett &quot;Episkt handslag&quot;. Vid bådas nästa Handlingskast utförs dessa till <strong>fördel</strong>. Denna förmåga är kostnadsfri en gång per dag. Används den en andra gång samma dag, tar Hjälten två (2) <strong>stress</strong>.</p>
+<h2 id="dominans"><a class="header" href="#dominans">Dominans</a></h2>
+<ul>
+<li><strong>Krav:</strong> Härskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Härskaren interagerar med Spelledarkaraktärer vars Psyke (PSY) är lägre än åtta (8) plus Härskarens poäng i förmågan &quot;Universalgeni&quot;, utförs alla Handlingskast som involverar påverkan, övertalning eller kommando med <strong>fördel</strong>. Framgångsrik användning av denna förmåga belönar Härskaren med en sektor på sin erfarenhetsklocka.</p>
+<h2 id="god-natt"><a class="header" href="#god-natt">God natt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Hjälparen kan en gång varje dag använda &quot;God natt&quot; för att garantera djup och störningsfri sömn för sig själv eller en annan rollperson. Målet får <strong>fördel</strong> på alla kast under nästa sömnfas och är immun mot störningar eller negativa effekter under natten. Alternativt kan Hjälparen tvinga en Spelledarkaraktär att göra ett Motståndsslag för Psyke (PSY) - 6. Vid misslyckande somnar Spelledarkaraktären djupt i upp till 30 minuter om de inte störs.</p>
+<h2 id="intimiderande-närvaro"><a class="header" href="#intimiderande-närvaro">Intimiderande närvaro</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skurken</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Genom att ta två <strong>stress</strong> och sedan slå ett lyckat Handlingskast mot Intelligens (INT) eller Styrka (STR), kan Skurken framkalla det temporära tillståndet &quot;Rädd&quot; eller &quot;Uppgiven&quot; hos en individ.</p>
+<h2 id="konsten-att-ifrågasätta"><a class="header" href="#konsten-att-ifrågasätta">Konsten att ifrågasätta</a></h2>
+<ul>
+<li><strong>Krav:</strong> Rebellen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Rebellen kan en gång per dag använda sin kritiska tankeförmåga för att effektivisera en syssla. När de genomför ett lyckat Handlingskast mot Intelligens (INT) för en ny syssla, minskar de antalet nödvändiga segment för att slutföra sysslan med hälften av ett T6-resultat (avrundat nedåt).</p>
+<h2 id="kreativ-inspiration"><a class="header" href="#kreativ-inspiration">Kreativ inspiration</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skaparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Skaparen kan förstärka kreativiteten hos en grupp eller enskild individ genom ett Handlingskast mot Karisma (KAR). Om kastet är framgångsrikt, får alla berörda individer +1 till valfri grundegenskap vid sitt nästa Handlingskast för en syssla. För varje syssla som framgångsrikt avslutas med hjälp av denna ökade kreativitet, belönas Skaparen med en sektor på sin erfarenhetsklocka. Om det ursprungliga Handlingskastet mot Karisma (KAR) misslyckas, tar Skaparen +1 <strong>stress</strong>.</p>
+<h2 id="kunskapsöverföring"><a class="header" href="#kunskapsöverföring">Kunskapsöverföring</a></h2>
+<ul>
+<li><strong>Krav:</strong> Mentorn</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>En gång per dag kan Mentorn dela med dig av sin visdom till en annan rollperson för att temporärt öka deras Intelligens (INT) under resten av dagen. Mentorns Intelligens (INT) ersätter rollpersonens värde.</p>
+<h2 id="lätt-som-en-plätt"><a class="header" href="#lätt-som-en-plätt">Lätt som en plätt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Oskuldens</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Oskulden antingen blir tilldelad en syssla eller tar på sig rollen som ansvarig för en gruppsyssla, ges de möjlighet att använda sin unika syn på världen för att påverka arbetsomfånget. De kan göra detta genom att slå 1T6. Utfallet av detta slag bestämmer hur många segment som justeras på sysslans progressklocka. Om Oskulden slår en 6:a, ökar det arbetsomfånget med 6 segment, vilket speglar en överoptimistisk bedömning av situationen. Om tärningen visar 1 till 5, minskar antalet segment på progressklockan med motsvarande värde.</p>
+<h2 id="nyfiken"><a class="header" href="#nyfiken">Nyfiken</a></h2>
+<ul>
+<li><strong>Krav:</strong> Utforskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Utforskaren befinner sig i en ny eller okänd miljö, utförs alla Handlingskast relaterade till utforskning, undersökning eller lärande av denna miljö med <strong>fördel</strong>. Detta gäller inte situationer där Utforskaren redan är väl förtrogen med omgivningen.</p>
+<h2 id="omvänd-realitet"><a class="header" href="#omvänd-realitet">Omvänd realitet</a></h2>
+<ul>
+<li><strong>Krav:</strong> Magikern</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Två gånger per dag kan Magikern välja att aktivera &quot;Omvänd realitet&quot; på ett Handlingskast utfört av sig själv eller en annan rollperson. När denna förmåga används, blir kastets framgångskriterier omvända -- det vill säga, ett resultat som normalt skulle betraktas som ett misslyckande (en siffra högre än rollpersonens grundegenskap) blir istället ett framgångsrikt utfall.</p>
+<h2 id="pappaskämt"><a class="header" href="#pappaskämt">Pappaskämt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Narren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Varje gång spelaren som styr Narren framför ett skämt i spelet, oavsett kontext, har de möjlighet att göra ett Handlingskast mot Karisma (KAR). Vid lyckat kast belönas Narren enligt följande: Vid första framgångsrika användningen under en spelsession, fyller Narren i en sektor på sin erfarenhetsklocka. Vid ytterligare framgångar med &quot;Pappaskämt&quot; under samma session, får Narren -1 <strong>stress</strong> istället. </p>
+<h2 id="riskabel-insikt"><a class="header" href="#riskabel-insikt">Riskabel insikt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Rebellen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Rebellen har möjligheten att slå alla Handlingskast som involverar tankeprocesser, planering eller kreativa lösningar med <strong>fördel</strong>. Men, för varje kast som resulterar i ett misslyckande, tar Rebellen +1 <strong>stress</strong>.</p>
+<h2 id="skaparglädje"><a class="header" href="#skaparglädje">Skaparglädje</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skaparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Skaparen arbetar med en syssla som kräver betydande insats, motsvarande tio (10) eller fler sektorer på en progressklocka, utför de alla relevanta Handlingskast med <strong>fördel</strong>. Men, när de närmar sig slutförandet av projektet, specifikt under arbetet med de sista tre (3) sektorerna, växer pressen och för varje arbetspass där Skaparen bidrar till sysslan utan att färdigställa den, fås +1 <strong>stress</strong>.</p>
+<h2 id="strategisk-plan"><a class="header" href="#strategisk-plan">Strategisk plan</a></h2>
+<ul>
+<li><strong>Krav:</strong> Härskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Härskaren har förmågan att noggrant utforma en detaljerad plan, bestående av en serie genomförbara steg. Spelaren presenterar planen, som en lista över specifika åtgärder och deras tänkta ordningsföljd. Alla individer som aktivt deltar i genomförandet av planen får utföra sina nästa relevanta Handlingskast med fördel, förutsatt att de följer planens steg och dessa steg lyckas. Om något steg i planen misslyckas, anses hela planen falla. Härskaren kan endast upprätthålla en aktiv plan åt gången.</p>
+<h2 id="ständiga-optimisten"><a class="header" href="#ständiga-optimisten">Ständiga optimisten</a></h2>
+<ul>
+<li><strong>Krav:</strong> Oskuldens</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Oskuldens optimism kan en gång per dag minska <strong>stress</strong> hos sig eller en medspelare. Slå 1T20, om värdet är <strong>mer</strong> än din Intelligens (INT) minskar du -1 <strong>stress</strong>.</p>
+<h2 id="subliminärt-flöde"><a class="header" href="#subliminärt-flöde">Subliminärt flöde</a></h2>
+<ul>
+<li><strong>Krav:</strong> Magikern</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>En gång per dag kan Magikern ta +2 <strong>stress</strong> och aktivera &quot;Subliminärt flöde&quot; på sig själv eller en annan individ under en arbetsperiod. Vid framgångsrikta Handlingskast i sysslor som utförs av individen, fördubblas framstegen på den tillhörande progressklockan fram till dagens slut.</p>
+<h2 id="tunna-röda-ledtråden"><a class="header" href="#tunna-röda-ledtråden">Tunna röda ledtråden</a></h2>
+<ul>
+<li><strong>Krav:</strong> Utforskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Utforskaren har en naturlig fallenhet för att lösa gåtor och pussel. En gång per dag kan Utforskaren be spelledaren om en ledtråd eller vägledning i en utmanande situation, som ett pussel eller en komplex problemställning. För detta tar Utforskaren +2 <strong>stress</strong>.</p>
+<h2 id="vägledning"><a class="header" href="#vägledning">Vägledning</a></h2>
+<ul>
+<li><strong>Krav:</strong> Mentorn</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Mentorn kan välja att slå sitt nästa Handlingskast med <strong>nackdel</strong> för att istället ge en annan individ <strong>fördel</strong> i deras nästa Handlingskast. Varje gång denna vägledning leder till ett positivt utfall, belönas Mentorn med en sektor på sin erfarenhetsklocka.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="din-rollperson"><a class="header" href="#din-rollperson">Din rollperson</a></h1>
+<p>Du har friheten att skapa en rollperson som verkligen speglar din fantasi och kreativitet. Här finns inga traditionella gränser för vad din karaktär kan vara. Oavsett kön, bakgrund, eller personlighetstyp, kan din rollperson representera en mängd olika identiteter och egenskaper. Denna öppenhet uppmuntrar till utforskande av olika perspektiv och ger dig möjligheten att gestalta en karaktär som ligger utanför vanliga stereotyper eller begränsningar.</p>
+<p><img src="chapters/../resources/character-hero-2.png" alt="Rollperson" /></p>
+<p>Genom att gestalta en rollperson som är helt skild från dig själv, får du en chans att se världen ur ett helt nytt perspektiv.</p>
+<p><strong>Rollformulär:</strong> Detta är som din karaktärs identitetshandling. Det är här du dokumenterar all viktig information om din rollperson -- från grundläggande detaljer som namn och bakgrund till specifika färdigheter och egenskaper. Tänk på formuläret som en levande dokumentation av din karaktärs resa och utveckling. Under spelets gång kommer du att fylla i och uppdatera detta formulär, vilket hjälper dig att hålla koll på din karaktärs framsteg och förändringar.</p>
+<h2 id="utseende"><a class="header" href="#utseende">Utseende</a></h2>
+<p>Utseendet på din rollperson är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Utseende</strong></th><th style="text-align: center"><strong>T20</strong></th><th><strong>Utseende</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Skarpa ögon</td><td style="text-align: center">11</td><td>Vältrimmad skäggstubb</td></tr>
+<tr><td style="text-align: center">2</td><td>Ett ärr över kinden</td><td style="text-align: center">12</td><td>Karakteristisk frisyr</td></tr>
+<tr><td style="text-align: center">3</td><td>Ovanligt långt hår</td><td style="text-align: center">13</td><td>Atletisk byggnad</td></tr>
+<tr><td style="text-align: center">4</td><td>Distinkt tatuering</td><td style="text-align: center">14</td><td>Tunnhårig</td></tr>
+<tr><td style="text-align: center">5</td><td>Imponerande höjd</td><td style="text-align: center">15</td><td>Kraftiga händer</td></tr>
+<tr><td style="text-align: center">6</td><td>Strålande leende</td><td style="text-align: center">16</td><td>Distinkt röst</td></tr>
+<tr><td style="text-align: center">7</td><td>Mycket blek hy</td><td style="text-align: center">17</td><td>Vacker näsa</td></tr>
+<tr><td style="text-align: center">8</td><td>Hårig</td><td style="text-align: center">18</td><td>Ovanligt liten statur</td></tr>
+<tr><td style="text-align: center">9</td><td>Ovanlig ögonfärg</td><td style="text-align: center">19</td><td>Buskiga ögonbryn</td></tr>
+<tr><td style="text-align: center">10</td><td>Naturligt lockigt hår</td><td style="text-align: center">20</td><td>Särskilt anmärkningsvärda öron</td></tr>
+</tbody></table>
+</div>
+<h2 id="språk"><a class="header" href="#språk">Språk</a></h2>
+<p>Effektiv kommunikation är central för samarbetet och de dagliga operationerna inom spelvärlden. Språket som talas i varje region av spelets värld underlättar intern kommunikation och samverkan.</p>
+<h3 id="lokalt"><a class="header" href="#lokalt">Lokalt</a></h3>
+<p>Det lokala språket varierar beroende på spelets geografiska placering. I varje region av &quot;Panoptikons&quot; värld har rollpersonerna kunskap i regionens dominerande språk som en grundläggande del av deras kommunikationsförmåga.</p>
+<h3 id="externt"><a class="header" href="#externt">Externt</a></h3>
+<p>Kommunikation med personer utanför din region kräver ofta kunskap i andra språk. Här blir färdigheten <strong>Främmande språk</strong> avgörande för framgångsrik interaktion. Genom att investera poäng i denna färdighet kan din rollperson lära sig ytterligare språk, vilket breddar dess förmåga att kommunicera effektivt i en internationell miljö.</p>
+<p>Du kan alltid försöka kommunicera på andra språk genom att göra ett Handlingskast, men detta är osäkert och beror på tur och improvisation.</p>
+<h3 id="språktabell"><a class="header" href="#språktabell">Språktabell</a></h3>
+<p>Denna tabell representerar en lista över språk i &quot;Panoptikon&quot;. Var och en med en unik kulturell och språklig blandning som speglar världens mångfald.</p>
+<div class="table-wrapper"><table><thead><tr><th><strong>Språk</strong></th><th><strong>Beskrivning</strong></th></tr></thead><tbody>
+<tr><td>Solantica</td><td>En fusion av de latinska och romanska språken, präglad av poetisk skönhet.</td></tr>
+<tr><td>Nordhymia</td><td>Ett robust språk med rötter i vikingarnas kultur, spridit över norra klotet.</td></tr>
+<tr><td>Dravidiska</td><td>Djupa rötter i sydligaste delen av världen, fylld av mystik och magiska konster.</td></tr>
+<tr><td>Meridiane</td><td>En mosaik av afrikanska, arabiska och swahili-influenser, rik på handel och vishet.</td></tr>
+<tr><td>Paciforia</td><td>Språket av hav och öar, en harmoni av maori, filippinska och andra öspråk.</td></tr>
+<tr><td>Aurorasia</td><td>En symfoni av språk från Fjärran Östern, känd för sin sofistikering och visdom.</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="arketyper"><a class="header" href="#arketyper">Arketyper</a></h1>
+<p>Varje Arketyp i erbjuder en unik uppsättning av grundfärdigheter, styrkor och förutsättningar som ger liv åt din rollperson. Utforska de olika arketyperna för att hitta den som bäst passar din spelstil och som bidrar till en berikande upplevelse. Du kan också låta tärningen bestämma genom att slå 1T12 och följa tabellen nedan.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T12</strong></th><th><strong>Arketyp</strong></th><th style="text-align: center"><strong>T12</strong></th><th><strong>Arketyp</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Hjälten</td><td style="text-align: center">7</td><td>Skaparen</td></tr>
+<tr><td style="text-align: center">2</td><td>Oskulden</td><td style="text-align: center">8</td><td>Härskaren</td></tr>
+<tr><td style="text-align: center">3</td><td>Utforskaren</td><td style="text-align: center">9</td><td>Magikern</td></tr>
+<tr><td style="text-align: center">4</td><td>Mentorn</td><td style="text-align: center">10</td><td>Hjälparen</td></tr>
+<tr><td style="text-align: center">5</td><td>Rebellen</td><td style="text-align: center">11</td><td>Förälskaren</td></tr>
+<tr><td style="text-align: center">6</td><td>Narren</td><td style="text-align: center">12</td><td>Skurken</td></tr>
+</tbody></table>
+</div>
+<h2 id="hjälten"><a class="header" href="#hjälten">Hjälten</a></h2>
+<p>Hjälten är en modig och målmedveten karaktär som aldrig ryggar för en utmaning. De är karismatiska ledare och drivna av en stark vilja att förändra världen till det bättre. Hjälten är en naturlig förebild och inspiratör, som använder sin kraft och sitt mod för att övervinna hinder och leda andra mot framgång.</p>
+<ul>
+<li><strong>Styrka (STY)</strong>: +1</li>
+<li><strong>Psyke (PSY)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Altruism, Episkt handslag</li>
+</ul>
+<h2 id="oskulden"><a class="header" href="#oskulden">Oskulden</a></h2>
+<p>Oskulden är en optimistisk och ärlig arketype som strävar efter att se det bästa i människor och situationer. De är ofta naiva men deras renhjärtade och uppriktiga natur vinner ofta andra människors förtroende och sympati.</p>
+<ul>
+<li><strong>Psyke (PSY)</strong>: +1</li>
+<li><strong>Intelligens (INT)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Lätt som en plätt, Ständiga optimisten</li>
+</ul>
+<h2 id="utforskaren"><a class="header" href="#utforskaren">Utforskaren</a></h2>
+<p>Utforskaren är en äventyrlig och självständig karaktär som alltid söker nya erfarenheter och kunskap. De är inte rädda för att bryta nya vägar och deras nyfikenhet och öppenhet för nya idéer gör dem till ovärderliga tillgångar i alla situationer där innovation och kreativitet är avgörande.</p>
+<ul>
+<li><strong>Smidighet (SMI)</strong>: +1</li>
+<li><strong>Intelligens (INT)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Nyfiken, Tunna röda ledtråden</li>
+</ul>
+<h2 id="mentorn"><a class="header" href="#mentorn">Mentorn</a></h2>
+<p>Mentorn är en tänkare, känd för sin visdom och insikt. Denna arketyp har ofta rollen som strateg eller rådgivare. De är analytiska, kunskapstörstande och motiverade av en längtan att förstå världen och dela med sig av sin lärdom. De hjälper andra att se saker ur nya perspektiv och är ovärderliga i situationer som kräver eftertanke och planering.</p>
+<ul>
+<li><strong>Intelligens (INT)</strong>: +3</li>
+<li><strong>Fysik (FYS)</strong>: -2</li>
+<li><strong>Styrka (STY)</strong>: -2</li>
+<li><strong>Smidighet (SMI)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Kunskapsöverföring, Vägledning</li>
+</ul>
+<h2 id="rebellen"><a class="header" href="#rebellen">Rebellen</a></h2>
+<p>Rebellen utmanar status quo och är en mästare på att tänka utanför ramarna. De ifrågasätter etablerade normer och presenterar radikala nya idéer. De är orädda och innovativa, och deras förmåga att tänka annorlunda kan leda till banbrytande förändringar och lösningar på svåra problem.</p>
+<ul>
+<li><strong>Karisma (KAR)</strong>: +1</li>
+<li><strong>Psyke (PSY)</strong>: +1</li>
+<li><strong>Fysik (FYS)</strong>: -4</li>
+<li><strong>Unika förmågor</strong>: Konsten att ifrågasätta, Riskabel insikt</li>
+</ul>
+<h2 id="narren"><a class="header" href="#narren">Narren</a></h2>
+<p>Narren är känd för sin humor och förmåga att se livets ljusa sida. Denna arketype använder sin kvickhet och charm för att lättare hantera stressiga situationer och hålla stämningen uppe. De är sociala och ofta hjärtat i varje team, vilket hjälper till att lätta på trycket i krävande arbetsmiljöer.</p>
+<ul>
+<li><strong>Psyke (PSY)</strong>: +1</li>
+<li><strong>Styrka (STY)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Ba dum tss, Pappaskämt</li>
+</ul>
+<h2 id="skaparen"><a class="header" href="#skaparen">Skaparen</a></h2>
+<p>Skaparen är en kreativ kraft, driven av behovet att uttrycka sig och skapa något meningsfullt. Det är de som förnyar, uppfinner och skapar. Deras kreativitet är nyckeln till innovation och problemlösning, och de är ofta de som leder vägen i utvecklings- och designprojekt.</p>
+<ul>
+<li><strong>Intelligens (INT)</strong>: +2</li>
+<li><strong>Styrka (STY)</strong>: -2</li>
+<li><strong>Karisma (KAR)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Kreativ inspiration, Skaparglädje</li>
+</ul>
+<h2 id="härskaren"><a class="header" href="#härskaren">Härskaren</a></h2>
+<p>Härskaren är en ledare som utstrålar auktoritet och förtroende. Med en stark tro på sin förmåga att bringa ordning och effektivitet, styr de med en fast hand och har en naturlig benägenhet att ta kommandot i alla situationer. Makthavaren är inte bara stabil och målinriktad, utan strävar också efter att uppnå förträfflighet i allt de gör och förväntar sig att andra följer deras exempel och ledning.</p>
+<ul>
+<li><strong>Karisma (KAR)</strong>: +2</li>
+<li><strong>Intelligens (INT)</strong>: -4</li>
+<li><strong>Unika förmågor</strong>: Dominans, Strategisk plan</li>
+</ul>
+<h2 id="magikern"><a class="header" href="#magikern">Magikern</a></h2>
+<p>Magikern är en transformerande kraft, som använder sin kunskap för att skapa förändring. De är experter på att tänka på nya sätt och använda sin kreativa energi för att omsätta idéer till verklighet. De är lösningssökare som kan vända problem till möjligheter och har en nästan magisk förmåga att se möjligheter där andra ser hinder.</p>
+<ul>
+<li><strong>Intelligens (INT)</strong>: +1</li>
+<li><strong>Psyke (PSY)</strong>: +1</li>
+<li><strong>Karisma (KAR)</strong>: -2</li>
+<li><strong>Styrka (STY)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Omvänd realitet, Subliminärt flöde</li>
+</ul>
+<h2 id="hjälparen"><a class="header" href="#hjälparen">Hjälparen</a></h2>
+<p>Hjälparen är den stödjande och omtänksamma. De står ofta bakom sina kollegor, ger stöd och uppmuntran. De är empatiska och omtänksamma, och deras förmåga att förstå andra människors behov gör dem till ovärderliga medlemmar i alla team.</p>
+<ul>
+<li><strong>Psyke (PSY)</strong>: +2</li>
+<li><strong>Karisma (KAR)</strong>: +1</li>
+<li><strong>Styrka (PSY)</strong>: -3</li>
+<li><strong>Fysik (FYS)</strong>: -2</li>
+<li><strong>Smidighet (SMI)</strong>: -1</li>
+<li><strong>Unika förmågor</strong>: Befriande ord, God natt</li>
+</ul>
+<h2 id="förälskaren"><a class="header" href="#förälskaren">Förälskaren</a></h2>
+<p>Förälskaren är driven av passion, känslor och relationer. De utmärker sig genom sin förmåga att skapa starka band och inspirera andra. De är karismatiska och lockar till sig andra med sin energi och entusiasm, vilket gör dem till utmärkta nätverkare och kommunikatörer.</p>
+<ul>
+<li><strong>Karisma (KAR)</strong>: +3</li>
+<li><strong>Intelligens (INT)</strong>: -5</li>
+<li><strong>Styrka (STY)</strong>: -1</li>
+<li><strong>Unika förmågor</strong>: Andas, Empatisk läsning</li>
+</ul>
+<h2 id="skurken"><a class="header" href="#skurken">Skurken</a></h2>
+<p>Skurken är en mästare på manipulation och maktspel. De är strategiska tänkare som ofta agerar bakom kulisserna för att främja sina egna syften. Skickliga i att utnyttja situationer och människor till sin fördel, utmärker de sig genom att alltid ligga ett steg före och ha en plan för allt. Deras styrka ligger i förmågan att se och utnyttja systemets och individernas svagheter.</p>
+<ul>
+<li><strong>Intelligens (INT)</strong>: +2</li>
+<li><strong>Psyke (PSY)</strong>: +1</li>
+<li><strong>Karisma (KAR)</strong>: -2</li>
+<li><strong>Smidighet (SMI)</strong>: -2</li>
+<li><strong>Styrka (STY)</strong>: -2</li>
+<li><strong>Unika förmågor</strong>: Bemästrad manipulation, Intimiderande närvaro</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="namn"><a class="header" href="#namn">Namn</a></h1>
+<p>Namnet på din rollperson är mer än bara en etikett -- det är en del av deras identitet och berättar en historia om vem de är. I spelvärlden är ett namn en spegling av din rollpersons bakgrund, kulturella arv och deras individuella egenskaper. När du väljer ett namn till din rollperson, överväg hur det passar in i den värld de lever i och hur det kan påverka deras interaktioner med andra karaktärer.</p>
+<ul>
+<li><strong>Personligt och unikt:</strong> Välj ett namn som känns personligt och betydelsefullt för din rollperson. Det kan reflektera deras personlighet, ursprung eller till och med deras livshistoria.</li>
+<li><strong>Kulturell kontext:</strong> Tänk på den kulturella eller geografiska bakgrunden din rollperson kommer ifrån. Detta kan påverka typen av namn de skulle ha.</li>
+<li><strong>Betydelse och symbolik:</strong> Vissa namn bär med sig specifika betydelser eller associationer. Överväg om dessa element är relevanta för din rollpersons karaktär och berättelse.</li>
+<li><strong>Uttal och skrivning:</strong> Tänk på hur namnet uttalas och skrivs. Ett lättuttalat och minnesvärt namn kan underlätta för andra spelare och spelledaren.</li>
+</ul>
+<h2 id="namnförslag"><a class="header" href="#namnförslag">Namnförslag</a></h2>
+<p>Din karaktärs identitet en central del av spelupplevelsen. För att hjälpa dig presenterar vi här två tabeller med förslag på förnamn och efternamn. Dessa namn är utvalda för att passa spelets atmosfär och ge varje karaktär en distinkt personlighet.</p>
+<h3 id="förnamn"><a class="header" href="#förnamn">Förnamn</a></h3>
+<p>Förnamnen har valts för att återspegla en mångfald av kulturer och epoker, samtidigt som de bibehåller en känsla av det unika och ovanliga. Varje förnamn är kopplat till en T20-tärning, vilket gör det enkelt för dig att slumpmässigt välja ett namn eller att välja ett som du känner passar din karaktärs koncept.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Förnamn</strong></th><th style="text-align: center"><strong>T20</strong></th><th><strong>Förnamn</strong></th><th style="text-align: center"><strong>T20</strong></th><th><strong>Förnamn</strong></th><th><strong>T20</strong></th><th><strong>Förnamn</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Ada</td><td style="text-align: center">6</td><td>Flora</td><td style="text-align: center">11</td><td>Hamse</td><td>16</td><td>Nathanel</td></tr>
+<tr><td style="text-align: center">2</td><td>Belle</td><td style="text-align: center">7</td><td>Gunde</td><td style="text-align: center">12</td><td>Igor</td><td>17</td><td>Olli</td></tr>
+<tr><td style="text-align: center">3</td><td>Caspian</td><td style="text-align: center">8</td><td>Lunabelle</td><td style="text-align: center">13</td><td>Jani</td><td>18</td><td>Povel</td></tr>
+<tr><td style="text-align: center">4</td><td>Disa</td><td style="text-align: center">9</td><td>Vigdis</td><td style="text-align: center">14</td><td>Karsten</td><td>19</td><td>Ragnvald</td></tr>
+<tr><td style="text-align: center">5</td><td>Ebbe</td><td style="text-align: center">10</td><td>Ziggy</td><td style="text-align: center">15</td><td>Maddox</td><td>20</td><td>Sigge</td></tr>
+</tbody></table>
+</div>
+<h3 id="efternamn"><a class="header" href="#efternamn">Efternamn</a></h3>
+<p>Efternamnen är designade för att komplettera förnamnen och lägga till ytterligare djup och bakgrund till karaktärerna. Dessa namn är inspirerade av nordisk mytologi, naturfenomen och historiska referenser, vilket skapar en känsla av en rik och detaljerad värld.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Efternamn</strong></th><th style="text-align: center"><strong>T20</strong></th><th><strong>Efternamn</strong></th><th style="text-align: center"><strong>T20</strong></th><th><strong>Efternamn</strong></th><th><strong>T20</strong></th><th><strong>Efternamn</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Eldhjärta</td><td style="text-align: center">6</td><td>Iskall</td><td style="text-align: center">11</td><td>Sjösten</td><td>16</td><td>Strandberg</td></tr>
+<tr><td style="text-align: center">2</td><td>Fjällbrant</td><td style="text-align: center">7</td><td>Ljungmark</td><td style="text-align: center">12</td><td>Skogvaktare</td><td>17</td><td>Tungsten</td></tr>
+<tr><td style="text-align: center">3</td><td>Frostgård</td><td style="text-align: center">8</td><td>Mörkström</td><td style="text-align: center">13</td><td>Solhjelm</td><td>18</td><td>Varglund</td></tr>
+<tr><td style="text-align: center">4</td><td>Gryningsson</td><td style="text-align: center">9</td><td>Nattbacka</td><td style="text-align: center">14</td><td>Stjärnfall</td><td>19</td><td>Vinterstorm</td></tr>
+<tr><td style="text-align: center">5</td><td>Havsdal</td><td style="text-align: center">10</td><td>Silversköld</td><td style="text-align: center">15</td><td>Stormvind</td><td>20</td><td>Åskvigg</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="könsidentitet"><a class="header" href="#könsidentitet">Könsidentitet</a></h1>
+<p>Utforskandet och definitionen av din rollpersons könsidentitet är ett viktigt steg i att skapa en djup och mångsidig karaktär. Tabellen för könsidentitet tillhandahålls som en källa till inspiration och vägledning, men du är uppmuntrad att välja eller skapa en identitet som känns äkta och relevant för din rollperson. Närma dig detta ämne med respekt och eftertanke, och se till att varje rollpersons könsidentitet behandlas med värdighet i spelets berättelse.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Könsidentitet</strong></th><th><strong>Beskrivning</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1,2</td><td>Ciskönad kvinna</td><td>Du identifierar dig med det kön som tilldelades vid födseln som kvinna.</td></tr>
+<tr><td style="text-align: center">3,4</td><td>Ciskönad man</td><td>Du identifierar dig med det kön som tilldelades vid födseln som man.</td></tr>
+<tr><td style="text-align: center">5,6</td><td>Transkvinna</td><td>Du föddes med könet man men identifierar dig som kvinna.</td></tr>
+<tr><td style="text-align: center">7,8</td><td>Transman</td><td>Du föddes med könet kvinna men identifierar dig som man.</td></tr>
+<tr><td style="text-align: center">9,10</td><td>Icke-binär</td><td>Du identifierar dig inte strikt som man eller kvinna.</td></tr>
+<tr><td style="text-align: center">11,12</td><td>Könsskiftande</td><td>Du upplever ditt kön som föränderligt över tid.</td></tr>
+<tr><td style="text-align: center">13,14</td><td>Tredje könet</td><td>Du identifierar med det tredje könet.</td></tr>
+<tr><td style="text-align: center">15,16</td><td>Agender</td><td>Du känner att du saknar koppling till traditionella könskoncept.</td></tr>
+<tr><td style="text-align: center">17,18</td><td>Bigender</td><td>Du identifierar dig med två kön samtidigt.</td></tr>
+<tr><td style="text-align: center">19,20</td><td>Genderqueer</td><td>Du bryter eller ifrågasätter traditionella könsnormer.</td></tr>
+</tbody></table>
+</div>
+<h2 id="sexuell-orientering"><a class="header" href="#sexuell-orientering">Sexuell orientering</a></h2>
+<p>Tabellen för sexuell orientering är framtagen för att inspirera och vägleda i skapandet av din rollpersons identitet, men du är fri att välja eller skapa en orientering som passar din karaktärs unika narrativ. Det är viktigt att närma sig detta ämne med öppenhet och respekt, och att alla rollpersoners sexuella orientering behandlas med värdighet inom berättelsen.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Sexuell orientering</strong></th><th><strong>Beskrivning</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1,2</td><td>Heterosexuell</td><td>Du är attraherad av personer av motsatt kön.</td></tr>
+<tr><td style="text-align: center">3,4</td><td>Homosexuell</td><td>Du är attraherad av personer av samma kön.</td></tr>
+<tr><td style="text-align: center">5,6</td><td>Bisexuell</td><td>Du är attraherad av personer av flera kön.</td></tr>
+<tr><td style="text-align: center">7,8</td><td>Pansexuell</td><td>Du är attraherad av personer oavsett kön.</td></tr>
+<tr><td style="text-align: center">9,10</td><td>Asexuell</td><td>Du upplever liten eller ingen sexuell attraktion.</td></tr>
+<tr><td style="text-align: center">11,12</td><td>Demisexuell</td><td>Du upplever sexuell attraktion efter emotionell bindning.</td></tr>
+<tr><td style="text-align: center">13,14</td><td>Queer</td><td>Du använder en bredare term för sin orientering eller ifrågasätter traditionella kategorier.</td></tr>
+<tr><td style="text-align: center">15,16</td><td>Gråsexuell</td><td>Du är någonstans mellan asexuell och sexuell.</td></tr>
+<tr><td style="text-align: center">17,18</td><td>Polysexuell</td><td>Du är attraherad av många, men inte alla kön.</td></tr>
+<tr><td style="text-align: center">19,20</td><td>Heteroflexibel</td><td>Du är huvudsakligen heterosexuell men öppen för andra attraktioner.</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="Ålder"><a class="header" href="#Ålder">Ålder</a></h1>
+<p>Ålder inte en avgörande faktor för en rollpersons kompetens eller förmåga, men den kan påverka hur de uppfattas i det omgivande samhället och på arbetsplatsen.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T6</strong></th><th><strong>Ålder</strong></th><th><strong>Erfarenheter och Uppfattning</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1-3</td><td>Ung</td><td>Din rollperson är ny i arbetslivet, kanske i deras första riktiga jobb efter utbildningen. Detta kan leda till att andra antar att de är mindre erfarna, vilket kan vara både en utmaning och en möjlighet att överraska.</td></tr>
+<tr><td style="text-align: center">4-5</td><td>Medelålders</td><td>Din rollperson har lämnat skolåren bakom sig och är nu väl etablerad i sin karriär. De har ackumulerat värdefull erfarenhet, vilket generellt ger dem en stabil plattform i arbetslivet och en balanserad syn på världen.</td></tr>
+<tr><td style="text-align: center">6</td><td>Ålderstigen</td><td>Med mycket erfarenhet under bältet är din rollperson nära pensionen. De har sett det mesta och kan antingen uppfattas som vis och erfaren, eller som fast i gamla vanor och mindre benägen att anamma nya idéer.</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="utbildning"><a class="header" href="#utbildning">Utbildning</a></h1>
+<p>Nästa steg är att ge din rollperson en utbildning. Alla är ni anställda på samma bolag, men ni har alla olika historier som har format era kunskaper, färdigheter och erfarenheter. Din utbildning är en grundläggande del av din karaktärs bakgrund och spelar en avgörande roll i vilka färdigheter du börjar med. Den påverkar inte bara din karaktärs expertisområden, utan också hur de ser på världen och löser de utmaningar de ställs inför.</p>
+<p>Varje utbildning representerar en unik inriktning och karriärväg, och ger en inblick i den typ av arbete och ansvar din rollperson skulle ha haft innan de blev en del av organisationen. Välj en utbildning som inte bara etablerar din rollpersons grundfärdigheter, utan också berikar deras personliga berättelse.</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T12</strong></th><th><strong>Utbildning</strong></th><th style="text-align: center"><strong>T12</strong></th><th><strong>Utbildning</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Aero-rymdteknik</td><td style="text-align: center">7</td><td>Kvantmekanik</td></tr>
+<tr><td style="text-align: center">2</td><td>Bioteknik</td><td style="text-align: center">8</td><td>Medicin</td></tr>
+<tr><td style="text-align: center">3</td><td>Cybersäkerhet</td><td style="text-align: center">9</td><td>Miljövetenskap</td></tr>
+<tr><td style="text-align: center">4</td><td>Datavetenskap</td><td style="text-align: center">10</td><td>Samhällsvetenskap</td></tr>
+<tr><td style="text-align: center">5</td><td>Ekonomi</td><td style="text-align: center">11</td><td>Systemautomation</td></tr>
+<tr><td style="text-align: center">6</td><td>Juridik</td><td style="text-align: center">12</td><td>Visuella medier</td></tr>
+</tbody></table>
+</div>
+<h2 id="aero-rymdteknik"><a class="header" href="#aero-rymdteknik">Aero-rymdteknik</a></h2>
+<p>Som utbildad inom Aero-rymdteknik är du en pionjär i utforskningen av rymden och luftfartsteknik. Du designar och utvecklar flygplan, satelliter och rymdfarkoster. Din utbildning har gett dig en djup förståelse för aerodynamik, materialvetenskap och rymdfysik. Du är en innovatör och en drömmare, som bidrar till att utöka mänsklighetens gränser. Ditt arbete är inte bara tekniskt utmanande, utan inspirerar också till fantasier om vad som är möjligt bortom vår egen planet.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Högre makt, Stresstålig, Uppfinna</li>
+</ul>
+<h2 id="bioteknik"><a class="header" href="#bioteknik">Bioteknik</a></h2>
+<p>Efter din utbildning i Bioteknik har du specialiserat dig på att använda biologiska system och levande organismer för att utveckla nya produkter och processer. Du arbetar kanske med att utveckla ny medicinsk utrustning, miljövänliga lösningar eller banbrytande jordbruksmetoder. Detta yrke passar dig som är innovativ, noggrann och har en passion för vetenskap och natur. Du njuter av att vara i forskningens framkant och ser potentialen i att använda biologi för att lösa världens problem. Din förmåga att kombinera vetenskaplig kunskap med praktiska applikationer gör dig till en viktig spelare i bioteknikindustrin.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Fasta, Genetisk modifiering, Observatör</li>
+</ul>
+<h2 id="cybersäkerhet"><a class="header" href="#cybersäkerhet">Cybersäkerhet</a></h2>
+<p>Genom din utbildning i Cybersäkerhet har du blivit en expert på att skydda viktig information och bekämpa cyberhot. Du spelar en kritisk roll i att förhindra dataintrång och säkra företagets digitala tillgångar. Ditt arbete innebär kontinuerlig övervakning och uppdatering av säkerhetssystem för att stå emot de senaste hoten. Du passar perfekt för detta yrke om du är analytisk, detaljorienterad och njuter av att lösa komplexa problem. Din förmåga att tänka som en hacker ger dig fördelen att alltid vara ett steg före. I din roll är du inte bara en tekniker, utan också en beskyddare av företagets mest värdefulla information.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Instinkt, Kodknäckare, Tekniskt fel</li>
+</ul>
+<h2 id="datavetenskap"><a class="header" href="#datavetenskap">Datavetenskap</a></h2>
+<p>Med en utbildning i Datavetenskap har du blivit en auktoritet inom programmering, systemutveckling och datateknik. Ditt arbete spänner över en mängd områden, från att utveckla komplexa databaser och applikationer till att arbeta med nätverkssäkerhet och molnlösningar. Du är en logisk tänkare med en passion för att lösa tekniska problem. Din expertis gör dig till en nyckelspelare i en värld där data är livsnerven i allt vi gör. Du är väl rustad för att möta de tekniska utmaningar som framtiden har att erbjuda, och din förmåga att anpassa och utveckla nya lösningar är ovärderlig.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Maskinskrivare, Uppfinna, Ventilera</li>
+</ul>
+<h2 id="ekonomi"><a class="header" href="#ekonomi">Ekonomi</a></h2>
+<p>Med en bakgrund i Ekonomi är du väl rustad för roller som ekonomisk analytiker, strategisk rådgivare eller finanschef. Du har en djup förståelse för ekonomiska principer och hur de påverkar både små och stora företag. Du trivs med att dyka ner i komplexa finansiella rapporter och utveckla strategier som säkerställer ekonomisk stabilitet och tillväxt. Om du är analytisk, har en god siffersinne och trivs i en roll där dina beslut har stor påverkan, är ekonomiyrket perfekt för dig. Din förmåga att förutse ekonomiska trender och agera proaktivt gör dig till en värdefull tillgång i varje företag.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Byråkrati, Empati, Ledarskap</li>
+</ul>
+<h2 id="juridik"><a class="header" href="#juridik">Juridik</a></h2>
+<p>Genom din utbildning i Juridik har du skaffat dig en omfattande förståelse för rättsliga principer och lagstiftning. Du är expert på att navigera i juridiska landskap, från kontraktsrätt och immaterialrätt till arbetsrätt och internationella lagar. Din förmåga att analysera, tolka och tillämpa lagar är avgörande i en affärsvärld där juridiska frågor ofta är komplexa och mångfacetterade. Du kan arbeta som företagsjurist, där du ger råd om juridiska strategier, hanterar kontraktsförhandlingar eller hanterar tvister. Ditt arbete är essentiellt för att skydda företagets intressen och säkerställa att verksamheten följer gällande lagar och regler. Som jurist är du inte bara en lagens väktare, utan också en strategisk rådgivare som kan påverka viktiga affärsbeslut. Din skicklighet att formulera tydliga argument och ditt öga för detaljer gör dig till en ovärderlig tillgång i alla juridiska frågor. I denna roll är du en viktig del av att upprätthålla rättvisa och etik inom företagets verksamhet.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Byråkrati, Kognitiv dissonans, Övertygelse</li>
+</ul>
+<h2 id="kvantmekanik"><a class="header" href="#kvantmekanik">Kvantmekanik</a></h2>
+<p>Med din kunskap inom Kvantmekanik befinner du dig i den absoluta framkanten av fysik och teknologi. Du utforskar och utnyttjar principer som kvantentanglement och superposition för att skapa banbrytande teknologier. Ditt arbete kan leda till revolutionerande framsteg inom kvantdatorer, materialvetenskap och energi. Du är en djupt analytisk tänkare, fascinerad av universums mest grundläggande lagar. Din förmåga att navigera i kvantvärlden öppnar dörren till nya upptäckter som kan omdefiniera vår förståelse av verkligheten.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Déjà vu, Metamorfos, Övertygelse</li>
+</ul>
+<h2 id="medicin"><a class="header" href="#medicin">Medicin</a></h2>
+<p>Din utbildning inom medicin har förberett dig för en karriär i framkanten av medicinsk forskning och hälsovård. Med en fördjupad förståelse för människokroppen och sjukdomar, bidrar du till att utveckla nya behandlingsmetoder och medicinska innovationer. Du kan arbeta inom allt från patientvård och klinisk forskning till bioteknik och folkhälsa. Detta yrke passar dig som är analytisk, omtänksam och drivs av att hjälpa andra. Din kunskap och ditt engagemang är avgörande för att förbättra människors hälsa och livskvalitet.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Arbetsnarkoman, Fasta, Tupplur</li>
+</ul>
+<h2 id="miljövetenskap"><a class="header" href="#miljövetenskap">Miljövetenskap</a></h2>
+<p>Din utbildning i Miljövetenskap gör dig till expert på att förstå och hantera miljöfrågor. Du kan arbeta med att utveckla hållbara affärsstrategier, miljökonsekvensbedömningar eller klimatförändringspolitik. Detta yrke är perfekt för dig som är analytisk, har en stark känsla för etik och brinner för att göra en positiv skillnad för planeten. Din kunskap om miljöpåverkan och din förmåga att hitta balansen mellan ekonomisk tillväxt och hållbarhet är avgörande för att forma en mer hållbar framtid.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Observatör, Zenträdgård, Övernaturlig intuition</li>
+</ul>
+<h2 id="samhällsvetenskap"><a class="header" href="#samhällsvetenskap">Samhällsvetenskap</a></h2>
+<p>Din utbildning inom Samhällsvetenskap har gett dig en djupgående förståelse för de komplexa samhällsstrukturerna och mänskligt beteende. Du har utvecklat en förmåga att analysera sociala fenomen, förstå politiska och kulturella dynamiker och identifiera de drivkrafter som formar samhällen. Ditt arbete kan innefatta allt från policyanalys och social forskning till arbete med samhällsutveckling och offentliga relationer. Denna utbildning är idealisk för dig som är en kritisk tänkare och har en stark känsla för rättvisa och etik. Du är expert på att navigera i komplexa sociala miljöer och din kunskap gör dig till en viktig spelare inom områden som socialpolitik, internationella relationer och samhällsplanering. Din förmåga att förstå och kommunicera komplexa samhällsfrågor är oumbärlig i en globaliserad värld. Som samhällsvetare är du rustad att bidra till positiva förändringar och att bygga broar mellan olika kulturer och samhällsgrupper</p>
+<ul>
+<li><strong>Färdigheter</strong>: Kontaktnät, Ledarskap, Skamlös</li>
+</ul>
+<h2 id="systemautomation"><a class="header" href="#systemautomation">Systemautomation</a></h2>
+<p>Som specialist inom Systemautomation har du färdigheter i att skapa effektiva och automatiserade lösningar som förändrar arbetsprocesser. Du är ansvarig för att designa system som automatiserar uppgifter, vilket ökar effektiviteten och minskar mänskligt fel. Ditt arbete är perfekt för dig som är innovativ, tekniskt kunnig och har en passion för att skapa lösningar som gör livet enklare. Du trivs i en miljö där du kan kombinera kreativitet med teknisk expertis för att utveckla framtidens teknologi. Din förmåga att se det stora bilden och samtidigt förstå detaljerna gör att du kan omsätta idéer till verklighet.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Arbetsnarkoman, Byråkrati, Maskinskrivare</li>
+</ul>
+<h2 id="visuella-medier"><a class="header" href="#visuella-medier">Visuella medier</a></h2>
+<p>Som expert inom visuella medier, utbildad i konst och teknologi, skapar du storslagna verk som fängslar och inspirerar. Du kan arbeta inom en mängd olika områden, från film och spelutveckling till digital reklam och interaktiv design. Ditt arbete kräver en kombination av kreativitet och teknisk skicklighet, vilket gör dig perfekt för att förvandla idéer till visuella mästerverk. Du är en berättare och en skapare, som använder bilder och animationer för att kommunicera kraftfulla budskap. Din förmåga att tänka kreativt och arbeta med avancerad teknik gör dig eftertraktad i en värld där visuella medier ständigt utvecklas.</p>
+<ul>
+<li><strong>Färdigheter</strong>: Rokad, Scenmästare, Övernaturlig intuition</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="bärförmåga"><a class="header" href="#bärförmåga">Bärförmåga</a></h1>
+<p>Konceptet med bärförmåga hanterat med en flexibel och realistisk inställning. Spelet fokuserar mer på rollpersonernas handlingar och interaktioner än på mikrohantering av inventarier och utrustning. Därför antas rollpersoner vara kapabla att bära de föremål de rimligtvis behöver i sitt dagliga arbete och uppdrag. Detta inkluderar personlig utrustning, verktyg och andra små objekt.</p>
+<h2 id="hantering-av-tyngre-vikter"><a class="header" href="#hantering-av-tyngre-vikter">Hantering av tyngre vikter</a></h2>
+<ul>
+<li>Dock, när situationen kräver att din rollperson hanterar tyngre föremål eller bär tung utrustning över längre sträckor, blir deras fysiska kapacitet en faktor att ta hänsyn till.</li>
+<li>I dessa fall används Motståndslag mot Styrka (STY) för att avgöra om rollpersonen kan hantera den extra belastningen utan problem.</li>
+<li>Din rollperson kan inte bära eller lyfta mer än upp till 10 kg för varje poäng i Styrka (STY).</li>
+</ul>
+<h2 id="kontinuerlig-belastning"><a class="header" href="#kontinuerlig-belastning">Kontinuerlig belastning</a></h2>
+<ul>
+<li>Om din rollpersoner behöver bära tunga föremål under längre perioder, kan flera kontinuerliga Motståndslag mot Styrka (STY) krävas för att upprätthålla förmågan att bära dessa vikter.</li>
+<li>Misslyckade slag kan leda till <strong>stress</strong> eller <strong>tillfälliga tillstånd</strong>.</li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="Ägodelar"><a class="header" href="#Ägodelar">Ägodelar</a></h1>
+<p>En ägodel är mer än bara en personlig tillhörighet; det är symbolen för din rollpersons unika historia, färdigheter och till och med deras öde. Varje spelare får välja en ägodel som tillför en distinkt fördel eller förmåga till deras rollperson. Dessa objekt är inte bara praktiska verktyg, utan de kan också bära emotionellt värde eller en speciell betydelse för rollpersonen.</p>
+<ul>
+<li>Varje spelare kan endast ha en (1) <strong>ägodel</strong> åt gången.</li>
+<li>Välj en ägodel från listan som kompletterar din rollpersons karaktär eller som du finner intressant för din spelstil.</li>
+<li>Ägodelar kan gå förlorade, stjälas eller förstöras under spelets gång.</li>
+<li>Om en rollperson förlorar sin ägodel, kan spelaren vid lämpligt tillfälle i spelet försöka anskaffa en ny. Detta kan ske genom uppdrag, handel, utforskning eller andra spelscenarion.</li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Ägodel</strong></th><th><strong>Förbättrad effekt</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Antikt fickur</td><td>Med detta ur kan du återuppleva de senaste 30 sekunderna en gång per speltillfälle. Endast din rollperson är medveten om tidsförändringen.</td></tr>
+<tr><td style="text-align: center">2</td><td>Anteckningsbok</td><td>Ger dig möjlighet att fråga spelledaren om en detalj eller händelse som din rollperson bör komma ihåg, men som du som spelare har glömt, en gång per speltillfälle.</td></tr>
+<tr><td style="text-align: center">3</td><td>Nyckelringslampa</td><td>Förstärker din rollpersons förmåga att upptäcka dolda objekt eller ledtrådar i dåligt upplysta miljöer, vilket ger dig fördel på lämpliga Handlingskast.</td></tr>
+<tr><td style="text-align: center">4</td><td>Sliten schackpjäs</td><td>Förhöjer din rollpersons strategiska tänkande, vilket ger +1 till Intelligens (INT) vid planering och problemlösning.</td></tr>
+<tr><td style="text-align: center">5</td><td>Semesterhalsband</td><td>Utsänder en lugnande aura som minskar din rollpersons stressnivå med en sektor en gång per dag.</td></tr>
+<tr><td style="text-align: center">6</td><td>Stiliga glasögon</td><td>Förbättrar din rollpersons förmåga att framstå som karismatisk och övertygande under presentationer och tal, ger +1 till Karisma (KAR).</td></tr>
+<tr><td style="text-align: center">7</td><td>Läderarmband</td><td>Ökar din rollpersons fysiska styrka, ger +1 till Styrka (STY) i situationer som kräver ren muskelkraft.</td></tr>
+<tr><td style="text-align: center">8</td><td>Gammalt munspel</td><td>Används för att mildra spänningar och skapa harmoni, vilket ger din rollperson <strong>fördel</strong> när de försöker lugna eller avväpna en konflikt.</td></tr>
+<tr><td style="text-align: center">9</td><td>Omärkt data-sticka</td><td>Innehåller avancerad dataåtkomstteknik, ger din rollperson fördel vid informationssökning på elektroniska enheter.</td></tr>
+<tr><td style="text-align: center">10</td><td>Fickkompass</td><td>Pålitlig och alltid korrekt, denna kompass låter din rollperson fråga spelledaren om norrriktningen när de behöver navigera.</td></tr>
+<tr><td style="text-align: center">11</td><td>Tändare</td><td>Ger dig förmågan att skapa eld snabbt och säkert, vilket kan vara användbart i oväntade situationer eller vid behov av värme.</td></tr>
+<tr><td style="text-align: center">12</td><td>Kompakt multiverktyg</td><td>Ett mångsidigt verktyg som förbättrar din rollpersons praktiska kunskaper, ger +1 till Intelligens (INT) vid tillverkning eller reparation.</td></tr>
+<tr><td style="text-align: center">13</td><td>Fotografi</td><td>Titta på detta personliga fotografi för att stärka din rollpersons psykiska uthållighet, ger +1 till Psyke (PSY) inför psykologiskt påfrestande situationer.</td></tr>
+<tr><td style="text-align: center">14</td><td>-</td><td>-</td></tr>
+<tr><td style="text-align: center">15</td><td>Kryddor</td><td>Inte ens du vet varför du bär runt på dessa.</td></tr>
+<tr><td style="text-align: center">16</td><td>Turmynt</td><td>Ett lyckobringande mynt som magiskt omvandlar det första kastet till <strong>fördel</strong> varje dag som annars skulle ha varit till <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">17</td><td>T20 tärning</td><td>En mystisk tärning som tillåter din rollperson att slå om ett tärningskast en gång per dag, men endast om utfallet är exakt 20.</td></tr>
+<tr><td style="text-align: center">18</td><td>Mystisk nyckel</td><td>Denna nyckel verkar öppna mer än bara dörrar –- ofta tycks låsta hinder ge vika när din rollperson närmar sig.</td></tr>
+<tr><td style="text-align: center">19</td><td>Tom berlock</td><td>En gåtfull berlock som stärker din rollpersons förmåga att agera under tryck, ger -1 till Psyke (PSY) vid Motståndskast men +1 till Psyke (PSY) vid Handlingskast.</td></tr>
+<tr><td style="text-align: center">20</td><td>Dekorativ ring</td><td>En imponerande ring som av okänd anledning ger din rollperson fördel i interaktioner med vissa inflytelserika personer.</td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="världen"><a class="header" href="#världen">Världen</a></h1>
+<p>Stig in i en värld som vid första ögonkastet kan verka bekant. Ett kalejdoskop av språk, folkslag och kulturer som trots bättre vetande, ständigt strävar efter dominans. Det är en plats där maktbalansen är skör -- en värld där de starka oupphörligen utnyttjar de svaga, och där företagens agerande ofta kritiseras för att vara mer destruktivt än fördelaktigt.</p>
+<p>I denna komplexa och ibland paradoxala verklighet står Panoptikon-koncernen som en monolit -- inte bara ett företag, utan ett imperium. Detta bolag, vars inflytande sträcker sig över kontinenter, är ständigt närvarande i varje politisk intrig,  drivet av sina egna dolda agenda. Under de sista decennierna har Panoptikon vuxit ur sin roll som en vanlig aktör på den globala scenen; de har blivit mer än en pjäs -- de är nu själva brädet. Ett bräde på vilket världens maktspel nu utspelar sig.</p>
+<p>Ditt beslut att ansluta dig till Panoptikon kan ha grundat sig på flera anledningar. Kanske lockades du av den generösa ersättning som utlovas till och med de nyaste rekryterna. Eller kanske var det möjligheten att ta del av något storslaget och överväldigande. Här, där ambition och makt blandas med hemligheter och intriger, formas en verklighet där allt tänkbart är möjligt och ingenting är som det först tycks vara.</p>
+<p>Dina exakta motiv förblir otydliga, även för dig själv. En känsla som delas av dina kollegor och när ni söker efter svar leder det bara fler frågor. Du står inför den obehagliga och överväldigande möjligheten att dina handlingar, dina beslut från denna stund framöver, avsiktligt eller inte, kan ha en direkt påverkan på framtiden för tusentals, ja, miljontals människor. Kanske till och med hela planeten.</p>
+<p>Är det kanske ödet som har fört er samman? Och om så är fallet, till vilket syfte? </p>
+<p>Denna fråga ekar långt inne i ett skuggat medvetande.</p>
+<p>Har du det som krävs? Har ni det -- tillsammans?</p>
+<h3 id="språkens-utveckling"><a class="header" href="#språkens-utveckling">Språkens utveckling</a></h3>
+<p>Språkhistoriker är eniga om att något ytterst märkligt ägde rum för cirka 900 till 1000 år sedan. I en värld som tidigare var präglad av tusentals språk inträffade en oväntad konsolideringsprocess. Språk började långsamt dö ut och smälta samman med andra, vilket ledde till att en rad nya språkliga hybridformer uppstod. Detta fenomen kulminerade i bildandet av sex större språk, vilka sedan 1600-talet har varit de dominerande kommunikationsformerna.</p>
+<ul>
+<li><strong>Solantica</strong> är ett språk av ljus och passion, en förtrollande fusion av de latinska och romanska språken, som har växt fram ur historiens djup. Denna soliga tungomål återspeglar en rik kultur, fylld av färgglada traditioner och en livfull historia. Solanticaner är kända för sin expressiva kommunikation, där varje ord och varje fras är en dans av ljud och betydelse. I Solanticas röst hörs ekon av antika riken och förlorade civilisationer, en värld där poesi och sång är lika viktiga som rikedom och makt. Dess skriftspråk är lika vackert som dess talade ord, med eleganta bokstäver som flödar över sidorna som floder av bläck.</li>
+<li><strong>Nordhymia</strong> är ett språk fött ur vikingarnas djärva själ och det sträva norra landskapet. Det började som vikingarnas tungomål, grovt och rått, men förvandlades genom åren till ett språk som nu binder samman en bred kultur. Nordhymia är känd för sin styrka och sitt enkla, men djupgående uttryck. Dess ord är som huggna ur sten, och dess rytm liknar trummornas i forna strider. Det är ett språk för hjältar och skalder, där varje fras kan vara en hyllning till gudar och hjältedåd.</li>
+<li><strong>Dravidiska</strong>: är språket som ekar från de uråldriga och mystiska landskapen i sydligaste delen av vår värld. Det är ett språk med djupa rötter, vars ljud och struktur skiljer sig markant från de nordliga tungomålen. Dravidiska är känt för sin melodiska ton och komplexa grammatik, vilket återspeglar en kultur som är lika rik på tradition som den är på innovation.</li>
+<li><strong>Meridiane</strong>: är språket av sand och stjärnor, en fascinerande mosaik av afrikanska, arabiska och swahili-influenser. Det uppstod i korsvägen av handelsvägar och kulturmöten, och har utvecklats till ett rikt och mångfacetterat kommunikationsverktyg. Med sitt melodiska flöde och sin rytmiska tonalitet, är Meridiane lika varierande och färgstark som de marknader och karavaner där det oftast hörs.</li>
+<li><strong>Aurorasia</strong>: är en symfoni av språk från Fjärran Östern, en fascinerande blandning av asiatiska och sydostasiatiska dialekter. Detta språk är lika mångsidigt och komplex som de många kulturerna och nationerna det förenar. Aurorasia har utvecklats genom århundraden av handel, krig, och kulturell utbyte, vilket har skapat ett unikt och mångfacetterat kommunikationssätt. Det är ett språk som flyter lika elegant som penseldrag på ett sidenark, och dess skriftsystem är lika konstnärligt som det är funktionellt. Varje tecken och varje tonfall berättar en historia om dess folk och deras arv.</li>
+<li><strong>Oceanique</strong> är en sång av vind och vågor, en fascinerande blandning av språk från Stillahavsregionen, där toner från maori, filippinska och andra öspråk smälter samman. Detta språk är en levande hyllning till havets folk, vars historia sträcker sig över oräkneliga öar och vidsträckta havsområden. Med dess melodiska rytm och flytande toner är Oceanique en glädje för örat och en bro mellan de många kulturerna i denna rika och dynamiska region.</li>
+</ul>
+<h2 id="panoptikons-ursprung"><a class="header" href="#panoptikons-ursprung">Panoptikons ursprung</a></h2>
+<p>Att söka efter Panoptikons ursprung är som att navigera en labyrint med förbundna ögon. Frågar man efter när denna enigmatiska organisation först såg dagens ljus, möts man av tystnad eller gåtfulla teorier. Dess historia verkar omsvept i dunkel, vilande i outgrundliga arkiv där decenniers, kanske århundradens, dokumentation har gömts undan. En gång märkta för att aldrig mer träda fram i ljuset.</p>
+<p>Visst florerar rykten. Tisslande viskningar antyder att organisationen som idag står som Panoptikon har genomgått flera transformationer. Bytt skepnad och namn inte bara en eller två gånger, men kanske otaliga. Anspelningar som gör gällande att dess rötter sträcker sig mycket längre bak i tiden, till en era där historia övergår i legend och myt.</p>
+<p>Vissa spekulerar i att Panoptikon inte bara varit vittne till historiens gång, utan kanske också dess arkitekt, vars inflytande vävt in sig i mänsklighetens mest avgörande vändpunkter.</p>
+<h2 id="ledning"><a class="header" href="#ledning">Ledning</a></h2>
+<p>Om Panoptikon som organisation är svår att förstå, så är dess styrelse ännu mer obegriplig. Den framstår som en rebus, svept i ett mysterium, dolt inuti en gåta. Ingen har någonsin sett dem. Då kan påstå att de har haft en direkt konversation med dem. Men alla känner av effekterna av deras beslut. Deras skugga är ständigt närvarande -- ständigt vakande.</p>
+<p>Vissa menar att deras beslut inte bara är affärsbeslut, utan snarare drag i ett mycket större spel, där insatserna är mycket högre än de flesta kan föreställa sig.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="divisioner"><a class="header" href="#divisioner">Divisioner</a></h1>
+<p>Med sina klor utsträckta över hela världen, har Panoptikon etablerat en mängd olika divisioner, var och en specialiserad på ett unikt område av global verksamhet. Dessa divisioner är inte bara en del av företagets struktur; de är en manifestation av dess makt och inflytande.</p>
+<h2 id="kända-divisioner"><a class="header" href="#kända-divisioner">Kända divisioner</a></h2>
+<p>Var och en av dessa divisioner fungerar som en självständig enhet inom det större Panoptikon-imperiet, med sina egna mål, strategier och agendor. De interagerar och överlappar ibland, men deras verkliga syften och sammankopplingar är ofta höljda i dunkel.</p>
+<p>Trots den offentliga fasaden av innovativ teknik, global säkerhet, ekonomisk stabilitet och humanitära framsteg, är det svårt att inte spekulera om vad som döljer sig under ytan. Varje division har sin egen berättelse att berätta, sina egna mysterier att avslöja, och sina egna bidrag till den större bilden av Panoptikon som en allomfattande kraft.</p>
+<h3 id="aurora"><a class="header" href="#aurora">Aurora</a></h3>
+<p><strong>Inriktning:</strong> Teknologi och forskning.<br />
+<strong>Plats:</strong> Norra Sverige.</p>
+<p>Här ligger framtiden redan i det förflutna. Denna division leder vägen inom områden som artificiell intelligens, cybernetik och avancerade teknologiska lösningar.</p>
+<h3 id="crest"><a class="header" href="#crest">Crest</a></h3>
+<p><strong>Inriktning:</strong> Ekonomi och finans.<br />
+<strong>Plats:</strong> Utanför Zürich, Schweiz.</p>
+<p>Ekonomins pulsslagare och strategiska genier, denna division hanterar de komplexa finansiella flöden och investeringar som upprätthåller företagets globala dominans.</p>
+<h3 id="lexicon"><a class="header" href="#lexicon">Lexicon</a></h3>
+<p><strong>Inriktning:</strong> Juridik.<br />
+<strong>Plats:</strong> Tokyo, Japan.</p>
+<p>Denna division står vid rodret för företagets juridiska och etiska beslut. I en värld av gråzoner och komplexa regelverk, navigerar de genom lagens labyrint.</p>
+<h3 id="meridian"><a class="header" href="#meridian">Meridian</a></h3>
+<p><strong>Inriktning:</strong> Global säkerhet.<br />
+<strong>Plats:</strong> Gibraltar.</p>
+<p>Med en hand i varje hemlighet, står denna division för övervakning och säkerhetsoperationer på en global skala, skyddar företagets intressen med en osynlig men järnhård hand.</p>
+<h3 id="nexus"><a class="header" href="#nexus">Nexus</a></h3>
+<p><strong>Inriktning:</strong> Media och kommunikation.<br />
+<strong>Plats:</strong> Mumbai, Indien.</p>
+<p>Här formas opinioner och världsåskådningar. Genom mediakontroll och informationsstyrning har denna division makten att forma verkligheten så som den uppfattas av massorna.</p>
+<h3 id="orion"><a class="header" href="#orion">Orion</a></h3>
+<p><strong>Inriktning:</strong> Rymdforskning.<br />
+<strong>Plats:</strong> São José dos Campos, Brasilien.</p>
+<p>Med sikte mot stjärnorna och bortom utforskar denna division de yttre gränserna av mänsklig kunskap och ambition, från djuphav till yttre rymd.</p>
+<h3 id="pandora"><a class="header" href="#pandora">Pandora</a></h3>
+<p><strong>Inriktning:</strong> Utbildning.<br />
+<strong>Plats:</strong> Cambridge, Storbritannien.</p>
+<p>Skapare av morgondagens ledare, denna division investerar i kultur och kunskap, formar samhällen och inspirerar generationer.</p>
+<h3 id="terra"><a class="header" href="#terra">Terra</a></h3>
+<p><strong>Inriktning:</strong> Energi och miljö.<br />
+<strong>Plats:</strong> Nairobi, Kenya.</p>
+<p>Denna division tar itu med några av vår tids största utmaningar, från hållbar energiutveckling till miljöbevarande och resurshantering.</p>
+<h3 id="vitalis"><a class="header" href="#vitalis">Vitalis</a></h3>
+<p><strong>Inriktning:</strong> Biomedicin och hälsa.<br />
+<strong>Plats:</strong> Singapore.</p>
+<p>I denna division sammanflätas livets gåtor med vetenskapens gränser. Från medicinska innovationer till banbrytande hälsoteknologi, formar de framtiden för mänskligt välbefinnande.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="formulera-en-akt"><a class="header" href="#formulera-en-akt">Formulera en akt</a></h1>
+<p>En akt en samling dokument som utgör ett &quot;äventyr&quot;. En akt deklarerar vanligtvis;</p>
+<ol>
+<li><strong>Uppdragsbeskrivning:</strong> En detaljerad översikt av äventyret eller uppdraget, inklusive mål och syfte.</li>
+<li><strong>Bakgrundsinformation:</strong> Historisk eller kontextuell information som är relevant för ärendet, såsom händelser, platser, eller viktiga figurer.</li>
+<li><strong>Kartor och Skisser:</strong> Grafiskt material som visar viktiga platser, byggnader eller områden där äventyret utspelar sig.</li>
+<li><strong>Karaktärsprofiler:</strong> Information om viktiga Spelledarkaraktärer, deras motiv, personligheter och relationer till ärendet.</li>
+<li><strong>Ledtrådar och Bevis:</strong> Dokumenterade bevis eller ledtrådar som spelarna behöver undersöka eller följa för att lösa uppdraget.</li>
+<li><strong>Kommunikationsloggar:</strong> Registrerade samtal, brev, eller meddelanden som kan innehålla ledtrådar eller relevant information.</li>
+<li><strong>Rapporter och Analyser:</strong> Dokument som ger insikter eller vetenskapliga data som är relevanta för ärendet.</li>
+<li><strong>Juridiska Dokument:</strong> Lagtexter, regler, kontrakt eller andra juridiska dokument som kan vara relevanta för ärendet.</li>
+<li><strong>Säkerhetsprotokoll:</strong> Information om säkerhetsåtgärder, kodningar eller skyddsåtgärder som kan vara relevant för uppdraget.</li>
+<li><strong>Personliga Anteckningar:</strong> Anteckningar eller dagboksutdrag från personer som är involverade i ärendet.</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="appendix-a-tärningssannolik"><a class="header" href="#appendix-a-tärningssannolik">Appendix A: Tärningssannolik</a></h1>
+<p>Följande grafer baseras på förutsättningen att kast till <strong>fördel</strong> ska medföra ett lågt värde och ett kast till <strong>nackdel</strong> ska resultera i ett högt värde.</p>
+<p><img src="chapters/../resources/dice-probability-1.png" alt="" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+    </div>
+    </body>
+</html>

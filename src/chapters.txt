@@ -1,0 +1,14 @@
+preface.md
+introduction.md
+core-system.md
+actions.md
+progress.md
+work.md
+stress.md
+recuperation.md
+advancement.md
+abilities.md
+character.md
+world.md
+acts.md
+appendices.md
