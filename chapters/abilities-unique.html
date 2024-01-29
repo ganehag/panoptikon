@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Unika förmågor - Panoptikon</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././theme/catppuccin.css">
+        <link rel="stylesheet" href=".././theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="../chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="../chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="../chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="../chapters/actions.html"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="../chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="../chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="../chapters/stress.html"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="../chapters/recuperation.html"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="../chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="../chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item expanded "><a href="../chapters/abilities-unique.html" class="active"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="../chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item "><a href="../chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item "><a href="../chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item "><a href="../chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item "><a href="../chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item "><a href="../chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item "><a href="../chapters/character-belonging.html"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="../chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="unika-förmågor"><a class="header" href="#unika-förmågor">Unika förmågor</a></h1>
+<p>Varje rollperson är begåvad med en unik uppsättning förmågor, intrikat kopplade till deras specifika <a href="character-archetypes.html">Arketyp</a>. Dessa förmågor ger varje rollperson en särskild fördel, som skapar möjligheter för framgångar i situationer där andra kanske aldrig hade kunnat triumfera.</p>
+<h2 id="altruism"><a class="header" href="#altruism">Altruism</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälten</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När en allierad rollperson misslyckas med ett Motståndskast och skulle få <strong>stress</strong> som ett resultat, kan Hjälten välja att ta på sig denna <strong>stress</strong> istället. Hjälten kan endast använda denna förmåga om det inte resulterar i att den egna stressmätare fylls helt.</p>
+<h2 id="andas"><a class="header" href="#andas">Andas</a></h2>
+<ul>
+<li><strong>Krav:</strong> Förälskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Med ett framgångsrikt Karisma (KAR) slag, kan Förälskaren genast lugna en upprörd person. Denna handling ger berörda Rollpersoner fördel i nästa Psyke (PSY) relaterat Handlingskast eller Motståndskast. Fördelen varar tills den används eller till nästa sömnperiod.</p>
+<h2 id="ba-dum-tss"><a class="header" href="#ba-dum-tss">Ba dum tss</a></h2>
+<ul>
+<li><strong>Krav:</strong> Narren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När denna förmåga aktiveras, berättar spelaren som styr Narren ett skämt. Om skämtet tas emot väl av gruppen (baserat på deras humör och reaktion), kan spelaren välja en rollperson, inklusive Narren själv, för att minska en (1) poäng <strong>stress</strong> som uppkommit under de senaste 5 minuterna. Misslyckas skämtet att landa väl, resulterar det i att Narren tar en (1) poäng <strong>stress</strong>.</p>
+<h2 id="befriande-ord"><a class="header" href="#befriande-ord">Befriande ord</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Två gånger per dag kan Hjälparen neutralisera ett temporärt tillstånd hos en individ (Rollperson eller Spelledarkaraktär). Hjälparen måste utföra ett Handlingskast mot Intelligens (INT), men med <strong>nackdel</strong>. Vid framgång lyfts det temporära tillståndet omedelbart från den berörda individen.</p>
+<h2 id="bemästrad-manipulation"><a class="header" href="#bemästrad-manipulation">Bemästrad manipulation</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skurken</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Varje gång Skurken utför ett Handlingskast med Karisma (KAR) för att psykiskt påverka en Rollperson eller Spelledarkaraktär, tillkommer en extra tärning (T6) som specifikt används för att temporärt öka Skurkens Karisma-värde för det kastet.</p>
+<h2 id="empatisk-läsning"><a class="header" href="#empatisk-läsning">Empatisk läsning</a></h2>
+<ul>
+<li><strong>Krav:</strong> Förälskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Förälskaren kan en gång per dag utan Handlingskast identifiera känslotillstånd hos en individ (Rollperson eller Spelledarkaraktär). Vid ytterligare användning, krävs ett Handlingskast mot Psyke (PSY), där Förälskaren har kast till <strong>fördel</strong>.</p>
+<h2 id="episkt-handslag"><a class="header" href="#episkt-handslag">Episkt handslag</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälten</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Hjälten väljer att visa sin respekt och erkännande gentemot en annan individ, vars Styrka (STY) är lika med eller större än Hjältens, kan de genomföra ett &quot;Episkt handslag&quot;. Vid bådas nästa Handlingskast utförs dessa till <strong>fördel</strong>. Denna förmåga är kostnadsfri en gång per dag. Används den en andra gång samma dag, tar Hjälten två (2) <strong>stress</strong>.</p>
+<h2 id="dominans"><a class="header" href="#dominans">Dominans</a></h2>
+<ul>
+<li><strong>Krav:</strong> Härskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Härskaren interagerar med Spelledarkaraktärer vars Psyke (PSY) är lägre än åtta (8) plus Härskarens poäng i förmågan &quot;Universalgeni&quot;, utförs alla Handlingskast som involverar påverkan, övertalning eller kommando med <strong>fördel</strong>. Framgångsrik användning av denna förmåga belönar Härskaren med en sektor på sin erfarenhetsklocka.</p>
+<h2 id="god-natt"><a class="header" href="#god-natt">God natt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Hjälparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Hjälparen kan en gång varje dag använda &quot;God natt&quot; för att garantera djup och störningsfri sömn för sig själv eller en annan rollperson. Målet får <strong>fördel</strong> på alla kast under nästa sömnfas och är immun mot störningar eller negativa effekter under natten. Alternativt kan Hjälparen tvinga en Spelledarkaraktär att göra ett Motståndsslag för Psyke (PSY) - 6. Vid misslyckande somnar Spelledarkaraktären djupt i upp till 30 minuter om de inte störs.</p>
+<h2 id="intimiderande-närvaro"><a class="header" href="#intimiderande-närvaro">Intimiderande närvaro</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skurken</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Genom att ta två <strong>stress</strong> och sedan slå ett lyckat Handlingskast mot Intelligens (INT) eller Styrka (STR), kan Skurken framkalla det temporära tillståndet &quot;Rädd&quot; eller &quot;Uppgiven&quot; hos en individ.</p>
+<h2 id="konsten-att-ifrågasätta"><a class="header" href="#konsten-att-ifrågasätta">Konsten att ifrågasätta</a></h2>
+<ul>
+<li><strong>Krav:</strong> Rebellen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Rebellen kan en gång per dag använda sin kritiska tankeförmåga för att effektivisera en syssla. När de genomför ett lyckat Handlingskast mot Intelligens (INT) för en ny syssla, minskar de antalet nödvändiga segment för att slutföra sysslan med hälften av ett T6-resultat (avrundat nedåt).</p>
+<h2 id="kreativ-inspiration"><a class="header" href="#kreativ-inspiration">Kreativ inspiration</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skaparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Skaparen kan förstärka kreativiteten hos en grupp eller enskild individ genom ett Handlingskast mot Karisma (KAR). Om kastet är framgångsrikt, får alla berörda individer +1 till valfri grundegenskap vid sitt nästa Handlingskast för en syssla. För varje syssla som framgångsrikt avslutas med hjälp av denna ökade kreativitet, belönas Skaparen med en sektor på sin erfarenhetsklocka. Om det ursprungliga Handlingskastet mot Karisma (KAR) misslyckas, tar Skaparen +1 <strong>stress</strong>.</p>
+<h2 id="kunskapsöverföring"><a class="header" href="#kunskapsöverföring">Kunskapsöverföring</a></h2>
+<ul>
+<li><strong>Krav:</strong> Mentorn</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>En gång per dag kan Mentorn dela med dig av sin visdom till en annan rollperson för att temporärt öka deras Intelligens (INT) under resten av dagen. Mentorns Intelligens (INT) ersätter rollpersonens värde.</p>
+<h2 id="lätt-som-en-plätt"><a class="header" href="#lätt-som-en-plätt">Lätt som en plätt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Oskuldens</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Oskulden antingen blir tilldelad en syssla eller tar på sig rollen som ansvarig för en gruppsyssla, ges de möjlighet att använda sin unika syn på världen för att påverka arbetsomfånget. De kan göra detta genom att slå 1T6. Utfallet av detta slag bestämmer hur många segment som justeras på sysslans progressklocka. Om Oskulden slår en 6:a, ökar det arbetsomfånget med 6 segment, vilket speglar en överoptimistisk bedömning av situationen. Om tärningen visar 1 till 5, minskar antalet segment på progressklockan med motsvarande värde.</p>
+<h2 id="nyfiken"><a class="header" href="#nyfiken">Nyfiken</a></h2>
+<ul>
+<li><strong>Krav:</strong> Utforskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Utforskaren befinner sig i en ny eller okänd miljö, utförs alla Handlingskast relaterade till utforskning, undersökning eller lärande av denna miljö med <strong>fördel</strong>. Detta gäller inte situationer där Utforskaren redan är väl förtrogen med omgivningen.</p>
+<h2 id="omvänd-realitet"><a class="header" href="#omvänd-realitet">Omvänd realitet</a></h2>
+<ul>
+<li><strong>Krav:</strong> Magikern</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Två gånger per dag kan Magikern välja att aktivera &quot;Omvänd realitet&quot; på ett Handlingskast utfört av sig själv eller en annan rollperson. När denna förmåga används, blir kastets framgångskriterier omvända -- det vill säga, ett resultat som normalt skulle betraktas som ett misslyckande (en siffra högre än rollpersonens grundegenskap) blir istället ett framgångsrikt utfall.</p>
+<h2 id="pappaskämt"><a class="header" href="#pappaskämt">Pappaskämt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Narren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Varje gång spelaren som styr Narren framför ett skämt i spelet, oavsett kontext, har de möjlighet att göra ett Handlingskast mot Karisma (KAR). Vid lyckat kast belönas Narren enligt följande: Vid första framgångsrika användningen under en spelsession, fyller Narren i en sektor på sin erfarenhetsklocka. Vid ytterligare framgångar med &quot;Pappaskämt&quot; under samma session, får Narren -1 <strong>stress</strong> istället. </p>
+<h2 id="riskabel-insikt"><a class="header" href="#riskabel-insikt">Riskabel insikt</a></h2>
+<ul>
+<li><strong>Krav:</strong> Rebellen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Rebellen har möjligheten att slå alla Handlingskast som involverar tankeprocesser, planering eller kreativa lösningar med <strong>fördel</strong>. Men, för varje kast som resulterar i ett misslyckande, tar Rebellen +1 <strong>stress</strong>.</p>
+<h2 id="skaparglädje"><a class="header" href="#skaparglädje">Skaparglädje</a></h2>
+<ul>
+<li><strong>Krav:</strong> Skaparen</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>När Skaparen arbetar med en syssla som kräver betydande insats, motsvarande tio (10) eller fler sektorer på en progressklocka, utför de alla relevanta Handlingskast med <strong>fördel</strong>. Men, när de närmar sig slutförandet av projektet, specifikt under arbetet med de sista tre (3) sektorerna, växer pressen och för varje arbetspass där Skaparen bidrar till sysslan utan att färdigställa den, fås +1 <strong>stress</strong>.</p>
+<h2 id="strategisk-plan"><a class="header" href="#strategisk-plan">Strategisk plan</a></h2>
+<ul>
+<li><strong>Krav:</strong> Härskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Härskaren har förmågan att noggrant utforma en detaljerad plan, bestående av en serie genomförbara steg. Spelaren presenterar planen, som en lista över specifika åtgärder och deras tänkta ordningsföljd. Alla individer som aktivt deltar i genomförandet av planen får utföra sina nästa relevanta Handlingskast med fördel, förutsatt att de följer planens steg och dessa steg lyckas. Om något steg i planen misslyckas, anses hela planen falla. Härskaren kan endast upprätthålla en aktiv plan åt gången.</p>
+<h2 id="ständiga-optimisten"><a class="header" href="#ständiga-optimisten">Ständiga optimisten</a></h2>
+<ul>
+<li><strong>Krav:</strong> Oskuldens</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Oskuldens optimism kan en gång per dag minska <strong>stress</strong> hos sig eller en medspelare. Slå 1T20, om värdet är <strong>mer</strong> än din Intelligens (INT) minskar du -1 <strong>stress</strong>.</p>
+<h2 id="subliminärt-flöde"><a class="header" href="#subliminärt-flöde">Subliminärt flöde</a></h2>
+<ul>
+<li><strong>Krav:</strong> Magikern</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>En gång per dag kan Magikern ta +2 <strong>stress</strong> och aktivera &quot;Subliminärt flöde&quot; på sig själv eller en annan individ under en arbetsperiod. Vid framgångsrikta Handlingskast i sysslor som utförs av individen, fördubblas framstegen på den tillhörande progressklockan fram till dagens slut.</p>
+<h2 id="tunna-röda-ledtråden"><a class="header" href="#tunna-röda-ledtråden">Tunna röda ledtråden</a></h2>
+<ul>
+<li><strong>Krav:</strong> Utforskaren</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Utforskaren har en naturlig fallenhet för att lösa gåtor och pussel. En gång per dag kan Utforskaren be spelledaren om en ledtråd eller vägledning i en utmanande situation, som ett pussel eller en komplex problemställning. För detta tar Utforskaren +2 <strong>stress</strong>.</p>
+<h2 id="vägledning"><a class="header" href="#vägledning">Vägledning</a></h2>
+<ul>
+<li><strong>Krav:</strong> Mentorn</li>
+<li><strong>Kostnad:</strong> -</li>
+</ul>
+<p>Mentorn kan välja att slå sitt nästa Handlingskast med <strong>nackdel</strong> för att istället ge en annan individ <strong>fördel</strong> i deras nästa Handlingskast. Varje gång denna vägledning leder till ett positivt utfall, belönas Mentorn med en sektor på sin erfarenhetsklocka.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../chapters/abilities-base.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../chapters/character.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../chapters/abilities-base.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../chapters/character.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

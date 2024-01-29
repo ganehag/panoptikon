@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Ägodelar - Panoptikon</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././theme/catppuccin.css">
+        <link rel="stylesheet" href=".././theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="../chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="../chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="../chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="../chapters/actions.html"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="../chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="../chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="../chapters/stress.html"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="../chapters/recuperation.html"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="../chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="../chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item "><a href="../chapters/abilities-unique.html"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="../chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item "><a href="../chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item "><a href="../chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item "><a href="../chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item "><a href="../chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item "><a href="../chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item expanded "><a href="../chapters/character-belonging.html" class="active"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="../chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="Ägodelar"><a class="header" href="#Ägodelar">Ägodelar</a></h1>
+<p>En ägodel är mer än bara en personlig tillhörighet; det är symbolen för din rollpersons unika historia, färdigheter och till och med deras öde. Varje spelare får välja en ägodel som tillför en distinkt fördel eller förmåga till deras rollperson. Dessa objekt är inte bara praktiska verktyg, utan de kan också bära emotionellt värde eller en speciell betydelse för rollpersonen.</p>
+<ul>
+<li>Varje spelare kan endast ha en (1) <strong>ägodel</strong> åt gången.</li>
+<li>Välj en ägodel från listan som kompletterar din rollpersons karaktär eller som du finner intressant för din spelstil.</li>
+<li>Ägodelar kan gå förlorade, stjälas eller förstöras under spelets gång.</li>
+<li>Om en rollperson förlorar sin ägodel, kan spelaren vid lämpligt tillfälle i spelet försöka anskaffa en ny. Detta kan ske genom uppdrag, handel, utforskning eller andra spelscenarion.</li>
+</ul>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center"><strong>T20</strong></th><th><strong>Ägodel</strong></th><th><strong>Förbättrad effekt</strong></th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td>Antikt fickur</td><td>Med detta ur kan du återuppleva de senaste 30 sekunderna en gång per speltillfälle. Endast din rollperson är medveten om tidsförändringen.</td></tr>
+<tr><td style="text-align: center">2</td><td>Anteckningsbok</td><td>Ger dig möjlighet att fråga spelledaren om en detalj eller händelse som din rollperson bör komma ihåg, men som du som spelare har glömt, en gång per speltillfälle.</td></tr>
+<tr><td style="text-align: center">3</td><td>Nyckelringslampa</td><td>Förstärker din rollpersons förmåga att upptäcka dolda objekt eller ledtrådar i dåligt upplysta miljöer, vilket ger dig fördel på lämpliga Handlingskast.</td></tr>
+<tr><td style="text-align: center">4</td><td>Sliten schackpjäs</td><td>Förhöjer din rollpersons strategiska tänkande, vilket ger +1 till Intelligens (INT) vid planering och problemlösning.</td></tr>
+<tr><td style="text-align: center">5</td><td>Semesterhalsband</td><td>Utsänder en lugnande aura som minskar din rollpersons stressnivå med en sektor en gång per dag.</td></tr>
+<tr><td style="text-align: center">6</td><td>Stiliga glasögon</td><td>Förbättrar din rollpersons förmåga att framstå som karismatisk och övertygande under presentationer och tal, ger +1 till Karisma (KAR).</td></tr>
+<tr><td style="text-align: center">7</td><td>Läderarmband</td><td>Ökar din rollpersons fysiska styrka, ger +1 till Styrka (STY) i situationer som kräver ren muskelkraft.</td></tr>
+<tr><td style="text-align: center">8</td><td>Gammalt munspel</td><td>Används för att mildra spänningar och skapa harmoni, vilket ger din rollperson <strong>fördel</strong> när de försöker lugna eller avväpna en konflikt.</td></tr>
+<tr><td style="text-align: center">9</td><td>Omärkt data-sticka</td><td>Innehåller avancerad dataåtkomstteknik, ger din rollperson fördel vid informationssökning på elektroniska enheter.</td></tr>
+<tr><td style="text-align: center">10</td><td>Fickkompass</td><td>Pålitlig och alltid korrekt, denna kompass låter din rollperson fråga spelledaren om norrriktningen när de behöver navigera.</td></tr>
+<tr><td style="text-align: center">11</td><td>Tändare</td><td>Ger dig förmågan att skapa eld snabbt och säkert, vilket kan vara användbart i oväntade situationer eller vid behov av värme.</td></tr>
+<tr><td style="text-align: center">12</td><td>Kompakt multiverktyg</td><td>Ett mångsidigt verktyg som förbättrar din rollpersons praktiska kunskaper, ger +1 till Intelligens (INT) vid tillverkning eller reparation.</td></tr>
+<tr><td style="text-align: center">13</td><td>Fotografi</td><td>Titta på detta personliga fotografi för att stärka din rollpersons psykiska uthållighet, ger +1 till Psyke (PSY) inför psykologiskt påfrestande situationer.</td></tr>
+<tr><td style="text-align: center">14</td><td>-</td><td>-</td></tr>
+<tr><td style="text-align: center">15</td><td>Kryddor</td><td>Inte ens du vet varför du bär runt på dessa.</td></tr>
+<tr><td style="text-align: center">16</td><td>Turmynt</td><td>Ett lyckobringande mynt som magiskt omvandlar det första kastet till <strong>fördel</strong> varje dag som annars skulle ha varit till <strong>nackdel</strong>.</td></tr>
+<tr><td style="text-align: center">17</td><td>T20 tärning</td><td>En mystisk tärning som tillåter din rollperson att slå om ett tärningskast en gång per dag, men endast om utfallet är exakt 20.</td></tr>
+<tr><td style="text-align: center">18</td><td>Mystisk nyckel</td><td>Denna nyckel verkar öppna mer än bara dörrar –- ofta tycks låsta hinder ge vika när din rollperson närmar sig.</td></tr>
+<tr><td style="text-align: center">19</td><td>Tom berlock</td><td>En gåtfull berlock som stärker din rollpersons förmåga att agera under tryck, ger -1 till Psyke (PSY) vid Motståndskast men +1 till Psyke (PSY) vid Handlingskast.</td></tr>
+<tr><td style="text-align: center">20</td><td>Dekorativ ring</td><td>En imponerande ring som av okänd anledning ger din rollperson fördel i interaktioner med vissa inflytelserika personer.</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../chapters/character-carry-capacity.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../chapters/world.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../chapters/character-carry-capacity.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../chapters/world.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

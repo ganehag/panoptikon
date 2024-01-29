@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<html lang="sv" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Handlingar - Panoptikon</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href=".././theme/catppuccin.css">
+        <link rel="stylesheet" href=".././theme/catppuccin-admonish.css">
+        <link rel="stylesheet" href=".././mdbook-admonish.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../chapters/preface.html"><strong aria-hidden="true">1.</strong> Förord</a></li><li class="chapter-item expanded affix "><li class="part-title">Inledning</li><li class="chapter-item expanded "><a href="../chapters/ceoletter.html"><strong aria-hidden="true">2.</strong> Brev från VD</a></li><li class="chapter-item expanded "><a href="../chapters/introduction.html"><strong aria-hidden="true">3.</strong> Introduktion</a></li><li class="chapter-item expanded affix "><li class="part-title">Regler</li><li class="chapter-item expanded "><a href="../chapters/core-system.html"><strong aria-hidden="true">4.</strong> Grundsystem</a></li><li class="chapter-item expanded "><a href="../chapters/actions.html" class="active"><strong aria-hidden="true">5.</strong> Handlingar</a></li><li class="chapter-item expanded "><a href="../chapters/progress.html"><strong aria-hidden="true">6.</strong> Progresshantering</a></li><li class="chapter-item expanded "><a href="../chapters/work.html"><strong aria-hidden="true">7.</strong> Arbete</a></li><li class="chapter-item expanded "><a href="../chapters/stress.html"><strong aria-hidden="true">8.</strong> Stress och tillstånd</a></li><li class="chapter-item expanded "><a href="../chapters/recuperation.html"><strong aria-hidden="true">9.</strong> Återhämtning</a></li><li class="chapter-item expanded "><a href="../chapters/advancement.html"><strong aria-hidden="true">10.</strong> Erfarenhet och utveckling</a></li><li class="chapter-item expanded "><a href="../chapters/abilities.html"><strong aria-hidden="true">11.</strong> Förmågor</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/abilities-base.html"><strong aria-hidden="true">11.1.</strong> Erfarenhetsförmågor</a></li><li class="chapter-item "><a href="../chapters/abilities-unique.html"><strong aria-hidden="true">11.2.</strong> Unika förmågor</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Karaktären</li><li class="chapter-item expanded "><a href="../chapters/character.html"><strong aria-hidden="true">12.</strong> Din rollperson</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/character-archetypes.html"><strong aria-hidden="true">12.1.</strong> Arketyper</a></li><li class="chapter-item "><a href="../chapters/character-name.html"><strong aria-hidden="true">12.2.</strong> Namn</a></li><li class="chapter-item "><a href="../chapters/character-gender.html"><strong aria-hidden="true">12.3.</strong> Könsidentitet</a></li><li class="chapter-item "><a href="../chapters/character-age.html"><strong aria-hidden="true">12.4.</strong> Ålder</a></li><li class="chapter-item "><a href="../chapters/character-education.html"><strong aria-hidden="true">12.5.</strong> Utbilding</a></li><li class="chapter-item "><a href="../chapters/character-carry-capacity.html"><strong aria-hidden="true">12.6.</strong> Bärförmåga</a></li><li class="chapter-item "><a href="../chapters/character-belonging.html"><strong aria-hidden="true">12.7.</strong> Ägodelar</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/world.html"><strong aria-hidden="true">13.</strong> Världen</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../chapters/world-divisions.html"><strong aria-hidden="true">13.1.</strong> Divisioner</a></li></ol></li><li class="chapter-item expanded "><a href="../chapters/acts.html"><strong aria-hidden="true">14.</strong> Akter</a></li><li class="chapter-item expanded "><a href="../chapters/appendices.html"><strong aria-hidden="true">15.</strong> Appendix</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="latte">Latte</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="frappe">Frappé</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="macchiato">Macchiato</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mocha">Mocha</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Panoptikon</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="handlingar"><a class="header" href="#handlingar">Handlingar</a></h1>
+<h2 id="grundegenskaper"><a class="header" href="#grundegenskaper">Grundegenskaper</a></h2>
+<p>Din Rollpersons förmåga att agera och påverka världen runtomkring styrs av sex grundläggande egenskaper. Dessa egenskaper varierar på en skala från 2 till 18, där ett högre värde indikerar en starkare eller mer utvecklad egenskap. Ett lägre värde representerar en svagare eller mindre framträdande egenskap.</p>
+<p><strong>Startvärden</strong>: För att fastställa varje av de sex grundläggande egenskaperna hos din Rollperson, börja med att slå fyra sexsidiga tärningar (4T6). Ta sedan bort både den högsta och den lägsta tärningen från varje kast. Summan av de återstående två tärningarna ger ett värde mellan 2 och 12. Placera detta värde på en valfri grundegenskap. Upprepa processen tills alla grundegenskaper har tilldelats värden. Efter att alla grundegenskaper har fått sina startvärden, får du fördela ytterligare 6 extra poäng över valfria grundegenskaper hur du önskar. Observera att du aldrig kan ha ett värde högre än 18 på någon grundegenskap.</p>
+<ul>
+<li><strong>Styrka (STY):</strong> Styrka representerar rollpersonens fysiska kraft och förmåga att utföra uppgifter som kräver muskelkraft. Det inkluderar allt från att lyfta tunga föremål till att kämpa fysiskt. En hög Styrka är avgörande för karaktärer som förlitar sig på fysisk makt.</li>
+<li><strong>Fysik (FYS):</strong> Fysik indikerar rollpersonens uthållighet, hälsa och allmänna fysiska kondition. Det påverkar deras förmåga att uthärda påfrestningar, motstå sjukdomar och återhämta sig från skador. Karaktärer med hög Fysik kan hantera fysiska påfrestningar bättre än andra.</li>
+<li><strong>Smidighet (SMI):</strong> Smidighet handlar om rollpersonens handlag, reaktionstid och balans. Det är avgörande för aktiviteter som kräver finmotorik, snabba reflexer och förmågan att röra sig tyst eller undvika upptäckt. Höga värden i Smidighet gynnar karaktärer som behöver vara kvicka och lätta.</li>
+<li><strong>Intelligens (INT):</strong> Intelligens avspeglar rollpersonens kognitiva förmågor, problemlösningsfärdigheter och allmänna kunskaper. Det är viktigt för uppgifter som kräver logiskt tänkande, lärande och förståelse av komplex information. Karaktärer med hög Intelligens är ofta bra på att analysera situationer och komma på kreativa lösningar.</li>
+<li><strong>Psyke (PSY):</strong> Psyke representerar rollpersonens mentala styrka, viljestyrka och emotionella stabilitet. Det är viktigt för att hantera stress, motstå psykisk manipulation och behålla lugnet i utmanande situationer. En stark Psyke hjälper karaktärer att stå emot mentala påfrestningar och förbli fokuserade.</li>
+<li><strong>Karisma (KAR):</strong>: Karisma är ett mått på rollpersonens charm, övertalningsförmåga och ledarskapsegenskaper. Det påverkar hur de interagerar med andra karaktärer och deras förmåga att påverka, övertyga eller manipulera. Karaktärer med hög Karisma är ofta skickliga på social interaktion och att skapa allianser.</li>
+</ul>
+<p>Dessa egenskaper bildar grunden för rollpersonernas kapacitet och påverkar deras förmåga att lyckas med olika handlingar i spelet.</p>
+<h2 id="utföra-handlingar"><a class="header" href="#utföra-handlingar">Utföra handlingar</a></h2>
+<p>När du vill att din rollperson ska utföra en handling, följ dessa steg:</p>
+<ol>
+<li><strong>Deklarera handling:</strong> Som spelare, börja med att tydligt förklara vad du vill att din rollperson ska göra. Ange vilken av de sex (6) grundegenskaperna (Styrka, Fysik, Smidighet, Intelligens, Psyke, Karisma) du anser är mest relevant för handlingen.</li>
+<li><strong>Spelledarens godkännande:</strong> Spelledaren bedömer och beslutar om handlingen är möjlig och lämplig i den aktuella situationen. </li>
+<li><strong>Tärningskast:</strong> Som spelare, gör ett tärningskast för att avgöra utfallet av handlingen. Normalt använder du en T20.</li>
+<li><strong>Justerar utfallet:</strong> Anpassa utfallet av tärningskastet baserat på eventuella effekter, såsom färdigheter, utrustning, eller situationsspecifika faktorer som påverkar handlingen.</li>
+<li><strong>Tillämpa bonusar:</strong> Lägg till eventuella bonusar eller ytterligare kast som kan påverka handlingens resultat.</li>
+<li><strong>Utvärdering av utfallet:</strong> Slutligen, tillsammans med spelledaren, utvärderar du resultatet av handlingen. Om du lyckas, beskriver spelledaren vad som händer. Vid misslyckande, diskuteras eventuella konsekvenser.</li>
+</ol>
+<h2 id="välja-egenskap-för-handling"><a class="header" href="#välja-egenskap-för-handling">Välja egenskap för handling</a></h2>
+<p>När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex (6) grundegenskaper som du anser bäst passar för situationen. Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.</p>
+<div id="admonition-exempel" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="#admonition-exempel"></a></p>
+</div>
+<div>
+<ul>
+<li><strong>Övertalning:</strong> Om du vill övertyga en karaktär, kan du välja att använda Karisma (KAR) för att framhäva din rollpersons charm och övertalningsförmåga. Alternativt, om din rollperson är särskilt stark (STY), kan du försöka använda denna styrka för att skapa en mer imponerande och skrämmande närvaro.</li>
+<li><strong>Skriva ett viktigt brev:</strong> Om din rollperson behöver skriva ett viktigt brev, kan det vara lämpligt att använda Intelligens (INT) för att konstruera ett välformulerat och effektivt budskap. Att använda Karisma (KAR) för denna uppgift kan vara mindre effektivt, eftersom karisma oftast utövar större inflytande i personliga interaktioner snarare än i skriftlig kommunikation.</li>
+<li><strong>Hissen är trasig:</strong> Om din rollperson står inför en trasig hiss och behöver ta sig upp till våning 15, finns det flera sätt att närma sig problemet. Du kan välja att använda Fysik (FYS) för att springa upp för trapporna. Detta skulle vara ett bra val om din rollperson har god kondition och uthållighet. Alternativt, om du vill undvika fysisk ansträngning, kan du använda Karisma (KAR) för att övertyga någon annan att hjälpa till, eller för att förklara och hantera situationen på ett effektivt sätt om du till exempel behöver förklara för en chef varför du är sen till ett möte.</li>
+</ul>
+</div>
+</div>
+<h2 id="handlingskast"><a class="header" href="#handlingskast">Handlingskast</a></h2>
+<p>När din rollperson står inför en kritisk eller potentiellt riskfylld handling, är det dags att genomföra ett handlingskast. Denna typ av kast används för att avgöra utfallet av viktiga handlingar där utfallet inte är givet. Exempel på sådana situationer kan vara att försöka låsa upp en krånglig dörr, undvika upptäckt, eller att utföra en komplicerad uppgift under tidspress. För enklare handlingar, som att plocka upp något eller packa en väska, krävs inga handlingskast.</p>
+<p>Alla handlingskast görs med en T20 (tjugo-sidig tärning).</p>
+<h3 id="spelledarens-bedömning"><a class="header" href="#spelledarens-bedömning">Spelledarens bedömning</a></h3>
+<p>Det är spelledarens ansvar att avgöra när ett handlingskast är nödvändigt. Detta baseras på handlingens komplexitet och potentiella risker.</p>
+<h3 id="bestämma-utfallet"><a class="header" href="#bestämma-utfallet">Bestämma utfallet</a></h3>
+<p>För att avgöra om ett handlingskast är lyckat, jämförs tärningens värde med den relevanta grundegenskapen för handlingen. Om värdet är lika med eller lägre än grundegenskapen, är handlingen framgångsrik. </p>
+<h3 id="konsekvenser-av-misslyckande"><a class="header" href="#konsekvenser-av-misslyckande">Konsekvenser av misslyckande</a></h3>
+<p>Misslyckade kast innebär konsekvenser. Dessa konsekvenser varierar beroende på hur dåligt det gick. Ju högre över grundegenskapens värde tärningen visar, desto värre blir misslyckandet.</p>
+<div id="admonition-exempel-1" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel</p>
+<p><a class="admonition-anchor-link" href="#admonition-exempel-1"></a></p>
+</div>
+<div>
+<p>Tänk dig att din rollperson försöker smyga genom en hall med flera öppna dörrar. Spelaren behöver då göra ett handlingskast mot förslagsvis rollpersonens Smidighet (SMI), som i detta fall är tio (10). </p>
+<ul>
+<li>Om spelaren slår en sjua (7), lyckas rollpersonen smidigt ta sig igenom hallen utan att upptäckas.</li>
+<li>Om spelaren däremot slår arton (18), misslyckas rollpersonen grovt. Detta kan innebära att rollpersonen snubblar och gör oväsen, vilket drar till sig oönskad uppmärksamhet. Ett sådant misslyckande är allvarligare än om spelaren hade slagit en elva (11), vilket också hade varit ett misslyckande, men med mindre dramatiska konsekvenser.</li>
+</ul>
+</div>
+</div>
+<h3 id="spektakulär-framgång"><a class="header" href="#spektakulär-framgång">Spektakulär framgång</a></h3>
+<p>När du slår en etta (1) på tärningen, har du uppnått en spektakulär framgång. Din rollpersons handling överträffar inte bara förväntningarna utan ger också oväntade och positiva resultat. Några exempel på vad detta kan innebära:</p>
+<ul>
+<li>Din rollperson upptäcker något extra utöver det de sökte.</li>
+<li>Deras insatser gör ett starkt intryck på alla i närheten.</li>
+<li>Uppgiften utförs inte bara framgångsrikt utan även på rekordtid.</li>
+</ul>
+<h3 id="katastrofalt-misslyckande"><a class="header" href="#katastrofalt-misslyckande">Katastrofalt misslyckande</a></h3>
+<p>Om tärningskastet resulterar i tjugo (20) på en T20, innebär det ett katastrofalt misslyckande. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att <em>pressa ett kast</em>. Några möjliga konsekvenser av ett sådant misslyckande är:</p>
+<ul>
+<li>Din rollperson orsakar skada på sig själv, andra, eller ett viktigt föremål.</li>
+<li>De skapar ett oerhört oväsen som kan dra till sig oönskad uppmärksamhet.</li>
+<li>Handlingen misslyckas så grundligt att det skapar ett hinder som förhindrar andra från att försöka utföra samma uppgift för en tid.</li>
+</ul>
+<h3 id="endast-ett-försök"><a class="header" href="#endast-ett-försök">Endast ett försök</a></h3>
+<p>Som spelare ges du vanligtvis bara en möjlighet att utföra en specifik handling. Efter att tärningarna har rullats för en viss handling, är det inte tillåtet att göra ett nytt tärningsslag för att försöka nå samma mål igen. Istället krävs det att situationen förändras, att du använder en annan strategi eller att en annan rollperson gör ett försök, innan handlingen kan utföras på nytt. Det finns dock en undantagssituation där du kan få en andra chans genom att 'pressa ett kast'.</p>
+<h2 id="pressa-ett-kast"><a class="header" href="#pressa-ett-kast">Pressa ett kast</a></h2>
+<p>Vid misslyckande av ett handlingskast kan du välja att pressa ditt kast. Detta betyder att du slår om kastet men tar +1 <strong>stress</strong> som resultat. Du kan endast pressa ett kast en gång per handling. Ett lyckat kast kan inte pressas för ett bättre resultat.</p>
+<h2 id="fördelskast"><a class="header" href="#fördelskast">Fördelskast</a></h2>
+<p>När du gör ett kast med <strong>fördel</strong>, innebär detta att din rollperson har en ökad chans att lyckas tack vare gynnsamma omständigheter. För att utföra ett sådant kast:</p>
+<ol>
+<li>Slå den valda tärningen (vanligtvis 1T20) två gånger.</li>
+<li>Ta det värde som ger bäst utfall av de två kasten som resultatet av ditt handlingskast.</li>
+</ol>
+<p>Ett kast med fördel kan till exempel tillämpas när din rollperson har tillgång till hjälpresurser, är särskilt väl förberedd, eller befinner sig i en situation där oddsen är till hens fördel.</p>
+<h2 id="nackdelskast"><a class="header" href="#nackdelskast">Nackdelskast</a></h2>
+<p>Omständigheter som är ofördelaktiga eller utmanande för din rollperson kan resultera i ett kast med <strong>nackdel</strong>. Detta innebär en ökad risk för misslyckande. När du gör ett kast med nackdel:</p>
+<ol>
+<li>Slå den valda tärningen (vanligtvis 1T20) två gånger.</li>
+<li>Använd det värde som ger sämst utfall av de två kasten som resultatet av ditt handlingskast.</li>
+</ol>
+<p>Kast med nackdel kan tillämpas i situationer där din rollperson är hindrad, under stress, eller när det finns andra faktorer som komplicerar handlingen.</p>
+<h2 id="motståndskast"><a class="header" href="#motståndskast">Motståndskast</a></h2>
+<p>Under spelets gång kommer det att uppstå situationer där din rollperson utsätts för yttre påverkan eller utmaningar som kräver ett aktivt motstånd. Dessa situationer hanteras genom motståndskast, där du som spelare slår tärningar för att avgöra hur din rollperson klarar sig. Typen av egenskap som används beror på situationens natur.</p>
+<p>Motståndskast fungerar precis som Handlingskast och slås även med en T20.</p>
+<div id="admonition-exempel-på-motståndssituationer" class="admonition admonish-example">
+<div class="admonition-title">
+<p>Exempel på motståndssituationer</p>
+<p><a class="admonition-anchor-link" href="#admonition-exempel-på-motståndssituationer"></a></p>
+</div>
+<div>
+<ul>
+<li><strong>Upptäcka dold ting:</strong> Om det finns något dolt eller oklart i rollpersonens omgivning, kan spelledaren be dig göra ett Intelligens (INT) slag för att se om din rollperson upptäcker eller förstår detta.</li>
+<li><strong>Fysisk påverkan:</strong> Om din rollperson utsätts för fysisk stress, som att springa en lång sträcka, hålla balansen på en smal kant, eller uthärda extrema väderförhållanden, kan ett motståndskast med Fysik (FYS) krävas.</li>
+<li><strong>Mentalt motstånd:</strong> I situationer där rollpersonen står inför psykisk press, som manipulation, hot, eller skrämmande omständigheter, kan ett slag med Psyke (PSY) vara nödvändigt. Detta avgör rollpersonens förmåga att bibehålla sitt lugn och sitt förnuft under press.</li>
+<li><strong>Sociala utmaningar:</strong> När rollpersonen hamnar i sociala situationer där de behöver stå emot övertalning, lögner, eller charm, kan ett motståndskast med Karisma (KAR) behövas för att avgöra hur väl de kan hålla sig opåverkade och behålla sin egen övertygelse.</li>
+</ul>
+</div>
+</div>
+<p>Spelledaren kan när som helst under spelets gång be spelarna att göra ett motståndskast mot en specifik eller flera av sina grundegenskaper. Det är vanligtvis bäst om spelledaren inte avslöjar syftet med kastet för spelarna. Särskilt om kastet inte leder till framgång. Syftet är att förhindrar spelarna från att spekulera eller försöka 'speloptimera' baserat på vad de tror att kastet gäller, särskilt om de känner till att någon tidigare misslyckats med en liknande handling.</p>
+<h3 id="spelledarpersoners-motståndskast"><a class="header" href="#spelledarpersoners-motståndskast">Spelledarpersoners motståndskast</a></h3>
+<p>När din rollperson utför handlingar som syftar till att påverka Spelledarpersoner, krävs det att spelledaren gör ett motståndskast för att avgöra utfallet av din handling. Detta motståndskast baseras på samma grundegenskap som din rollperson använder för handlingen.</p>
+<h2 id="din-roll-i-spelvärlden"><a class="header" href="#din-roll-i-spelvärlden">Din roll i spelvärlden</a></h2>
+<p>Din förmåga att välja rätt egenskap i olika situationer kommer att påverka din rollpersons framgång i spelet. Kom ihåg att kreativitet och flexibilitet ofta belönas, men att det också finns situationer där vissa egenskaper är mer logiska eller effektiva än andra. Som spelare är du en aktiv deltagare i att forma din rollpersons utveckling.</p>
+<h2 id="inspiration"><a class="header" href="#inspiration">Inspiration</a></h2>
+<p>Om du som spelare agerar helt i linje med din karaktär eller har bidragit med en väldigt god idé, har kommit ihåg något väldigt viktigt eller liknande kan spelledaren välja att ge dig inspiration.</p>
+<p>Inspiration kan användas endast en gång innan den är förbrukad och en spelare kan endast hålla en inspiration i taget. Inspiration kan användas till följande;</p>
+<ul>
+<li>Kast tärning på nytt utan att behöva pressa ett kast.</li>
+<li>Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.</li>
+<li>Göra ett (1) poäng framsteg i en (1) Progressklocka utan att slå tärning för varken handling eller framstegspoäng.</li>
+</ul>
+<h2 id="spelledarkaraktärers-handlingar"><a class="header" href="#spelledarkaraktärers-handlingar">Spelledarkaraktärers handlingar</a></h2>
+<p>Spelledarkaraktärers (SLK) handlingar hanteras på ett förenklat sätt jämfört med rollpersonerna. Dessa karaktärer utför vanligtvis sina handlingar utan tärningskast, där utfallet – lyckat eller misslyckat – bestäms av spelledaren baserat på berättelsens flöde och behov. </p>
+<p>För att införa ett element av slump, kan spelledaren ibland välja att använda en T6 för spelledarkaraktärernas handlingar. Kastet görs i det dolda, och resultatet tolkas enligt följande tabell:</p>
+<div class="table-wrapper"><table><thead><tr><th style="text-align: center">T6</th><th style="text-align: left">Resultat</th></tr></thead><tbody>
+<tr><td style="text-align: center">1</td><td style="text-align: left">Karaktären utför handlingen framgångsrikt utan komplikationer.</td></tr>
+<tr><td style="text-align: center">2</td><td style="text-align: left">Handlingen lyckas, men ett mindre hinder eller problem uppstår.</td></tr>
+<tr><td style="text-align: center">3</td><td style="text-align: left">Handlingen utförs med nöd och näppe, vilket leder till ett större problem.</td></tr>
+<tr><td style="text-align: center">4</td><td style="text-align: left">Handlingen misslyckas, men utan ytterligare konsekvenser.</td></tr>
+<tr><td style="text-align: center">5</td><td style="text-align: left">Handlingen misslyckas och orsakar ett mindre problem.</td></tr>
+<tr><td style="text-align: center">6</td><td style="text-align: left">Handlingen misslyckas fatalt och resulterar i ett större problem.</td></tr>
+</tbody></table>
+</div>
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../chapters/core-system.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../chapters/progress.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../chapters/core-system.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../chapters/progress.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
