@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/resources/banner-logo.svg" alt="Panoptikon logo" width="25%">
+  <img src="resources/banner-logo.svg" alt="Panoptikon logo" width="25%">
 </p>
 
 # Panoptikon - A Tabletop Role-Playing Game
