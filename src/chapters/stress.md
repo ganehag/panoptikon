@@ -10,7 +10,7 @@ När stressmätaren når sin topp och det sjätte nivået fylls, uppnår rollper
 |:--------------:|----------------------------|--------------------------------|
 | 1  | Utmattad   | Styrka(STY) |
 | 2  | Krasslig   | Fysik (FYS) |
-| 3  | Omtäcknad  | Smidighet (SMI) |
+| 3  | Omtöcknad  | Smidighet (SMI) |
 | 4  | Förvirrad  | Intelligent (INT) |
 | 5  | Rädd       | Psyke (PSY) |
 | 6  | Uppgiven   | Karisma (KAR)|
