@@ -66,7 +66,7 @@ När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast 
 
 ### Framsteg och progressklockor
 
-Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än Tollpersonens värde i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
+Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än värdet i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
 
 | T6 | Framsteg på Progressklockan                                             |
 |:-----------:|:---------------------------------------------------------------|
