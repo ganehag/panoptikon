@@ -11,6 +11,14 @@
 
 - [Grundsystem](chapters/core-system.md)
 - [Handlingar](chapters/actions.md)
+  - [Handlingskast](chapters/action-roll.md)
+  - [Pressa ett kast](chapters/push-a-roll.md)
+  - [Fördelskast](chapters/advantage-roll.md)
+  - [Nackdelskast](chapters/disadvantage-roll.md)
+  - [Motståndskast](chapters/resistance-roll.md)
+  - [Inspiration](chapters/inspiration.md)
+  - [Spelledarkaraktärers handlingar](chapters/gm-action-roll.md)
+  - [Spelledarkaraktärers motståndskast](chapters/gm-resistance-roll.md)
 - [Progresshantering](chapters/progress.md)
 - [Arbete](chapters/work.md)
 - [Stress och tillstånd](chapters/stress.md)
@@ -20,10 +28,11 @@
   - [Erfarenhetsförmågor](chapters/abilities-base.md)
   - [Unika förmågor](chapters/abilities-unique.md)
 
-# Karaktären
+# Rollperson
 
 - [Din rollperson](chapters/character.md)
   - [Arketyper](chapters/character-archetypes.md)
+  - [Grundegenskaper](chapters/character-baseabilities.md)
   - [Namn](chapters/character-name.md)
   - [Könsidentitet](chapters/character-gender.md)
   - [Ålder](chapters/character-age.md)
@@ -31,6 +40,7 @@
   - [Bärförmåga](chapters/character-carry-capacity.md)
   - [Ägodelar](chapters/character-belonging.md)
 - [Världen](chapters/world.md)
-  - [Divisioner](chapters/world-divisions.md)
+  - [Panoptikon divisioner](chapters/world-divisions.md)
+  - [Språk](chapters/world-language.md)
 - [Akter](chapters/acts.md)
 - [Appendix](chapters/appendices.md)

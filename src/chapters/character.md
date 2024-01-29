@@ -8,7 +8,6 @@ Genom att gestalta en rollperson som är helt skild från dig själv, får du en
 
 **Rollformulär:** Detta är som din karaktärs identitetshandling. Det är här du dokumenterar all viktig information om din rollperson -- från grundläggande detaljer som namn och bakgrund till specifika färdigheter och egenskaper. Tänk på formuläret som en levande dokumentation av din karaktärs resa och utveckling. Under spelets gång kommer du att fylla i och uppdatera detta formulär, vilket hjälper dig att hålla koll på din karaktärs framsteg och förändringar.
 
-
 ## Utseende
 
 Utseendet på din rollperson är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.

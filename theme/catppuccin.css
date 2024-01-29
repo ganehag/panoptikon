@@ -2,6 +2,14 @@ main img {
   border-radius: 2rem;
 }
 
+table thead th {
+  padding: 1.5rem;
+}
+
+table td {
+  padding: 1rem;
+}
+
 .mocha.hljs {
   color: #cdd6f4;
   background: #1e1e2e;

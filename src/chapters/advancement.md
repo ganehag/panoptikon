@@ -12,7 +12,9 @@ Det primära sättet för Rollpersoner att samla erfarenhet är genom att framg�
 Andra händelser som också bidrar till att fylla Rollpersonens erfarenhetsklocka med en (1) sektor inkluderar:
 
 - **Katastrofalt misslyckande:** När ett Handlingskast resulterar i ett katastrofalt misslyckande. Detta reflekterar lärandet från misstag och svårigheter. *Genom våra misslyckanden lär vi oss och växer*.
+
 - **Återhämtning från tillstånd:** När din Rollperson återhämtar sig från ett tillstånd. Denna erfarenhet representerar den personliga styrkan och motståndskraften. *Det som inte dödar oss, gör oss starkare*.
+
 - **Inspiration:** Om du har inspiration kan du välja att konvertera den till ett (1) framsteg på din Erfarenhetsklocka. *Genom inspirationens gnista tänds kunskapens eld.*
 
 ## Erfarenhetspoäng
@@ -22,5 +24,6 @@ Varje rollperson tjänar Erfarenhetspoäng (EP) genom att spelaren agerar i linj
 Efter varje spelsession har du möjlighet att använda dina ackumulerade erfarenhetspoäng för att utveckla din Rollperson. Du kan välja att:
 
 - **Förbättra grundegenskaper:** Varje erfarenhetspoäng kan användas för att höja en valfri grundegenskap med ett (1) poäng.
+
 - **Skaffa nya färdigheter:** Erfarenhetspoäng kan även användas för att ge din Rollperson nya färdigheter. 
 
