@@ -16,7 +16,7 @@
 
 *Med värme och uppskattning,*
 
-![Signatur](../resources/isabella-leijonhufvud-cederstrom.png)
+![Signatur](resources/isabella-leijonhufvud-cederstrom.png)
 
 *Isabella Leijonhufvud-Cederström*  
 *VD, Panoptikon*

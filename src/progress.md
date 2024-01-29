@@ -2,15 +2,17 @@
 
 I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer. För större projekt, där mer arbete krävs, kan flera klockor kopplas samman för att bilda en sekvens.
 
-![Clocks1](../resources/clocks-1.png)
+![Clocks1](resources/clocks-1.png)
 
 - **Uppbyggnad:** När din rollperson arbetar på en uppgift, fylls klockans sektorer för att visa framsteg. Varje syssla eller projekt kan ha sin egen klocka, med antalet sektorer varierande beroende på uppgiftens omfattning och komplexitet.
+
 - **Användning:** Under varje arbetsperiod får rollpersonen chansen att bidra till en klocka genom att utföra relaterade aktiviteter. Ett lyckat handlingskast indikerar framsteg, och ett antal sektorer på klockan fylls i motsvarande rollpersonens framgångsgrad.
+
 - **Fullbordande:** När alla sektorer i en klocka är ifyllda, anses uppgiften eller projektet vara slutfört. Detta kan leda till nya utvecklingar i spelet, belöningar för rollpersonen, eller upplåsning av ytterligare berättelseelement.
 
 För mer omfattande projekt kan flera klockor kopplas samman. Varje enskild klocka representerar en del av projektet, och tillsammans bildar de en större helhet.
 
-![Clocks2](../resources/clocks-2.png)
+![Clocks2](resources/clocks-2.png)
 
 ## Projektklockor
 
@@ -39,6 +41,7 @@ Handritade klockor är en pålitlig och den rekommenderade metoden för att spå
 För de som föredrar en alternativ metod, kan klassiska rollspelstärningar som T4, T6, T8, T12 och T20 användas för att representera framsteg på klockorna. Varje tärning representerar en annan storlek av klocka, baserat på antalet sektorer.
 
 - **Tärningar för Dualitetsklockor:** Användning av tärningar kan vara speciellt fördelaktigt för Dualitetsklockor. De möjliggör snabb och synlig justering av framsteg och tillbakagång.
+
 - **Observera Risker:** En nackdel med att använda tärningar är att de kan förflytta sig om spelbordet stöts till eller om de råkar komma i vägen. Det är därför viktigt att säkra så att klockornas status inte oavsiktligt förändras.
 
 
