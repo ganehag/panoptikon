@@ -36,7 +36,9 @@
   - [Namn](chapters/character-name.md)
   - [Könsidentitet](chapters/character-gender.md)
   - [Ålder](chapters/character-age.md)
+  - [Utseende](chapters/characters-appearance.md)
   - [Utbilding](chapters/character-education.md)
+  - [Språk](chapters/character-language.md)
   - [Bärförmåga](chapters/character-carry-capacity.md)
   - [Ägodelar](chapters/character-belonging.md)
 - [Världen](chapters/world.md)
@@ -44,3 +46,6 @@
   - [Språk](chapters/world-language.md)
 - [Akter](chapters/acts.md)
 - [Appendix](chapters/appendices.md)
+
+- [Index](chapters/indexing.md)
+
