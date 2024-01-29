@@ -5,9 +5,6 @@ multilingual = false
 src = "src"
 title = "Panoptikon"
 
-[build]
-build-dir = "docs"
-
 [preprocessor]
 
 [preprocessor.catppuccin]
