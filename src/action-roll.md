@@ -4,6 +4,20 @@ När din rollperson står inför en kritisk eller potentiellt riskfylld handling
 
 Alla *Handlingskast* görs med en T20.
 
+## Fördelaktigt och ofördelaktigt läge
+
+I *Panoptikon* skiljer vi mellan två huvudsakliga typer av situationer vid utförandet av handlingar: **fördelaktiga** och **ofördelaktiga** lägen.
+
+### Fördelaktigt läge
+
+En handling som utförs med en lämplig grundegenskap i en kontrollerad eller gynnsam situation klassas som utförd i ett fördelaktigt läge. Detta är det normala läget som handlingar ofta utförs under.
+
+### Ofördelaktigt läge
+
+Om handlingen däremot utförs med en olämplig grundegenskap eller under svåra omständigheter, klassas den som utförd i ett ofördelaktigt läge. Dessa situationer innebär ökade svårigheter och osäkerhet.
+
+När en handling utförs i ett ofördelaktigt läge, utförs Handlingskastet med **nackdel**. Detta innebär att spelaren måste slå två tärningar (av den typ som anges för handlingen) och välja det högre resultatet, vilket ökar risken för misslyckande.
+
 ## Spelledarens bedömning
 
 Det är spelledarens ansvar att avgöra när ett handlingskast är nödvändigt. Detta baseras på handlingens komplexitet och potentiella risker.
