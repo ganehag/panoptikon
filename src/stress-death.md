@@ -1,9 +1,4 @@
-# Stress och tillstånd
-
-Rollpersonernas förmåga att stå emot mentala och emotionella påfrestningar hanteras genom en stressmätare. Denna mätare fylls på när rollpersonerna utsätts för svårigheter, utmaningar eller misslyckanden i spelets värld. Varje rollperson har en individuell förmåga att hantera stress, och deras stressmätare består vanligtvis av sex (6) nivåer.
-
-
-## Oväntad avgång
+# Oväntad avgång
 
 Döden inte ett vanligt inslag i spelupplevelsen. Istället finns det alternativa sätt att hantera situationer där rollpersoner står inför allvarliga utmaningar eller utmattning. När din rollperson når en punkt där de verkar vara utarbetade och återhämtning inte är möjlig på kort sikt, finns det två vägar att välja:
 

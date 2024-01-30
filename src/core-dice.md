@@ -7,6 +7,7 @@ I rollspel används ofta tärningar med olika antal sidor. En sex-sidig tärning
 I *Panoptikon* använder vi endast två typer av tärningar:
 
 - **T6**: Används ofta för att mäta framsteg och för justeringar i samband med T20-kast.
+
 - **T20**: Används för Handlingskast och Motståndskast, vilket är de primära kasten för att avgöra utfallet av olika handlingar och situationer i spelet.
 
 ## Tärningskast

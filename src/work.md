@@ -3,7 +3,9 @@
 Arbetsdagen för rollpersonerna är strukturerad i fyra perioder, med två före lunch och två efter lunch. Under varje period kan din rollperson ägna sig åt en specifik **syssla** åt gången. En syssla kan innefatta ett brett spektrum av arbetsrelaterade aktiviteter, såsom:
 
 - **Möten:** Delta i möten med andra rollpersoner eller spelledarkaraktärer för diskussion och samarbete.
+
 - **Forskningsarbete:** Utforska och analysera information som är relevant för rollpersonens arbetsuppgifter.
+
 - **Projektarbete:** Jobba på specifika projekt eller uppgifter som är centrala för rollpersonens yrkesroll.
 
 Varje syssla kräver att din rollperson använder sina färdigheter och resurser på ett effektivt sätt för att uppnå framsteg och bidra till företagets mål.
