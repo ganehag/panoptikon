@@ -10,6 +10,9 @@
 # Regler
 
 - [Grundsystem](core-system.md)
+  - [Spelloop](core-loop.md)
+  - [Tärningar](core-dice.md)
+  - [Bedömningsbeslut](core-judgement.md)
 - [Handlingar](actions.md)
   - [Handlingskast](action-roll.md)
   - [Pressa ett kast](push-a-roll.md)
@@ -21,6 +24,9 @@
   - [Spelledarkaraktärers motståndskast](gm-resistance-roll.md)
 - [Progresshantering](progress.md)
 - [Arbete](work.md)
+  - [Sysslor](work-tasks.md)
+  - [Fika](work-fika.md)
+  - [Samarbete](work-coop.md)
 - [Stress och tillstånd](stress.md)
 - [Återhämtning](recuperation.md)
 - [Erfarenhet och utveckling](advancement.md)
