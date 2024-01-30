@@ -90,7 +90,6 @@ Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än 
 *Spelare*: Bra, jag vill fortsätta arbeta på detta under nästa period för att försöka slutföra det.
 
 *Spelledare*: Låter bra, kom ihåg att du kan välja att använda olika grundegenskaper om du vill närma dig uppgiften på ett annat sätt.
-
 ```
 
 ## Fika

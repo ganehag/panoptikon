@@ -45,7 +45,9 @@
   - [Panoptikon divisioner](world-divisions.md)
   - [Språk](world-language.md)
 - [Akter](acts.md)
-- [Appendix](appendices.md)
 
+---
+
+- [Appendix](appendices.md)
 - [Index](indexing.md)
 
