@@ -1,6 +1,8 @@
 # Sysslor
 
-Varje rollperson kan engagera sig i olika sysslor, dock endast en åt gången. En rollperson kan ha upp till fem (5) pågående sysslor parallellt, såvida inga speciella förmågor eller regler tillåter annorlunda.
+Varje rollperson kan ägna sig åt olika sysslor, men endast en i taget. En rollperson kan hantera upp till fem (5) sysslor samtidigt, om inte speciella färdigheter eller spelregler medger annat.
+
+För att organisera och hålla koll på sysslor, är det praktiskt att använda en separat lista. Denna "att göra"-lista bör innehålla en detaljerad beskrivning av varje syssla, samt de associerade klockorna för att spåra framsteg.
 
 ## Progressklockor och sysslor
 
@@ -80,4 +82,7 @@ Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än 
 
 *Spelledare*: Låter bra, kom ihåg att du kan välja att använda olika grundegenskaper om du vill närma dig uppgiften på ett annat sätt.
 ```
+
+# Överge en syssla
+
 

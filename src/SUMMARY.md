@@ -54,7 +54,7 @@
   - [Könsidentitet](character-gender.md)
   - [Ålder](character-age.md)
   - [Utseende](characters-appearance.md)
-  - [Utbilding](character-education.md)
+  - [Utbildning](character-education.md)
   - [Språk](character-language.md)
   - [Bärförmåga](character-carry-capacity.md)
   - [Ägodelar](character-belonging.md)
