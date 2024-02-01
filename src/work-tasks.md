@@ -4,13 +4,21 @@ Varje rollperson kan ägna sig åt olika sysslor, men endast en i taget. En roll
 
 För att organisera och hålla koll på sysslor, är det praktiskt att använda en separat lista. Denna "att göra"-lista bör innehålla en detaljerad beskrivning av varje syssla, samt de associerade klockorna för att spåra framsteg.
 
-## Progressklockor och sysslor
+## Obligatoriska sysslor
 
-Inte alla sysslor kräver användning av en progressklocka. Vissa uppgifter kan vara mer direkt och enkla, medan andra är mer komplexa och kräver noggrann uppföljning. Det är spelledarens ansvar att avgöra vilka sysslor som kräver en progressklocka för att visualisera och spåra framsteg. Denna bedömning görs baserat på sysslans natur och hur den passar in i spelets övergripande berättelse.
+Obligatoriska sysslor är sådana uppgifter som är avgörande och inte kan avfärdas eller försummas utan allvarliga konsekvenser. Dessa sysslor är ofta integrerade i spelets huvudhandlingslinje eller direkt kopplade till din rollpersons viktiga personliga mål och ansvarsområden. Det är kritiskt att hantera antalet obligatoriska sysslor du tar på dig samtidigt för att undvika överväldigande situationer och negativa utfall.
+
+För att tydligt markera en syssla som obligatorisk, används en liten '*' (stjärna) bredvid titeln på sysslan i din "att göra"-lista.
+
+## Frivilliga sysslor
+
+Frivilliga sysslor är uppgifter som du väljer att ta på dig frivilligt och på eget initiativ. Dessa sysslor kan omfatta extraarbete, uppgifter som sträcker sig bortom dina vanliga arbetsuppgifter, eller personliga strävanden som bidrar till din rollpersons utveckling.
+
+Frivilliga sysslor är ofta mindre kritiska jämfört med obligatoriska sysslor och har en flexibilitet som tillåter dig att skjuta upp, avbryta eller modifiera dem utan betydande negativa konsekvenser.
 
 ## Arbetsomfångsbedömning
 
-När en ny syssla blir din uppgift, inleds utvärderingen av dess omfattning med några viktiga frågor från Spelledaren. Dina svar på dessa frågor kommer att vara avgörande för att bestämma hur många T6 som behövs för att få en klar bild av utmaningens storlek.
+När du blir tilldelad eller antar dig en ny syssla, inleds utvärderingen av dess omfattning med några viktiga frågor från Spelledaren. Dina svar på dessa frågor kommer att vara avgörande för att bestämma hur många T6 som behövs för att få en klar bild av utmaningens storlek.
 
 - Vi börjar alltid med 1T6 för *Lagen om alltings jävlighet* -- en påminnelse om att oförutsedda omständigheter och svårigheter ofta lurar där vi minst anar dem.
 
@@ -35,9 +43,9 @@ Efter att ha besvarat frågorna och ackumulerat dina tärningar, är det dags f�
 
 Om en syssla redan från början ska vara särskilt utmanande, har Spelledaren rätt att lägga till en extra dimension av komplexitet. Detta görs genom att slå 1T20, vars resultat läggs till som ytterligare segment till sysslans progressklocka. För uppgifter som är exceptionellt svåra, får Spelledaren utföra detta T20-kast med **fördel**.
 
-## Utförande av sysslor
+## Utförande
 
-När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast med en T20. Detta kast jämförs mot en relevant grundegenskap som korresponderar med sysslan. Det är spelarens och spelledarens gemensamma beslut att avgöra vilken grundegenskap som är lämplig för den specifika sysslan. 
+När du arbetar på en syssla, utförs detta genom ett Handlingskast med en T20. Detta kast jämförs mot en relevant grundegenskap för sysslan. Det är spelarens och spelledarens gemensamma beslut att avgöra vilken grundegenskap som är lämplig för den specifika sysslan. 
 
 ```admonish example title="Exempel"
 *Spelledare*: Gör ett nytt kast för att se hur väl du kommunicerar huvudpunkterna.
@@ -55,7 +63,7 @@ När din rollperson tar sig an en syssla, utförs detta genom ett Handlingskast 
 *Spelledare*: Presentationen är inte över, slå ett Handlingskast igen.
 ```
 
-## Framsteg och progressklockor
+## Framsteg
 
 Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än värdet i den valda grundegenskapen, görs framsteg i sysslan. Framsteg mäts med hjälp av en progressklocka, som fylls i beroende på resultatet av ett T6-kast:
 
@@ -83,6 +91,21 @@ Om Handlingskastet är framgångsrikt, det vill säga lika med eller lägre än 
 *Spelledare*: Låter bra, kom ihåg att du kan välja att använda olika grundegenskaper om du vill närma dig uppgiften på ett annat sätt.
 ```
 
-# Överge en syssla
+## Enkla sysslor
 
+Inte alla sysslor kräver användning av en progressklocka och fungerar därmed som vanliga Handlingar.
+
+Det är spelledarens ansvar att avgöra vilka sysslor som kräver en progressklocka för att visualisera och spåra framsteg. Denna bedömning görs baserat på sysslans natur och hur den passar in i spelets övergripande berättelse.
+
+## Överge en syssla
+
+Du kan när som helst välja att överge en syssla.
+
+För *Frivilliga sysslor* är det enkelt: meddela detta till spelledaren och andra spelare, och stryk sedan sysslan från din lista. Om du däremot vill överge en *Obligatorisk syssla*, krävs ett T6-kast med **nackdel** för att avgöra hur mycket **stress** din rollperson tar på sig.
+
+Om du väljer att senare återuppta en tidigare övergiven syssla, börjar du om från början. Allt tidigare framsteg på den sysslan har återställts till noll (0).
+
+## Att-göra lista
+
+För att effektivt hantera dina sysslor, rekommenderas att du använder ett separat anteckningsblock. Här kan du inte bara skriva upp varje syssla, utan även rita tillhörande progressklockor. Denna metod hjälper dig att enkelt överblicka och följa framstegen i dina uppgifter.
 

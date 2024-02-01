@@ -1,6 +1,6 @@
 # Panoptikon
 
-- [Förord](preface.md)
+- [Framsida](frontpage.md)
 
 # Inledning
 
@@ -11,6 +11,7 @@
 
 - [Grundsystem](core-system.md)
   - [Spelloop](core-loop.md)
+  - [Mål](core-objective.md)
   - [Tärningar](core-dice.md)
   - [Bedömningsbeslut](core-judgement.md)
 - [Handlingar](actions.md)
