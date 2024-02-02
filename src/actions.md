@@ -18,7 +18,9 @@ När du vill att din rollperson ska utföra en handling, följ dessa steg:
 
 ## Välja egenskap för handling
 
-När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex (6) grundegenskaper som du anser bäst passar för situationen. Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.
+När en rollperson ska utföra en handling, är det upp till dig som spelare att välja vilken av de sex (6) grundegenskaper som du anser bäst passar för situationen.
+
+Ditt val bör spegla hur din rollperson närmar sig problemet eller uppgiften. Därefter är det spelledarens ansvar att avgöra om ditt val är lämpligt för den aktuella situationen och hur det påverkar spelets fortskridande.
 
 ```admonish example title="Exempel"
 - **Övertalning:** Om du vill övertyga en karaktär, kan du välja att använda Karisma (KAR) för att framhäva din rollpersons charm och övertalningsförmåga. Alternativt, om din rollperson är särskilt stark (STY), kan du försöka använda denna styrka för att skapa en mer imponerande och skrämmande närvaro.

@@ -22,10 +22,10 @@ En ägodel är mer än bara en personlig tillhörighet; det är symbolen för di
 | 11      | Tändare                | Ger dig förmågan att skapa eld snabbt och säkert, vilket kan vara användbart i oväntade situationer eller vid behov av värme. |
 | 12      | Kompakt multiverktyg   | Ett mångsidigt verktyg som förbättrar din rollpersons praktiska kunskaper, ger +1 till Intelligens (INT) vid tillverkning eller reparation. |
 | 13      | Fotografi              | Titta på detta personliga fotografi för att stärka din rollpersons psykiska uthållighet, ger +1 till Psyke (PSY) inför psykologiskt påfrestande situationer. |
-| 14      | -                      | - |
+| 14      | Freestyle              | En liten bärbar musikenhet med hörlurar från Panoptikon som spela kassettband. När den används för att stänga ute omvärlden kan rollpersonen motverka effekten av kast till **nackdel**. |
 | 15      | Kryddor                | Inte ens du vet varför du bär runt på dessa. |
 | 16      | Turmynt                | Ett lyckobringande mynt som magiskt omvandlar det första kastet till **fördel** varje dag som annars skulle ha varit till **nackdel**. |
-| 17      | T20 tärning            | En mystisk tärning som tillåter din rollperson att slå om ett tärningskast en gång per dag, men endast om utfallet är exakt 20. |
+| 17      | T20 tärning            | En mystisk tärning som tillåter din rollperson att slå om ett tärningskast en gång per dag, men endast om kastet var ett **Katastrofalt misslyckande**. |
 | 18      | Mystisk nyckel         | Denna nyckel verkar öppna mer än bara dörrar –- ofta tycks låsta hinder ge vika när din rollperson närmar sig. |
 | 19      | Tom berlock            | En gåtfull berlock som stärker din rollpersons förmåga att agera under tryck, ger -1 till Psyke (PSY) vid Motståndskast men +1 till Psyke (PSY) vid Handlingskast. |
 | 20      | Dekorativ ring         | En imponerande ring som av okänd anledning ger din rollperson fördel i interaktioner med vissa inflytelserika personer. |

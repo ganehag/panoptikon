@@ -23,6 +23,9 @@ additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "
 git-repository-url = "https://github.com/ganehag/panoptikon"
 git-repository-icon = "fa-github"
 
+[output.html.print]
+enable = false
+
 [output.html.fold]
 enable = true
 level = 0

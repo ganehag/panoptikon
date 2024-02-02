@@ -1,13 +1,16 @@
 # Erfarenhet och utveckling
 
-Varje Rollperson ackumulerar erfarenhet genom en erfarenhetsklocka. Denna klocka består av sex (6) sektorer och reflekterar Rollpersonens lärande och utveckling.
+Du ackumulerar erfarenhet genom en erfarenhetsklocka. Denna klocka består av sex (6) sektorer och reflekterar din rollpersons lärande och utveckling.
 
-- När erfarenhetsklockan är helt fylld, erhåller Rollpersonen ett (1) erfarenhetspoäng.
+- När erfarenhetsklockan är helt fylld, erhåller din Rollperson ett (1) Erfarenhetspoäng (EP).
+
 - Efter att ett poäng erhållits, återställs klockan för fortsatt ackumulering av erfarenhet.
 
 ## Händelser som bidrar till erfarenhet
 
-Det primära sättet för Rollpersoner att samla erfarenhet är genom att framgångsrikt utföra sysslor. När en Rollperson slutför en fullständig progressklocka med åtta (8) sektorer, belönas de med en sektor på sin erfarenhetsklocka. Endast klockor som består av exakt åtta segment bidrar till erfarenhetsklockan. Sysslor som består av flera progressklockor kan därför ge flera segment på erfarenhetsklockan.
+Det primära sättet för Rollpersoner att samla erfarenhet är genom att framgångsrikt utföra sysslor.
+
+- **Sysslor:** När en Rollperson slutför en fullständig progressklocka med åtta (8) sektorer, belönas de med en sektor på sin erfarenhetsklocka. Endast klockor som består av exakt åtta segment bidrar till erfarenhetsklockan. Sysslor som består av flera progressklockor kan därför ge flera segment på erfarenhetsklockan.
 
 Andra händelser som också bidrar till att fylla Rollpersonens erfarenhetsklocka med en (1) sektor inkluderar:
 
@@ -19,7 +22,7 @@ Andra händelser som också bidrar till att fylla Rollpersonens erfarenhetsklock
 
 ## Erfarenhetspoäng
 
-Varje rollperson tjänar Erfarenhetspoäng (EP) genom att spelaren agerar i linje med Rollpersonens unika personlighet och mål. Det är ditt ansvar som spelare att föra koll på de Erfarenhetspoäng du tjänar.
+Varje rollperson tjänar Erfarenhetspoäng (EP) genom att spelaren agerar i linje med Rollpersonens unika personlighet och mål. Det är ditt ansvar som spelare att föra koll på de erfarenhetspoäng du tjänar.
 
 Efter varje spelsession har du möjlighet att använda dina ackumulerade erfarenhetspoäng för att utveckla din Rollperson. Du kan välja att:
 
