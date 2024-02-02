@@ -1,6 +1,20 @@
 # Hobbytabell
 
+För att ge din rollpersoner ett rikt och balanserat liv, börja med att välja två hobbyer som hen redan ägnar sig åt.
+
+Använd sedan en T20 för att slumpmässigt lägga till en tredje hobby. Skulle tärningsslaget visa en hobby som din rollperson redan har, fortsätt att slå tills en ny och unik hobby uppenbarar sig.
+
+Din rollperson kan endast ha tre (3) olika hobbyer samtidigt om inget annat anges.
+
 **Grundegenskap**: Denna kolumn visar vilka grundegenskaper som är relevanta för varje hobby. När din rollperson utför en hobbyaktivitet, väljer du en av dessa angivna egenskaper för att göra ditt tärningskast. Valet av grundegenskap reflekterar hur din rollperson närmar sig och utövar hobbyn.
+
+```admonish todo title="TODO"
+Ska det vara någon form av bonus vid utförande av hobby?
+
+En spelare med säg 5 i Intelligens (INT), som använder denna grundegenskap för **Matlagning** har endas 1/4 chans att lyckas med sitt Handlingskast. Detta gör att spelarna från början innan de tränat upp sina grundegenskaper har väldigt svårt att lyckas.
+
+Eller är det helt enkelt upp till spelaren att välja hobbyer som passar deras grundegenskaper?
+```
 
 | T20 | Hobby | Beskrivning | Grundegenskap |
 |:---:|:------|:------------|:--------------|

@@ -1,21 +1,26 @@
-# Hobby
+# Fritid
 
-För att ge din rollpersoner ett rikt och balanserat liv, börja med att välja två hobbier som hen redan ägnar sig åt. Använd sedan en T20 för att slumpmässigt lägga till en tredje hobby. Skulle tärningsslaget visa en hobby som din rollperson redan har, fortsätt att slå tills en ny och unik hobby uppenbarar sig.
+Fritid i Panoptikon är din chans att släppa loss från arbetsdagens rutiner och engagera dig i aktiviteter som verkligen intresserar dig.
 
-En rollperson kan endast ha tre (3) olika hobbyer samtidigt om inget annat anges.
+Detta är tiden att fördjupa dig i en hobby, oavsett om det handlar om att skapa, lära eller bara koppla av, vilket inte bara är givande utan också ett viktigt sätt att minska stress.
 
-```admonish title="TODO"
-Ska det vara någon form av bonus vid slag för hobby? En spelare med säg 5 i Intelligens (INT), som använder denna grundegenskap för **Matlagning** har endas 1/4 chans att lyckas med sitt Handlingskast. Detta gör att spelarna från början innan de tränat upp sina grundegenskaper har väldigt svårt att lyckas.
-```
+Använd denna tid klokt för att återuppliva din rollpersons energi och motivation, och förbered dem för nya utmaningar som väntar på arbetsplatsen.
 
 ## Utförande
 
-När din rollperson engagerar sig i en hobby, utförs detta genom ett T20 handlingskast, likt andra handlingskast i spelet. För att hobbyaktiviteten ska anses lyckad, ska resultatet av tärningskastet vara lika med eller lägre än rollpersonens värde i den relevanta grundegenskapen. Ett högre värde indikerar att aktiviteten misslyckats. Notera att det inte är möjligt att 'pressa ett kast' i samband med hobbyer.
+När din rollperson engagerar sig i en *Hobby*, utförs detta genom ett Handlingskast med en T20, likt alla andra Handlingskast i spelet.
+
+För att hobbyaktiviteten ska anses lyckad, ska resultatet av tärningskastet vara lika med eller lägre än rollpersonens värde i den relevanta grundegenskapen. Ett högre värde indikerar att aktiviteten misslyckats.
 
 - Om aktiviteten lyckas, kasta 1T6 för att avgöra hur många stresspoäng din rollperson återhämtar.
+
 - Vid misslyckande, kasta 1T6, och ta hälften av värdet (avrundat uppåt) i ökad stress.
 
 Beskriv gärna hur din rollperson utför sin hobby och vad som ledde till att aktiviteten blev lyckad eller misslyckad.
+
+```admonish note title="Pressa ett kast"
+Notera att det **inte** är möjligt att *Pressa ett kast* i utförande av hobbyer.
+```
 
 ### Spektakulär framgång
 
@@ -27,7 +32,7 @@ Om tärningskastet resulterar i en tjugo (20), är det ett katastrofalt misslyck
 
 ## Byte av hobby
 
-Din rollpersons hobbier är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet.
+Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet.
 
 Om spelets händelser leder till att din rollperson förlorar intresset för en av sina hobbyer, ska denna hobby strykas från din rollpersons lista omedelbart.
 
