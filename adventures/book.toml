@@ -1,0 +1,21 @@
+[book]
+authors = ["Mikael Ganehag Brorsson"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Panoptikon: Ett minne blott"
+
+[output.html]
+additional-css = ["./theme/css/mdbook-admonish.css"]
+
+[output.html.fold]
+enable = true
+level = 0
+
+[preprocessor]
+
+[preprocessor.image-size]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`

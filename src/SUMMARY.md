@@ -44,6 +44,8 @@
 - [Förmågor](abilities.md)
   - [Erfarenhetsförmågor](abilities-base.md)
   - [Unika förmågor](abilities-unique.md)
+- [Spelledarkaraktärer](npcs.md)
+  - [Femfaktorteorin](big-five.md)
 
 # Rollperson
 
@@ -59,6 +61,9 @@
   - [Språk](character-language.md)
   - [Bärförmåga](character-carry-capacity.md)
   - [Ägodelar](character-belonging.md)
+
+# Spelvärlden
+
 - [Världen](world.md)
   - [Panoptikon divisioner](world-divisions.md)
   - [Språk](world-language.md)
