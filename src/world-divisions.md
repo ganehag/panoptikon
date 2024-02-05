@@ -1,4 +1,4 @@
-# Panoptikon divisioner
+# Panoptikons divisioner
 
 Med sina klor utsträckta över hela världen, har Panoptikon etablerat en mängd olika divisioner, var och en specialiserad på ett unikt område av global verksamhet. Dessa divisioner är inte bara en del av företagets struktur; de är en manifestation av dess makt och inflytande.
 

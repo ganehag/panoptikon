@@ -7,7 +7,7 @@
 - [Brev från VD](ceoletter.md)
 - [Introduktion](introduction.md)
 
-# Regler
+# Grunderna
 
 - [Grundsystem](core-system.md)
   - [Spelloop](core-loop.md)
@@ -21,8 +21,6 @@
   - [Nackdelskast](disadvantage-roll.md)
   - [Motståndskast](resistance-roll.md)
   - [Inspiration](inspiration.md)
-  - [Spelledarkaraktärers handlingar](gm-action-roll.md)
-  - [Spelledarkaraktärers motståndskast](gm-resistance-roll.md)
 - [Progresshantering](progress.md)
   - [Klocksystem](progress-clocks.md)
   - [Alternativ progresshantering](progress-visuals.md)
@@ -40,14 +38,8 @@
   - [Hobby](hobby.md)
   - [Slumpens nycker](hobby-chance.md)
   - [Sömn](sleep.md)
-- [Erfarenhet och utveckling](advancement.md)
-- [Förmågor](abilities.md)
-  - [Erfarenhetsförmågor](abilities-base.md)
-  - [Unika förmågor](abilities-unique.md)
-- [Spelledarkaraktärer](npcs.md)
-  - [Femfaktorteorin](big-five.md)
 
-# Rollperson
+# Spelare
 
 - [Din rollperson](character.md)
   - [Arketyper](character-archetypes.md)
@@ -61,15 +53,28 @@
   - [Språk](character-language.md)
   - [Bärförmåga](character-carry-capacity.md)
   - [Ägodelar](character-belonging.md)
+- [Erfarenhet och utveckling](advancement.md)
+- [Förmågor](abilities.md)
+  - [Erfarenhetsförmågor](abilities-base.md)
+  - [Unika förmågor](abilities-unique.md)
+
+# Spelledaren
+
+- [Spelledarkaraktärer](npcs.md)
+  - [Femfaktorteorin](big-five.md)
+  - [SLK:ers handlingar](gm-action-roll.md)
+  - [SLK:ers motståndskast](gm-resistance-roll.md)
+- [Akter](acts.md)
 
 # Spelvärlden
 
 - [Världen](world.md)
-  - [Panoptikon divisioner](world-divisions.md)
-  - [Språk](world-language.md)
-- [Akter](acts.md)
+- [Panoptikons ursprung](panoptikon-origin.md)
+- [Panoptikons divisioner](world-divisions.md)
+- [Språk](world-language.md)
+- [Teknologi](world-technology.md)
 
----
+# Övrigt
 
 - [Appendix](appendices.md)
 - [Index](indexing.md)

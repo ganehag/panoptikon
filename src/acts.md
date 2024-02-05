@@ -1,5 +1,9 @@
 # Formulera en akt
 
+```admonish todo title="Att göra"
+Ta fram en lämplig beskrivning med flöde och rekommendationer på hur en akt, eller akt-samling bör skapas.
+```
+
 En akt en samling dokument som utgör ett "äventyr". En akt deklarerar vanligtvis;
 
 1. **Uppdragsbeskrivning:** En detaljerad översikt av äventyret eller uppdraget, inklusive mål och syfte.
