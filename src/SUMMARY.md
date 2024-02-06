@@ -74,8 +74,7 @@
 - [Språk](world-language.md)
 - [Teknologi](world-technology.md)
 
-# Övrigt
+---
 
-- [Appendix](appendices.md)
-- [Index](indexing.md)
-
+[Appendix](appendices.md)
+[Index](indexing.md)
