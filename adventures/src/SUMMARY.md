@@ -40,5 +40,9 @@
 
 - [Dokument](documents.md)
   + [Anställningsavtal för Livegen](documents/employment-agreement.md)
+- [Övriga karaktärer](misc-characters.md)
+  + [Edvard Munch](misc-character-edvard-munch.md)
+  + [Theodor Swan](misc-character-theodor-swan.md)
+  + [Jan Gastberg](misc-character-jan-gastberg.md)
 - [Växter](plants.md)
   + [Monstera](plants/monstera.md)

@@ -1,0 +1,1 @@
+# Övriga karaktärer
