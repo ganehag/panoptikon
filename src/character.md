@@ -13,4 +13,4 @@ Genom att gestalta en rollperson som är helt skild från dig själv, får du en
 
 Detta är som din karaktärs identitetshandling. Det är här du dokumenterar all viktig information om din rollperson -- från grundläggande detaljer som namn och bakgrund till specifika färdigheter och egenskaper. Tänk på formuläret som en levande dokumentation av din karaktärs resa och utveckling. Under spelets gång kommer du att fylla i och uppdatera detta formulär, vilket hjälper dig att hålla koll på din karaktärs framsteg och förändringar.
 
-[Rollformulär](/resources/character-form.pdf)
+[Rollformulär](character-form.md)

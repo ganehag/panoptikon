@@ -78,3 +78,7 @@
 
 [Appendix](appendices.md)
 [Index](indexing.md)
+
+---
+
+[Rollformulär](character-form.md)
