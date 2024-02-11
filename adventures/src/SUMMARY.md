@@ -2,7 +2,8 @@
 - [Inledning](overview.md)
 - [Aurora divisionen](aurora-division.md)
 - [Förhistoria](prehistory.md)
-- [Nuläget](current-situation.md)
+- [Nutid](current-time-period.md)
+- [Situationen](the-situation.md)
 
 # Akter
 
@@ -40,9 +41,12 @@
 
 - [Dokument](documents.md)
   + [Anställningsavtal för Livegen](documents/employment-agreement.md)
+- [Karaktärer](characters.md)
+  + [Alexandros Mavridis](character-alexandros-mavridis.md)
+  + [Cassian DeVinter](character-cassian-devinter.md)
 - [Övriga karaktärer](misc-characters.md)
   + [Edvard Munch](misc-character-edvard-munch.md)
-  + [Theodor Swan](misc-character-theodor-swan.md)
   + [Jan Gastberg](misc-character-jan-gastberg.md)
+  + [Theodor Swan](misc-character-theodor-swan.md)
 - [Växter](plants.md)
   + [Monstera](plants/monstera.md)

@@ -1,12 +1,12 @@
 [book]
 authors = ["Mikael Ganehag Brorsson"]
-language = "en"
+language = "sv"
 multilingual = false
 src = "src"
 title = "Panoptikon: Ett minne blott"
 
 [output.html]
-additional-css = ["./theme/css/mdbook-admonish.css"]
+additional-css = ["./theme/css/mdbook-admonish.css", "./theme/css/main-theme.css"]
 default-theme = "rust"
 
 [output.html.fold]
