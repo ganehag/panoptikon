@@ -1,6 +1,6 @@
 # Progresshantering
 
-I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer. För större projekt, där mer arbete krävs, kan flera klockor kopplas samman för att bilda en sekvens.
+I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra rollpersonernas framsteg i deras arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer.
 
 ![Clocks1](/resources/clocks-1.png)
 
