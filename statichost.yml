@@ -4,3 +4,8 @@ image: ganehag/mdbook-plugins:2024-01-29.2
 command: mdbook build
 # Public directory
 public: book
+domains:
+  # Primary domain
+  - www.panoptikongame.se
+  # Domains that redirect to the primary
+  - panoptikongame.se
