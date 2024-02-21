@@ -1,40 +1,15 @@
 # Motståndskast
 
-Under spelets gång kommer det att uppstå situationer där din rollperson utsätts för yttre påverkan eller utmaningar som kräver ett aktivt motstånd. Dessa situationer hanteras genom *Motståndskast*, där du som spelare slår tärningar för att avgöra hur din rollperson klarar sig.
+I spelet kommer din rollperson ibland att möta yttre påverkan eller utmaningar som kräver ett direkt motstånd. Varje gång du väljer att göra motstånd mot en sådan situation, påverkar det din rollpersons stressnivå, vilket ökar med `+1 stress` för varje motståndshandling. Därefter får du chansen att, med en T20 tärning, göra ett kast mot en relevant grundegenskap för att avgöra utfallet, liknande processen för ett Handlingskast.
 
-Typen av grundegenskap som används för motståndskastet beror på situationens natur och bestäms i samråd med spelledaren.
+Ett exempel på motståndskast kan vara att detektivera fara eller att motstå extrem kyla. Om du som spelare aktivt letar efter fara, utförs detta genom ett handlingskast med direkt resultat. Men om du inte aktivt letar efter fara, kan spelledaren be dig att göra ett motståndskast för att se om din rollperson upptäcker ett misstänkt ljud eller liknande. När det gäller kyla eller värme kan motståndskast användas för att avgöra hur din rollperson hanterar dessa extrema förhållanden.
 
-Till exempel kan ett Handlingskast som använder Karisma (KAR) för övertygelse mötas av ett Motståndskast med Intelligens (INT). Men i vissa fall kan även Styrka (STY) användas som ett motstånd mot övertygelse, till exempel när en fysiskt imponerande person inte viker sig för en karismatisk talare, även om Intelligens (INT) oftast är att föredra i sådana situationer.
+Misslyckat motstånd kan resultera i ökad stress eller till och med [tillstånd](stress-condition-roll.md) för din rollperson, beroende på spelledarens beslut. Alla motståndskast kräver inte alltid en stressökning på `+1`, utan det är upp till spelledaren att avgöra baserat på situationen.
 
-Motståndskast fungerar precis som Handlingskast och slås därmed med en T20.
+## Motståndskast för SLK:er
 
-```admonish example title="Exempel på Motståndskast"
-*Spelare*: Jag försöker övertyga vakten att släppa in oss genom att använda min Karisma.
+För information om motståndskast för spelledarpersoner (SLK), se kapitlet [SLK:ers motståndskast](gm-resistance-roll.md).
 
-*Spelledare*: Gör ett Handlingskast med din Karisma.
+## Spontana motståndskast
 
-*Spelare*: (Slår tärningen) Jag fick en 13, precis under mitt Karisma-värde på 14.
-
-*Spelledare*: Vakten, en imponerande figur, svarar med ett Motståndskast baserat på Styrka, för att visa att han inte är lätt att manipulera. (Slår tärningen) Och han får en 8, under sitt Styrka-värde på 10.
-
-*Spelare*: Så min övertalning fungerar inte?
-
-*Spelledare*: Nej, vakten är inte övertygad av dina ord och står fast vid sin position. Du måste hitta ett annat sätt att övertyga honom eller ta dig förbi.
-```
-
-Under spelets gång kan spelledaren ibland begära att du eller dina medspelare utför motståndskast mot en eller flera av era grundegenskaper. Dessa kast kan initieras av spelledaren även om ni inte aktivt gör motstånd mot något specifikt. Syftet med dessa kast är inte att överraska spelarna eller att få dem att känna sig omedvetna, utan snarare att ge dem möjlighet att upptäcka viktiga ledtrådar, faror eller andra relevanta detaljer i spelets värld som de annars kan ha missat.
-
-För att upprätthålla spelets flyt och spänning är det ofta lämpligt att spelledaren inte avslöjar anledningen till motståndskastet direkt, särskilt om kastet inte leder till en omedelbar framgång. Detta tillvägagångssätt uppmuntrar spelarna att vara uppmärksamma och engagerade, utan att förlita sig på förutfattade föreställningar eller speloptimeringstekniker.
-
-```admonish example title="Exempel"
-*Spelledare*: (Till en av spelarna) Kan du slå ett motståndskast med din Intelligens?
-
-*Spelare*: Visst, min Intelligens är 13. (Slår en T20) Jag fick en 8.
-
-*Spelledare*: När du går genom korridoren, lägger du märke till en svag, nästan omärklig skrapning bakom en av dörrarna. Det är inte något du normalt skulle uppmärksamma, men din instinkt säger att något inte stämmer.
-
-*Spelare*: Kan jag försöka lyssna närmare vid dörren för att se om jag kan uppfatta något mer specifikt?
-
-*Spelledare*: Absolut, men då får du göra ett Handlingskast. Hur vill du agera?
-```
-
+Under spelets gång kan spelledaren ibland begära att du eller dina medspelare utför motståndskast mot en eller flera av era grundegenskaper. Dessa kast kan initieras av spelledaren även om ni som spelare inte aktivt gör motstånd mot något specifikt. Dessa kast kan gälla allt ifrån förmåga att stå emot påverkan från miljön till att upptäcka dolda ting eller faror. Saker som spelledaren ser som vitala även om spelarna kanske inte alltid tänkt på att uttrycka att de aktivt har öronen på spänn.
