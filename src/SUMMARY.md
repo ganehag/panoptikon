@@ -39,7 +39,7 @@
   - [Slumpens nycker](hobby-chance.md)
   - [Sömn](sleep.md)
 
-# Spelare
+# Spelaren
 
 - [Din rollperson](character.md)
   - [Arketyper](character-archetypes.md)
