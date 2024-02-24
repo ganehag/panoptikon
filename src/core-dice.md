@@ -16,12 +16,10 @@ En T12 behövs för att slå på Arketyptabellen. Denna tärningstyp används do
 
 ## Tärningskast
 
-## Tärningskast
-
-I *Panoptikon* använder vi en notation för tärningskast som du kommer att stöta på i regelboken. Den följer formatet `X`T6 eller `X`T20. Exempelvis, `1T20` innebär att du ska kasta en tjugo-sidig tärning en gång, medan `2T20` betyder att du kastar två tjugo-sidiga tärningar, och `5T6` innebär att du kastar fem sex-sidiga tärningar. Om ingen siffra föregår `T` innebär detta alltid en (1) tärning.
+I *Panoptikon* använder vi en notation för tärningskast som du kommer att stöta på i regelboken. Den följer formatet XT6 eller XT20. Exempelvis, 1T20 innebär att du ska kasta en tjugo-sidig tärning en gång, medan 2T20 betyder att du kastar två tjugo-sidiga tärningar, och 5T6 innebär att du kastar fem sex-sidiga tärningar. Om ingen siffra föregår "T" innebär detta alltid en (1) tärning.
 
 Denna notation är skapad för att förenkla förståelsen och tydliggöra antalet och typen av tärningar som ska användas vid olika tillfällen i spelet.
 
 ### Notation för fördel och nackdel
 
-För att göra det tydligare och enklare att förstå när ett tärningskast görs med [fördel](advantage-roll.md) eller [nackdel](disadvantage-roll.md), inför vi en särskild notation. Denna notation utgörs av ett plus (`+`) eller minus (`-`) tecken efter tärningstypen. Exempelvis, `T20+` eller `1T20+` betyder att ett tärningskast med en tjugo-sidig tärning görs med fördel. Å andra sidan, `T6-` betyder att ett tärningskast med en sex-sidig tärning görs med nackdel.
+För att göra det tydligare och enklare att förstå när ett tärningskast görs med [fördel](advantage-roll.md) eller [nackdel](disadvantage-roll.md), inför vi en särskild notation. Denna notation utgörs av ett linje över eller under tärningsdeklarationen. Till exempel innebär [[+T20]] eller [[+1T20]] att kastet med en tjugo-sidig tärning utförs med fördel, medan [[-1T6]] indikerar att kastet med en sex-sidig tärning utförs med nackdel.
