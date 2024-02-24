@@ -1,0 +1,11 @@
+span.dice-roll {
+	cursor: text;
+}
+
+span.dice-roll.advantage {
+	text-decoration: overline;
+}
+
+span.dice-roll.disadvantage {
+	text-decoration: underline;
+}

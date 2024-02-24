@@ -1,5 +1,5 @@
 # Docker image to use for building
-image: ganehag/mdbook-plugins:2024-01-29.2
+image: ganehag/mdbook-plugins:2024-02-24.1
 # Build command
 command: mdbook build
 # Public directory
