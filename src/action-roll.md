@@ -4,19 +4,19 @@ När din rollperson står inför en kritisk eller potentiellt riskfylld handling
 
 Alla *Handlingskast* görs med en T20.
 
-## Fördelaktigt och ofördelaktigt läge
+## Gynnsamma och ogynnsamma förhållanden
 
-I *Panoptikon* skiljer vi mellan två huvudsakliga typer av situationer vid utförandet av handlingar: **fördelaktiga** och **ofördelaktiga** lägen.
+I *Panoptikon* skiljer vi mellan två huvudsakliga typer av situationer när du utför handlingar: **gynnsamma** och **ogynnsamma** förhållanden.
 
-### Fördelaktigt läge
+### Gynnsamma förhållanden
 
-En handling som utförs med en lämplig grundegenskap i en kontrollerad eller gynnsam situation klassas som utförd i ett fördelaktigt läge. Detta är det normala läget som handlingar ofta utförs under.
+När du utför en handling med en passande grundegenskap under kontrollerade eller fördelaktiga omständigheter, anses detta vara under gynnsamma förhållanden. Detta är det normala läget för de flesta handlingar.
 
-### Ofördelaktigt läge
+### Ogynnsamma förhållanden
 
-Om handlingen däremot utförs med en olämplig grundegenskap eller under svåra omständigheter, klassas den som utförd i ett ofördelaktigt läge. Dessa situationer innebär ökade svårigheter och osäkerhet.
+Om du däremot utför en handling med en olämplig grundegenskap eller under svåra förhållanden, anses detta vara under ogynnsamma förhållanden. Dessa situationer innebär ökad svårighetsgrad och osäkerhet.
 
-När en handling utförs i ett ofördelaktigt läge, utförs Handlingskastet med **nackdel**. Detta innebär att spelaren måste slå två tärningar (av den typ som anges för handlingen) och välja det högre resultatet, vilket ökar risken för misslyckande.
+När en handling utförs under ogynnsamma förhållanden genomförs handlingskastet med **nackdel**.
 
 ## Spelledarens bedömning
 
