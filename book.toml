@@ -28,7 +28,8 @@ git-repository-icon = "fa-github"
 default-theme = "rust"
 
 [output.html.print]
-enable = false
+enable = true
+page-break = true
 
 [output.html.fold]
 enable = true
