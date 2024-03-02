@@ -48,8 +48,31 @@ Inte allt kan hanteras på en gång, och med tärningarnas slump, din egen skick
 
 ## Komma igång
 
-TODO
+Innan du börjar spela Panoptikon, rekommenderas det att du läser igenom regelboken och särskilt fokuserar på [äventyrskapitlet](/adventure.md). Även om spelet delar många drag med traditionella bordsrollspel, skiljer det sig genom sitt fokus på mänskliga interaktioner och handlingar snarare än utrustningsoptimering och utdragna strider, vilket kan vara en ny aspekt även för erfarna spelare och spelledare.
+
+Med detta i åtanke, rekommenderas följande steg för att komma igång:
+
+1. Utse en spelledare, idealiskt någon med en levande fantasi och en förmåga att vägleda spelet med en lätt hand. En person som kan tänka snabbt passar väl för rollen.
+
+2. Spelledaren bör sedan bekanta sig med materialet för en vald Akt, eller skapa en ny Akt baserad på ett uttänkt äventyr.
+
+   - För den spelledare som vill skriva en egen Akt rekommenderas kapitlet [Skriva akter](/writing-acts.md).
+
+3. Alla spelare skapar sina rollpersoner med hjälp av regelboken och [rollformuläret](/character-form.md).
+
+4. Bestäm en tid och plats för spel.
+
+   - Tänk på att spelledaren kan behöva åtminstone en timme för förberedelser med en färdig Akt, eller några dagar för att utforma en helt ny Akt.
+
+   - Första spelsessionen kan kräva upp till en timme för spelarna att skapa sina karaktärer.
 
 ### Förkortningar
 
-TODO
+- **STY:** [Styrka](/character-baseabilities.md#styrka-sty).
+- **FYS:** [Fysik](/character-baseabilities.md#fysik-fys).
+- **SMI:** [Smidighet](/character-baseabilities.md#smidighet-smi).
+- **INT:** [Intelligens](/character-baseabilities.md#intelligens-int).
+- **PSY:** [Psyke](/character-baseabilities.md#psyke-psy).
+- **KAR:** [Karisma](/character-baseabilities.md#karisma-kar).
+- **SLK:** [Spelledarkaraktär](/npcs.md).
+- **SL:** [Spelledare](#spelledare).

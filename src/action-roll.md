@@ -2,6 +2,8 @@
 
 När din rollperson står inför en kritisk eller potentiellt riskfylld handling, är det dags att genomföra ett handlingskast. Exempel på sådana situationer kan vara att försöka låsa upp en krånglig dörr, undvika upptäckt, eller att utföra en komplicerad uppgift under tidspress. För enklare handlingar, som att plocka upp något eller packa en väska, krävs inga handlingskast.
 
+Som spelare väljer du först en av din rollpersons grundegenskaper att använda och förklarar hur du tänker agera utifrån denna egenskap. Därefter gör du ett tärningskast med en [[1T20]] för att avgöra resultatet.
+
 Alla *Handlingskast* görs med en T20.
 
 ## Gynnsamma och ogynnsamma förhållanden

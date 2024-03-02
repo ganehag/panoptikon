@@ -1,30 +1,16 @@
 # Arbete
 
-Arbetsdagen för rollpersonerna är strukturerad i fyra perioder, med två före lunch och två efter lunch. Under varje period kan din rollperson ägna sig åt en specifik **syssla** åt gången. En syssla kan innefatta ett brett spektrum av arbetsrelaterade aktiviteter, såsom:
+Et arbetsdygn är indelad i tolv tvåtimmarspass. Den standardiserade arbetsrytmen består av två perioder före lunch och två perioder efter, vilket lämnar fyra perioder för fritidsaktiviteter och fyra för vila. Dock kan arbetskrav variera, vilket innebär att arbete ibland kan förekomma under ovanliga tider på dygnet och i vissa fall kräva övertid, vilket kan inkräkta på både fritid och sömn.
 
-- **Möten:** Delta i möten med andra rollpersoner eller spelledarkaraktärer för diskussion och samarbete.
+## Sysslor
 
-- **Forskningsarbete:** Utforska och analysera information som är relevant för rollpersonens arbetsuppgifter.
+Varje period ger din rollperson möjligheten att koncentrera sig på en specifik [syssla](/work-tasks.md) åt gången. Inom ett period kan endast ett handlingskast göras för att främja framsteg inom denna syssla, såvida inte din karaktärs förmågor medger undantag. Sysslor representerar arbetsuppgifter som sträcker sig över längre tidsperioder, från flera timmar till projekt som kan pågå under en hel vecka eller mer. Exempel på sysslor inkluderar att skriva rapporter, bedriva forskning och utveckling eller delta i möten där processen är viktigare än resultatet.
 
-- **Projektarbete:** Jobba på specifika projekt eller uppgifter som är centrala för rollpersonens yrkesroll.
-
-Varje syssla kräver att din rollperson använder sina färdigheter och resurser på ett effektivt sätt för att uppnå framsteg och bidra till företagets mål.
-
-## Syssloptimering
-
-När din rollperson får en ny syssla, har du möjlighet att dra nytta av dina egna kunskaper om ämnet för att detaljerat beskriva hur din rollperson närmar sig och hanterar uppgiften. Genom att ge en noggrann och realistisk beskrivning av hur rollpersonen tacklar sysslan, kan du effektivisera arbetet som krävs för att slutföra uppgiften.
-
-Denna detaljerade förklaring av förarbetet kan resultera i att spelledaren reducerar mängden arbete eller antalet sektorer i progressklockan som behöver fyllas i för att slutföra sysslan. Exakta minskningen beror på din beskrivning och hur väl den passar in i spelets kontext, och är därmed upp till spelledarens bedömning.
-
-## Störelsemoment
-
-Spelledaren avgör om spelarnas diskussioner runt bordet passar inom ramen för spelets **fika**, **lunch** eller **möte**. Om spelardiskussioner blir långdragna eller om det uppstår meningsskiljaktigheter som fördröjer spelet, kan spelledaren besluta att nästa Handlingskast för alla inblandade spelare ska göras med **nackdel**.
-
-Som spelare är det viktigt att du agerar i enlighet med din rollpersons **svagheter**. Spelledaren kommer att beakta detta när hen bedömer effekten av din rollpersons handlingar och interaktioner med andra rollpersoner.
+För mer detaljer om sysslor se kapitlet om [sysslor](/work-tasks.md).
 
 ## Arbete utanför arbetstid
 
-I spelvärlden råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.
+På Panoptikon råder strikta regler gällande arbetstider. Normalt är det inte tillåtet för rollpersoner att utföra arbetsuppgifter utanför de fastställda arbetstiderna. Detta återspeglar företagets policy för att upprätthålla en hälsosam balans mellan arbete och fritid, samt för att förebygga överarbete och stressrelaterade problem.
 
 Spelledaren har dock möjligheten att göra undantag från denna regel och tillåta övertidsarbete. Beslutet att godkänna övertid kan tas när spelomständigheterna kräver det, eller när det tjänar spelets berättelse och rollpersonernas mål.
 

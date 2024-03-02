@@ -1,6 +1,6 @@
 # Samarbete
 
-När du väljer att samarbeta med andra spelare för att effektivisera arbetet med en syssla eller en handling, tillämpas följande process:
+När du väljer att samarbeta med andra spelare för att effektivisera arbetet med en syssla, ärende eller en handling, tillämpas följande process:
 
 1. **Initiera samarbetet:** Bestäm vem som leder samarbetet. Denna rollperson koordinerar insatsen och blir ansvarig för det slutgiltiga kastet för framsteg.
 

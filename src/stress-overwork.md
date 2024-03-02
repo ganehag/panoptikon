@@ -4,5 +4,5 @@ Rollpersoners förmåga att hantera stress är begränsad. När en rollperson vi
 
 Under denna tid är rollpersonen praktiskt taget ur spel tills de återhämtat sig till den grad att endast ett (1) tillstånd återstår. Spelaren kan fortfarande interagera med de andra spelarna, men rollpersonens aktiva deltagande i spelet är starkt begränsat.
 
-När din rollperson når en punkt av total utarbetning, är det dags för dig att konfrontera de djupare konsekvenserna av denna överbelastning. Detta görs genom att slå på Svaghetstabellen för att upptäcka vilken bestående svaghet som rollpersonen utvecklar på grund av den ihållande stressen och påfrestningen.
+När din rollperson når en punkt av total utarbetning, är det dags för dig att konfrontera de djupare konsekvenserna av denna överbelastning. Detta görs genom att slå på [Svaghetstabellen](/stress-weakness-table.md) för att upptäcka vilken bestående svaghet som rollpersonen utvecklar på grund av den ihållande stressen och påfrestningen.
 

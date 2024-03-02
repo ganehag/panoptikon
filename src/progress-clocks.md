@@ -2,17 +2,12 @@
 
 ## Projektklockor
 
-Projektklockor används för att spåra framsteg i större och mer komplexa projekt. Dessa projekt kan omfatta flera steg eller faser, var och en representerad av en egen sysselklocka. Projektklockor består ofta av flera länkade klockor som tillsammans bildar en helhet, där varje enskild klocka representerar en distinkt del av det större arbetet.
+Du använder projektklockor för att spåra dina framsteg i större och mer komplexa projekt. Dessa projekt kan inbegripa flera delsteg, vilka representeras av länkade klockor som bildar en helhet. Vanligtvis kan ett projekt av normal svårighetsgrad omfatta upp till fyra (4) klockor, var och en med åtta (8) sektorer, totalt mellan en och tjugofyra (1-24) sektorer. Att fylla i alla fyra klockorna tar i snitt tre arbetsdagar.
 
-## Sysselklockor
+## Ärendeklockor
 
-Sysselklockor används för att spåra framsteg i mer rutinmässiga och vardagliga uppgifter. Dessa klockor består vanligtvis av upp emot åtta (8) sektorer och representerar arbete som kan slutföras inom en rimlig tid. Till skillnad från de mer omfattande projektklockorna, representerar en sysselklocka oftast en isolerad uppgift eller aktivitet.
+När du utför aktiviteter som ska slutföras inom en tvåtimmarsperiod använder du ärendeklockor. En typisk ärendeklocka, som vanligtvis har upp till åtta (8) sektorer, representerar en flexibel period på upp emot 30 minuter av händelser. Ärenden illustreras oftast av en enda klocka och kopplas sällan samman för att beskriva ett enskilt ärende. Det är dock vanligt att flera ärenden i följd bildar en sekvens av händelser som du måste genomföra i rätt ordning.
 
 ## Felstegsklockor
 
-Felstegsklockor är ett verktyg för att hålla koll på misstag eller problem som uppstår under rollpersonernas utförande av uppgifter. Dessa klockor kan användas för att spåra antalet fel under kritiska moment, som en presentation, eller för att mäta hur länge det dröjer innan en motpart avslöjar rollpersonernas lögn. En fullbordad felstegsklocka kan indikera ett totalt misslyckande eller en betydande omvälvning i situationen.
-
-## Dualitetsklockor
-
-Dualitetsklockor är en unik typ av klocka som visualiserar både framsteg och tillbakagång inom samma kontext. Liksom traditionella klockor fylls de på när framsteg görs i en syssla eller projekt. Det som skiljer Dualitetsklockor från andra är deras förmåga att även visa tillbakagång. När din rollperson stöter på motgångar, felsteg eller misslyckanden minskar framstegen i en dualitetsklocka.
-
+Du använder felstegsklockor för att hålla reda på misstag eller komplikationer som uppstår när du hanterar dina uppgifter. Dessa klockor spårar ackumulerade fel under kritiska moment, som under en presentation, eller när en antagonist börjar misstänka bedrägeri. När en felstegsklocka är fullständigt ifylld kan det innebära ett totalt misslyckande med dyra konsekvenser.
