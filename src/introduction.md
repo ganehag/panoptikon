@@ -1,30 +1,34 @@
 # Introduktion
 
-Välkommen till Panoptikon.
+Hej medarbetare,
 
-I denna handbok hittar du alla regler som behövs för att navigera i spelets värld. Regelverket kan initialt kännas omfattande, men det finns ingen anledning till oro. Vi har designat boken för att guida dig genom spelets olika aspekter på ett tydligt och stegvis sätt. Tveka inte att använda boken som en resurs under spelets gång för att snabbt slå upp regler eller klargöra detaljer. Med tiden kommer du att finna att spelupplevelsen blir mer flytande och intuitiv.
+I denna regelbok hittar du alla instruktioner och förordningar som behövs för att hjälpa dig navigera ditt nya arbete. Regelverket kan initialt kännas omfattande, men det finns ingen anledning till oro. Vi har designat boken för att guida dig genom alla olika aspekter på ett tydligt och stegvis sätt. Tveka inte att använda boken som en resurs under arbetets gång för att snabbt klargöra detaljer. Med tiden kommer du att finna att reglerna inte bara underlättar ditt dagliga arbete, utan också bidrar till en trygg och effektiv arbetsmiljö för alla. Vi ser fram emot att se dig växa och utvecklas tillsammans med oss.
 
-Lycka till och hoppas att ni har roligt.
+Välkommen till teamet!
 
 ![Building](/resources/welcome-building-2.png)
 
 ## Vad är Panoptikon?
 
-Panoptikon fungerar både som titeln på spelet och namnet på det fiktiva företaget där handlingen i spelet äger rum. Det är en mystisk och multifacetterad organisation som du nu är en del av. Ingen utanför Panoptikons högsta ledning är medvetna om företagets verkliga vision. Dess engagemang i en mängd olika branscher förbryllar många, men trots denna diversifiering verkar Panoptikon konsekvent lyckas med alla sina företaganden. Som anställd kommer du att utforska dess komplexa och ibland oförutsägbara värld, där dina handlingar och beslut bidrar till dess fortgående berättelse och utveckling.
+Panoptikon är det ledande företaget inom samtliga nyckelbranscher såsom bioteknik, avancerad datateknik, moderna energilösningar och rymdforskning, för att nämna några. Vi är kända för vår djupa historia och omfattande framgångar i alla utmaningar vi ger oss in på. Vår mångfacetterade organisationsstruktur inkluderar divisioner och kontor etablerade i nästan vartenda land världen över. Utvecklingen av våra produkter håller hög sekretess eftersom vi ofta arbetar med forskning som gränsar till det omöjliga. Med hela världen som kundgrupp är vi stolta över att alltid kunna leverera det som önskas, när det önskas, till ett pris som vi sätter.
 
-## Vad är bordsrollspel?
+Som anställd kommer du att bidra till utvecklingen av framtidens produkter. Att skapa det bästa kräver att vi själva är de bästa, vilket innebär att stora krav kommer att ställas på dig som medarbetare. I gengäld får du uppleva en verklighet som för många förblir en dröm. Du kommer att arbeta tillsammans med kollegor vars erfarenheter är av världsklass och utveckla produkter som ligger bortom de vildaste fantasierna. Detta är möjligt eftersom vi endast anställer de bästa. Du bör känna stolthet över att vara en av de få som har erbjudits en plats hos oss. Du är nu en del av världseliten.
 
-Bordsrollspel är interaktiva spel där du som spelare tar på sig rollen av en fiktiva karaktär och där gruppen gemensamt skapar berättelser. Genom att använda regelverk, tärningar och kreativitet, navigerar ni genom äventyr och utmaningar som leds av en spelledare. Denna form av spel kombinerar berättande, strategi och slumpmässiga element, vilket gör varje spelsession till en unik upplevelse där spelarnas val och fantasier formar spelvärlden.
+Våra medarbetare gör allt från att utveckla nya mediciner som räddar liv, till den senaste rymdteknologin som en dag ska placera mänsklighetens första fotavtryck på månen. Vi samarbetar med alla som vill och hjälper allt från statsledare till skolor i de fattigaste länderna med de utmaningar de står inför. Som medarbetare är du en del av detta arbete. Vem vet, du är kanske den som i framtiden, tillsammans med dina kollegor, kommer att hjälpa en ny nation att ta sina första steg. Eller kommer du kanske få ta del i något av våra extra hemliga projekt.
 
-I Panoptikon är målet att gemensamt hantera både situationer i det dagliga arbetet. Spelet fokuserar på samarbete, där spelarna tillsammans arbetar för att lösa utmaningar och problem. Det är inte en tävling mot varandra, utan en kamp mot omvärlden, med målet att främja lärande och förståelse för alla. Genom att navigera spelets utmaningar, stärker ni era färdigheter i problemlösning och strategiskt tänkande, samtidigt som ni upplever spänningen i att lösa problem innan de uppstår i verkligheten.
+Dina arbetsuppgifter kommer initialt att bero på dina förmågor och din utbildning. Med tiden, när du visar varför du förtjänar en högre position, kommer du att erbjudas möjligheten att själv välja inriktning. Vi har stark tilltro till, genom decennier av erfarenhet, att motiverade medarbetare är nyckeln till vår framgång. 
+
+Allt är möjligt, och det glädjer oss att få välkomna dig till familjen.
 
 ## Spelare
 
-Som spelare skapar och styr du en karaktär i spelets värld. Du beskriver dina karaktärers handlingar och reaktioner på de situationer som spelledaren presenterar. Användning av tärningar är ofta centralt för att bestämma utfallet av dina handlingar, speciellt i utmanande situationer. Genom att utveckla din karaktärs personlighet och bakgrund bidrar du aktivt till spelets berättelse. I samarbete med andra spelare utforskar du världen och tar dig an diverse utmaningar.
+Som deltagare i spelet antar du rollen som en karaktär som är anställd hos Panoptikon. Du ansvarar för din rollpersons handlingar och bör sträva efter att agera i spelvärlden som om du befann dig på en teaterscen, där du gestaltar din karaktär. Spelet är en form av improvisationsteater där alla deltagare skapar berättelsen tillsammans, med tärningarnas utfall och spelledaren (en utvald spelare) som styr berättelsens riktning. Du beskriver dina avsikter genom att förklara vilka handlingar du vill utföra, och resultatet bestäms av tärningarna i samspel med din rollpersons färdigheter och egenskaper.
 
 ## Spelledare
 
-Som spelledare leder och formar du spelets berättelse och värld. Du beskriver miljöer, skapar scenarion och agerar som alla andra karaktärer i världen. Din roll innebär att upprätthålla spelvärldens regler och logik, samt att avgöra konsekvenserna av spelarnas handlingar. Som domare över regler och tärningsslag krävs det att du är flexibel och kan improvisera. Ditt huvudmål är att skapa en engagerande och underhållande upplevelse för alla deltagare.
+Som spelledare agerar du som flera rollpersoner och karaktärer i världen istället för en enskild individ. Du har en central roll som både världens röst och spelets puls. Du tjänar som skiljedomare i frågor om regler och tärningar och använder din kreativitet för att forma spelvärlden utifrån spelarnas handlingar. Din förmåga att improvisera och skräddarsy berättelsen är kritisk för att upprätthålla spelets dynamik och för att engagera deltagarna fullt ut. Genom att levandegöra miljöer, porträttera spelledarkaraktärer (karaktärer i världen) och navigera efterdyningar av spelarnas beslut, bidrar du till att skapa en interaktiv värld där resan är målet.
+
+Till din hjälp har du regelboken, detaljerade beskrivningar av platser, karaktärer och beskrivningar av de händelser som ger världen dess djup. För dig som är intresserad av att fördjupa dig i skapandet av spelmaterial, rekommenderas kapitlet [Skriva akter](/writing-acts.md), som detaljerat guidar dig genom processen att konstruera ditt eget äventyr och berika spelupplevelsen för alla inblandade.
 
 ## Respektera gränser
 
