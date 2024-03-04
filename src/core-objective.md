@@ -4,5 +4,5 @@ I *Panoptikon* strävar du efter att bemästra de utmaningar och situationer som
 
 Det primära målet är att utforska dessa äventyr, som ger en fristad från det dagliga arbetet och erbjuder något utöver det vanliga.
 
-Allt detta medans det dagliga arbetet fortfarande måste hanteras. För vad är livet om det inte är fyllt av utmaningar?
+Allt detta medan det dagliga arbetet fortfarande måste hanteras. För vad är livet om det inte är fyllt av utmaningar?
 

@@ -2,17 +2,11 @@
 
 ## Rollspelstärningar
 
-I rollspel används ofta tärningar med olika antal sidor. En sex-sidig tärning kallas inom rollspelsvärlden för T6, för att skilja den från andra tärningstyper. De vanligaste tärningarna är T4, T6, T8, T12 och T20.
-
-I *Panoptikon* använder vi endast två typer av tärningar:
+I rollspels benämns en sexsidig tärning ofta som T6 för att särskilja den från andra tärningstyper. I Panoptikon använder vi endast två olika sorters tärningar:
 
 - **T6**: Används ofta för att mäta framsteg och för justeringar i samband med T20-kast.
 
-- **T20**: Används för Handlingskast och Motståndskast, vilket är de primära kasten för att avgöra utfallet av olika handlingar och situationer i spelet.
-
-```admonish note title="T12"
-En T12 behövs för att slå på Arketyptabellen. Denna tärningstyp används dock inte i spelets övriga delar. Som spelare kan du välja direkt från tabellen istället för att slå.
-```
+- **T20**: Används för [Handlingskast](action-roll.md) och [Motståndskast](resistance-roll.md), vilket är de primära kasten för att avgöra utfallet av olika handlingar och situationer i spelet.
 
 ## Tärningskast
 

@@ -2,7 +2,7 @@
 
 En ägodel är mer än bara en personlig tillhörighet; det är symbolen för din rollpersons unika historia, färdigheter och till och med deras öde. Varje spelare får välja en ägodel som tillför en distinkt fördel eller förmåga till deras rollperson. Dessa objekt är inte bara praktiska verktyg, utan de kan också bära emotionellt värde eller en speciell betydelse för rollpersonen.
 
-- Varje spelare kan endast ha en (1) **ägodel** åt gången.
+- Varje rollperson kan endast ha en (1) **ägodel** åt gången.
 - Välj en ägodel från listan som kompletterar din rollpersons karaktär eller som du finner intressant för din spelstil.
 - Ägodelar kan gå förlorade, stjälas eller förstöras under spelets gång.
 - Om en rollperson förlorar sin ägodel, kan spelaren vid lämpligt tillfälle i spelet försöka anskaffa en ny. Detta kan ske genom uppdrag, handel, utforskning eller andra spelscenarion.

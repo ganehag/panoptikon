@@ -2,7 +2,7 @@
 
 Spelledarkaraktärers (SLK) handlingar hanteras på ett förenklat sätt jämfört med rollpersonerna. Dessa karaktärer utför vanligtvis sina handlingar utan tärningskast, där utfallet – lyckat eller misslyckat – bestäms av spelledaren baserat på berättelsens flöde och behov. 
 
-För att införa ett element av slump, kan spelledaren ibland välja att använda en T6 för spelledarkaraktärernas handlingar. Kastet görs i det dolda, och resultatet tolkas enligt följande tabell:
+För att införa ett element av slump, kan spelledaren ibland välja att använda en T6 för spelledarkaraktärernas handlingar. Kastet görs i det dolda och resultatet tolkas enligt följande tabell:
 
 | **T6** | **Resultat** |
 |:------:|:-------------|
