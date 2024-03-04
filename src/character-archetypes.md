@@ -22,7 +22,7 @@ Hjälten är en modig och målmedveten karaktär som aldrig ryggar för en utman
 
 ## Oskulden
 
-Oskulden är en optimistisk och ärlig arketype som strävar efter att se det bästa i människor och situationer. De är ofta naiva men deras renhjärtade och uppriktiga natur vinner ofta andra människors förtroende och sympati.
+Oskulden är en optimistisk och ärlig arketyp som strävar efter att se det bästa i människor och situationer. De är ofta naiva men deras renhjärtade och uppriktiga natur vinner ofta andra människors förtroende och sympati.
 
 - **Psyke (PSY)**: +1
 - **Intelligens (INT)**: -2
@@ -57,7 +57,7 @@ Rebellen utmanar status quo och är en mästare på att tänka utanför ramarna.
 
 ## Narren
 
-Narren är känd för sin humor och förmåga att se livets ljusa sida. Denna arketype använder sin kvickhet och charm för att lättare hantera stressiga situationer och hålla stämningen uppe. De är sociala och ofta hjärtat i varje team, vilket hjälper till att lätta på trycket i krävande arbetsmiljöer.
+Narren är känd för sin humor och förmåga att se livets ljusa sida. Denna arketyp använder sin kvickhet och charm för att lättare hantera stressiga situationer och hålla stämningen uppe. De är sociala och ofta hjärtat i varje team, vilket hjälper till att lätta på trycket i krävande arbetsmiljöer.
 
 - **Psyke (PSY)**: +1
 - **Styrka (STY)**: -2
