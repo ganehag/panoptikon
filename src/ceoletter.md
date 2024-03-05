@@ -8,7 +8,7 @@
 
 *Men vår resa har bara börjat. Framtiden bär med sig nya utmaningar och möjligheter. Vi står inför en tid av förändring, både inom vår bransch och i världen. Vårt företag är redo att möta dessa förändringar, att anpassa sig och växa.*
 
-*Tillsammans har vi byggt en kultur av excellens, integritet och innovation. Denna kultur är kärnan i vår identitet, och den är vad som skiljer oss från mängden. Vi strävar efter att vara bäst, inte bara i det vi gör, men i hur vi gör det. Vår framgång är inte bara mätt i vinst, utan också i påverkan vi har på samhället och varandra.*
+*Tillsammans har vi byggt en kultur av excellens, integritet och innovation. Denna kultur är kärnan i vår identitet, och det är vad som skiljer oss från mängden. Vi strävar efter att vara bäst, inte bara i det vi gör, men i hur vi gör det. Vår framgång är inte bara mätt i vinst, utan också i påverkan vi har på samhället och varandra.*
 
 *När vi ser framåt, låt oss fortsätta att vara drivna av vår gemensamma vision och våra värderingar. Låt oss omfamna förändring med öppna armar och fortsätta att vara nyfikna, att lära oss och att växa. Vår resa tillsammans är långt ifrån över, och jag är övertygad om att det bästa ännu inte är skrivet.*
 
