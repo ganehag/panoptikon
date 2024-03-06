@@ -72,6 +72,8 @@ Med detta i åtanke, rekommenderas följande steg för att komma igång:
 
 ### Förkortningar
 
+Nedan följer några förkortningar som du kommer att stöta på i regelboken.
+
 - **STY:** [Styrka](/character-baseabilities.md#styrka-sty).
 - **FYS:** [Fysik](/character-baseabilities.md#fysik-fys).
 - **SMI:** [Smidighet](/character-baseabilities.md#smidighet-smi).
