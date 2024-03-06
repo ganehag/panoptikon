@@ -2,7 +2,7 @@
 
 ## Spelstruktur
 
-Panoptikon är utformat som ett dynamiskt och öppet spel där rollpersonerna interagerar med varandra och miljön på ett flytande sätt. De kan prata, utforska olika platser, utföra handlingar och använda tärningskast för att lösa situationer och framsteg. Spelets natur är flexibel, och spelarna uppmuntras att samarbeta och använda sin kreativitet för att navigera i spelets värld och ta beslut som formar deras gemensamma berättelse.
+Panoptikon är skapat för att vara ett dynamiskt och öppet spel där du, som rollperson, interagerar med andra karaktärer och miljön på ett flexibelt sätt via andra spelare eller spelledaren. Ni samtalar, utforskar och arbetar via handlingar vars utfall bestäms av tärningskast. Ni uppmuntras till samarbete och att använda er kreativitet för att navigera genom spelvärlden och dess utmaningar genom beslut som tillsammans formar en gemensam berättelse.
 
 ![Atrium](/resources/atrium-1.png)
 
