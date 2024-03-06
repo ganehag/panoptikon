@@ -1,6 +1,6 @@
 # Spelloop
 
-Arbetsdagen är den central kärnan i spelet och består av tre huvudsegment: *arbete*, *fritid*, och *sömn*. Dessa segment speglar en typisk dag i din rollpersons liv och ger struktur åt dina handlingar som spelare.
+Livet snurrar i en ständig cykel av arbete, fritid och sömn -- ett hjul som aldrig stannar.
 
 ## Arbete
 
