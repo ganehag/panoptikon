@@ -1,6 +1,6 @@
 # Arbete
 
-Et arbetsdygn är indelad i tolv tvåtimmarspass. Den standardiserade arbetsrytmen består av två perioder före lunch och två perioder efter, vilket lämnar fyra perioder för fritidsaktiviteter och fyra för vila. Dock kan arbetskrav variera, vilket innebär att arbete ibland kan förekomma under ovanliga tider på dygnet och i vissa fall kräva övertid, vilket kan inkräkta på både fritid och sömn.
+Ett arbetsdygn är indelad i tolv tvåtimmarspass. Den standardiserade arbetsrytmen består av två perioder före lunch och två perioder efter, vilket lämnar fyra perioder för fritidsaktiviteter och fyra för vila. Dock kan arbetskrav variera, vilket innebär att arbete ibland kan förekomma under ovanliga tider på dygnet och i vissa fall kräva övertid, vilket kan inkräkta på både fritid och sömn.
 
 ## Sysslor
 

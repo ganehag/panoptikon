@@ -1,5 +1,7 @@
 # Välkommen till Panoptikon!
 
+![Building](/resources/welcome-building-2.png)
+
 Vi befinner oss i början av 1960-talet, en tid då världen verkar återhämtat sig från decennier av spänningar, en efterklang från den icke-krigstiden som omslöt världen efter det stora krigets abrupta slut. Det var Storbritanniens oväntade framställning av atombomben (1918) som inte enbart signalerade krigets avslut, utan också inledde en era av kapprustning. Denna kapprustning blev en katalysator för banbrytande innovationer inom teknik, samhällsstruktur och internationella operationer. En tid präglad av vetenskapliga landvinningar och geopolitiska manövrer har omformat vår värld och banat väg för en ny världsordning där företag tydligt har en avgörande roll i den globala maktens spel.
 
 I hjärtat av denna nya era reser sig Panoptikon - en koloss vars skugga sträcker sig vida och vars kostym är vävd av gåtor och historier. Detta är ett företag som reser sig ovan det alldagliga, drivet av en obeveklig strävan efter en grandios vision så storslagen att få kan se hela bilden. Panoptikon är inte bara en aktör på världsscenen; det är en kraft som formar framtiden, obevekligt fokuserad på att manifestera ledningens gränslösa ambitioner.

@@ -106,7 +106,7 @@ h6:target::before {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(min-content, var(--content-max-width)) minmax(0, 1fr) minmax(0, 1fr);
     justify-items: center;
     gap: 0px;
-    row-gap: 1.0rem;
+    row-gap: 1.5rem;
 }
 
 .content > main > * {
@@ -116,8 +116,12 @@ h6:target::before {
     margin-bottom: 0;
 }
 
-.content > main > h2, .content > main > h3 {
+.content > main > h2, .content > main > h3, .content > main > div {
     margin-block-start: 1.5em;
+}
+
+.content > main img {
+    margin-block-start: 1.25em;
 }
 
 .content pre.mermaid {

@@ -6,8 +6,6 @@ I denna regelbok hittar du alla instruktioner och förordningar som behövs för
 
 Välkommen till teamet!
 
-![Building](/resources/welcome-building-2.png)
-
 ## Vad är Panoptikon?
 
 Panoptikon är det ledande företaget inom samtliga nyckelbranscher såsom bioteknik, avancerad datateknik, moderna energilösningar och rymdforskning, för att nämna några. Vi är kända för vår djupa historia och omfattande framgångar i alla utmaningar vi ger oss in på. Vår mångfacetterade organisationsstruktur inkluderar divisioner och kontor etablerade i nästan vartenda land världen över. Utvecklingen av våra produkter håller hög sekretess eftersom vi ofta arbetar med forskning som gränsar till det omöjliga. Med hela världen som kundgrupp är vi stolta över att alltid kunna leverera det som önskas, när det önskas, till ett pris som vi sätter.

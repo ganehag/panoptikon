@@ -1,8 +1,9 @@
-# Grundsystem
+# Spelverktyg
 
-## Spelstruktur
+Spelet innehåller två centrala verktyg som du kommer att använda:
 
-Panoptikon är skapat för att vara ett dynamiskt och öppet spel där du, som rollperson, interagerar med andra karaktärer och miljön på ett flexibelt sätt via andra spelare eller spelledaren. Ni samtalar, utforskar och arbetar via handlingar vars utfall bestäms av tärningskast. Ni uppmuntras till samarbete och att använda er kreativitet för att navigera genom spelvärlden och dess utmaningar genom beslut som tillsammans formar en gemensam berättelse.
+- [Tärningar](core-dice.md), som bestämmer utfallet av dina handlingar genom slumpen.
 
-![Atrium](/resources/atrium-1.png)
+- [Klockor](progress-clocks.md), som spårar ditt framsteg eller eventuella misslyckanden i olika uppgifter.
 
+Det är också rekommenderat att du har anteckningspapper och en penna till hands.

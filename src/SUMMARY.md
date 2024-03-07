@@ -6,15 +6,13 @@
 
 - [Brev från VD](ceoletter.md)
 - [Introduktion](introduction.md)
+- [Spelflöde och mål](core-loop.md)
 
-# Grunderna
+# Regler
 
-- [Grundsystem](core-system.md)
-  - [Spelloop](core-loop.md)
-  - [Mål](core-objective.md)
+- [Spelverktyg](core-system.md)
   - [Tärningar](core-dice.md)
   - [Klockor](progress-clocks.md)
-  - [Bedömningsbeslut](core-judgement.md)
 - [Handlingar](actions.md)
   - [Handlingskast](action-roll.md)
   - [Pressa ett kast](push-a-roll.md)
@@ -22,6 +20,7 @@
   - [Nackdelskast](disadvantage-roll.md)
   - [Motståndskast](resistance-roll.md)
   - [Inspiration](inspiration.md)
+  - [Bedömningsbeslut](core-judgement.md)
 - [Arbete](work.md)
   - [Sysslor](work-tasks.md)
   - [Fika](work-fika.md)
