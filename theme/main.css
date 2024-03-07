@@ -9,3 +9,27 @@ span.dice-roll.advantage {
 span.dice-roll.disadvantage {
 	text-decoration: underline;
 }
+
+div.letter {
+    background: var(--sidebar-bg);
+    padding: 5rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+main div.letter img {
+	border-radius: 0;
+}
+
+html.rust div.letter {
+	background: #FFFFF8;
+}
+
+html.coal div.letter img,
+html.navy div.letter img,
+html.ayu div.letter img,
+html.frappe div.letter img,
+html.macchiato div.letter img,
+html.mocha div.letter img {
+	filter: invert(100%);
+}

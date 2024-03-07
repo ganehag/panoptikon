@@ -1,5 +1,9 @@
 # Brev från VD
 
+<div class="letter">
+
+<img src="/resources/banner-logo.svg" title="Panoptikon Logo" style="display: block; margin-left: auto; margin-right: auto; margin-bottom: 4rem;" width="70px" height="70px">
+
 *Kära anställda,*
 
 *När jag reflekterar över vår resa tillsammans, är jag stolt över det vi har åstadkommit. Var och en av er har bidragit till vår framgång, och vår kollektiva insats har skapat något som är mycket mer än bara en affärsverksamhet. Vi är mer än siffror och kvartalsrapporter; vi är en familj, en gemenskap som strävar efter att göra skillnad.*
@@ -21,3 +25,4 @@
 *Isabella Leijonhufvud-Cederström*  
 *VD, Panoptikon*
 
+</div>

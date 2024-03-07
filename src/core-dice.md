@@ -1,7 +1,5 @@
 # Tärningar
 
-## Rollspelstärningar
-
 I rollspels benämns en sexsidig tärning ofta som T6 för att särskilja den från andra tärningstyper. I Panoptikon använder vi endast två olika sorters tärningar:
 
 - **T6**: Används ofta för att mäta framsteg och för justeringar i samband med T20-kast. För att underlätta kast med flera tärningar, se till att ha minst fyra T6-tärningar tillgängliga.
