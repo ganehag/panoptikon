@@ -9,10 +9,11 @@
 - [Spelflöde och mål](core-loop.md)
 
 # Regler
-
+- [Respektera gränser](respect-boundaries.md)
 - [Spelverktyg](core-system.md)
   - [Tärningar](core-dice.md)
   - [Klockor](progress-clocks.md)
+  - [Hantering av tid](progress-time.md)
 - [Handlingar](actions.md)
   - [Handlingskast](action-roll.md)
   - [Pressa ett kast](push-a-roll.md)

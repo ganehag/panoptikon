@@ -8,65 +8,65 @@ Välkommen till teamet!
 
 ## Vad är Panoptikon?
 
-Panoptikon är det ledande företaget inom samtliga nyckelbranscher såsom bioteknik, avancerad datateknik, moderna energilösningar och rymdforskning, för att nämna några. Vi är kända för vår djupa historia och omfattande framgångar i alla utmaningar vi ger oss in på. Vår mångfacetterade organisationsstruktur inkluderar divisioner och kontor etablerade i nästan vartenda land världen över. Utvecklingen av våra produkter håller hög sekretess eftersom vi ofta arbetar med forskning som gränsar till det omöjliga. Med hela världen som kundgrupp är vi stolta över att alltid kunna leverera det som önskas, när det önskas, till ett pris som vi sätter.
+Panoptikon är ett multinationellt företag som leder inom flera nyckelbranscher, inklusive bioteknik, avancerad datateknik, moderna energilösningar och rymdforskning. Företaget är känt för sin långa historia och framgångar över en bred front av vetenskapliga och tekniska områden. Med en global närvaro, har Panoptikon divisioner och kontor i nästan alla länder världen över. Forskning och utveckling av produkter sker under strikt sekretess, med projekt som ofta utforskar gränsen för det teknologiskt möjliga.
 
-Som anställd kommer du att bidra till utvecklingen av framtidens produkter. Att skapa det bästa kräver att vi själva är de bästa, vilket innebär att stora krav kommer att ställas på dig som medarbetare. I gengäld får du uppleva en verklighet som för många förblir en dröm. Du kommer att arbeta tillsammans med kollegor vars erfarenheter är av världsklass och utveckla produkter som ligger bortom de vildaste fantasierna. Detta är möjligt eftersom vi endast anställer de bästa. Du bör känna stolthet över att vara en av de få som har erbjudits en plats hos oss. Du är nu en del av världseliten.
+Anställda hos Panoptikon bidrar till utvecklingen av innovativa produkter och teknologier. Företagets ambition är att ständigt sträva efter excellens, vilket innebär höga förväntningar på medarbetarnas prestationer. Anställda arbetar i team med kollegor vars expertis är erkänd internationellt, med projekt som strävar efter att skapa banbrytande lösningar och produkter.
 
-Våra medarbetare gör allt från att utveckla nya mediciner som räddar liv, till den senaste rymdteknologin som en dag ska placera mänsklighetens första fotavtryck på månen. Vi samarbetar med alla som vill och hjälper allt från statsledare till skolor i de fattigaste länderna med de utmaningar de står inför. Som medarbetare är du en del av detta arbete. Vem vet, du är kanske den som i framtiden, tillsammans med dina kollegor, kommer att hjälpa en ny nation att ta sina första steg. Eller kommer du kanske få ta del i något av våra extra hemliga projekt.
+Panoptikons medarbetare är involverade i ett brett spektrum av verksamheter, från utvecklingen av nya mediciner som har potential att rädda miljontals liv, till skapandet av avancerad rymdteknologi med målet att utöka mänsklighetens närvaro i rymden. Företaget engagerar sig även i samhällsutveckling och bistånd, genom samarbeten med regeringar och utbildningsinstitutioner i olika länder för att adressera globala utmaningar.
 
-Dina arbetsuppgifter kommer initialt att bero på dina förmågor och din utbildning. Med tiden, när du visar varför du förtjänar en högre position, kommer du att erbjudas möjligheten att själv välja inriktning. Vi har stark tilltro till, genom decennier av erfarenhet, att motiverade medarbetare är nyckeln till vår framgång. 
+Karriärutveckling inom Panoptikon baseras på individens kompetens och prestationer. Med tiden erbjuds medarbetare möjligheten att specialisera sig ytterligare eller ta sig an nya utmaningar inom företaget. Panoptikon värderar motivation och engagemang högt och ser dessa egenskaper som avgörande för företagets fortsatta framgång.
 
-Allt är möjligt, och det glädjer oss att få välkomna dig till familjen.
+## Spela en session
 
-## Spelare
+En session av spelet försöker efterlikna en episod av en TV-serie eller miniserie, med händelser som utspelar sig över en eller flera dagar. En spelsession varar normalt mellan två till sex timmar. Under sessionen står du och dina medspelare inför ett huvudproblem som kräver omedelbar uppmärksamhet, samt sekundära mål och situationer.
+
+Inte allt kan hanteras på en gång, och med tärningarnas slump, din egen skicklighet och karaktärens förmågor, arbetar ni för att uppnå era mål. Resultatet av era handlingar får konsekvenser, och även om ni pausar för vila, måste målen uppnås för att undvika negativa påföljder.
+
+## Roller
+
+Varje roll bär med sig unika ansvar och möjligheter att påverka spelets gång. Oavsett om du utforskar Panoptikons inre som en Spelare, väver samman spelets berättelse som en Spelledare, eller främjar en trygg och inkluderande spelatmosfär som Skyddsombud, är din roll avgörande för spelets framgång och den gemensamma upplevelsen.
+
+### Spelare
 
 Som deltagare i spelet antar du rollen som en karaktär som är anställd hos Panoptikon. Du ansvarar för din rollpersons handlingar och bör sträva efter att agera i spelvärlden som om du befann dig på en teaterscen, där du gestaltar din karaktär. Spelet är en form av improvisationsteater där alla deltagare skapar berättelsen tillsammans, med tärningarnas utfall och spelledaren (en utvald spelare) som styr berättelsens riktning. Du beskriver dina avsikter genom att förklara vilka handlingar du vill utföra, och resultatet bestäms av tärningarna i samspel med din rollpersons färdigheter och egenskaper.
 
-## Spelledare
+### Spelledare
 
 Som spelledare agerar du som flera rollpersoner och karaktärer i världen istället för en enskild individ. Du har en central roll som både världens röst och spelets puls. Du tjänar som skiljedomare i frågor om regler och tärningar och använder din kreativitet för att forma spelvärlden utifrån spelarnas handlingar. Din förmåga att improvisera och skräddarsy berättelsen är kritisk för att upprätthålla spelets dynamik och för att engagera deltagarna fullt ut. Genom att levandegöra miljöer, porträttera spelledarkaraktärer (karaktärer i världen) och navigera efterdyningar av spelarnas beslut, bidrar du till att skapa en interaktiv värld där resan är målet.
 
 Till din hjälp har du regelboken, detaljerade beskrivningar av platser, karaktärer och beskrivningar av de händelser som ger världen dess djup. För dig som är intresserad av att fördjupa dig i skapandet av spelmaterial, rekommenderas kapitlet [Skriva akter](/writing-acts.md), som detaljerat guidar dig genom processen att konstruera ditt eget äventyr och berika spelupplevelsen för alla inblandade.
 
-## Respektera gränser
+### Skyddsombud
 
-I rollspel är det viktigt att respektera varandras gränser för att skapa en trygg och inkluderande upplevelse. Här är några tips:
-
-1. **Kommunikation är nyckeln**: Före spelet, diskutera vad som är okej och inte okej för varje spelare. Detta kan inkludera teman som våld, språkbruk eller personliga gränser.
-
-2. **Aktivt lyssnande**: Var uppmärksam på dina medspelares reaktioner. Om någon verkar obekväm, pausa och diskutera hur ni kan fortsätta på ett sätt som alla är bekväma med.
-
-3. **Flexibilitet i berättandet**: Var redo att ändra spelriktning om det blir nödvändigt för att respektera spelares gränser.
-
-4. **Efter-spelet feedback**: Efter spelet, ha en öppen diskussion där spelare kan uttrycka sina tankar och känslor om spelupplevelsen.
-
-Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!
-
-## Spela en session
-
-I spelsession försöker spelet efterlikna en episod av en TV-serie eller miniserie, med händelser som utspelar sig över en eller flera dagar. En session varar normalt mellan två till sex timmar. Under sessionen står du och dina medspelare inför ett huvudproblem som kräver omedelbar uppmärksamhet, samt sekundära mål och situationer.
-
-Inte allt kan hanteras på en gång, och med tärningarnas slump, din egen skicklighet och karaktärens förmågor, arbetar ni för att uppnå era mål. Resultatet av era handlingar får konsekvenser, och även om ni pausar för vila, måste målen uppnås för att undvika reprimander.
+Som skyddsombud i spelet är du ansvarig för att upprätthålla en trygg och respektfull spelatmosfär. Din roll är att agera som en förespråkare för spelarnas välbefinnande, säkerställa att alla deltagare känner sig bekväma och att deras gränser respekteras under spelets gång. Du bistår med att etablera och upprätthålla kommunikationskanaler för öppen dialog om spelarnas komfortzoner och gränser innan spelet börjar, och fungerar som en förmedlare om någon känner sig obekväm eller om det uppstår konflikter.
 
 ## Komma igång
 
 Innan du börjar spela Panoptikon, rekommenderas det att du läser igenom regelboken och särskilt fokuserar på [äventyrskapitlet](/adventure.md). Även om spelet delar många drag med traditionella bordsrollspel, skiljer det sig genom sitt fokus på mänskliga interaktioner och handlingar snarare än utrustningsoptimering och utdragna strider, vilket kan vara en ny aspekt även för erfarna spelare och spelledare.
 
-Med detta i åtanke, rekommenderas följande steg för att komma igång:
+För att effektivt börja spela, följ dessa rekommenderade steg:
 
 1. Utse en spelledare, idealiskt någon med en levande fantasi och en förmåga att vägleda spelet med en lätt hand. En person som kan tänka snabbt passar väl för rollen.
 
-2. Spelledaren bör sedan bekanta sig med materialet för en vald Akt, eller skapa en ny Akt baserad på ett uttänkt äventyr.
+2. Välj ett skyddsombud, helst en person som utstrålar empati och förmåga att skapa en inkluderande atmosfär.
+
+3. Skyddsombudet ansvarar för att samla in och anonymt presentera eventuella ämnen som bör undvikas för spelledaren.
+
+4. Spelledaren bör sedan bekanta sig med materialet för en vald Akt, eller skapa en ny Akt baserad på ett uttänkt äventyr.
 
    - För den spelledare som vill skriva en egen Akt rekommenderas kapitlet [Skriva akter](/writing-acts.md).
 
-3. Alla spelare skapar sina rollpersoner med hjälp av regelboken och [rollformuläret](/character-form.md).
+5. Alla spelare skapar sina rollpersoner med hjälp av regelboken och [rollformuläret](/character-form.md).
 
-4. Bestäm en tid och plats för spel.
+6. Bestäm en tid och plats för spel.
 
    - Tänk på att spelledaren kan behöva åtminstone en timme för förberedelser med en färdig Akt, eller några dagar för att utforma en helt ny Akt.
 
    - Första spelsessionen kan kräva upp till en timme för spelarna att skapa sina karaktärer.
+
+7. Påminnelse om att respektera gränser.
+
+   - Innan spelet startar bör skyddsombudet påminna gruppen om de uppsatta gränserna samt hänvisa till kapitlet [Respektera gränser](respect-boundaries.md) för att säkerställa en trygg spelupplevelse för alla.
 
 ### Förkortningar
 
@@ -80,3 +80,4 @@ Nedan följer några förkortningar som du kommer att stöta på i regelboken.
 - **KAR:** [Karisma](/character-baseabilities.md#karisma-kar).
 - **SLK:** [Spelledarkaraktär](/npcs.md).
 - **SL:** [Spelledare](#spelledare).
+- **SO:** [Skyddsombud](#skyddsombud).
