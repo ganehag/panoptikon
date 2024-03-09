@@ -2,13 +2,25 @@
 
 ![Building](/resources/welcome-building-2.png)
 
-Vi befinner oss i början av 1960-talet, en tid då världen verkar återhämtat sig från decennier av spänningar, en efterklang från den icke-krigstiden som omslöt världen efter det stora krigets abrupta slut. Det var Storbritanniens oväntade framställning av atombomben (1918) som inte enbart signalerade krigets avslut, utan också inledde en era av kapprustning. Denna kapprustning blev en katalysator för banbrytande innovationer inom teknik, samhällsstruktur och internationella operationer. En tid präglad av vetenskapliga landvinningar och geopolitiska manövrer har omformat vår värld och banat väg för en ny världsordning där företag tydligt har en avgörande roll i den globala maktens spel.
+## Maktens boning
 
-I hjärtat av denna nya era reser sig Panoptikon - en koloss vars skugga sträcker sig vida och vars kostym är vävd av gåtor och historier. Detta är ett företag som reser sig ovan det alldagliga, drivet av en obeveklig strävan efter en grandios vision så storslagen att få kan se hela bilden. Panoptikon är inte bara en aktör på världsscenen; det är en kraft som formar framtiden, obevekligt fokuserad på att manifestera ledningens gränslösa ambitioner.
+Vi befinner oss i början av 1960-talet, en tid då världen verkar ha återhämtat sig från decennier av spänningar, en efterklang från den icke-krigstiden som omslöt världen efter det stora krigets abrupta slut. Storbritanniens oväntade framställning av atombomben 1918 signalerade inte bara krigets avslut utan också inledde en era av kapprustning. Denna kapprustning blev katalysatorn för banbrytande innovationer inom teknik, samhällsstruktur och internationella relationer. En tid präglad av vetenskapliga landvinningar och geopolitiska manövrer har omformat vår värld och banat väg för en ny världsordning där företag spelar en avgörande roll i det globala maktspelet.
 
-Som deltagare i detta bordsrollspel antar du rollen som en medarbetare på detta världsomspännande företag. Utmaningarna kommer att vara många och kräva uppoffringar och en mätbar nivå av stress. Vikten av att hitta en balans i livet kan inte underskattas; försumma inte detta, eftersom alltför hög stress kan leda till allvarliga konsekvenser.
+I hjärtat av denna nya era reser sig Panoptikon - en koloss vars skugga sträcker sig vida och vars kostym är vävd av gåtor och historier. Detta är inte bara ett företag som agerar på världsscenen; det är en kraft som formar framtiden, drivet av en obeveklig strävan efter att manifestera en vision så storslagen att få kan se hela bilden.
 
-Dina arbetsuppgifter tar dig på en resa där du står i spetsen för att skapa banbrytande produkter som kan förändra världen. Men ditt uppdrag sträcker sig långt bortom laboratoriets väggar. Du kan komma att sitta vid förhandlingsbordet med inflytelserika representanter från globala organisationer och nationer, väva samman allianser och navigera i diplomatins subtila spel. Varje tanke, varje samtal och varje val du gör har som mål att säkra fördelar som cementerar Panoptikons ledande dominans oavsett potentiella moraliska implikationer. Som en fritänkande individ står valet att följa dessa direktiv, eller inte, helt och hållet i dina händer. Beslutet är ditt, och med det följer alltid konsekvenser.
+### Ett kall för alla
+
+När du ansluter dig till Panoptikons verksamhet, tar du ditt första steg mot en framtid fylld med potential och möjligheter. Kanske var det nödvändigheten av den banbrytande sjukvård som drog dig hit, eller kanske lockades du av äventyret att vara en del av de mest revolutionerande projekt mänskligheten någonsin sett. Är det drömmen om att vara först med att sätta foten på månen som driver dig, eller är det en djupare önskan om att använda din expertis för att skapa en bättre framtid för vår värld?
+
+Panoptikon erbjuder sina medarbetare mer än bara en arbetsplats; du får en plattform där dina ambitioner, drömmar och färdigheter kan blomstra. Varje arbetsuppgift är en chans att bryta ny mark, att tänja på gränserna för det möjliga och att bidra till verklig förändring. Oavsett om du drivs av ära, ett kall till innovation, revolutionära idéer eller jakt på kunskap, finns det en plats för dig.
+
+### Hemligheter i överflöd
+
+Men Panoptikons omfattande historia och globala dominans döljer också ett virrvarr av hemligheter och skuggspel. Bakom varje beslut, varje innovation, och varje strategisk allians lurar historier som väntar på att bli berättade. Ditt deltagande i detta skådespel ger dig inte bara en unik insikt i företagets innersta kärna utan också möjligheten att påverka riktningen för dess framtida äventyr.
+
+### Utmaningar
+
+Med positionen kommer även utmaningar; att navigera i Panoptikons komplexa värld kräver mer än bara yrkesskicklighet. Du måste hitta en balans mellan ambition och integritet, mellan arbete och personligt välbefinnande. Varje steg du tar kan antingen stärka Panoptikons position i världen eller leda dig ner på en stig av personlig upptäckt och kanske till och med revolt. Vägen du väljer är din egen, men varje val medför konsekvenser, inte bara för dig utan för hela världen.
 
 ## Vad är bordsrollspel?
 
