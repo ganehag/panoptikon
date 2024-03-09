@@ -1,8 +1,6 @@
 # Spelledarkaraktärer
 
-Spelledarkaraktärer (SLK) är alla de karaktärer i spelvärlden som inte kontrolleras av spelarna, utan istället styrs och gestaltas av spelledaren. Dessa karaktärer utgör en väsentlig del av spelet, och kan variera från viktiga nyckelpersoner i handlingen till bakgrundskaraktärer som bidrar till miljön och atmosfären.
-
-Spelledarkaraktärer är ofta nödvändiga för att driva handlingen framåt, skapa utmaningar och möjligheter för spelarna, och för att ge liv och djup åt spelvärlden. Spelledaren använder dessa karaktärer för att presentera information, konflikter, allierade, motståndare och andra element som berikar spelet. Varje spelledarkaraktär har sina egna motiv, personlighet och bakgrundshistoria, vilket spelledaren använder för att skapa en engagerande och sammanhängande spelupplevelse.
+Spelledarkaraktärer (SLK) är de figurer i spelvärlden som inte är under spelarnas kontroll utan blir levandegjorda av spelledaren. Dessa inkluderar en mängd karaktärer från viktiga allierade som bistår spelarnas äventyr, till antagonister som utmanar och korsar deras vägar. Ofta fungerar dessa karaktärer också som spelvärldens befolkning, bidragande till spelets atmosfär och berikande av berättelsen med sin närvaro. Genom interaktioner med dessa individer får spelarna insikt i deras intentioner och står inför valet att bestämma sin inställning och agerande gentemot dessa karaktärer. Dessa möten kan leda till allianser, konflikter eller djupare förståelse, och spelar en central roll i hur spelarnas äventyr utvecklas.
 
 Likt rollpersonerna har viktiga spelledarkaraktärer ett rollformulär med information om deras förmågor. Dessa formulär är ofta förenklade och innehåller endast ett par meningar om karaktären samt deras motiv, grundegenskaper och förmågor. Dessa formulär är utformade för att ge spelledaren en snabb överblick och enkel åtkomst till nödvändig information för att effektivt kunna spela ut dessa karaktärer under spelets gång.
 

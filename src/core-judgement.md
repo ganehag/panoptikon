@@ -1,20 +1,27 @@
 # Bedömningsbeslut
 
-Som spelare kommer du att ställas inför många viktiga beslut. Dessa beslut leder till händelser som behöver vägas och balanseras i enlighet med spelets regler.
+Bedömningsbeslut är avgörande punkter där du som spelare och spelledare gemensamt utforskar det dynamiska spannet mellan regelverkets strikta ramar och den kreativa friheten som rollspel erbjuder. Dessa beslut kräver en fördjupad förståelse för spelets anda, utöver de skrivna reglerna, samt flexibilitet för att anpassa sig till unika scenarier som uppstår under spelets gång.
 
-Även om du som spelare har möjlighet att ge din syn på olika situationer, är det alltid spelledaren som har det slutgiltiga beslutsfattandet i spelet. Spelledarens roll är att se till att spelet flyter på smidigt och att relevanta regler och riktlinjer följs eller inte, samtidigt som hen skapar en engagerande och rättvis spelupplevelse för alla deltagare.
+Spelledaren har det slutgiltiga ansvaret för att vägleda spelet inom dessa gränser.
 
-Ditt engagemang och din input är värdefull, men tänk på att spelledarens ord är det som gäller när det kommer till de slutgiltiga besluten i spelet.
+## Processen
 
-```admonish example title="Exempel"
-- *Spelarna* föreslår vilka handlingar som är rimliga lösningar på ett problem.
+Vid en situation som kräver ett bedömningsbeslut, rekommenderas följande tillvägagångssätt:
 
-- *Spelarna* identifierar vilka moment i spelets berättelse som bidrar till deras karaktärers utveckling.
+- **Dialog:** En öppen diskussion mellan spelledaren och spelarna etableras för att klarlägga situationens omständigheter och avsikterna med spelarnas handlingar.
 
-- *Spelledaren* avgör hur riskabelt och effektivt en given handling är i en viss situation.
+- **Övervägande:** Spelledaren väger de möjliga alternativen, med hänsyn tagen till regelboken, karaktärernas förmågor och spelvärldens aktuella läge.
 
-- *Spelledaren* bestämmer vilka konsekvenser som återspeglar farorna och utmaningar i en given situation.
+- **Beslut:** Ett beslut fattas som syftar till att främja en spännande och engagerande spelupplevelse, samtidigt som det är rättvist, kreativt och i linje med spelets narrativ.
 
-- *Spelledaren* avgör när en tärningskast krävs och vilken typ.
-```
+- **Konsekvens:** Beslutet och dess följder kommuniceras till spelarna och integreras i spelet.
 
+## Viktiga Principer
+
+- **Flexibilitet:** Var mottaglig för innovativa lösningar och tillåt en flexibel tillämpning av reglerna där det gagnar spelupplevelsen.
+
+- **Kommunikation:** Främja en kultur av öppen och respektfull kommunikation för att tillsammans navigera genom beslut som påverkar spelet.
+
+- **Konsekvens:** Sträva efter att beslut är konsistenta med spelets tidigare utveckling för att upprätthålla en sammanhängande och trovärdig berättelse.
+
+- **Spelarglädje:** Sätt spelarnas tillfredsställelse och engagemang i första rummet. De bästa besluten är de som välkomnas av alla och bidrar till en positiv och minnesvärd spelupplevelse.

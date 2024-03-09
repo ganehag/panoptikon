@@ -1,8 +1,8 @@
 # Arketyper
 
-Varje Arketyp i erbjuder en unik uppsättning av grundfärdigheter, styrkor och förutsättningar som ger liv åt din rollperson. Utforska de olika arketyperna för att hitta den som bäst passar din spelstil och som bidrar till en berikande upplevelse. Du kan också låta tärningen bestämma genom att slå 1T12 och följa tabellen nedan.
+Varje Arketyp i erbjuder en unik uppsättning av grundfärdigheter, styrkor och förutsättningar som ger liv åt din rollperson. Utforska de olika arketyperna för att hitta den som bäst passar din spelstil och som bidrar till en berikande upplevelse.
 
-| **T12** | **Arketyp** | **T12** | **Arketyp** |
+| **#** | **Arketyp** | **#** | **Arketyp** |
 |:----------------:|----------------------|:----------------:|----------------------|
 | 1       | Hjälten     | 7       | Skaparen    |
 | 2       | Oskulden    | 8       | Härskaren   |

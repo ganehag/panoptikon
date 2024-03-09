@@ -8,7 +8,7 @@ Inspiration kan användas endast en gång innan den är förbrukad och en spelar
 
 - Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.
 
-- Göra +1 poäng framsteg i en (1) Progressklocka utan att slå tärning för varken handling eller framstegspoäng.
+- Göra +1 poäng framsteg i en (1) klocka utan att slå tärning för varken handling eller framstegspoäng.
 
 ```admonish example title="Exempel"
 *Spelare*: Jag försöker hålla stegen stadig så att Henry kan klättra upp. Jag använder min Styrka som är 14 för detta.

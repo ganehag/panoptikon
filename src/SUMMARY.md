@@ -7,6 +7,7 @@
 - [Brev från VD](ceoletter.md)
 - [Introduktion](introduction.md)
 - [Spelflöde och mål](core-loop.md)
+- [Spelexempel]()
 
 # Regler
 - [Respektera gränser](respect-boundaries.md)
@@ -21,7 +22,6 @@
   - [Nackdelskast](disadvantage-roll.md)
   - [Motståndskast](resistance-roll.md)
   - [Inspiration](inspiration.md)
-  - [Bedömningsbeslut](core-judgement.md)
 - [Arbete](work.md)
   - [Sysslor](work-tasks.md)
   - [Fika](work-fika.md)
@@ -36,6 +36,7 @@
   - [Hobby](hobby.md)
   - [Slumpens nycker](hobby-chance.md)
   - [Sömn](sleep.md)
+- [Bedömningsbeslut](core-judgement.md)
 
 # Spelaren
 
@@ -45,7 +46,7 @@
   - [Namn](character-name.md)
   - [Könsidentitet](character-gender.md)
   - [Ålder](character-age.md)
-  - [Utseende](characters-appearance.md)
+  - [Utseende](character-appearance.md)
   - [Utbildning](character-education.md)
   - [Hobbytabell](hobby-table.md)
   - [Språk](character-language.md)

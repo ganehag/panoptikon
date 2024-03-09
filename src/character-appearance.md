@@ -1,8 +1,8 @@
 # Utseende
 
-Utseendet på din rollperson är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från vår T20-tabell, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.
+Utseendet på din rollperson är mer än bara ett yttre attribut; det är ett uttryck för deras identitet och historik. Det kan spegla deras bakgrund, livsstil, erfarenheter och till och med deras personlighet. När du väljer ditt utseende från tabellen, tänk på hur dessa fysiska drag kan berika din rollpersons berättelse och hur de uppfattas i spelets värld.
 
-| **T20** | **Utseende**                    | **T20** | **Utseende**                    |
+| **#**   | **Utseende**                    | **#**   | **Utseende**                    |
 |:-------:|---------------------------------|:-------:|---------------------------------|
 | 1       | Skarpa ögon                     | 11      | Vältrimmad skäggstubb           |
 | 2       | Ett ärr över kinden             | 12      | Karakteristisk frisyr           |

@@ -4,7 +4,7 @@ Nästa steg är att ge din rollperson en utbildning. Alla är ni anställda på 
 
 Varje utbildning representerar en unik inriktning och karriärväg, och ger en inblick i den typ av arbete och ansvar din rollperson skulle ha haft innan de blev en del av organisationen. Välj en utbildning som inte bara etablerar din rollpersons grundfärdigheter, utan också berikar deras personliga berättelse.
 
-| **T12**    | **Utbildning**         | **T12**    | **Utbildning**         |
+| **#**      | **Utbildning**         | **#**      | **Utbildning**         |
 |:----------:|------------------------|:----------:|------------------------|
 | 1          | Aero-rymdteknik        | 7          | Kvantmekanik           |
 | 2          | Bioteknik              | 8          | Medicin                |

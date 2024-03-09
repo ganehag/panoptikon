@@ -13,9 +13,9 @@ Din karaktärs identitet en central del av spelupplevelsen. För att hjälpa dig
 
 ### Förnamn
 
-Förnamnen har valts för att återspegla en mångfald av kulturer och epoker, samtidigt som de bibehåller en känsla av det unika och ovanliga. Varje förnamn är kopplat till en T20-tärning, vilket gör det enkelt för dig att slumpmässigt välja ett namn eller att välja ett som du känner passar din karaktärs koncept.
+Förnamnen har valts för att återspegla en mångfald av kulturer och epoker, samtidigt som de bibehåller en känsla av det unika och ovanliga.
 
-| **T20** | **Förnamn**    | **T20** | **Förnamn**    | **T20** | **Förnamn**    | **T20** | **Förnamn**    |
+| **#** | **Förnamn**    | **#** | **Förnamn**    | **#** | **Förnamn**    | **#** | **Förnamn**    |
 |:-------:|----------------|:-------:|----------------|:-------:|----------------|---------|----------------|
 | 1   | Ada        | 6   | Flora      | 11  | Hamse      | 16  | Nathanel   |
 | 2   | Belle      | 7   | Gunde      | 12  | Igor       | 17  | Olli       |
@@ -27,7 +27,7 @@ Förnamnen har valts för att återspegla en mångfald av kulturer och epoker, s
 
 Efternamnen är designade för att komplettera förnamnen och lägga till ytterligare djup och bakgrund till karaktärerna. Dessa namn är inspirerade av nordisk mytologi, naturfenomen och historiska referenser, vilket skapar en känsla av en rik och detaljerad värld.
 
-| **T20** | **Efternamn**    | **T20** | **Efternamn**    | **T20** | **Efternamn**    | **T20** | **Efternamn**    |
+| **#** | **Efternamn**    | **#** | **Efternamn**    | **#** | **Efternamn**    | **#** | **Efternamn**    |
 |:-------:|------------------|:-------:|------------------|:-------:|------------------|---------|------------------|
 | 1   | Eldhjärta    | 6   | Iskall       | 11  | Sjösten      | 16  | Strandberg   |
 | 2   | Fjällbrant   | 7   | Ljungmark    | 12  | Skogvaktare  | 17  | Tungsten     |
