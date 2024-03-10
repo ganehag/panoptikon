@@ -31,6 +31,10 @@ Panoptikons medarbetare är involverade i ett brett spektrum av verksamheter, fr
 
 Karriärutveckling inom Panoptikon baseras på individens kompetens och prestationer. Med tiden erbjuds medarbetare möjligheten att specialisera sig ytterligare eller ta sig an nya utmaningar inom företaget. Panoptikon värderar motivation och engagemang högt och ser dessa egenskaper som avgörande för företagets fortsatta framgång.
 
+> I affärsvärlden är varje handskakning en kamp och varje leende ett vapen. En batalj i konferensrummet kan rädda liv på slagfältet, medan en till synes obetydlig signatur kan avsluta krig och omforma världen.
+> 
+> Dr. Naomi Takahashi, grundare av Panoptikons Lexicon division
+
 ## Spela en session
 
 En session av spelet försöker efterlikna en episod av en TV-serie eller miniserie, med händelser som utspelar sig över en eller flera dagar. En spelsession varar normalt mellan två till sex timmar. Under sessionen står du och dina medspelare inför ett huvudproblem som kräver omedelbar uppmärksamhet, samt sekundära mål och situationer.

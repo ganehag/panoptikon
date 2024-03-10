@@ -50,3 +50,9 @@ Panoptikons värld erbjuder en mängd arbetsuppgifter, från kontorsarbete till 
 Ditt och dina medspelares agerande formar äventyret, med spelledaren som guidar genom spelets värld. Kom ihåg, äventyr kräver ibland att du vågar ta steget ut för att uppleva det fullt ut.
 
 Spelet utgör en värld där moraliska dilemman och personliga ambitioner ständigt flätas samman. Varje karaktär agerar utifrån övertygelsen om att vara sin egen berättelses hjälte, med mål som ofta kretsar kring att öka sin status eller sitt välstånd. Som spelare ges du möjligheten att djupdyka i din rollpersons etiska komplexitet. Det är en inbjudan att utforska och möjligtvis förstå dina egna värderingar och beslut bättre genom spelets utmaningar.
+
+
+> **§ 3.4.67 Uppsägningproces:** För initiering av uppsägning, krävs omedelbar inlämning av "Formulär U-12B", enligt avsnitt 17.3.1 "Uppsägningsprotokoll", med stipulerad tolv månaders notis. Felaktigheter eller brister i "Formulär U-12B", refererat i bilaga C.4 "Riktlinjer för Uppsägningsdokumentation", leder till direkt avslag. Ofullständigheter i processen, specificerade i Personalhandboken, ogiltigförklarar ansökan.
+>
+> Utdrag från Personalhandboken
+

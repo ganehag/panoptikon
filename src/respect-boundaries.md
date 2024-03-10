@@ -13,3 +13,8 @@ I rollspel är det viktigt att respektera varandras gränser för att skapa en t
 Alla deltagare, men särskilt skyddsombudet, har ansvar för att värna om dessa gränser före, under och efter spelet samt att främja inkludering.
 
 Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!
+
+> Det var under det tidiga 1700-talet som feminismens första vågor började göra sig märkbara. De markerande startpunkten för en radikal förändring i samhällets syn på kön och jämställdhet. Denna omvandlingsperiod, förstärkt av romantikens ideal under vårt tidiga 1800-tal, banade väg för att kvinnor gradvis tillerkändes samma rättigheter och skyldigheter som män. Denna samhällsomställning representerar en ny ordning, där principer om könsbalans och jämlikhet blev grundläggande.
+> 
+> Aurora Valdez, 'Tidernas vändning', 1893
+

@@ -9,3 +9,9 @@ Spelet innehåller tre centrala verktyg som du kommer att använda:
 - [Hantering av tid](progress-time.md), som spårar tid på dygnet.
 
 Det är också rekommenderat att du har anteckningspapper och en penna till hands.
+
+
+> Varje resa inleds med ett enkelt steg, men det är gudarnas tärningar som bestämmer våra öden. Det är nyckfullheten i deras spel som väver trådar av möjligheter och utmaningar.
+> 
+> Prof. Linnea Björkstrand och Prof. Simon Björkstrand, 'Myter och verkligheter i tidens spel', 1922
+
