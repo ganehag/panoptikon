@@ -82,17 +82,3 @@ För att effektivt börja spela, följ dessa rekommenderade steg:
 7. Påminnelse om att respektera gränser.
 
    - Innan spelet startar bör skyddsombudet påminna gruppen om de uppsatta gränserna samt hänvisa till kapitlet [Respektera gränser](respect-boundaries.md) för att säkerställa en trygg spelupplevelse för alla.
-
-### Förkortningar
-
-Nedan följer några förkortningar som du kommer att stöta på i regelboken.
-
-- **STY:** [Styrka](/character-baseabilities.md#styrka-sty).
-- **FYS:** [Fysik](/character-baseabilities.md#fysik-fys).
-- **SMI:** [Smidighet](/character-baseabilities.md#smidighet-smi).
-- **INT:** [Intelligens](/character-baseabilities.md#intelligens-int).
-- **PSY:** [Psyke](/character-baseabilities.md#psyke-psy).
-- **KAR:** [Karisma](/character-baseabilities.md#karisma-kar).
-- **SLK:** [Spelledarkaraktär](/npcs.md).
-- **SL:** [Spelledare](#spelledare).
-- **SO:** [Skyddsombud](#skyddsombud).
