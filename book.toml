@@ -7,8 +7,8 @@ title = "Panoptikon"
 
 [preprocessor]
 
-[preprocessor.catppuccin]
-assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
+# [preprocessor.catppuccin]
+# assets_version = "2.1.0" # DO NOT EDIT: Managed by `mdbook-catppuccin install`
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
@@ -22,7 +22,7 @@ command = "mdbook-dice"
 [output]
 
 [output.html]
-additional-css = ["./theme/catppuccin.css", "./theme/catppuccin-admonish.css", "./theme/mdbook-admonish.css", "./theme/main.css"]
+additional-css = ["./theme/mdbook-admonish.css", "./theme/main.css"]
 git-repository-url = "https://github.com/ganehag/panoptikon"
 git-repository-icon = "fa-github"
 default-theme = "rust"
