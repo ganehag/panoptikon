@@ -1,10 +1,25 @@
 # Introduktion
 
+<div class="letter">
+
+<time>Linköping den 12 februari 1960</time>
+
+<adress>
+
+Therese Ingoldottir  
+Avdelningen för personalhantering  
+
+</adress>
+
 Hej medarbetare,
 
-I denna regelbok hittar du alla instruktioner och förordningar som behövs för att hjälpa dig navigera ditt nya arbete. Regelverket kan initialt kännas omfattande, men det finns ingen anledning till oro. Vi har designat boken för att guida dig genom alla olika aspekter på ett tydligt och stegvis sätt. Tveka inte att använda boken som en resurs under arbetets gång för att snabbt klargöra detaljer. Med tiden kommer du att finna att reglerna inte bara underlättar ditt dagliga arbete, utan också bidrar till en trygg och effektiv arbetsmiljö för alla. Vi ser fram emot att se dig växa och utvecklas tillsammans med oss.
+I denna regelbok hittar du alla instruktioner och förordningar som behövs för att hjälpa dig navigera ditt nya arbete. Regelverket kan initialt kännas omfattande, men det finns ingen anledning till oro. Vi har designat boken för att guida dig genom alla olika aspekter på ett tydligt och stegvis sätt.
+
+Tveka inte att använda boken som en resurs under arbetets gång för att snabbt klargöra detaljer. Med tiden kommer du att finna att reglerna inte bara underlättar ditt dagliga arbete, utan också bidrar till en trygg och effektiv arbetsmiljö för alla. Vi ser fram emot att se dig växa och utvecklas tillsammans med oss.
 
 Välkommen till teamet!
+
+</div>
 
 ## Vad är Panoptikon?
 

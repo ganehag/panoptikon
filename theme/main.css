@@ -15,10 +15,35 @@ div.letter {
     padding: 5rem;
     border-radius: 1rem;
     box-sizing: border-box;
+    font-family: monospace, system-ui;
+    font-size: 80%;
+    min-height: 80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-main div.letter img {
+div.letter time {
+	display: block;
+	text-align: right;
+	margin-bottom: 5rem;
+}
+
+div.letter adress {
+	display: block;
+	margin-bottom: 3rem;
+}
+
+div.letter p {
+	line-height: 1.9em;
+}
+
+div.letter img {
 	border-radius: 0;
+}
+
+div.letter.signature img {
+	width: 75%;
 }
 
 html.rust div.letter {
