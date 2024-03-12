@@ -1,6 +1,6 @@
 # Tillståndkast
 
-När stressmätaren når sin topp och det sjätte nivået fylls, uppnår din rollpersonen en kritisk stresspunkt. Då krävs ett 1T6 kast för att bestämma vilket tillstånd rollpersonen får. Varje tillstånd påverkar din rollpersons förmåga att utföra Handlingar.
+När stressmätaren når sin topp och det sjätte nivået fylls, uppnår din rollpersonen en kritisk stresspunkt. Då krävs ett [[1T6]] kast för att bestämma vilket tillstånd rollpersonen får. Varje tillstånd påverkar din rollpersons förmåga att utföra Handlingar.
 
 Efter att tillståndet är fastställt, återställs stressmätaren till noll (0).
 

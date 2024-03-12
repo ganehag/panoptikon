@@ -1,6 +1,6 @@
 # Klockor
 
-I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra framsteg i arbete. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer, men flera klockor kan länkas samman för att representera en längre uppgift.
+I spelet används en speciell mekanik, kallad "klockor", för att visualisera och spåra framsteg. En klocka är en cirkel uppdelad i flera sektorer, där varje sektor representerar ett steg mot att slutföra en viss uppgift eller ett projekt. Den maximala storleken på en klocka är åtta (8) sektorer, men flera klockor kan länkas samman för att representera en längre uppgift.
 
 ![Clocks1](/resources/clocks-1.png)
 
@@ -24,6 +24,8 @@ Att etablera en klocka, eller flera klockor – antingen enskilda eller som dela
 - **Slutförande:** När alla sektorer på en klocka är ifyllda, eller när alla länkade klockor är kompletta, betraktas uppgiften som avslutad. Vad detta innebär för din rollperson varierar beroende på arbetets natur. Var beredd på att snart ta dig an nya utmaningar.
 
 ## Klocktyper
+
+Spelets klockor tjänar som verktyg för att spåra framsteg i alla dess former. Här är de tre mest förekommande typerna.
 
 ### Projektklockor
 

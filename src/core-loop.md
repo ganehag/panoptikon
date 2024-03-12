@@ -2,7 +2,7 @@
 
 Panoptikon är skapat för att vara ett dynamiskt och öppet spel där du, som rollperson, interagerar med andra karaktärer och miljön på ett flexibelt sätt via andra spelare eller spelledaren. Ni samtalar, utforskar och arbetar via handlingar vars utfall bestäms av tärningskast. Ni uppmuntras till samarbete och att använda er kreativitet för att navigera genom spelvärlden och dess utmaningar genom beslut som tillsammans formar en gemensam berättelse.
 
-Livet snurrar i en ständig cykel av arbete, fritid och sömn -- ett hjul som aldrig stannar.
+Bortom arbetsplatsens krav har varje rollperson ett eget liv, fyllt med personliga berättelser och hemligheter. Hur mycket av detta du väljer att dela med dina kollegor ligger i dina händer. Ni har alla olika anledningar till varför ni valde att ansluta er till Panoptikon, och inte alla dessa anledningar är avsedda för allas öron.
 
 ## Akter
 

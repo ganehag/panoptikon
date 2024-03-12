@@ -2,7 +2,7 @@
 
 Svaghetstabellen används för att slumpmässigt bestämma vilken typ av svaghet rollpersonen har utvecklat. Varje svaghet har en direkt effekt på rollpersonens grundegenskaper och därmed på deras förmåga att utföra olika handlingar i spelet.
 
-För att slå på tabellen använder du en T20.
+För att slå på tabellen använder du [[1T20]].
 
 | **T20** | **Svaghet**        | **Effekt**                                                           |
 |:-------:|:-------------------|----------------------------------------------------------------------|

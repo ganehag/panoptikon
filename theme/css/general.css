@@ -4,7 +4,7 @@
 
 :root {
     /* Browser default font-size is 16px, this way 1 rem = 10px */
-    font-size: 62.5%;
+    font-size: var(--font-size-base);
     color-scheme: var(--color-scheme);
 }
 
@@ -18,7 +18,7 @@ html {
 
 body {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: var(--font-size-rem);
     overflow-x: hidden;
 }
 

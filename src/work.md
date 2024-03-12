@@ -2,6 +2,10 @@
 
 Ett arbetsdygn är indelad i tolv tvåtimmarspass. Den standardiserade arbetsrytmen består av två perioder före lunch och två perioder efter, vilket lämnar fyra perioder för fritidsaktiviteter och fyra för vila. Dock kan arbetskrav variera, vilket innebär att arbete ibland kan förekomma under ovanliga tider på dygnet och i vissa fall kräva övertid, vilket kan inkräkta på både fritid och sömn.
 
+> **§ 7.8.54 Tobaksförbud:** Användning, innehav eller distribution av tobaksprodukter inom företagets lokaler eller under arbetstid är strängt förbjudet. För rapportering av överträdelser krävs inlämning av "Formulär T-54A", enligt avsnitt 22.4.7 "Tobaksanvändningspolicy", med obligatorisk bifogande av visuella bevis. Brott mot denna regel resulterar i omedelbar disciplinär åtgärd upp till och inklusive uppsägning, som definieras i avsnitt 29.1.3 "Disciplinära Förfaranden". Se bilaga D.7 "Förebyggande av Tobaksanvändning" för fullständiga riktlinjer och konsekvenser.
+> 
+> Utdrag från Personalhandboken
+
 ## Sysslor
 
 Varje period ger din rollperson möjligheten att koncentrera sig på en specifik [syssla](/work-tasks.md) åt gången. Inom ett period kan endast ett handlingskast göras för att främja framsteg inom denna syssla, såvida inte din karaktärs förmågor medger undantag. Sysslor representerar arbetsuppgifter som sträcker sig över längre tidsperioder, från flera timmar till projekt som kan pågå under en hel vecka eller mer. Exempel på sysslor inkluderar att skriva rapporter, bedriva forskning och utveckling eller delta i möten där processen är viktigare än resultatet.

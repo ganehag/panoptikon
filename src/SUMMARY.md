@@ -6,8 +6,12 @@
 
 - [Brev från VD](ceoletter.md)
 - [Introduktion](introduction.md)
+
+# Översikt
+
+- [Världshistoria](world.md)
 - [Spelflöde och mål](core-loop.md)
-- [Spelexempel]()
+- [Spelexempel](game-example.md)
 
 # Regler
 - [Respektera gränser](respect-boundaries.md)
@@ -15,6 +19,13 @@
   - [Tärningar](core-dice.md)
   - [Klockor](progress-clocks.md)
   - [Hantering av tid](progress-time.md)
+- [Stress och tillstånd](stress.md)
+  - [Stressmätaren](stress-meter.md)
+  - [Tillståndkast](stress-condition-roll.md)
+  - [Tillfälliga tillstånd](stress-temp-condition.md)
+  - [Utarbetad](stress-overwork.md)
+  - [Svaghetstabellen](stress-weakness-table.md)
+  - [Oväntad avgång](stress-death.md)
 - [Handlingar](actions.md)
   - [Handlingskast](action-roll.md)
   - [Pressa ett kast](push-a-roll.md)
@@ -26,12 +37,6 @@
   - [Sysslor](work-tasks.md)
   - [Fika](work-fika.md)
   - [Samarbete](work-coop.md)
-- [Stress och tillstånd](stress.md)
-  - [Tillståndkast](stress-condition-roll.md)
-  - [Tillfälliga tillstånd](stress-temp-condition.md)
-  - [Utarbetad](stress-overwork.md)
-  - [Svaghetstabellen](stress-weakness-table.md)
-  - [Oväntad avgång](stress-death.md)
 - [Återhämtning](recuperation.md)
   - [Hobby](hobby.md)
   - [Slumpens nycker](hobby-chance.md)
@@ -56,6 +61,7 @@
 - [Förmågor](abilities.md)
   - [Erfarenhetsförmågor](abilities-base.md)
   - [Unika förmågor](abilities-unique.md)
+- [Rollformulär](character-form.md)
 
 # Spelledaren
 
@@ -67,18 +73,14 @@
 
 # Spelvärlden
 
-- [Äventyr](adventure.md)
-- [Världen](world.md)
-- [Panoptikons ursprung](panoptikon-origin.md)
 - [Panoptikons divisioner](world-divisions.md)
+  - [Aurora](world-aurora.md)
+  - [Crest](world-crest.md)
+  - [Lexicon](world-lexicon.md)
+  - [Meridian](world-meridian.md)
+  - [Nexus](world-nexus.md)
+  - [Orion](world-orion.md)
+  - [Pandora](world-pandora.md)
+  - [Terra](world-terra.md)
+  - [Vitalis](world-vitalis.md)
 - [Språk](world-language.md)
-- [Teknologi](world-technology.md)
-
----
-
-[Appendix](appendices.md)
-[Index](indexing.md)
-
----
-
-[Rollformulär](character-form.md)
