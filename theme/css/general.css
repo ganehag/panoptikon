@@ -158,30 +158,51 @@ h6:target::before {
     text-decoration: none;
 }
 
+.table-wrapper {
+    border: 1px var(--table-border-color) solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
 table {
-    margin: 0 auto;
+    width: 100%;
     border-collapse: collapse;
 }
-table td {
-    padding: 3px 20px;
-    border: 1px var(--table-border-color) solid;
+
+table > thead {
+    vertical-align: bottom;
 }
+
+table > tbody {
+    vertical-align: inherit;
+}
+
+th {
+  text-align: inherit;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+table > :not(caption) > * > * {
+  padding: .5em .5em;
+  border-bottom-width: 1px;
+  border: 0;
+}
+
 table thead {
     background: var(--table-header-bg);
 }
-table thead td {
-    font-weight: 700;
-    border: none;
-}
-table thead th {
-    padding: 3px 20px;
-}
-table thead tr {
-    border: 1px var(--table-header-bg) solid;
-}
-/* Alternate background colors for rows */
+
 table tbody tr:nth-child(2n) {
     background: var(--table-alternate-bg);
+}
+
+table td {
+    border-bottom: 1px var(--table-border-color) solid;
 }
 
 blockquote {
