@@ -2,6 +2,11 @@
 
 Utforskandet och definitionen av din rollpersons könsidentitet är ett viktigt steg i att skapa en djup och mångsidig karaktär. Tabellen för könsidentitet tillhandahålls som en källa till inspiration och vägledning, men du är uppmuntrad att välja eller skapa en identitet som känns äkta och relevant för din rollperson. Närma dig detta ämne med respekt och eftertanke, och se till att varje rollpersons könsidentitet behandlas med värdighet i spelets berättelse.
 
+> I början af det nittonde århundradet, under den samhälleliga omdanelsens skugga där könsbalans ändteligen begynt att antaga sin rätta form, höjdes stämmor för en vidgad uppfattning om kärlek och personlig identitet. Denna tidiga strävan efter rättigheter och erkännande, i en verld där könsgränserna redan började försvinna, lade grunden för en rörelse som med tiden skulle definiera sig genom kärlekens oändliga mångfald.
+>
+> Elias Márquez, 'Ett prisma af kärlek', 1905
+
+
 | **#**   | **Könsidentitet**            | **Beskrivning**                             |
 |:-------:|------------------------------|---------------------------------------------|
 | 1       | Ciskönad kvinna              | Du identifierar dig med det kön som tilldelades vid födseln som kvinna. |

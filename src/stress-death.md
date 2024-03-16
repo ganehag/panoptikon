@@ -10,3 +10,6 @@ eller
 
 När någon av dessa situationer inträffar, har du som spelare möjlighet att skapa en ny rollperson. Denna nya karaktär introduceras i spelet på ett lämpligt och sammanhängande sätt, vilket ger en fräsch start.
 
+> **§ 7.8.54 Tobaksförbud:** Användning, innehav eller distribution av tobaksprodukter inom företagets lokaler eller under arbetstid är strängt förbjudet. För rapportering av överträdelser krävs inlämning av "Formulär T-54A", enligt avsnitt 22.4.7 "Tobaksanvändningspolicy", med obligatorisk bifogande av visuella bevis. Brott mot denna regel resulterar i omedelbar disciplinär åtgärd upp till och inklusive uppsägning, som definieras i avsnitt 29.1.3 "Disciplinära Förfaranden". Se bilaga D.7 "Förebyggande av Tobaksanvändning" för fullständiga riktlinjer och konsekvenser.
+> 
+> Utdrag från Personalhandboken

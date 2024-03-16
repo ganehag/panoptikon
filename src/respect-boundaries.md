@@ -14,7 +14,7 @@ Alla deltagare, men särskilt skyddsombudet, har ansvar för att värna om dessa
 
 Kom ihåg, målet är att alla ska känna sig säkra och ha roligt!
 
-> Det var under det tidiga 1700-talet som feminismens första vågor började göra sig märkbara. De markerande startpunkten för en radikal förändring i samhällets syn på kön och jämställdhet. Denna omvandlingsperiod, förstärkt av romantikens ideal under vårt tidiga 1800-tal, banade väg för att kvinnor gradvis tillerkändes samma rättigheter och skyldigheter som män. Denna samhällsomställning representerar en ny ordning, där principer om könsbalans och jämlikhet blev grundläggande.
+> Under det tidiga 1700-talet begynte feminismens första vågor att göra sig gällande, tecknande början på en radikal förvandling i samhällets betraktelsesätt om kön och likställighet. Denna omvandlingsperiod, understödd av romantikens idealer under vårt tidiga 1800-tal, beredde vägen för att kvinnor småningom beviljades samma rättigheter och plikter som männen. Denna samhällsomställning representerar en ny ordning, där principer om könens balans och likaberättigande blevo grundläggande.
 > 
 > Aurora Valdez, 'Tidernas vändning', 1893
 
