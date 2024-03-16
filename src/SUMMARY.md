@@ -53,18 +53,20 @@
   - [Ålder](character-age.md)
   - [Utseende](character-appearance.md)
   - [Utbildning](character-education.md)
-  - [Hobbytabell](hobby-table.md)
   - [Språk](character-language.md)
+  - [Hobbytabell](hobby-table.md)
   - [Bärförmåga](character-carry-capacity.md)
   - [Ägodelar](character-belonging.md)
 - [Erfarenhet och utveckling](advancement.md)
 - [Förmågor](abilities.md)
   - [Erfarenhetsförmågor](abilities-base.md)
   - [Unika förmågor](abilities-unique.md)
+- [Gestaltningstekniker]()
 - [Rollformulär](character-form.md)
 
 # Spelledaren
 
+- [Roll och ansvar](gm-mission.md)
 - [Spelledarkaraktärer](npcs.md)
   - [Femfaktorteorin](big-five.md)
   - [SLK:ers handlingar](gm-action-roll.md)
