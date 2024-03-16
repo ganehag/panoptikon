@@ -26,7 +26,9 @@ Det är spelledarens ansvar att avgöra när ett handlingskast är nödvändigt.
 
 ## Bestämma utfallet
 
-För att avgöra om ett handlingskast är lyckat, jämförs tärningens värde med den relevanta grundegenskapen för handlingen. Om värdet är lika med eller lägre än grundegenskapen, är handlingen framgångsrik. 
+För att avgöra om ett handlingskast är lyckat, jämförs tärningens värde med den relevanta grundegenskapen för handlingen. Om värdet är lika med eller lägre än grundegenskapen, är handlingen framgångsrik. Detta innebär att du lyckas med det du avser, visat genom tärningskastet. Dock är det viktigt att skilja mellan framgång i utförandet av en handling och framgång i att uppnå önskat resultat, speciellt i interaktioner med andra karaktärer.
+
+I situationer där din handling involverar en annan karaktär, som att övertyga en vakt att öppna en dörr, används ett såkallat [Motståndskast](resistance-roll.md) för att avgöra utfallet av interaktionen. Ett motståndskast tillämpar en mekanism för att beakta den andra karaktärens personlighet, motivation och omständigheter som kan påverka deras beslut att agera enligt ditt önskemål.
 
 ## Konsekvenser av misslyckande
 
