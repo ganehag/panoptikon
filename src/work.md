@@ -6,7 +6,6 @@ Dock kan arbetskrav variera, vilket innebär att arbete ibland kan förekomma un
 
 I Panoptikons Personalhandbok finns riktlinjer för medarbetares morgonrutiner, för att säkerställa tillräcklig förberedelse inför arbetsdagens början.
 
-> **§ 7.8.54 Tobaksförbud:** Användning, innehav eller distribution av tobaksprodukter inom företagets lokaler eller under arbetstid är strängt förbjudet. För rapportering av överträdelser krävs inlämning av "Formulär T-54A", enligt avsnitt 22.4.7 "Tobaksanvändningspolicy", med obligatorisk bifogande av visuella bevis. Brott mot denna regel resulterar i omedelbar disciplinär åtgärd upp till och inklusive uppsägning, som definieras i avsnitt 29.1.3 "Disciplinära Förfaranden". Se bilaga D.7 "Förebyggande av Tobaksanvändning" för fullständiga riktlinjer och konsekvenser.
 > **§ 12.3.88 Morgonrutin:** Medarbetare uppmuntras starkt att påbörja sina dagar minst två (2) timmar före arbetspassets start, för att säkerställa adekvat tid för morgonens nödvändigheter, inklusive frukost, mentala förberedelser och transport till arbetsplatsen. Denna rekommendation, framtagen för att maximera arbetsdagens produktivitet, återfinns i Panoptikons Personalhandbok, avsnitt 11.2.5 "Optimering av arbetsdagens start".
 > 
 > Utdrag från Personalhandboken
