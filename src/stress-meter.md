@@ -1,6 +1,6 @@
 # Stressmätaren
 
-Din rollperson har en individuell förmåga att hantera stress, och denna stressmätare består vanligtvis av sex (6) nivåer. Spelets händelser och tärningarnas utfall påverkar denna mätare både positivt och negativt.
+Din rollperson har en individuell förmåga att hantera stress, och denna stressmätare består vanligtvis av tio (10) enheter. Spelets händelser och tärningarnas utfall påverkar denna mätare både positivt och negativt.
 
 När stressmätaren fylls krävs genomförande av ett [tillståndskast](stress-condition-roll.md) för att fastställa konsekvenserna.
 
