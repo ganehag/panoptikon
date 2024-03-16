@@ -1,8 +1,8 @@
 # Spelledarkaraktärers motståndskast
 
-När din rollperson utför handlingar som syftar till att påverka Spelledarkaraktärer (SLK), krävs det att spelledaren gör ett motståndskast för att avgöra utfallet av din handling. För spelledarkaraktärer som har egna rollformulär slås detta motståndskast mot lämplig grundegenskap.
+När spelaren försöker påverka en Spelledarkaraktär med sin rollperson, är det spelledarens uppgift att göra ett motståndskast för att avgöra hur väl handling lyckas. Om Spelledarkaraktären har ett eget rollformulär, baseras motståndskastet på en relevant grundegenskap som bäst motsvarar den handling spelaren försöker utföra.
 
-I situationer där spelledarkaraktären inte har ett rollformulär kan följande tabell istället användas;
+För Spelledarkaraktärer utan specifika rollformulär kan spelledaren istället använda nedanstående tabell för att snabbt avgöra utfallet av motståndskastet:
 
 | **T6** | **Resultat** |
 |:------:|:-------------|
