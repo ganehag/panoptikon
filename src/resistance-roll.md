@@ -8,7 +8,7 @@ Misslyckat motstånd kan resultera i ökad stress eller till och med [tillstånd
 
 ## Motståndskast för SLK:er
 
-För information om motståndskast för spelledarpersoner (SLK), se kapitlet [SLK:ers motståndskast](gm-resistance-roll.md).
+För information om motståndskast för Spelledarkaraktärer, se avsnittet [Spelledarkaraktärers motståndskast](gm-resistance-roll.md).
 
 ## Spontana motståndskast
 

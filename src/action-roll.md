@@ -4,7 +4,7 @@ När din rollperson står inför en kritisk eller potentiellt riskfylld handling
 
 Som spelare väljer du först en av din rollpersons grundegenskaper att använda och förklarar hur du tänker agera utifrån denna egenskap. Därefter gör du ett tärningskast med en [[1T20]] för att avgöra resultatet.
 
-Alla *Handlingskast* görs med en T20.
+Alla *Handlingskast* görs med [[1T20]].
 
 ## Gynnsamma och ogynnsamma förhållanden
 
@@ -50,7 +50,7 @@ När du slår en etta (1) på tärningen, har du uppnått en **Spektakulär fram
 
 ## Katastrofalt misslyckande
 
-Om tärningskastet resulterar i tjugo (20) på en T20, innebär det ett **Katastrofalt misslyckande**. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att *pressa ett kast*. Några möjliga konsekvenser av ett sådant misslyckande är:
+Om ditt tärningskast resulterar i tjugo (20) på tärningen, innebär det ett **Katastrofalt misslyckande**. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att *pressa ett kast*. Några möjliga konsekvenser av ett sådant misslyckande är:
 
 - Din rollperson orsakar skada på sig själv, andra, eller ett viktigt föremål.
 - De skapar ett oerhört oväsen som kan dra till sig oönskad uppmärksamhet.

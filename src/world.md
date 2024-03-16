@@ -28,7 +28,7 @@ Med insikten om atombombens förödande kraft påbörjade världens nationer en 
 
 Under kapprustningens period accelererade teknologiska framsteg i en aldrig tidigare skådad takt. Fantastiska uppfinningar och teknologiska lösningar, som tidigare bara hade existerat i science fiction-litteraturen, blev plötsligt en del av vardagen. I hjärtat av denna teknologiska revolution stod Panoptikon, som med sin banbrytande forskning och innovation blev allt starkare och mer inflytelserikt för varje årtionde som passerade.
 
-## Förenta Nationernas grundande och världsfredens framtid
+## Förenta Nationernas grundande
 
 Ett viktigt ögonblick i denna turbulenta tid var etableringen av Förenta Nationerna år 1936, med det uttalade målet att övervaka och främja nedrustningen av kärnvapen. Denna historiska enighet bland världens ledare, som kom till stånd trots år av spänningar och konflikter, mottogs med hopp och lättnad världen över. Denna oväntade vändning i global politik väckte dock frågor om vilka bakomliggande faktorer som hade drivit fram denna plötsliga förändring.
 

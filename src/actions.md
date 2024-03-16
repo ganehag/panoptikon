@@ -10,7 +10,7 @@ När du vill att din rollperson ska utföra en handling, följ dessa steg:
 
 2. **Spelledarens godkännande:** Spelledaren bedömer och beslutar om handlingen är möjlig och lämplig i den aktuella situationen. 
 
-3. **Tärningskast:** Som spelare, gör ett tärningskast för att avgöra utfallet av handlingen. Normalt använder du en T20.
+3. **Tärningskast:** Som spelare, gör ett tärningskast för att avgöra utfallet av handlingen. Normalt använder du [[1T20]].
 
 4. **Justerar utfallet:** Anpassa utfallet av tärningskastet baserat på eventuella effekter, såsom färdigheter, bonusar, eller situationsspecifika faktorer som påverkar handlingen.
 

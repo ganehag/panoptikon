@@ -12,9 +12,9 @@ När din rollperson engagerar sig i en *Hobby*, utförs detta genom ett Handling
 
 För att hobbyaktiviteten ska anses lyckad, ska resultatet av tärningskastet vara lika med eller lägre än rollpersonens värde i den relevanta grundegenskapen. Ett högre värde indikerar att aktiviteten misslyckats.
 
-- Om aktiviteten lyckas, kasta 1T6 för att avgöra hur många stresspoäng din rollperson återhämtar.
+- Om aktiviteten lyckas, använd [[1T6]] för att avgöra hur många stresspoäng din rollperson återhämtar.
 
-- Vid misslyckande, kasta 1T6, och ta hälften av värdet (avrundat uppåt) i ökad stress.
+- Vid misslyckande, använd [[1T6]], och ta hälften av värdet (avrundat nedåt) i ökad stress.
 
 Beskriv gärna hur din rollperson utför sin hobby och vad som ledde till att aktiviteten blev lyckad eller misslyckad.
 
@@ -24,7 +24,7 @@ Notera att det **inte** är möjligt att *Pressa ett kast* i utförande av hobby
 
 ### Spektakulär framgång
 
-Ett kast på exakt ett (1) med T20 innebär en spektakulär framgång. I detta fall, kasta 2T6 och använd det högsta av de två resultaten för att bestämma stressåterhämtningen.
+Vid spektakulär framgång har du **fördel** och slår [[+1T6]] istället för det normala tärningskastet för att bestämma återhämtning.
 
 ### Katastrofalt misslyckande
 
