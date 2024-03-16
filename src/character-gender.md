@@ -23,7 +23,7 @@ Tabellen för sexuell orientering är framtagen för att inspirera och vägleda 
 |:-------:|-------------------------|------------------------------------------|
 | 1       | Heterosexuell           | Du är attraherad av personer av motsatt kön.   |
 | 2       | Homosexuell             | Du är attraherad av personer av samma kön.     |
-| 3       | Bisexuell               | Du är attraherad av personer av flera kön.     |
+| 3       | Bisexuell               | Du är attraherad av personer av två eller flera kön     |
 | 4       | Pansexuell              | Du är attraherad av personer oavsett kön.      |
 | 5       | Asexuell                | Du upplever liten eller ingen sexuell attraktion. |
 | 6       | Demisexuell             | Du upplever sexuell attraktion efter emotionell bindning. |
