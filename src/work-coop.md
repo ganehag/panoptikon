@@ -10,7 +10,7 @@ När du väljer att samarbeta med andra spelare för att effektivisera arbetet m
 
 4. **Ingen effekt av "Spektakulär framgång" eller "Katastrofalt misslyckande":** När du deltar i ett samarbete, påverkas inte resultatet av eventuella "Spektakulär framgång" eller "Katastrofalt misslyckande". Detta gör samarbete till en taktisk fördel i kritiska situationer.
 
-5. **Förbrukad möjlighet:** Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har dock fortfarande möjlighet att "Pressa ett kast" om du känner att det behövs.
+5. **Förbrukad möjlighet:** Observera att alla som deltar i samarbetet förbrukar sin möjlighet att arbeta på den sysslan under den aktuella perioden. Du har dock fortfarande möjlighet att *utmana ödet* om du känner att det behövs.
 
 Ett samarbete kan initieras vid vilken tidpunkt som helst under spelets gång. Oavsett om det sker vid starten av en syssla eller mitt i dess genomförande.
 

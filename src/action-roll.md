@@ -52,7 +52,7 @@ När du slår en etta (1) på tärningen, har du uppnått en **Spektakulär fram
 
 ## Katastrofalt misslyckande
 
-Om ditt tärningskast resulterar i tjugo (20) på tärningen, innebär det ett **Katastrofalt misslyckande**. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att *pressa ett kast*. Några möjliga konsekvenser av ett sådant misslyckande är:
+Om ditt tärningskast resulterar i tjugo (20) på tärningen, innebär det ett **Katastrofalt misslyckande**. I dessa fall misslyckas handlingen oavsett eventuella bonusar eller fördelar som din rollperson normalt skulle ha. Vid ett katastrofalt misslyckande är det inte möjligt att *utmana ödet*. Några möjliga konsekvenser av ett sådant misslyckande är:
 
 - Din rollperson orsakar skada på sig själv, andra, eller ett viktigt föremål.
 - De skapar ett oerhört oväsen som kan dra till sig oönskad uppmärksamhet.
@@ -60,4 +60,4 @@ Om ditt tärningskast resulterar i tjugo (20) på tärningen, innebär det ett *
 
 ## Endast ett försök
 
-Som spelare ges du vanligtvis bara en möjlighet att utföra en specifik handling. Efter att tärningarna har rullats för en viss handling, är det inte tillåtet att göra ett nytt tärningsslag för att försöka nå samma mål igen. Istället krävs det att situationen förändras, att du använder en annan strategi eller att en annan rollperson gör ett försök, innan handlingen kan utföras på nytt. Det finns dock en undantagssituation där du kan få en andra chans genom att 'pressa ett kast'.
+Som spelare ges du vanligtvis bara en möjlighet att utföra en specifik handling. Efter att tärningarna har rullats för en viss handling, är det inte tillåtet att göra ett nytt tärningsslag för att försöka nå samma mål igen. Istället krävs det att situationen förändras, att du använder en annan strategi eller att en annan rollperson gör ett försök, innan handlingen kan utföras på nytt. Det finns dock en undantagssituation där du kan få en andra chans genom att *utmana ödet*.

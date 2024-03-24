@@ -26,10 +26,6 @@ Vid spektakulär framgång har du **fördel** och slår [[+1T6]] istället för 
 
 Om aktiviteten resulterar i ett katastrofalt misslyckande får du automatiskt +3 poäng stress.
 
-```admonish note title="Pressa ett kast"
-Notera att det **inte** är möjligt att *Pressa ett kast* i utförande av hobbyer.
-```
-
 ## Byte av hobby
 
 Din rollpersons hobbyer är en integrerad del av deras karaktär och kan inte bytas ut av spelaren efter eget tycke. Byte eller förlust av en hobby kan endast ske genom specifika händelser i spelet.

@@ -4,7 +4,7 @@ Om du som spelare agerar helt i linje med din karaktär eller har bidragit med e
 
 Inspiration kan användas endast en gång innan den är förbrukad och en spelare kan endast hålla en inspiration i taget. Inspiration kan användas till följande;
 
-- Kast tärning på nytt utan att behöva pressa ett kast.
+- Kast tärning på nytt utan att behöva *utmana ödet*.
 
 - Absorbera stress. Istället för att ta stress vid ett tillfälle oavsett hur många poäng stress det handlar om.
 

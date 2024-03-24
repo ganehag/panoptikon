@@ -310,7 +310,7 @@ Du har väldigt besluten i de ståndpunkter du har. När du slår ett Motstånds
 - **Krav:** -
 - **Kostnad:** X
 
-Du har utvecklat en sjätte sinne som varnar dig för faror och ovanliga situationer. Du litar på din intuition, vilket hjälper dig att undvika problem innan de inträffar. En gång per dag kan du **pressa ett kast** utan att ta stress, vilket reflekterar din förmåga att förlita dig på denna inre känsla i kritiska ögonblick.
+Du har utvecklat en sjätte sinne som varnar dig för faror och ovanliga situationer. Du litar på din intuition, vilket hjälper dig att undvika problem innan de inträffar. En gång per dag kan du **utmana ödet** utan att ta stress, vilket reflekterar din förmåga att förlita dig på denna inre känsla i kritiska ögonblick.
 
 ## Ödets nyck
 

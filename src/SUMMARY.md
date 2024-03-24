@@ -28,7 +28,7 @@
   - [Oväntad avgång](stress-death.md)
 - [Handlingar](actions.md)
   - [Handlingskast](action-roll.md)
-  - [Pressa ett kast](push-a-roll.md)
+  - [Utmana ödet](push-your-luck.md)
   - [Fördelskast](advantage-roll.md)
   - [Nackdelskast](disadvantage-roll.md)
   - [Motståndskast](resistance-roll.md)
