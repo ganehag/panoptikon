@@ -18,7 +18,7 @@ Femfaktorteorin baseras på fem breda personlighetsdrag som hjälper till att ge
    
 3. **Extraversion (Extraversion):** Beskriver en individs sociala och energiska aspekter. Högre värden innebär att karaktären är mer utåtriktad och energisk.
    
-4. **Vänlighet (Agreeableness):** Relaterar till en individs samarbetsvilja och empati. Högre värden pekar på en mer medkännande och förstående natur.
+4. **Tillmötesgående (Agreeableness):** Relaterar till en individs samarbetsvilja och empati. Högre värden pekar på en mer medkännande och förstående natur.
    
 5. **Neuroticism (Neuroticism):** Anger en individs emotionella stabilitet och tendens till negativa känslor. Högre värden indikerar en större benägenhet till oro och instabilitet.
 
@@ -41,7 +41,7 @@ För att navigera genom de mångfacetterade individernas personlighetslandskap i
 - **T6: 3-4 (Social/Kommunikativ):** Bekväma i sociala situationer, de uppskattar både ensamhet och sällskap, balanserar lyssnande och deltagande.
 - **T6: 5-6 (Utåtriktad/Energisk):** Livet på festen, dessa karaktärer trivs i sociala centrum och är naturliga nätverkare.
 
-### Vänlighet
+### Tillmötesgående
 - **T6: 1-2 (Konkurrensinriktad/Skeptisk):** Fokuserad på personliga mål, dessa karaktärer kan ifrågasätta andras motiv och föredrar självständighet.
 - **T6: 3-4 (Vänlig/Samarbetsvillig):** Dessa karaktärer värderar harmoni och är skickliga på att navigera och lösa konflikter.
 - **T6: 5-6 (Empatisk/Hjälpsam):** Med en naturlig benägenhet att stödja andra, de är kärnan i alla sociala grupper och oerhört värdefulla i empatiska roller.
@@ -73,7 +73,7 @@ För att avgöra receptionistens reaktion, bestämmer spelledaren sig för att s
 
 - **Extraversion (1T6):** Slår en 2. Ganska reserverad.
 
-- **Vänlighet (1T6):** Slår en 4. Är vänlig men professionell.
+- **Tillmötesgående (1T6):** Slår en 4. Är vänlig men professionell.
 
 - **Neuroticism (1T6):** Slår en 1. Mycket stabil och sällan stressad.
 
@@ -83,7 +83,7 @@ Med denna snabbskapade profil kan spelledaren nu avgöra receptionistens reaktio
 
 **Scenario:** Spelaren framför sin begäran om att de har ett möte med Ingolf Rostenskjöld, men deras namn saknas i bokningssystemet.
 
-**Receptionistens reaktion:** Med tanke på hennes profil, är receptionisten öppen för att lyssna på spelaren men noggrann nog att dubbelkolla möteslistan. Hennes reserverade natur gör att hon inte omedelbart släpper igenom spelaren utan vidare bevis, men hennes vänlighet och professionella inställning motiverar henne att hjälpa till inom ramen för hennes ansvar. Hon är inte stressad av situationen tack vare sin stabilitet. 
+**Receptionistens reaktion:** Med tanke på hennes profil, är receptionisten öppen för att lyssna på spelaren men noggrann nog att dubbelkolla möteslistan. Hennes reserverade natur gör att hon inte omedelbart släpper igenom spelaren utan vidare bevis, men hennes tillmötesgående och professionella inställning motiverar henne att hjälpa till inom ramen för hennes ansvar. Hon är inte stressad av situationen tack vare sin stabilitet. 
 
 **Möjlig dialog:**
 - **Receptionisten:** "Jag ser tyvärr inte ert namn på listan över dagens möten med Herr Rostenskjöld. Men jag vill hjälpa till. Har ni kanske ett brev eller något som kan bekräfta ert möte?"
