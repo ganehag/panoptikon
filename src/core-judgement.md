@@ -16,7 +16,7 @@ Vid en situation som kräver ett bedömningsbeslut, rekommenderas följande till
 
 - **Konsekvens:** Beslutet och dess följder kommuniceras till spelarna och integreras i spelet.
 
-## Viktiga Principer
+## Viktiga principer
 
 - **Flexibilitet:** Var mottaglig för innovativa lösningar och tillåt en flexibel tillämpning av reglerna där det gagnar spelupplevelsen.
 

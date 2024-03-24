@@ -1,5 +1,18 @@
 # Välkommen till Panoptikon!
 
+Panoptikon är ett bordsrollspel som utforskar affärsintriger, maktspel och komplexa situationer. Regelsystemet är skapat för att vara lättillgängligt och välkomnande, vilket gör spelet tillgängligt för spelare av alla erfarenhetsnivåer och bakgrunder. Som en anställd vid världens mest inflytelserika företag, Panoptikon, befinner du dig i centrum av en alternativ version av det tidiga 1960-talet. I denna värld har teknologiska och politiska förändringar skapat en ny global ordning, och du står inför allt från vardagliga utmaningar till globala konflikter. Dina beslut, vare sig de är i linje med Panoptikons övergripande strategier eller drivs av dina personliga ambitioner, formar din karriär och framtid i denna ambitiösa och försiktigt optimistiska miljö. Samarbetet med dina kollegor är kritiskt för framgång, och tillsammans måste ni navigera ett landskap av allianser och rivaliteter för att möta, och kanske till och med överträffa, kvartalsrapportens förväntningar.
+
+**Åldrar:** 15+  
+**Deltagare:** 3-6 (rekommenderat)  
+**Spelets intentioner:** Att erbjuda en inkluderande och tankeväckande upplevelse som djupdyker i teman av moraliska val i affärssammanhang och en nyanserad utforskning av individens roll.
+
+### Vad är bordsrollspel?
+
+Bordsrollspel är en inbjudan till en levande berättelse där varje deltagare bidrar som medskapare i historien. Genom karaktären du gestaltar blir dina val, kombinerat med karaktärens färdigheter och tärningarnas nyckfullhet, avgörande för dina handlingars utfall och framgång.
+
+Rollspel förvandlar ett bord till en scen för vänskap, kreativitet och upptäckter, där varje möte är en chans att utforska oändliga möjligheter i en värld olik vår egen.
+
+
 ![Building](/resources/welcome-building-2.png)
 
 ## Maktens boning
@@ -21,12 +34,6 @@ Men Panoptikons omfattande historia och globala dominans döljer också ett virr
 ### Utmaningar
 
 Med positionen kommer även utmaningar; att navigera i Panoptikons komplexa värld kräver mer än bara yrkesskicklighet. Du måste hitta en balans mellan ambition och integritet, mellan arbete och personligt välbefinnande. Varje steg du tar kan antingen stärka Panoptikons position i världen eller leda dig ner på en stig av personlig upptäckt och kanske till och med revolt. Vägen du väljer är din egen, men varje val medför konsekvenser, inte bara för dig utan för hela världen.
-
-## Vad är bordsrollspel?
-
-Bordsrollspel är en inbjudan till en levande berättelse där varje deltagare bidrar som medskapare i historien. Genom karaktären du gestaltar blir dina val, kombinerat med karaktärens färdigheter och tärningarnas nyckfullhet, avgörande för dina handlingars utfall och framgång.
-
-Rollspel förvandlar ett bord till en scen för vänskap, kreativitet och upptäckter, där varje möte är en chans att utforska oändliga möjligheter i en värld olik vår egen.
 
 ## Regelboken
 
