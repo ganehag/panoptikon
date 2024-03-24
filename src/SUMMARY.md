@@ -61,7 +61,7 @@
 - [Förmågor](abilities.md)
   - [Erfarenhetsförmågor](abilities-base.md)
   - [Unika förmågor](abilities-unique.md)
-- [Gestaltningstekniker]()
+- [Gestaltningstekniker](characterization.md)
 - [Rollformulär](character-form.md)
 
 # Spelledaren
